@@ -2,8 +2,10 @@
  * Módulo 3 – Publica a postagem na Página do Facebook via Graph API.
  *
  * Variáveis de ambiente necessárias:
- *   FACEBOOK_PAGE_ID          → ID da Página
- *   FACEBOOK_PAGE_ACCESS_TOKEN → Page Access Token de longa duração
+ *   FACEBOOK_PAGE_ID            → ID da Página
+ *   FACEBOOK_PAGE_ACCESS_TOKEN  → Page Access Token de longa duração
+ *
+ * Permissão necessária no token da Página: pages_manage_posts
  *
  * Lê:  postagem-final.json
  * Gera: resultado-postagem.json
@@ -26,51 +28,72 @@ function exigirEnv(nome) {
   return String(valor).trim();
 }
 
-async function postarNaPagina({ message, imageUrl, pageId, accessToken }) {
+/**
+ * Publica na Página usando Page Access Token + pages_manage_posts.
+ * Preferência:
+ *   1) /{page-id}/photos  (imagem + caption) quando houver URL de imagem
+ *   2) /{page-id}/feed    (texto + link) como fallback ou quando não houver imagem
+ */
+async function postarNaPagina({ message, imageUrl, link, pageId, accessToken }) {
   const base = `https://graph.facebook.com/${GRAPH_VERSION}/${pageId}`;
 
-  // Caso 1: tem imagem → usa o endpoint /photos (melhor engajamento)
+  // --- Tentativa 1: foto com caption (melhor engajamento visual) ---
   if (imageUrl) {
-    const url = `${base}/photos`;
-    const body = new URLSearchParams({
-      url: imageUrl,
-      caption: message,
-      access_token: accessToken,
-      published: "true"
-    });
+    try {
+      const photoUrl = `${base}/photos`;
+      const body = new URLSearchParams({
+        url: imageUrl,
+        caption: message,
+        published: "true"
+      });
 
-    const res = await fetch(url, {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body
-    });
+      const res = await fetch(photoUrl, {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${accessToken}`,
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body
+      });
 
-    const data = await res.json();
+      const data = await res.json();
 
-    if (!res.ok || data.error) {
+      if (res.ok && !data.error) {
+        return {
+          tipo: "photo",
+          post_id: data.post_id || data.id,
+          id: data.id,
+          raw: data
+        };
+      }
+
       const msg = data.error?.message || JSON.stringify(data);
-      throw new Error(`Graph API (photos) falhou: ${msg}`);
+      console.log("Aviso: publicação com imagem falhou, tentando feed (texto + link).");
+      console.log("Detalhe:", msg);
+    } catch (err) {
+      console.log("Aviso: erro ao publicar imagem, tentando feed (texto + link).");
+      console.log("Detalhe:", err.message);
     }
-
-    return {
-      tipo: "photo",
-      post_id: data.post_id || data.id,
-      id: data.id,
-      raw: data
-    };
   }
 
-  // Caso 2: só texto → endpoint /feed
-  const url = `${base}/feed`;
-  const body = new URLSearchParams({
+  // --- Tentativa 2 / fallback: feed com message + link ---
+  const feedUrl = `${base}/feed`;
+  const feedParams = {
     message,
-    access_token: accessToken,
     published: "true"
-  });
+  };
+  if (link) {
+    feedParams.link = link;
+  }
 
-  const res = await fetch(url, {
+  const body = new URLSearchParams(feedParams);
+
+  const res = await fetch(feedUrl, {
     method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    headers: {
+      Authorization: `Bearer ${accessToken}`,
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
     body
   });
 
@@ -96,7 +119,9 @@ async function main() {
   console.log("================================");
 
   if (!fs.existsSync(ARQUIVO_ENTRADA)) {
-    throw new Error(`Arquivo ${ARQUIVO_ENTRADA} não encontrado. Rode o Módulo 2 antes.`);
+    throw new Error(
+      `Arquivo ${ARQUIVO_ENTRADA} não encontrado. Rode o Módulo 2 antes.`
+    );
   }
 
   const postagem = JSON.parse(fs.readFileSync(ARQUIVO_ENTRADA, "utf8"));
@@ -107,7 +132,9 @@ async function main() {
   const imagem =
     postagem.imagem ||
     postagem.produto?.imagem ||
-    (Array.isArray(postagem.produto?.imagens) ? postagem.produto.imagens[0] : "");
+    (Array.isArray(postagem.produto?.imagens)
+      ? postagem.produto.imagens[0]
+      : "");
   const texto = postagem.texto;
 
   if (!texto) {
@@ -120,14 +147,17 @@ async function main() {
   console.log("Imagem :", imagem ? "sim" : "não");
   console.log("");
 
-  // Dry-run se a flag estiver presente (útil para testes sem token)
-  if (process.env.FACEBOOK_DRY_RUN === "1" || process.env.FACEBOOK_DRY_RUN === "true") {
+  if (
+    process.env.FACEBOOK_DRY_RUN === "1" ||
+    process.env.FACEBOOK_DRY_RUN === "true"
+  ) {
     console.log("⚠️  MODO DRY-RUN ativo – nenhuma postagem real será feita.");
     const resultado = {
       sucesso: true,
       dry_run: true,
       gerado_em: new Date().toISOString(),
-      mensagem: "Simulação concluída. Configure FACEBOOK_PAGE_ID e FACEBOOK_PAGE_ACCESS_TOKEN para postar de verdade.",
+      mensagem:
+        "Simulação concluída. Configure FACEBOOK_PAGE_ID e FACEBOOK_PAGE_ACCESS_TOKEN para postar de verdade.",
       postagem: { titulo, preco, link, imagem, texto }
     };
     fs.writeFileSync(ARQUIVO_SAIDA, JSON.stringify(resultado, null, 2), "utf8");
@@ -138,11 +168,13 @@ async function main() {
   const pageId = exigirEnv("FACEBOOK_PAGE_ID");
   const accessToken = exigirEnv("FACEBOOK_PAGE_ACCESS_TOKEN");
 
+  // Nunca imprimir o token
   console.log("Publicando na Página", pageId, "...");
 
   const resultadoApi = await postarNaPagina({
     message: texto,
     imageUrl: imagem || null,
+    link: link || null,
     pageId,
     accessToken
   });
