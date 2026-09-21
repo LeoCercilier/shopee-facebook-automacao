@@ -1,0 +1,11 @@
+{
+  "name": "shopee-facebook-automacao",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node coletor.js"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
