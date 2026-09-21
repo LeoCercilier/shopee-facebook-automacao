@@ -33,3 +33,12 @@ jobs:
         with:
           name: oferta-coletada
           path: resultado-oferta.json
+
+                - name: Gerar postagem
+        run: node modulo2.js
+
+      - name: Salvar postagem final
+        uses: actions/upload-artifact@v4
+        with:
+          name: postagem-final
+          path: postagem-final.json
