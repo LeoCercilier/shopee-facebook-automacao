@@ -1,4 +1,5 @@
 const fs = require("fs");
+const { classificarOferta } = require("./classificar");
 
 const ARQUIVO_ENTRADA = "resultado-oferta.json";
 const ARQUIVO_SAIDA = "postagem-final.json";
@@ -10,6 +11,7 @@ const ARQUIVO_SAIDA = "postagem-final.json";
  *   Preço
  *   Link
  *   Imagem
+ * + nicho (classificação para página de destino)
  */
 function gerarPostagem() {
   if (!fs.existsSync(ARQUIVO_ENTRADA)) {
@@ -28,10 +30,8 @@ function gerarPostagem() {
   if (!preco) throw new Error("Preço do produto não encontrado.");
   if (!link) throw new Error("Link da oferta não encontrado.");
 
-  // Imagem principal (primeira disponível)
   const imagem = Array.isArray(imagens) && imagens.length > 0 ? imagens[0] : "";
 
-  // Texto pronto para o Facebook (mantém o estilo atual)
   const texto = `🔥 OFERTA DO DIA
 
 ${titulo}
@@ -41,18 +41,18 @@ ${titulo}
 🛍️ Confira na Shopee:
 ${link}`;
 
-  // Estrutura final no formato solicitado + metadados
+  const nicho = classificarOferta({ titulo });
+
   const postagem = {
     sucesso: true,
     gerado_em: new Date().toISOString(),
 
-    // Formato obrigatório
     titulo,
     preco,
     link,
     imagem,
+    nicho,
 
-    // Compatibilidade com o coletor + texto pronto
     produto: {
       titulo,
       preco,
@@ -74,6 +74,7 @@ ${link}`;
   console.log("Preço  :", preco);
   console.log("Link   :", link);
   console.log("Imagem :", imagem || "(não disponível)");
+  console.log("Nicho  :", nicho);
   console.log("");
   console.log("--- Texto da postagem ---");
   console.log(texto);
