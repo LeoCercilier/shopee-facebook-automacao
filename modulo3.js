@@ -3,7 +3,10 @@
  *
  * Variáveis de ambiente:
  *   FACEBOOK_PAGE_ID
- *   FACEBOOK_PAGE_ACCESS_TOKEN  (Page Access Token, nunca logado)
+ *   FACEBOOK_PAGE_ACCESS_TOKEN  (System User ou Page token — nunca logado)
+ *
+ * Se o Secret for um System User Access Token, obtém o Page Access Token
+ * via GET /me/accounts antes de publicar (fluxo oficial da Meta).
  *
  * Lê:  postagem-final.json
  * Gera: resultado-postagem.json (sem o token)
@@ -112,6 +115,78 @@ function registrarPublicacao(historico, chave) {
     ultima_publicacao: new Date().toISOString()
   };
   salvarHistorico(atualizado);
+}
+
+/**
+ * Obtém um Page Access Token a partir do token do Secret.
+ * - System User Token → GET /me/accounts → access_token da Página
+ * - Fallback: GET /{pageId}?fields=access_token
+ * - Se já for Page Token, usa o próprio Secret
+ * Nunca loga o valor do token.
+ */
+async function obterTokenDaPagina(pageId, tokenSecret) {
+  try {
+    const url = new URL(
+      `https://graph.facebook.com/${GRAPH_VERSION}/me/accounts`
+    );
+    url.searchParams.set("fields", "id,name,access_token,tasks");
+    url.searchParams.set("limit", "100");
+
+    const res = await fetch(url.toString(), {
+      method: "GET",
+      headers: { Authorization: `Bearer ${tokenSecret}` }
+    });
+    const data = await res.json();
+
+    if (res.ok && Array.isArray(data.data)) {
+      const page = data.data.find((p) => String(p.id) === String(pageId));
+      if (page && page.access_token) {
+        console.log("Token da Página obtido via /me/accounts.");
+        return page.access_token;
+      }
+      if (data.data.length > 0) {
+        console.log(
+          "Aviso: /me/accounts retornou páginas, mas não encontrou o PAGE_ID configurado."
+        );
+      }
+    } else if (data.error) {
+      console.log(
+        "Aviso: /me/accounts não disponível com este token:",
+        data.error.message
+      );
+    }
+  } catch (err) {
+    console.log("Aviso: falha em /me/accounts:", err.message);
+  }
+
+  try {
+    const url = new URL(
+      `https://graph.facebook.com/${GRAPH_VERSION}/${pageId}`
+    );
+    url.searchParams.set("fields", "id,name,access_token");
+
+    const res = await fetch(url.toString(), {
+      method: "GET",
+      headers: { Authorization: `Bearer ${tokenSecret}` }
+    });
+    const data = await res.json();
+
+    if (res.ok && data.access_token) {
+      console.log("Token da Página obtido via /{page-id}.");
+      return data.access_token;
+    }
+    if (data.error) {
+      console.log(
+        "Aviso: não foi possível obter access_token da Página:",
+        data.error.message
+      );
+    }
+  } catch (err) {
+    console.log("Aviso: falha ao consultar a Página:", err.message);
+  }
+
+  console.log("Usando o token do Secret diretamente para publicar.");
+  return tokenSecret;
 }
 
 async function postarFoto({ pageId, accessToken, imageUrl, caption }) {
@@ -283,14 +358,16 @@ ${link}`;
   }
 
   const pageId = exigirEnv("FACEBOOK_PAGE_ID");
-  const accessToken = exigirEnv("FACEBOOK_PAGE_ACCESS_TOKEN");
+  const tokenSecret = exigirEnv("FACEBOOK_PAGE_ACCESS_TOKEN");
 
   console.log("Página (ID):", pageId);
+
+  const pageAccessToken = await obterTokenDaPagina(pageId, tokenSecret);
   console.log("");
 
   const resultadoApi = await publicar({
     pageId,
-    accessToken,
+    accessToken: pageAccessToken,
     texto,
     imagem,
     link
