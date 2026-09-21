@@ -5,11 +5,14 @@ on:
   schedule:
     # Horários em UTC → Brasil (America/Sao_Paulo, UTC-3):
     # 11:00 UTC = 08:00 BRT
+    # 13:00 UTC = 10:00 BRT
     # 15:00 UTC = 12:00 BRT
+    # 17:00 UTC = 14:00 BRT
     # 19:00 UTC = 16:00 BRT
+    # 21:00 UTC = 18:00 BRT
     # 23:00 UTC = 20:00 BRT
-    # (sem execução às 02:00 BRT)
-    - cron: "0 11,15,19,23 * * *"
+    #  1:00 UTC = 22:00 BRT (dia anterior em UTC)
+    - cron: "0 11,13,15,17,19,21,23,1 * * *"
 
 permissions:
   contents: write
