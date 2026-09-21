@@ -1,16 +1,17 @@
 /**
- * Módulo 3 – Diagnóstico seguro do Page Access Token (sem postar).
+ * Módulo 3 – Publica a postagem na Página do Facebook via Graph API.
  *
  * Variáveis de ambiente:
  *   FACEBOOK_PAGE_ID
- *   FACEBOOK_PAGE_ACCESS_TOKEN
+ *   FACEBOOK_PAGE_ACCESS_TOKEN  (Page Access Token, nunca logado)
  *
- * Este modo NÃO cria postagem. Apenas inspeciona o token via Graph API
- * e grava o resultado em resultado-postagem.json (sem incluir o token).
+ * Lê:  postagem-final.json
+ * Gera: resultado-postagem.json (sem o token)
  */
 
 const fs = require("fs");
 
+const ARQUIVO_ENTRADA = "postagem-final.json";
 const ARQUIVO_SAIDA = "resultado-postagem.json";
 const GRAPH_VERSION = "v21.0";
 
@@ -24,233 +25,200 @@ function exigirEnv(nome) {
   return String(valor).trim();
 }
 
-async function graphGet(path, accessToken, params = {}) {
-  const url = new URL(`https://graph.facebook.com/${GRAPH_VERSION}${path}`);
-  for (const [k, v] of Object.entries(params)) {
-    if (v != null && v !== "") url.searchParams.set(k, String(v));
-  }
+async function postarFoto({ pageId, accessToken, imageUrl, caption }) {
+  const url = `https://graph.facebook.com/${GRAPH_VERSION}/${pageId}/photos`;
+  const body = new URLSearchParams({
+    url: imageUrl,
+    caption,
+    published: "true"
+  });
 
-  const res = await fetch(url.toString(), {
-    method: "GET",
+  const res = await fetch(url, {
+    method: "POST",
     headers: {
-      Authorization: `Bearer ${accessToken}`
-    }
+      Authorization: `Bearer ${accessToken}`,
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    body
   });
 
   const data = await res.json();
-  return { ok: res.ok, status: res.status, data };
-}
-
-function extrairScopes(debugData) {
-  const scopes = new Set();
-
-  if (Array.isArray(debugData.scopes)) {
-    debugData.scopes.forEach((s) => scopes.add(String(s)));
+  if (!res.ok || data.error) {
+    const msg = data.error?.message || JSON.stringify(data);
+    throw new Error(msg);
   }
 
-  if (Array.isArray(debugData.granular_scopes)) {
-    for (const g of debugData.granular_scopes) {
-      if (g && g.scope) scopes.add(String(g.scope));
-    }
-  }
-
-  return Array.from(scopes).sort();
-}
-
-async function diagnosticar(pageIdEsperado, accessToken) {
-  const relatorio = {
-    sucesso: true,
-    modo: "diagnostico",
-    gerado_em: new Date().toISOString(),
-    page_id_configurado: pageIdEsperado,
-    token: {
-      presente: true,
-      comprimento: accessToken.length,
-      prefixo: accessToken.slice(0, 4) + "…"
-    },
-    debug_token: null,
-    me: null,
-    permissoes: {
-      lista: [],
-      pages_manage_posts: false,
-      pages_read_engagement: false
-    },
-    conclusao: []
+  return {
+    tipo: "photo",
+    post_id: data.post_id || data.id || null,
+    id: data.id || null,
+    raw: data
   };
+}
 
-  console.log("1) Consultando /debug_token ...");
-  const debug = await graphGet("/debug_token", accessToken, {
-    input_token: accessToken
+async function postarFeed({ pageId, accessToken, message, link }) {
+  const url = `https://graph.facebook.com/${GRAPH_VERSION}/${pageId}/feed`;
+  const params = {
+    message,
+    published: "true"
+  };
+  if (link) params.link = link;
+
+  const body = new URLSearchParams(params);
+
+  const res = await fetch(url, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${accessToken}`,
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    body
   });
 
-  if (debug.data && debug.data.data) {
-    const d = debug.data.data;
-    const scopes = extrairScopes(d);
-
-    relatorio.debug_token = {
-      is_valid: d.is_valid === true,
-      type: d.type || null,
-      app_id: d.app_id || null,
-      user_id: d.user_id || null,
-      profile_id: d.profile_id || null,
-      expires_at: d.expires_at || null,
-      data_access_expires_at: d.data_access_expires_at || null,
-      scopes
-    };
-
-    relatorio.permissoes.lista = scopes;
-    relatorio.permissoes.pages_manage_posts = scopes.includes("pages_manage_posts");
-    relatorio.permissoes.pages_read_engagement = scopes.includes(
-      "pages_read_engagement"
-    );
-
-    console.log("   type       :", relatorio.debug_token.type || "(não informado)");
-    console.log("   is_valid   :", relatorio.debug_token.is_valid);
-    console.log("   scopes     :", scopes.length ? scopes.join(", ") : "(nenhum)");
-  } else {
-    relatorio.debug_token = {
-      erro: debug.data?.error?.message || JSON.stringify(debug.data)
-    };
-    console.log("   falhou:", relatorio.debug_token.erro);
+  const data = await res.json();
+  if (!res.ok || data.error) {
+    const msg = data.error?.message || JSON.stringify(data);
+    throw new Error(msg);
   }
 
-  console.log("2) Consultando /me ...");
-  const me = await graphGet("/me", accessToken, {
-    fields: "id,name,category"
+  return {
+    tipo: "feed",
+    post_id: data.id || null,
+    id: data.id || null,
+    raw: data
+  };
+}
+
+async function publicar({ pageId, accessToken, texto, imagem, link }) {
+  // 1) Tenta publicar com imagem
+  if (imagem) {
+    try {
+      console.log("Tentando publicar via /photos (imagem + legenda)...");
+      return await postarFoto({
+        pageId,
+        accessToken,
+        imageUrl: imagem,
+        caption: texto
+      });
+    } catch (erro) {
+      console.log("Publicação com imagem falhou.");
+      console.log("Detalhe Graph API:", erro.message);
+      console.log("Tentando fallback via /feed (texto + link)...");
+    }
+  } else {
+    console.log("Sem imagem disponível. Publicando via /feed...");
+  }
+
+  // 2) Fallback: feed com texto + link
+  return await postarFeed({
+    pageId,
+    accessToken,
+    message: texto,
+    link: link || null
   });
-
-  if (me.ok && me.data && !me.data.error) {
-    relatorio.me = {
-      id: me.data.id || null,
-      name: me.data.name || null,
-      category: me.data.category || null
-    };
-    console.log("   id         :", relatorio.me.id);
-    console.log("   name       :", relatorio.me.name || "(sem nome)");
-    console.log("   category   :", relatorio.me.category || "(n/a)");
-  } else {
-    relatorio.me = {
-      erro: me.data?.error?.message || JSON.stringify(me.data)
-    };
-    console.log("   falhou:", relatorio.me.erro);
-  }
-
-  console.log("3) Conferindo Page ID configurado ...");
-  const pageCheck = await graphGet(`/${pageIdEsperado}`, accessToken, {
-    fields: "id,name"
-  });
-
-  if (pageCheck.ok && pageCheck.data && !pageCheck.data.error) {
-    relatorio.pagina_configurada = {
-      acessivel: true,
-      id: pageCheck.data.id || null,
-      name: pageCheck.data.name || null
-    };
-    console.log(
-      "   Página OK  :",
-      relatorio.pagina_configurada.name,
-      `(${relatorio.pagina_configurada.id})`
-    );
-  } else {
-    relatorio.pagina_configurada = {
-      acessivel: false,
-      erro: pageCheck.data?.error?.message || JSON.stringify(pageCheck.data)
-    };
-    console.log(
-      "   Página NÃO acessível com este token:",
-      relatorio.pagina_configurada.erro
-    );
-  }
-
-  const tipo = relatorio.debug_token?.type || null;
-  const meId = relatorio.me?.id || null;
-
-  if (tipo === "PAGE") {
-    relatorio.conclusao.push("Token identificado como PAGE.");
-  } else if (tipo === "USER") {
-    relatorio.conclusao.push(
-      "Token identificado como USER (não é Page Access Token). Isso explica o erro de permissões de Página."
-    );
-  } else if (tipo) {
-    relatorio.conclusao.push(`Tipo de token reportado pela API: ${tipo}.`);
-  } else {
-    relatorio.conclusao.push("API não informou o tipo do token claramente.");
-  }
-
-  if (meId && meId === String(pageIdEsperado)) {
-    relatorio.conclusao.push(
-      "/me retornou o mesmo ID da Página configurada → token age como a Página."
-    );
-  } else if (meId && meId !== String(pageIdEsperado)) {
-    relatorio.conclusao.push(
-      `/me retornou ID ${meId}, diferente do FACEBOOK_PAGE_ID (${pageIdEsperado}).`
-    );
-  }
-
-  if (!relatorio.permissoes.pages_manage_posts) {
-    relatorio.conclusao.push(
-      "pages_manage_posts NÃO está presente nos scopes do token."
-    );
-  } else {
-    relatorio.conclusao.push("pages_manage_posts está presente.");
-  }
-
-  if (!relatorio.permissoes.pages_read_engagement) {
-    relatorio.conclusao.push(
-      "pages_read_engagement NÃO está presente nos scopes do token."
-    );
-  } else {
-    relatorio.conclusao.push("pages_read_engagement está presente.");
-  }
-
-  if (relatorio.pagina_configurada && !relatorio.pagina_configurada.acessivel) {
-    relatorio.conclusao.push(
-      "O token não consegue acessar o Page ID configurado nos Secrets."
-    );
-  }
-
-  return relatorio;
 }
 
 async function main() {
   console.log("");
   console.log("================================");
-  console.log("MÓDULO 3 – DIAGNÓSTICO DO TOKEN");
-  console.log("(sem criar postagem)");
+  console.log("MÓDULO 3 – POSTAGEM NO FACEBOOK");
   console.log("================================");
+
+  if (!fs.existsSync(ARQUIVO_ENTRADA)) {
+    throw new Error(
+      `Arquivo ${ARQUIVO_ENTRADA} não encontrado. Rode o Módulo 2 antes.`
+    );
+  }
+
+  const postagem = JSON.parse(fs.readFileSync(ARQUIVO_ENTRADA, "utf8"));
+
+  const titulo = postagem.titulo || postagem.produto?.titulo || "";
+  const preco = postagem.preco || postagem.produto?.preco || "";
+  const link = postagem.link || postagem.produto?.link || "";
+  const imagem =
+    postagem.imagem ||
+    postagem.produto?.imagem ||
+    (Array.isArray(postagem.produto?.imagens)
+      ? postagem.produto.imagens[0]
+      : "") ||
+    "";
+  const texto =
+    postagem.texto ||
+    `🔥 OFERTA DO DIA
+
+${titulo}
+
+💰 ${preco}
+
+🛍️ Confira na Shopee:
+${link}`;
+
+  if (!texto.trim()) {
+    throw new Error("Texto da postagem vazio em postagem-final.json");
+  }
+
+  console.log("Título :", titulo || "(sem título)");
+  console.log("Preço  :", preco || "(sem preço)");
+  console.log("Link   :", link || "(sem link)");
+  console.log("Imagem :", imagem ? "sim" : "não");
   console.log("");
 
   const pageId = exigirEnv("FACEBOOK_PAGE_ID");
   const accessToken = exigirEnv("FACEBOOK_PAGE_ACCESS_TOKEN");
 
-  console.log("FACEBOOK_PAGE_ID :", pageId);
-  console.log("Token presente   : sim (valor oculto)");
+  // Nunca imprimir o token
+  console.log("Página (ID):", pageId);
   console.log("");
 
-  const relatorio = await diagnosticar(pageId, accessToken);
+  const resultadoApi = await publicar({
+    pageId,
+    accessToken,
+    texto,
+    imagem,
+    link
+  });
 
-  fs.writeFileSync(ARQUIVO_SAIDA, JSON.stringify(relatorio, null, 2), "utf8");
+  const resultado = {
+    sucesso: true,
+    gerado_em: new Date().toISOString(),
+    page_id: pageId,
+    post_id: resultadoApi.post_id,
+    tipo: resultadoApi.tipo,
+    link_facebook: resultadoApi.post_id
+      ? `https://www.facebook.com/${resultadoApi.post_id}`
+      : null,
+    postagem: {
+      titulo,
+      preco,
+      link,
+      imagem,
+      texto
+    },
+    api: {
+      id: resultadoApi.id,
+      post_id: resultadoApi.post_id
+    }
+  };
+
+  fs.writeFileSync(ARQUIVO_SAIDA, JSON.stringify(resultado, null, 2), "utf8");
 
   console.log("");
-  console.log("================================");
-  console.log("CONCLUSÃO");
-  console.log("================================");
-  for (const linha of relatorio.conclusao) {
-    console.log("-", linha);
+  console.log("✅ PUBLICAÇÃO REALIZADA COM SUCESSO");
+  console.log("Tipo   :", resultado.tipo);
+  console.log("Post ID:", resultado.post_id);
+  if (resultado.link_facebook) {
+    console.log("Link   :", resultado.link_facebook);
   }
-  console.log("");
-  console.log("Arquivo criado:", ARQUIVO_SAIDA);
-  console.log("(token NÃO foi gravado neste arquivo)");
+  console.log("Arquivo:", ARQUIVO_SAIDA);
 }
 
 main().catch((erro) => {
   console.error("");
-  console.error("ERRO NO DIAGNÓSTICO:");
+  console.error("ERRO NO MÓDULO 3:");
   console.error(erro.message);
 
   const falha = {
     sucesso: false,
-    modo: "diagnostico",
     gerado_em: new Date().toISOString(),
     erro: erro.message
   };
