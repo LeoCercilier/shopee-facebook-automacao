@@ -3,7 +3,16 @@ name: Coletar, formatar e postar oferta
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"
+    # Horários em UTC → Brasil (America/Sao_Paulo, UTC-3):
+    # 11:00 UTC = 08:00 BRT
+    # 15:00 UTC = 12:00 BRT
+    # 19:00 UTC = 16:00 BRT
+    # 23:00 UTC = 20:00 BRT
+    # (sem execução às 02:00 BRT)
+    - cron: "0 11,15,19,23 * * *"
+
+permissions:
+  contents: write
 
 jobs:
   pipeline:
@@ -37,6 +46,24 @@ jobs:
           FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
         run: node modulo3.js
 
+      - name: Persistir histórico de publicações
+        if: success()
+        run: |
+          if [ -f historico-publicacoes.json ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add historico-publicacoes.json
+            if git diff --staged --quiet; then
+              echo "Histórico sem alterações."
+            else
+              git commit -m "chore: atualiza historico-publicacoes.json"
+              git push
+              echo "Histórico commitado no repositório."
+            fi
+          else
+            echo "Arquivo de histórico não encontrado."
+          fi
+
       - name: Salvar artefatos
         if: always()
         uses: actions/upload-artifact@v4
@@ -45,4 +72,6 @@ jobs:
           path: |
             resultado-oferta.json
             postagem-final.json
+            resultado-postagem.json
+            historico-publicacoes.json
           retention-days: 7
