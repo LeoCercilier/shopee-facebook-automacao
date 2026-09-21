@@ -1,19 +1,17 @@
 /**
- * Módulo 3 – Publica a postagem na Página do Facebook via Graph API.
+ * Módulo 3 – Publica a postagem na Página do Facebook (por nicho).
  *
  * Variáveis de ambiente:
- *   FACEBOOK_PAGE_ID
- *   FACEBOOK_PAGE_ACCESS_TOKEN  (System User ou Page token — nunca logado)
+ *   FACEBOOK_PAGE_ACCESS_TOKEN  (System User Token — nunca logado)
+ *   FACEBOOK_PAGE_ID            (opcional; fallback só para nicho geral)
  *
- * Se o Secret for um System User Access Token, obtém o Page Access Token
- * via GET /me/accounts antes de publicar (fluxo oficial da Meta).
- *
- * Lê:  postagem-final.json
- * Gera: resultado-postagem.json (sem o token)
- * Atualiza: historico-publicacoes.json (prazo de 7 dias por link)
+ * Fluxo:
+ *   postagem-final.json → nicho → página → /me/accounts → /photos|/feed
+ *   histórico por link + pageId (7 dias)
  */
 
 const fs = require("fs");
+const { obterPaginaPorNicho } = require("./paginas");
 
 const ARQUIVO_ENTRADA = "postagem-final.json";
 const ARQUIVO_SAIDA = "resultado-postagem.json";
@@ -21,6 +19,7 @@ const ARQUIVO_HISTORICO = "historico-publicacoes.json";
 const GRAPH_VERSION = "v21.0";
 const DIAS_ESPERA = 7;
 const MS_POR_DIA = 24 * 60 * 60 * 1000;
+const PAGE_ID_MARKETING_TIPS = "369805844018354";
 
 function exigirEnv(nome) {
   const valor = process.env[nome];
@@ -48,7 +47,32 @@ function carregarHistorico() {
   if (!fs.existsSync(ARQUIVO_HISTORICO)) return {};
   try {
     const data = JSON.parse(fs.readFileSync(ARQUIVO_HISTORICO, "utf8"));
-    return data && typeof data === "object" ? data : {};
+    if (!data || typeof data !== "object") return {};
+
+    const migrado = {};
+    for (const [link, valor] of Object.entries(data)) {
+      if (!valor || typeof valor !== "object") continue;
+
+      if (valor.ultima_publicacao && typeof valor.ultima_publicacao === "string") {
+        migrado[link] = {
+          [PAGE_ID_MARKETING_TIPS]: {
+            ultima_publicacao: valor.ultima_publicacao
+          }
+        };
+        continue;
+      }
+
+      const porPagina = {};
+      for (const [pageId, info] of Object.entries(valor)) {
+        if (info && info.ultima_publicacao) {
+          porPagina[pageId] = { ultima_publicacao: info.ultima_publicacao };
+        }
+      }
+      if (Object.keys(porPagina).length > 0) {
+        migrado[link] = porPagina;
+      }
+    }
+    return migrado;
   } catch (_) {
     return {};
   }
@@ -58,23 +82,36 @@ function salvarHistorico(historico) {
   const agora = Date.now();
   const limite = 90 * MS_POR_DIA;
   const limpo = {};
-  for (const [k, v] of Object.entries(historico)) {
-    if (!v || !v.ultima_publicacao) continue;
-    const t = Date.parse(v.ultima_publicacao);
-    if (!Number.isFinite(t)) continue;
-    if (agora - t <= limite) limpo[k] = { ultima_publicacao: v.ultima_publicacao };
+
+  for (const [link, porPagina] of Object.entries(historico || {})) {
+    if (!porPagina || typeof porPagina !== "object") continue;
+    const pages = {};
+    for (const [pageId, info] of Object.entries(porPagina)) {
+      if (!info || !info.ultima_publicacao) continue;
+      const t = Date.parse(info.ultima_publicacao);
+      if (!Number.isFinite(t)) continue;
+      if (agora - t <= limite) {
+        pages[pageId] = { ultima_publicacao: info.ultima_publicacao };
+      }
+    }
+    if (Object.keys(pages).length > 0) {
+      limpo[link] = pages;
+    }
   }
+
   fs.writeFileSync(ARQUIVO_HISTORICO, JSON.stringify(limpo, null, 2) + "\n", "utf8");
 }
 
-function verificarRepublicacao(link) {
+function verificarRepublicacao(link, pageId) {
   const chave = normalizarLink(link);
-  if (!chave) {
-    return { podePublicar: true, chave: null };
+  if (!chave || !pageId) {
+    return { podePublicar: true, chave: chave || null, historico: carregarHistorico() };
   }
 
   const historico = carregarHistorico();
-  const registro = historico[chave];
+  const porPagina = historico[chave] || {};
+  const registro = porPagina[String(pageId)];
+
   if (!registro || !registro.ultima_publicacao) {
     return { podePublicar: true, chave, historico };
   }
@@ -85,8 +122,7 @@ function verificarRepublicacao(link) {
   }
 
   const agora = Date.now();
-  const decorridoMs = agora - ultima;
-  const diasDecorridos = decorridoMs / MS_POR_DIA;
+  const diasDecorridos = (agora - ultima) / MS_POR_DIA;
 
   if (diasDecorridos < DIAS_ESPERA) {
     const diasRestantes = Math.ceil(DIAS_ESPERA - diasDecorridos);
@@ -108,22 +144,21 @@ function verificarRepublicacao(link) {
   };
 }
 
-function registrarPublicacao(historico, chave) {
-  if (!chave) return;
+function registrarPublicacao(historico, chave, pageId) {
+  if (!chave || !pageId) return;
   const atualizado = { ...(historico || {}) };
-  atualizado[chave] = {
+  if (!atualizado[chave] || typeof atualizado[chave] !== "object") {
+    atualizado[chave] = {};
+  }
+  const porPagina = { ...atualizado[chave] };
+  delete porPagina.ultima_publicacao;
+  porPagina[String(pageId)] = {
     ultima_publicacao: new Date().toISOString()
   };
+  atualizado[chave] = porPagina;
   salvarHistorico(atualizado);
 }
 
-/**
- * Obtém um Page Access Token a partir do token do Secret.
- * - System User Token → GET /me/accounts → access_token da Página
- * - Fallback: GET /{pageId}?fields=access_token
- * - Se já for Page Token, usa o próprio Secret
- * Nunca loga o valor do token.
- */
 async function obterTokenDaPagina(pageId, tokenSecret) {
   try {
     const url = new URL(
@@ -315,6 +350,9 @@ ${titulo}
 🛍️ Confira na Shopee:
 ${link}`;
 
+  const nicho = postagem.nicho || "geral";
+  const pagina = obterPaginaPorNicho(nicho);
+
   if (!texto.trim()) {
     throw new Error("Texto da postagem vazio em postagem-final.json");
   }
@@ -323,11 +361,32 @@ ${link}`;
   console.log("Preço  :", preco || "(sem preço)");
   console.log("Link   :", link || "(sem link)");
   console.log("Imagem :", imagem ? "sim" : "não");
+  console.log("Nicho  :", nicho);
+  console.log("Página :", pagina.nome, `(${pagina.pageId || "sem pageId"})`);
   console.log("");
 
-  const checagem = verificarRepublicacao(link);
+  if (!pagina.pageId) {
+    console.log(
+      `⚠️  Nicho "${nicho}" sem Page ID configurado. Publicação pulada (não redireciona).`
+    );
+    const resultado = {
+      sucesso: true,
+      pulado: true,
+      motivo: "page_id_ausente",
+      gerado_em: new Date().toISOString(),
+      nicho,
+      pagina: pagina.nome,
+      postagem: { titulo, preco, link, imagem, texto }
+    };
+    fs.writeFileSync(ARQUIVO_SAIDA, JSON.stringify(resultado, null, 2), "utf8");
+    return;
+  }
+
+  const pageId = String(pagina.pageId);
+
+  const checagem = verificarRepublicacao(link, pageId);
   if (!checagem.podePublicar) {
-    console.log("⏳ Oferta dentro do período de espera (7 dias).");
+    console.log("⏳ Oferta dentro do período de espera (7 dias) nesta página.");
     console.log("Última publicação (UTC):", checagem.ultima_publicacao);
     console.log(
       `Faltam aproximadamente ${checagem.dias_restantes} dia(s) para poder republicar.`
@@ -341,6 +400,9 @@ ${link}`;
       gerado_em: new Date().toISOString(),
       link,
       chave: checagem.chave,
+      page_id: pageId,
+      pagina: pagina.nome,
+      nicho,
       ultima_publicacao: checagem.ultima_publicacao,
       dias_restantes: checagem.dias_restantes,
       postagem: { titulo, preco, link, imagem, texto }
@@ -351,13 +413,12 @@ ${link}`;
 
   if (checagem.ultima_publicacao) {
     console.log(
-      "Oferta já publicada anteriormente em",
+      "Oferta já publicada nesta página em",
       checagem.ultima_publicacao,
       "— prazo de 7 dias cumprido. Republicando."
     );
   }
 
-  const pageId = exigirEnv("FACEBOOK_PAGE_ID");
   const tokenSecret = exigirEnv("FACEBOOK_PAGE_ACCESS_TOKEN");
 
   console.log("Página (ID):", pageId);
@@ -373,12 +434,18 @@ ${link}`;
     link
   });
 
-  registrarPublicacao(checagem.historico || carregarHistorico(), checagem.chave);
+  registrarPublicacao(
+    checagem.historico || carregarHistorico(),
+    checagem.chave,
+    pageId
+  );
 
   const resultado = {
     sucesso: true,
     pulado: false,
     gerado_em: new Date().toISOString(),
+    nicho,
+    pagina: pagina.nome,
     page_id: pageId,
     post_id: resultadoApi.post_id,
     tipo: resultadoApi.tipo,
@@ -402,6 +469,8 @@ ${link}`;
 
   console.log("");
   console.log("✅ PUBLICAÇÃO REALIZADA COM SUCESSO");
+  console.log("Página :", pagina.nome);
+  console.log("Nicho  :", nicho);
   console.log("Tipo   :", resultado.tipo);
   console.log("Post ID:", resultado.post_id);
   if (resultado.link_facebook) {
