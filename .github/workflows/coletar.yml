@@ -14,6 +14,10 @@ on:
     #  1:00 UTC = 22:00 BRT (dia anterior em UTC)
     - cron: "0 11,13,15,17,19,21,23,1 * * *"
 
+concurrency:
+  group: shopee-facebook-automacao
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
