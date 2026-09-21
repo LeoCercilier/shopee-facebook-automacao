@@ -1,14 +1,14 @@
-name: Coletar oferta automaticamente
+name: Coletar, formatar e postar oferta
 
 on:
   workflow_dispatch:
-
   schedule:
     - cron: "0 */6 * * *"
 
 jobs:
-  coletar:
+  pipeline:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
       - name: Baixar projeto
@@ -17,28 +17,33 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: "20"
+          cache: "npm"
 
       - name: Instalar dependências
-        run: npm install
+        run: npm ci || npm install
 
-      - name: Instalar navegador
+      - name: Instalar Chromium
         run: npx playwright install --with-deps chromium
 
-      - name: Coletar oferta
-        run: npm start
+      - name: Executar coletor.js
+        run: node coletor.js
 
-      - name: Salvar resultado
-        uses: actions/upload-artifact@v4
-        with:
-          name: oferta-coletada
-          path: resultado-oferta.json
-
-                - name: Gerar postagem
+      - name: Executar modulo2.js
         run: node modulo2.js
 
-      - name: Salvar postagem final
+      - name: Executar modulo3.js
+        env:
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+        run: node modulo3.js
+
+      - name: Salvar artefatos
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: postagem-final
-          path: postagem-final.json
+          name: oferta-pronta-${{ github.run_id }}
+          path: |
+            resultado-oferta.json
+            postagem-final.json
+          retention-days: 7

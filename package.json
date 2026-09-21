@@ -1,11 +1,20 @@
 {
   "name": "shopee-facebook-automacao",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
+  "description": "Coleta ofertas do Shopee Achadinho e publica automaticamente na Página do Facebook",
   "scripts": {
-    "start": "node coletor.js"
+    "start": "node coletor.js",
+    "coletar": "node coletor.js",
+    "formatar": "node modulo2.js",
+    "postar": "node modulo3.js",
+    "pipeline": "node coletor.js && node modulo2.js && node modulo3.js",
+    "pipeline:dry": "node coletor.js && node modulo2.js && FACEBOOK_DRY_RUN=1 node modulo3.js"
   },
   "dependencies": {
     "playwright": "^1.55.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

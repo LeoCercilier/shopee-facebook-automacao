@@ -1,0 +1,10 @@
+node_modules/
+resultado-oferta.json
+postagem-final.json
+resultado-postagem.json
+*.log
+.DS_Store
+playwright-report/
+test-results/
+.env
+.env.*
