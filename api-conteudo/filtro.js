@@ -9,11 +9,24 @@ function normalizar(s) {
     .replace(/[\u0300-\u036f]/g, '');
 }
 
+/** Match por palavra/frase; evita substring curta (ex.: "ai" em "fair"). */
+function matchKeyword(textoNorm, kwNorm) {
+  if (!kwNorm || kwNorm.length < 2) return false;
+  if (kwNorm.includes(' ')) {
+    return textoNorm.includes(kwNorm);
+  }
+  // palavra inteira
+  const re = new RegExp(
+    `(^|[^a-z0-9])${kwNorm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}([^a-z0-9]|$)`,
+    'i'
+  );
+  return re.test(textoNorm);
+}
+
 function contemKeyword(texto, lista) {
   const t = normalizar(texto);
   for (const kw of lista || []) {
-    const k = normalizar(kw);
-    if (k && k.length >= 2 && t.includes(k)) return true;
+    if (matchKeyword(t, normalizar(kw))) return true;
   }
   return false;
 }
@@ -22,8 +35,7 @@ function contarKeywords(texto, lista) {
   const t = normalizar(texto);
   let n = 0;
   for (const kw of lista || []) {
-    const k = normalizar(kw);
-    if (k && k.length >= 2 && t.includes(k)) n += 1;
+    if (matchKeyword(t, normalizar(kw))) n += 1;
   }
   return n;
 }
@@ -65,6 +77,26 @@ function pontuar(item, paginaCfg, cfgGlobal = {}) {
     return {
       score: 5,
       motivos: ['keyword negativa / tema proibido'],
+      status: 'rejeitado',
+    };
+  }
+
+  // Spaceflight / HN: rejeitar esportes e celebridades
+  if (
+    contemKeyword(blob, [
+      'ravens',
+      'saints',
+      'nfl',
+      'nba',
+      'soccer',
+      'football game',
+      'vs.',
+      ' vs ',
+    ])
+  ) {
+    return {
+      score: 8,
+      motivos: ['conteúdo esportivo / não editorial'],
       status: 'rejeitado',
     };
   }
@@ -116,20 +148,20 @@ function pontuar(item, paginaCfg, cfgGlobal = {}) {
     if (
       contemKeyword(blob, [
         'ai',
-        'artificial',
-        'satellite',
-        'innovation',
-        'technology',
+        'artificial intelligence',
+        'machine learning',
         'software',
         'startup',
-        'commercial',
+        'commercial space',
+        'satellite internet',
+        'innovation',
       ])
     ) {
       score += 6;
       motivos.push('+spaceflight com ângulo tech');
     } else {
-      score -= 25;
-      motivos.push('-spaceflight sem ângulo tech/negócio');
+      score -= 30;
+      motivos.push('-spaceflight sem ângulo tech/negócio claro');
     }
   }
 
@@ -139,88 +171,84 @@ function pontuar(item, paginaCfg, cfgGlobal = {}) {
       motivos.push('+Wikipedia em português');
     }
     if (titulo.trim().split(/\s+/).length <= 1 && desc.length < 100) {
-      score -= 20;
-      motivos.push('-título genérico / pouco contexto');
+      score -= 15;
+      motivos.push('-título genérico');
     }
   }
 
   if (item.fonte_id === 'themealdb') {
     if (pareceIngles(titulo) && !item.titulo_pt) {
-      score -= 15;
-      motivos.push('-título em inglês sem tradução');
-    }
-    if (item.titulo_pt) {
-      score += 12;
-      motivos.push('+título traduzido');
+      score -= 12;
+      motivos.push('-título em inglês');
     }
     if (item.imagem) {
       score += 8;
-      motivos.push('+imagem de receita');
+      motivos.push('+imagem');
     }
   }
 
   if (item.fonte_id === 'open-meteo') {
     if (item.dica_casa) {
       score += 25;
-      motivos.push('+dica climática útil para casa');
+      motivos.push('+dica climática útil');
     } else {
       score -= 30;
-      motivos.push('-clima sem aplicação prática');
+      motivos.push('-clima sem dica prática');
     }
   }
 
   if (item.fonte_id === 'dog-ceo') {
     score -= 15;
-    motivos.push('-pet aleatório (baixa prioridade)');
+    motivos.push('-pet aleatório');
   }
 
   if (item.imagem && /^https?:\/\//i.test(item.imagem)) {
     score += 5;
-    motivos.push('+tem imagem');
+    motivos.push('+imagem url');
   }
 
   if (item.data) {
     const ageH = (Date.now() - Date.parse(item.data)) / 3600000;
     if (Number.isFinite(ageH) && ageH >= 0 && ageH < 72) {
       score += 8;
-      motivos.push('+recente (<72h)');
+      motivos.push('+recente');
     } else if (ageH > 24 * 30) {
       score -= 8;
-      motivos.push('-conteúdo antigo');
+      motivos.push('-antigo');
     }
   }
 
   if (nicho === 'marketing' && pareceIngles(titulo)) {
     if (kwFortes < 1 && kwTitulo < 1) {
       score -= 20;
-      motivos.push('-título EN sem keyword de nicho');
+      motivos.push('-EN sem keyword de nicho');
     }
   }
 
   if (titulo.length < 12) {
     score -= 10;
-    motivos.push('-título muito curto');
+    motivos.push('-título curto');
   }
-  if (/\b(shock|killed|dead|attack)\b/i.test(titulo)) {
-    score -= 15;
-    motivos.push('-tom sensacionalista');
+  if (/\b(shock|killed|dead|attack|missile)\b/i.test(titulo)) {
+    score -= 20;
+    motivos.push('-tom sensacionalista/bélico');
   }
 
   if (nicho === 'marketing') {
     if (kwFortes < 1 && kwTitulo < 2) {
       score -= 25;
-      motivos.push('-pouca relação com IA/negócios/marketing');
+      motivos.push('-pouca relação IA/negócios/marketing');
     }
   }
 
   if (nicho === 'motociclismo') {
     if (!contemKeyword(blob, paginaCfg.keywords_positivas)) {
       score -= 30;
-      motivos.push('-sem relação clara com motocicletas');
+      motivos.push('-sem relação com motos');
     }
     if (contemKeyword(titulo, ['motor de combustão', 'combustao interna'])) {
       score -= 40;
-      motivos.push('-tema genérico de motor');
+      motivos.push('-motor genérico');
     }
   }
 
@@ -237,11 +265,11 @@ function pontuar(item, paginaCfg, cfgGlobal = {}) {
       ])
     ) {
       score += 10;
-      motivos.push('+tema skincare prático');
+      motivos.push('+skincare prático');
     }
     if (contemKeyword(blob, ['doença', 'hospital', 'diagnóstico'])) {
       score -= 20;
-      motivos.push('-tom médico/hospitalar');
+      motivos.push('-tom hospitalar');
     }
   }
 
