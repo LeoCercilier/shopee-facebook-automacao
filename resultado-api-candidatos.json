@@ -1,29 +1,63 @@
 {
-  "gerado_em": "2026-09-23T09:12:29.924Z",
-  "modo": "publicacao",
-  "pontuacao_minima": 75,
+  "gerado_em": "2026-09-23T15:12:44.861Z",
+  "modo": "validacao",
+  "politica_links": "somente_shopee_pode_ter_link",
+  "pontuacao_minima_fonte": 75,
+  "pontuacao_minima_texto": 80,
   "paginas": [
     {
       "pagina": "Marketing Tips",
       "page_id": "369805844018354",
-      "status": "publicado",
+      "status": "aprovado_validacao",
+      "stats": {
+        "coletados": 67,
+        "aprovados_fonte": 25,
+        "aprovados_texto": 20,
+        "rejeitados": 0,
+        "publicados": 0
+      },
       "melhor": {
-        "titulo": "Architecting a Resilient DevSecOps Pipeline for Enterprise AI Agents",
-        "pontuacao": 94,
-        "preview": null
+        "pagina": "Marketing Tips",
+        "page_id": "369805844018354",
+        "fonte": "DEV.to",
+        "fonte_id": "devto",
+        "titulo_original": "How to stop AI from confidently shipping broken code (a pattern that actually works)",
+        "titulo_adaptado": "IA e produtividade no dia a dia digital",
+        "score_fonte": 94,
+        "score_texto": 94,
+        "status": "aprovado",
+        "motivo": "Conteúdo relevante e texto adequado (fonte 94, texto 94)",
+        "motivos_fonte": [
+          "+keyword no título (1)",
+          "+keyword forte no título",
+          "+keywords na descrição (1)",
+          "+DEV.to (fonte prioritária)",
+          "+imagem",
+          "+recente"
+        ],
+        "motivos_texto": [
+          "+português detectado",
+          "+linguagem acessível",
+          "+fonte alinhada ao nicho",
+          "+tamanho adequado"
+        ],
+        "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: DEV.to",
+        "url_fonte_interna": "https://dev.to/infoinlet1/how-to-stop-ai-from-confidently-shipping-broken-code-a-pattern-that-actually-works-2gn7",
+        "link_no_post": false
       },
       "candidatos": [
         {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "Architecting a Resilient DevSecOps Pipeline for Enterprise AI Agents",
-          "titulo": "Architecting a Resilient DevSecOps Pipeline for Enterprise AI Agents",
-          "resumo": "A four-stage DevSecOps CI/CD architecture for securing enterprise AI agents with GitHub Actions, secret scanning, AI-assisted review, Veracode SCA, and Pipeline SAST.",
-          "url": "https://dev.to/gde/architecting-a-resilient-devsecops-pipeline-for-enterprise-ai-agents-on4",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fmiro.medium.com%2Fv2%2Fresize%3Afit%3A1400%2F1%2AzWubiPyAk5YCdtX9j1_mUA.png",
-          "pontuacao": 94,
+          "titulo_original": "How to stop AI from confidently shipping broken code (a pattern that actually works)",
+          "titulo_adaptado": "IA e produtividade no dia a dia digital",
+          "score_fonte": 94,
+          "score_texto": 94,
           "status": "aprovado",
-          "motivos": [
+          "motivo": "Conteúdo relevante e texto adequado (fonte 94, texto 94)",
+          "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
             "+keywords na descrição (1)",
@@ -31,335 +65,597 @@
             "+imagem",
             "+recente"
           ],
-          "preview_post": {
-            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nArchitecting a Resilient DevSecOps Pipeline for Enterprise AI Agents. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://dev.to/gde/architecting-a-resilient-devsecops-pipeline-for-enterprise-ai-agents-on4\n\nFonte: DEV.to",
-            "titulo": "Architecting a Resilient DevSecOps Pipeline for Enterprise AI Agents",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "What If Your AI Agent Never Had to Leave the Browser? (Demo 🚀)",
-          "titulo": "What If Your AI Agent Never Had to Leave the Browser? (Demo 🚀)",
-          "resumo": "I haven't written anything lately because, honestly, I just didn't have the headspace for it. There...",
-          "url": "https://dev.to/sylwia-lask/what-if-your-ai-agent-never-had-to-leave-the-browser-demo--5g",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyv8119jpkpgyckuk1v1c.png",
-          "pontuacao": 90,
-          "status": "aprovado",
-          "motivos": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+DEV.to (fonte prioritária)",
-            "+imagem",
-            "+recente"
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
           ],
-          "preview_post": {
-            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nWhat If Your AI Agent Never Had to Leave the Browser? (Demo 🚀). I haven't written anything lately because, honestly, I just didn't have the headspace for it. There...\n\n🔎 Saiba mais:\nhttps://dev.to/sylwia-lask/what-if-your-ai-agent-never-had-to-leave-the-browser-demo--5g\n\nFonte: DEV.to",
-            "titulo": "What If Your AI Agent Never Had to Leave the Browser? (Demo 🚀)",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: DEV.to",
+          "url_fonte_interna": "https://dev.to/infoinlet1/how-to-stop-ai-from-confidently-shipping-broken-code-a-pattern-that-actually-works-2gn7",
+          "link_no_post": false
         },
         {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
           "fonte": "FreeNewsAPI (negócios/IA)",
           "fonte_id": "freenews-biz",
-          "titulo_original": "AstroForge Plans 2027 Autonomous Spacecraft Mission Controlled by Its Solo AI System",
-          "titulo": "AstroForge Plans 2027 Autonomous Spacecraft Mission Controlled by Its Solo AI System",
-          "resumo": "Asteroid mining startup AstroForge plans to put its in-house AI system in control of a spacecraft in 2027, reducing its dependence on commands from flight controllers on Earth. The company developed the transformer-based system, called Solo, after communication problems prevented",
-          "url": "https://digitalmarketreports.com/news/92340/astroforge-plans-2027-autonomous-spacecraft-mission-controlled-by-its-solo-ai-system/",
-          "imagem": "",
-          "pontuacao": 89,
+          "titulo_original": "Ema raises $77M in funding to deploy AI employees across enterprise HR, IT and finance departments",
+          "titulo_adaptado": "IA e produtividade no dia a dia digital",
+          "score_fonte": 93,
+          "score_texto": 94,
           "status": "aprovado",
-          "motivos": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+FreeNews negócios",
-            "+recente"
-          ],
-          "preview_post": {
-            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nAstroForge Plans 2027 Autonomous Spacecraft Mission Controlled by Its Solo AI System. Asteroid mining startup AstroForge plans to put its in-house AI system in control of a spacecraft in 2027, reducing its dependence on commands from flight controllers on Earth.\n\n🔎 Saiba mais:\nhttps://digitalmarketreports.com/news/92340/astroforge-plans-2027-autonomous-spacecraft-mission-controlled-by-its-solo-ai-system/\n\nFonte: FreeNewsAPI (negócios/IA)",
-            "titulo": "AstroForge Plans 2027 Autonomous Spacecraft Mission Controlled by Its Solo AI System",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "FreeNewsAPI (negócios/IA)",
-          "fonte_id": "freenews-biz",
-          "titulo_original": "Meet Nuvr, the bootstrapped startup managing Rs 1,200 Cr of ecommerce sales for brands",
-          "titulo": "Meet Nuvr, the bootstrapped startup managing Rs 1,200 Cr of ecommerce sales for brands",
-          "resumo": "The Bengaluru-based venture runs online P&Ls for brands such as Medimix, Nilon’s and Origami, using its own technology and a performance-linked revenue model.",
-          "url": "https://yourstory.com/2026/09/nuvr-bootstrapped-startup-managing-rs-1200-cr-ecommerce-sales-brands",
-          "imagem": "",
-          "pontuacao": 89,
-          "status": "aprovado",
-          "motivos": [
+          "motivo": "Conteúdo relevante e texto adequado (fonte 93, texto 94)",
+          "motivos_fonte": [
             "+keyword no título (2)",
             "+keyword forte no título",
-            "+keywords na descrição (2)",
+            "+keywords na descrição (3)",
             "+FreeNews negócios",
             "+recente"
           ],
-          "preview_post": {
-            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nMeet Nuvr, the bootstrapped startup managing Rs 1,200 Cr of ecommerce sales for brands. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://yourstory.com/2026/09/nuvr-bootstrapped-startup-managing-rs-1200-cr-ecommerce-sales-brands\n\nFonte: FreeNewsAPI (negócios/IA)",
-            "titulo": "Meet Nuvr, the bootstrapped startup managing Rs 1,200 Cr of ecommerce sales for brands",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
+          "url_fonte_interna": "https://siliconangle.com/2026/09/23/ema-raises-77m-in-funding-to-deploy-ai-employees-across-enterprise-hr-it-and-finance-departments/",
+          "link_no_post": false
         },
         {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
           "fonte": "FreeNewsAPI (negócios/IA)",
           "fonte_id": "freenews-biz",
-          "titulo_original": "DS Group Launches DCODE 2.0 in Collaboration with WPP Media & MICA, Integrating AI Across the Digital Marketing Ecosystem",
-          "titulo": "DS Group Launches DCODE 2.0 in Collaboration with WPP Media & MICA, Integrating AI Across the Digital Marketing Ecosystem",
-          "resumo": "Dharampal Satyapal Group (DS Group), a leading FMCG conglomerate and multi-business corporation, in collaboration with WPP Media and MICA (Mudra Institute of Communications, Ahmedabad), has launched DCODE 2.0 – The Guide to Digital Marketing, an evolved and expanded edition of it",
-          "url": "https://peopletalky.com/partners-content/ds-group-launches-dcode-2-0-in-collaboration-with-wpp-media-mica-integrating-ai-across-the-digital-marketing-ecosystem/",
-          "imagem": "",
-          "pontuacao": 89,
+          "titulo_original": "Sela Raises $21M for Voice AI Agents That Originate $1B+ in Mortgage Loans Monthly",
+          "titulo_adaptado": "IA e produtividade no dia a dia digital",
+          "score_fonte": 93,
+          "score_texto": 94,
           "status": "aprovado",
-          "motivos": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+FreeNews negócios",
-            "+recente"
-          ],
-          "preview_post": {
-            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nDS Group Launches DCODE 2.0 in Collaboration with WPP Media & MICA, Integrating AI Across the Digital Marketing Ecosystem. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://peopletalky.com/partners-content/ds-group-launches-dcode-2-0-in-collaboration-with-wpp-media-mica-integrating-ai-across-the-digital-marketing-ecosystem/\n\nFonte: FreeNewsAPI (negócios/IA)",
-            "titulo": "DS Group Launches DCODE 2.0 in Collaboration with WPP Media & MICA, Integrating AI Across the Digital Marketing Ecosystem",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "FreeNewsAPI (negócios/IA)",
-          "fonte_id": "freenews-biz",
-          "titulo_original": "Call For Applications: UNECA Continental Call for African AI Innovations 2026 For African Startups and Innovators",
-          "titulo": "Call For Applications: UNECA Continental Call for African AI Innovations 2026 For African Startups and Innovators",
-          "resumo": "Applications are open for the UNECA Continental Call for African AI Innovations 2026, an opportunity for African innovators to showcase practical artificial intelligence solutions addressing development challenges across the continent. The initiative, known as the ECA Innovation ",
-          "url": "https://msmeafricaonline.com/call-for-applications-uneca-continental-call-for-african-ai-innovations-2026-for-african-startups-and-innovators/?utm_source=rss&utm_medium=rss&utm_campaign=call-for-applications-uneca-continental-call-for-african-ai-innovations-2026-for-african-startups-and-innovators",
-          "imagem": "",
-          "pontuacao": 89,
-          "status": "aprovado",
-          "motivos": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+FreeNews negócios",
-            "+recente"
-          ],
-          "preview_post": {
-            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nCall For Applications: UNECA Continental Call for African AI Innovations 2026 For African Startups and Innovators. Applications are open for the UNECA Continental Call for African AI Innovations 2026, an opportunity for African innovators to showcase practical artificial intelligence…\n\n🔎 Saiba mais:\nhttps://msmeafricaonline.com/call-for-applications-uneca-continental-call-for-african-ai-innovations-2026-for-african-startups-and-innovators/?utm_source=rss&utm_medium=rss&utm_campaign=call-for-applications-uneca-continental-call-for-african-ai-innovations-2026-for-african-startups-and-innovators\n\nFonte: FreeNewsAPI (negócios/IA)",
-            "titulo": "Call For Applications: UNECA Continental Call for African AI Innovations 2026 For African Startups and Innovators",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "AI Can Write Code Faster Than We Can Review It — And That’s Becoming the Real Bottleneck",
-          "titulo": "AI Can Write Code Faster Than We Can Review It — And That’s Becoming the Real Bottleneck",
-          "resumo": "AI Can Write Code Faster Than We Can Review It — And That’s Becoming the Real...",
-          "url": "https://dev.to/robertadam987_/ai-can-write-code-faster-than-we-can-review-it-and-thats-becoming-the-real-bottleneck-25ee",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmoxxmtc3sed461hphk2t.png",
-          "pontuacao": 86,
-          "status": "aprovado",
-          "motivos": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+DEV.to (fonte prioritária)",
-            "+imagem"
-          ],
-          "preview_post": {
-            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nAI Can Write Code Faster Than We Can Review It — And That’s Becoming the Real Bottleneck. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://dev.to/robertadam987_/ai-can-write-code-faster-than-we-can-review-it-and-thats-becoming-the-real-bottleneck-25ee\n\nFonte: DEV.to",
-            "titulo": "AI Can Write Code Faster Than We Can Review It — And That’s Becoming the Real Bottleneck",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "FreeNewsAPI (negócios/IA)",
-          "fonte_id": "freenews-biz",
-          "titulo_original": "TacnIQ.ai raises US$1.5 million from In Group Holdings to scale tactile AI",
-          "titulo": "TacnIQ.ai raises US$1.5 million from In Group Holdings to scale tactile AI",
-          "resumo": "Part of a US$3 million pre-seed round, the funding will accelerate the physical AI start-up's tactile foundation model, engineering team and commercial deployments across five key industries SINGAPORE, Sept. 23, 2026 /PRNewswire/ -- TacnIQ.ai, a physical AI startup building techn",
-          "url": "https://www.manilatimes.net/2026/09/23/tmt-newswire/pr-newswire/tacniqai-raises-us15-million-from-in-group-holdings-to-scale-tactile-ai/2430910",
-          "imagem": "",
-          "pontuacao": 85,
-          "status": "aprovado",
-          "motivos": [
+          "motivo": "Conteúdo relevante e texto adequado (fonte 93, texto 94)",
+          "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
             "+keywords na descrição (3)",
-            "+FreeNews negócios"
+            "+FreeNews negócios",
+            "+recente"
           ],
-          "preview_post": {
-            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nTacnIQ.ai raises US$1.5 million from In Group Holdings to scale tactile AI. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://www.manilatimes.net/2026/09/23/tmt-newswire/pr-newswire/tacniqai-raises-us15-million-from-in-group-holdings-to-scale-tactile-ai/2430910\n\nFonte: FreeNewsAPI (negócios/IA)",
-            "titulo": "TacnIQ.ai raises US$1.5 million from In Group Holdings to scale tactile AI",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
+          "url_fonte_interna": "https://forkast.news/sela-raises-21m-for-voice-ai-agents-that-originate-1b-in-mortgage-loans-monthly/",
+          "link_no_post": false
         },
         {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "What If Your AI Agent Never Had to Leave the Browser? (Demo 🚀)",
+          "titulo_adaptado": "IA e produtividade no dia a dia digital",
+          "score_fonte": 90,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: DEV.to",
+          "url_fonte_interna": "https://dev.to/sylwia-lask/what-if-your-ai-agent-never-had-to-leave-the-browser-demo--5g",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "We All Have a \"Serious Work\" AI and a \"Just Vibing\" AI. When Did That Happen?",
+          "titulo_adaptado": "IA e produtividade no dia a dia digital",
+          "score_fonte": 90,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: DEV.to",
+          "url_fonte_interna": "https://dev.to/dj29/we-all-have-a-serious-work-ai-and-a-just-vibing-ai-when-did-that-happen-5fl2",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
           "fonte": "FreeNewsAPI (negócios/IA)",
           "fonte_id": "freenews-biz",
-          "titulo_original": "Rabbit Introduces OS3 Cross-Platform AI Agent for Existing Hardware",
-          "titulo": "Rabbit Introduces OS3 Cross-Platform AI Agent for Existing Hardware",
-          "resumo": "Rabbit has released OS3, a cross-platform software agent that manages computing tasks across existing desktop and mobile operating systems. The post Rabbit Introduces OS3 Cross-Platform AI Agent for Existing Hardware appeared first on Saudishopper .",
-          "url": "https://saudishopper.com.sa/en/rabbit-os3-cross-platform-ai-agent-launch/",
-          "imagem": "",
-          "pontuacao": 85,
+          "titulo_original": "Salesforce missed OpenAI. Its $50 million Anthropic bet is now worth $5 billion | Company Business News",
+          "titulo_adaptado": "IA e produtividade no dia a dia digital",
+          "score_fonte": 89,
+          "score_texto": 94,
           "status": "aprovado",
-          "motivos": [
+          "motivo": "Conteúdo relevante e texto adequado (fonte 89, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (2)",
+            "+keyword forte no título",
+            "+keywords na descrição (2)",
+            "+FreeNews negócios",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
+          "url_fonte_interna": "https://www.livemint.com/companies/news/salesforce-missed-openai-its-50-million-anthropic-bet-is-now-worth-5-billion-11790164533797.html",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "Salesforce missed OpenAI. Its $50 million Anthropic bet is now worth $5 billion | Company Business News",
+          "titulo_adaptado": "IA e produtividade no dia a dia digital",
+          "score_fonte": 89,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 89, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (2)",
+            "+keyword forte no título",
+            "+keywords na descrição (2)",
+            "+FreeNews negócios",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
+          "url_fonte_interna": "https://www.livemint.com/companies/news/salesforce-missed-openai-its-50-million-anthropic-bet-is-now-worth-5-billion/amp-11790164533797.html",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "Meet Nuvr, the bootstrapped startup managing Rs 1,200 Cr of ecommerce sales for brands",
+          "titulo_adaptado": "Movimento no ecossistema de startups",
+          "score_fonte": 89,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 89, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (2)",
+            "+keyword forte no título",
+            "+keywords na descrição (2)",
+            "+FreeNews negócios",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nO ecossistema de startups segue movimentado. Para quem empreende ou vende online, acompanhar essas tendências ajuda a enxergar oportunidades de produto e marketing.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
+          "url_fonte_interna": "https://yourstory.com/2026/09/nuvr-bootstrapped-startup-managing-rs-1200-cr-ecommerce-sales-brands",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "AI predicts Micron stock price for October 1, 2026",
+          "titulo_adaptado": "IA e produtividade no dia a dia digital",
+          "score_fonte": 89,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 89, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (2)",
+            "+FreeNews negócios",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
+          "url_fonte_interna": "https://finbold.com/ai-predicts-micron-stock-price-for-october-1-2026/",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "As Part of the Chief AI Officers’ Visit to the United States and During Dreamforce 2026",
+          "titulo_adaptado": "IA e produtividade no dia a dia digital",
+          "score_fonte": 89,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 89, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (2)",
+            "+FreeNews negócios",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
+          "url_fonte_interna": "https://mid-east.info/as-part-of-the-chief-ai-officers-visit-to-the-united-states-and-during-dreamforce-2026/",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "Techmagnate Study Finds AI Platforms Drop 39% of Cited Brands Every Week, Signals Shift in How AI Visibility Should Be Measured - The Tribune",
+          "titulo_adaptado": "IA e produtividade no dia a dia digital",
+          "score_fonte": 85,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 85, texto 94)",
+          "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
             "+keywords na descrição (1)",
             "+FreeNews negócios",
             "+recente"
           ],
-          "preview_post": {
-            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nRabbit Introduces OS3 Cross-Platform AI Agent for Existing Hardware. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://saudishopper.com.sa/en/rabbit-os3-cross-platform-ai-agent-launch/\n\nFonte: FreeNewsAPI (negócios/IA)",
-            "titulo": "Rabbit Introduces OS3 Cross-Platform AI Agent for Existing Hardware",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
+          "url_fonte_interna": "https://www.tribuneindia.com/news/business/techmagnate-study-finds-ai-platforms-drop-39-of-cited-brands-every-week-signals-shift-in-how-ai-visibility-should-be-measured/",
+          "link_no_post": false
         },
         {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "Whatsapp Marketing Platform for Enterprises | Insider One",
+          "titulo_adaptado": "Tendência em marketing e vendas digitais",
+          "score_fonte": 85,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 85, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+FreeNews negócios",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nNo marketing digital e no e-commerce, pequenas melhorias de processo e comunicação costumam gerar mais resultado do que grandes mudanças de uma só vez.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
+          "url_fonte_interna": "https://insiderone.com/whatsapp-marketing-platform-enterprise/",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
           "fonte": "FreeNewsAPI (negócios/IA)",
           "fonte_id": "freenews-biz",
           "titulo_original": "FL Beef Council Reviews Results on Ecommerce Campaign",
-          "titulo": "FL Beef Council Reviews Results on Ecommerce Campaign",
-          "resumo": "The Florida Beef Council recently wrapped up an e-commerce program. Here is Deanne Maples with the Florida Beef Council to tell us more. “So this spring, the Florida Beef Council invested $50,000 in a digital e-commerce campaign with one of the nation’s largest retailers. And we ",
-          "url": "https://southeastagnet.com/2026/09/22/florida-beef-council-ecommerce-campaign-beef-sales/",
-          "imagem": "",
-          "pontuacao": 85,
+          "titulo_adaptado": "Tendência em marketing e vendas digitais",
+          "score_fonte": 85,
+          "score_texto": 94,
           "status": "aprovado",
-          "motivos": [
+          "motivo": "Conteúdo relevante e texto adequado (fonte 85, texto 94)",
+          "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
             "+keywords na descrição (1)",
             "+FreeNews negócios",
             "+recente"
           ],
-          "preview_post": {
-            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nFL Beef Council Reviews Results on Ecommerce Campaign. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://southeastagnet.com/2026/09/22/florida-beef-council-ecommerce-campaign-beef-sales/\n\nFonte: FreeNewsAPI (negócios/IA)",
-            "titulo": "FL Beef Council Reviews Results on Ecommerce Campaign",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nNo marketing digital e no e-commerce, pequenas melhorias de processo e comunicação costumam gerar mais resultado do que grandes mudanças de uma só vez.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
+          "url_fonte_interna": "https://southeastagnet.com/2026/09/22/florida-beef-council-ecommerce-campaign-beef-sales/",
+          "link_no_post": false
         },
         {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "OECD: AI aids global economy amid West Asia energy spike",
+          "titulo_adaptado": "IA e produtividade no dia a dia digital",
+          "score_fonte": 85,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 85, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+FreeNews negócios",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
+          "url_fonte_interna": "https://www.newsbytesapp.com/news/business/oecd-ai-aids-global-economy-amid-west-asia-energy-spike/tldr",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
           "titulo_original": "How AI Actually Calls an API? Tool Calling Explained from Scratch",
-          "titulo": "How AI Actually Calls an API? Tool Calling Explained from Scratch",
-          "resumo": "In the previous post, we taught a model to read our documents. It could search a pile of files and...",
-          "url": "https://dev.to/aws/how-ai-actually-calls-an-api-tool-calling-explained-from-scratch-4lf8",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmhtvo6zedugelnfp6o2v.png",
-          "pontuacao": 82,
+          "titulo_adaptado": "IA e produtividade no dia a dia digital",
+          "score_fonte": 82,
+          "score_texto": 94,
           "status": "aprovado",
-          "motivos": [
+          "motivo": "Conteúdo relevante e texto adequado (fonte 82, texto 94)",
+          "motivos_fonte": [
             "+keyword no título (2)",
             "+keyword forte no título",
             "+DEV.to (fonte prioritária)",
             "+imagem"
           ],
-          "preview_post": {
-            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nHow AI Actually Calls an API? Tool Calling Explained from Scratch. In the previous post, we taught a model to read our documents. It could search a pile of files and...\n\n🔎 Saiba mais:\nhttps://dev.to/aws/how-ai-actually-calls-an-api-tool-calling-explained-from-scratch-4lf8\n\nFonte: DEV.to",
-            "titulo": "How AI Actually Calls an API? Tool Calling Explained from Scratch",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: DEV.to",
+          "url_fonte_interna": "https://dev.to/aws/how-ai-actually-calls-an-api-tool-calling-explained-from-scratch-4lf8",
+          "link_no_post": false
         },
         {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
           "titulo_original": "I got rejected for using AI in an interview. Then I watched the interviewer do it.",
-          "titulo": "I got rejected for using AI in an interview. Then I watched the interviewer do it.",
-          "resumo": "I got the rejection email on a Tuesday. I've been rejected before — everyone has. This one broke...",
-          "url": "https://dev.to/infoinlet1/i-got-rejected-for-using-ai-in-an-interview-then-i-watched-the-interviewer-do-it-31d0",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmgcw6dq8hs4oxnhkhfjh.png",
-          "pontuacao": 82,
+          "titulo_adaptado": "IA e produtividade no dia a dia digital",
+          "score_fonte": 82,
+          "score_texto": 94,
           "status": "aprovado",
-          "motivos": [
+          "motivo": "Conteúdo relevante e texto adequado (fonte 82, texto 94)",
+          "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
             "+DEV.to (fonte prioritária)",
             "+imagem"
           ],
-          "preview_post": {
-            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nI got rejected for using AI in an interview. Then I watched the interviewer do it.. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://dev.to/infoinlet1/i-got-rejected-for-using-ai-in-an-interview-then-i-watched-the-interviewer-do-it-31d0\n\nFonte: DEV.to",
-            "titulo": "I got rejected for using AI in an interview. Then I watched the interviewer do it.",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: DEV.to",
+          "url_fonte_interna": "https://dev.to/infoinlet1/i-got-rejected-for-using-ai-in-an-interview-then-i-watched-the-interviewer-do-it-31d0",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "I Built a Pretty Cool SaaS. Now What?",
+          "titulo_adaptado": "Ideia de tecnologia aplicada a negócios",
+          "score_fonte": 82,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 82, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nIdeia de tecnologia aplicada a negócios. Uma provocação útil para quem acompanha negócios digitais e quer aplicar tecnologia de forma prática.\n\nFonte de inspiração: DEV.to",
+          "url_fonte_interna": "https://dev.to/wolfnom/i-built-a-pretty-cool-saas-now-what-3ibd",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "I Replaced Our $647/Month SaaS Stack With Open Source. We Saved $8.",
+          "titulo_adaptado": "Ideia de tecnologia aplicada a negócios",
+          "score_fonte": 82,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 82, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nIdeia de tecnologia aplicada a negócios. Uma provocação útil para quem acompanha negócios digitais e quer aplicar tecnologia de forma prática.\n\nFonte de inspiração: DEV.to",
+          "url_fonte_interna": "https://dev.to/heynikhila/i-replaced-our-647month-saas-stack-with-open-source-we-saved-8-4lpc",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "Why AI Coding Agents Crash at 3 AM: The Happy-Path Mirage & The Forced Continuity Defect",
+          "titulo_adaptado": "IA e produtividade no dia a dia digital",
+          "score_fonte": 82,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 82, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: DEV.to",
+          "url_fonte_interna": "https://dev.to/gde/why-ai-coding-agents-crash-at-3-am-the-happy-path-mirage-the-forced-continuity-defect-46pd",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "Los Ecommerce Awards España 2026 reconocen a los referentes que están transformando el comercio electrónico",
+          "titulo_adaptado": "Los Ecommerce Awards España 2026 reconocen a los referentes que están transformando el…",
+          "score_fonte": 81,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 81, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+FreeNews negócios",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nNo marketing digital e no e-commerce, pequenas melhorias de processo e comunicação costumam gerar mais resultado do que grandes mudanças de uma só vez.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
+          "url_fonte_interna": "https://www.europapress.es/comunicados/empresas-00908/noticia-comunicado-ecommerce-awards-espana-2026-reconocen-referentes-estan-transformando-comercio-electronico-20260922155920.html",
+          "link_no_post": false
         }
       ]
     },
     {
       "pagina": "Studio Marine Cuidados Pessoais",
       "page_id": "1247772158429331",
-      "status": "publicado",
+      "status": "aprovado_validacao",
+      "stats": {
+        "coletados": 18,
+        "aprovados_fonte": 4,
+        "aprovados_texto": 4,
+        "rejeitados": 14,
+        "publicados": 0
+      },
       "melhor": {
-        "titulo": "Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml",
-        "pontuacao": 100,
-        "preview": null
+        "pagina": "Studio Marine Cuidados Pessoais",
+        "page_id": "1247772158429331",
+        "fonte": "Open Beauty Facts",
+        "fonte_id": "open-beauty",
+        "titulo_original": "Protetor Solar Facial Neutrogena Sun Fresh FPS30 40g",
+        "titulo_adaptado": "Proteção solar no dia a dia",
+        "score_fonte": 100,
+        "score_texto": 98,
+        "status": "aprovado",
+        "motivo": "Conteúdo relevante e texto adequado (fonte 100, texto 98)",
+        "motivos_fonte": [
+          "+keyword no título (2)",
+          "+keyword forte no título",
+          "+keywords na descrição (3)",
+          "+Open Beauty Facts",
+          "+produto skincare claro",
+          "+skincare prático"
+        ],
+        "motivos_texto": [
+          "+português detectado",
+          "+informação útil de skincare",
+          "+fonte alinhada ao nicho",
+          "+tamanho adequado"
+        ],
+        "texto_final": "✨ CUIDADO COM A PELE\n\nO protetor solar é um dos passos mais importantes da rotina de pele. Na hora de escolher, observe o FPS e o tipo de pele — e, em caso de dúvida, peça orientação a um profissional de saúde.\n\nFonte de inspiração: Open Beauty Facts",
+        "url_fonte_interna": "https://world.openbeautyfacts.org/product/7891010250980/protetor-solar-facial-neutrogena-sun-fresh-fps30-40g",
+        "link_no_post": false
       },
       "candidatos": [
         {
-          "fonte": "Open Beauty Facts",
-          "fonte_id": "open-beauty",
-          "titulo_original": "Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml",
-          "titulo": "Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml",
-          "resumo": "Categoria: Protetor solar, cuidados com a pele. Dados Open Beauty Facts (base aberta de cosméticos).",
-          "url": "https://world.openbeautyfacts.org/product/4005900201126/protetor-solar-facial-nivea-sun-toque-seco-antissinais-fps-60-50ml",
-          "imagem": "",
-          "pontuacao": 100,
-          "status": "aprovado",
-          "motivos": [
-            "+keyword no título (3)",
-            "+keyword forte no título",
-            "+keywords na descrição (3)",
-            "+Open Beauty Facts",
-            "+produto skincare claro",
-            "+skincare prático"
-          ],
-          "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nProduto em destaque na base aberta de cosméticos: Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml. Use como referência para comparar rótulos e FPS — sempre de acordo com a sua pele e orientação profissional.\n\n🔎 Saiba mais:\nhttps://world.openbeautyfacts.org/product/4005900201126/protetor-solar-facial-nivea-sun-toque-seco-antissinais-fps-60-50ml\n\nFonte: Open Beauty Facts",
-            "titulo": "Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
           "fonte": "Open Beauty Facts",
           "fonte_id": "open-beauty",
           "titulo_original": "Protetor Solar Facial Neutrogena Sun Fresh FPS30 40g",
-          "titulo": "Protetor Solar Facial Neutrogena Sun Fresh FPS30 40g",
-          "resumo": "Categoria: Protetor solar, Cuidados com a pele, Proteção UV. Dados Open Beauty Facts (base aberta de cosméticos).",
-          "url": "https://world.openbeautyfacts.org/product/7891010250980/protetor-solar-facial-neutrogena-sun-fresh-fps30-40g",
-          "imagem": "",
-          "pontuacao": 100,
+          "titulo_adaptado": "Proteção solar no dia a dia",
+          "score_fonte": 100,
+          "score_texto": 98,
           "status": "aprovado",
-          "motivos": [
+          "motivo": "Conteúdo relevante e texto adequado (fonte 100, texto 98)",
+          "motivos_fonte": [
             "+keyword no título (2)",
             "+keyword forte no título",
             "+keywords na descrição (3)",
@@ -367,52 +663,56 @@
             "+produto skincare claro",
             "+skincare prático"
           ],
-          "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nProduto em destaque na base aberta de cosméticos: Protetor Solar Facial Neutrogena Sun Fresh FPS30 40g. Use como referência para comparar rótulos e FPS — sempre de acordo com a sua pele e orientação profissional.\n\n🔎 Saiba mais:\nhttps://world.openbeautyfacts.org/product/7891010250980/protetor-solar-facial-neutrogena-sun-fresh-fps30-40g\n\nFonte: Open Beauty Facts",
-            "titulo": "Protetor Solar Facial Neutrogena Sun Fresh FPS30 40g",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "motivos_texto": [
+            "+português detectado",
+            "+informação útil de skincare",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "✨ CUIDADO COM A PELE\n\nO protetor solar é um dos passos mais importantes da rotina de pele. Na hora de escolher, observe o FPS e o tipo de pele — e, em caso de dúvida, peça orientação a um profissional de saúde.\n\nFonte de inspiração: Open Beauty Facts",
+          "url_fonte_interna": "https://world.openbeautyfacts.org/product/7891010250980/protetor-solar-facial-neutrogena-sun-fresh-fps30-40g",
+          "link_no_post": false
         },
         {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
           "fonte": "Wikipedia (PT) skincare",
           "fonte_id": "wiki-pele",
-          "titulo_original": "Melasma",
-          "titulo": "Melasma",
-          "resumo": "Melasma é uma distúrbio pigmentar da pele caracterizada por manchas escuras na pele. Ocorre principalmente no rosto, mas pode ocorrer em outros segmentos do corpo. Ocorre mais frequentemente em mulheres. Acontece em cerca de dez por cento nos homens. Quando as manchas aparecem na",
-          "url": "https://pt.wikipedia.org/wiki/Melasma",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Melasmablemish.jpg/330px-Melasmablemish.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 88,
+          "titulo_original": "Filtro solar",
+          "titulo_adaptado": "Proteção solar no dia a dia",
+          "score_fonte": 100,
+          "score_texto": 86,
           "status": "aprovado",
-          "motivos": [
-            "+keyword no título (1)",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 100, texto 86)",
+          "motivos_fonte": [
+            "+keyword no título (2)",
             "+keyword forte no título",
-            "+keywords na descrição (2)",
+            "+keywords na descrição (4)",
             "+Wikipedia PT",
             "+imagem",
-            "-título curto",
             "+skincare prático"
           ],
-          "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nMelasma é uma distúrbio pigmentar da pele caracterizada por manchas escuras na pele. Ocorre principalmente no rosto, mas pode ocorrer em outros segmentos do corpo. Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Melasma\n\nFonte: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "Melasma",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "✨ CUIDADO COM A PELE\n\nO filtro solar ou protetor solar é uma loção, spray ou produto tópico que ajuda a proteger a pele da radiação ultravioleta do sol, o que reduz as queimaduras solares e outros danos à pele,… Informação educativa — não substitui orientação de um profissional de saúde.\n\nFonte de inspiração: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Filtro_solar",
+          "link_no_post": false
         },
         {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
           "fonte": "Wikipedia (PT) skincare",
           "fonte_id": "wiki-pele",
           "titulo_original": "Acne",
-          "titulo": "Acne",
-          "resumo": "Acne é uma condição cutânea de longa duração caracterizada por áreas de pontos negros, pontos brancos, pústulas, pele oleosa e possibilidade de aparecimento de cicatrizes. Dependendo do grau de incidência, infecção e dimensão dos pontos de acne sobre a pele, as consequências na a",
-          "url": "https://pt.wikipedia.org/wiki/Acne",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Acne_vulgaris_on_a_very_oily_skin.jpg/330px-Acne_vulgaris_on_a_very_oily_skin.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 88,
+          "titulo_adaptado": "Cuidados com a pele",
+          "score_fonte": 88,
+          "score_texto": 86,
           "status": "aprovado",
-          "motivos": [
+          "motivo": "Conteúdo relevante e texto adequado (fonte 88, texto 86)",
+          "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
             "+keywords na descrição (2)",
@@ -421,25 +721,27 @@
             "-título curto",
             "+skincare prático"
           ],
-          "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nAcne é uma condição cutânea de longa duração caracterizada por áreas de pontos negros, pontos brancos, pústulas, pele oleosa e possibilidade de aparecimento de cicatrizes. Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Acne\n\nFonte: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "Acne",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "✨ CUIDADO COM A PELE\n\nAcne é uma condição cutânea de longa duração caracterizada por áreas de pontos negros, pontos brancos, pústulas, pele oleosa e possibilidade de aparecimento de cicatrizes. Informação educativa — não substitui orientação de um profissional de saúde.\n\nFonte de inspiração: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Acne",
+          "link_no_post": false
         },
         {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
           "fonte": "Wikipedia (PT) skincare",
           "fonte_id": "wiki-pele",
           "titulo_original": "Retinol",
-          "titulo": "Retinol",
-          "resumo": "O retinol, também conhecido como vitamina A1, é uma vitamina encontrada nos alimentos e utilizada como suplemento dietético. Como suplemento é usado para tratar e prevenir a deficiência de vitamina A, especialmente aquela que causa xeroftalmia. Em regiões onde a deficiência é com",
-          "url": "https://pt.wikipedia.org/wiki/Retinol",
-          "imagem": "",
-          "pontuacao": 79,
+          "titulo_adaptado": "Cuidados com a pele",
+          "score_fonte": 79,
+          "score_texto": 86,
           "status": "aprovado",
-          "motivos": [
+          "motivo": "Conteúdo relevante e texto adequado (fonte 79, texto 86)",
+          "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
             "+keywords na descrição (1)",
@@ -447,717 +749,863 @@
             "-título curto",
             "+skincare prático"
           ],
-          "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nO retinol, também conhecido como vitamina A1, é uma vitamina encontrada nos alimentos e utilizada como suplemento dietético. Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Retinol\n\nFonte: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "Retinol",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "✨ CUIDADO COM A PELE\n\nO retinol, também conhecido como vitamina A1, é uma vitamina encontrada nos alimentos e utilizada como suplemento dietético. Informação educativa — não substitui orientação de um profissional de saúde.\n\nFonte de inspiração: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Retinol",
+          "link_no_post": false
         },
         {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
           "fonte": "Open Beauty Facts",
           "fonte_id": "open-beauty",
           "titulo_original": "SVR Spray Sun Secure SPF 50+",
-          "titulo": "SVR Spray Sun Secure SPF 50+",
-          "resumo": "Categoria: Sunscreen. Dados Open Beauty Facts (base aberta de cosméticos).",
-          "url": "https://world.openbeautyfacts.org/product/3662361002146/svr-spray-sun-secure-spf-50",
-          "imagem": "https://images.openbeautyfacts.org/images/products/366/236/100/2146/front_en.4.200.jpg",
-          "pontuacao": 73,
-          "status": "candidato_fraco",
-          "motivos": [
-            "+keywords na descrição (1)",
-            "+Open Beauty Facts",
-            "+produto skincare claro",
-            "+imagem",
-            "+skincare prático"
-          ],
-          "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nProduto em destaque na base aberta de cosméticos: SVR Spray Sun Secure SPF 50+. Use como referência para comparar rótulos e FPS — sempre de acordo com a sua pele e orientação profissional.\n\n🔎 Saiba mais:\nhttps://world.openbeautyfacts.org/product/3662361002146/svr-spray-sun-secure-spf-50\n\nFonte: Open Beauty Facts",
-            "titulo": "SVR Spray Sun Secure SPF 50+",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "titulo_adaptado": null,
+          "score_fonte": 73,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 73 < 75. +keywords na descrição (1); +Open Beauty Facts",
+          "texto_final": null,
+          "url_fonte_interna": "https://world.openbeautyfacts.org/product/3662361002146/svr-spray-sun-secure-spf-50"
         },
         {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
           "fonte": "Open Beauty Facts",
           "fonte_id": "open-beauty",
           "titulo_original": "Wella Invigo Sun UV Hair Color Protection - Spray Leave-in 150ml",
-          "titulo": "Wella Invigo Sun UV Hair Color Protection - Spray Leave-in 150ml",
-          "resumo": "Categoria: Protetor solar, leave-in. Dados Open Beauty Facts (base aberta de cosméticos).",
-          "url": "https://world.openbeautyfacts.org/product/3614226743916/wella-invigo-sun-uv-hair-color-protection-spray-leave-in-150ml",
-          "imagem": "",
-          "pontuacao": 72,
-          "status": "candidato_fraco",
-          "motivos": [
-            "+keywords na descrição (2)",
-            "+Open Beauty Facts",
-            "+produto skincare claro",
-            "+skincare prático"
-          ],
-          "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nProduto em destaque na base aberta de cosméticos: Wella Invigo Sun UV Hair Color Protection - Spray Leave-in 150ml. Use como referência para comparar rótulos e FPS — sempre de acordo com a sua pele e orientação profissional.\n\n🔎 Saiba mais:\nhttps://world.openbeautyfacts.org/product/3614226743916/wella-invigo-sun-uv-hair-color-protection-spray-leave-in-150ml\n\nFonte: Open Beauty Facts",
-            "titulo": "Wella Invigo Sun UV Hair Color Protection - Spray Leave-in 150ml",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "titulo_adaptado": null,
+          "score_fonte": 72,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 72 < 75. +keywords na descrição (2); +Open Beauty Facts",
+          "texto_final": null,
+          "url_fonte_interna": "https://world.openbeautyfacts.org/product/3614226743916/wella-invigo-sun-uv-hair-color-protection-spray-leave-in-150ml"
         },
         {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
           "fonte": "Open Beauty Facts",
           "fonte_id": "open-beauty",
           "titulo_original": "Vitamins Keratin Protein Hair Serum",
-          "titulo": "Vitamins Keratin Protein Hair Serum",
-          "resumo": "Categoria: Protetor solar, Cuidados com os cabelos. Dados Open Beauty Facts (base aberta de cosméticos).",
-          "url": "https://world.openbeautyfacts.org/product/0074590516876/vitamins-keratin-protein-hair-serum",
-          "imagem": "",
-          "pontuacao": 72,
-          "status": "candidato_fraco",
-          "motivos": [
-            "+keywords na descrição (2)",
-            "+Open Beauty Facts",
-            "+produto skincare claro",
-            "+skincare prático"
-          ],
-          "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nProduto em destaque na base aberta de cosméticos: Vitamins Keratin Protein Hair Serum. Use como referência para comparar rótulos e FPS — sempre de acordo com a sua pele e orientação profissional.\n\n🔎 Saiba mais:\nhttps://world.openbeautyfacts.org/product/0074590516876/vitamins-keratin-protein-hair-serum\n\nFonte: Open Beauty Facts",
-            "titulo": "Vitamins Keratin Protein Hair Serum",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "titulo_adaptado": null,
+          "score_fonte": 72,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 72 < 75. +keywords na descrição (2); +Open Beauty Facts",
+          "texto_final": null,
+          "url_fonte_interna": "https://world.openbeautyfacts.org/product/0074590516876/vitamins-keratin-protein-hair-serum"
         },
         {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
           "fonte": "Wikipedia (PT) skincare",
           "fonte_id": "wiki-pele",
-          "titulo_original": "Nicotinamida",
-          "titulo": "Nicotinamida",
-          "resumo": "Nicotinamida ou niacinamida é a amida correspondente ao ácido carboxílico niacina (ácido nicotínico). Nicotinamida, niacina e hexanicotinato de inositol são formas da Vitamina B3, com efeitos diferentes. Nicotinamida, também conhecida como vitamina B3 ou vitamina PP, desempenha u",
-          "url": "https://pt.wikipedia.org/wiki/Nicotinamida",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Nicotinamide_structure.svg/langpt-330px-Nicotinamide_structure.svg.png?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 61,
-          "status": "candidato_fraco",
-          "motivos": [
-            "+keywords na descrição (1)",
-            "+Wikipedia PT",
-            "+imagem",
-            "+skincare prático"
-          ],
-          "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nNicotinamida ou niacinamida é a amida correspondente ao ácido carboxílico niacina (ácido nicotínico). Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Nicotinamida\n\nFonte: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "Nicotinamida",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "titulo_original": "Ácido hialurônico",
+          "titulo_adaptado": null,
+          "score_fonte": 69,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 69 < 75. +keyword no título (1); +keywords na descrição (1)",
+          "texto_final": null,
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/%C3%81cido_hialur%C3%B4nico"
         },
         {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
           "fonte": "Open Beauty Facts",
           "fonte_id": "open-beauty",
           "titulo_original": "Dermo protect spf 50+",
-          "titulo": "Dermo protect spf 50+",
-          "resumo": "Categoria: Crèmes solaires. Dados Open Beauty Facts (base aberta de cosméticos).",
-          "url": "https://world.openbeautyfacts.org/product/3600551125305/dermo-protect-spf-50-mixa",
-          "imagem": "https://images.openbeautyfacts.org/images/products/360/055/112/5305/front_fr.9.200.jpg",
-          "pontuacao": 51,
+          "titulo_adaptado": null,
+          "score_fonte": 51,
+          "score_texto": null,
           "status": "rejeitado",
-          "motivos": [
-            "+Open Beauty Facts",
-            "+imagem"
-          ],
-          "preview_post": null
+          "motivo": "Score da fonte 51 < 75. +Open Beauty Facts; +imagem",
+          "texto_final": null,
+          "url_fonte_interna": "https://world.openbeautyfacts.org/product/3600551125305/dermo-protect-spf-50-mixa"
         },
         {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
           "fonte": "Open Beauty Facts",
           "fonte_id": "open-beauty",
           "titulo_original": "Spray solaire",
-          "titulo": "Spray solaire",
-          "resumo": "Categoria: Crema solare. Dados Open Beauty Facts (base aberta de cosméticos).",
-          "url": "https://world.openbeautyfacts.org/product/3504105036751/high-protection-sun-spray-mustela",
-          "imagem": "https://images.openbeautyfacts.org/images/products/350/410/503/6751/front_en.7.200.jpg",
-          "pontuacao": 51,
+          "titulo_adaptado": null,
+          "score_fonte": 51,
+          "score_texto": null,
           "status": "rejeitado",
-          "motivos": [
-            "+Open Beauty Facts",
-            "+imagem"
-          ],
-          "preview_post": null
+          "motivo": "Score da fonte 51 < 75. +Open Beauty Facts; +imagem",
+          "texto_final": null,
+          "url_fonte_interna": "https://world.openbeautyfacts.org/product/3504105036751/high-protection-sun-spray-mustela"
         },
         {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
           "fonte": "Open Beauty Facts",
           "fonte_id": "open-beauty",
           "titulo_original": "Crema facial fluida hidratante",
-          "titulo": "Crema facial fluida hidratante",
-          "resumo": "Categoria: . Dados Open Beauty Facts (base aberta de cosméticos).",
-          "url": "https://world.openbeautyfacts.org/product/8480000503756/crema-facial-fluida-hidratante-deliplus",
-          "imagem": "https://images.openbeautyfacts.org/images/products/848/000/050/3756/front_en.7.200.jpg",
-          "pontuacao": 51,
+          "titulo_adaptado": null,
+          "score_fonte": 51,
+          "score_texto": null,
           "status": "rejeitado",
-          "motivos": [
-            "+Open Beauty Facts",
-            "+imagem"
-          ],
-          "preview_post": null
+          "motivo": "Score da fonte 51 < 75. +Open Beauty Facts; +imagem",
+          "texto_final": null,
+          "url_fonte_interna": "https://world.openbeautyfacts.org/product/8480000503756/crema-facial-fluida-hidratante-deliplus"
+        },
+        {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
+          "fonte": "Open Beauty Facts",
+          "fonte_id": "open-beauty",
+          "titulo_original": "Mascarilla facial hidratación sos booster plan",
+          "titulo_adaptado": null,
+          "score_fonte": 51,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 51 < 75. +Open Beauty Facts; +imagem",
+          "texto_final": null,
+          "url_fonte_interna": "https://world.openbeautyfacts.org/product/8431876282207/mascarilla-facial-hidratacion-sos-booster-plan-les-cosmetiques"
+        },
+        {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
+          "fonte": "Open Beauty Facts",
+          "fonte_id": "open-beauty",
+          "titulo_original": "crema facial hidratante",
+          "titulo_adaptado": null,
+          "score_fonte": 46,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 46 < 75. +Open Beauty Facts",
+          "texto_final": null,
+          "url_fonte_interna": "https://world.openbeautyfacts.org/product/7909189261888/crema-facial-hidratante-care"
+        },
+        {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
+          "fonte": "Open Beauty Facts",
+          "fonte_id": "open-beauty",
+          "titulo_original": "Mixa",
+          "titulo_adaptado": null,
+          "score_fonte": 41,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 41 < 75. +Open Beauty Facts; +imagem",
+          "texto_final": null,
+          "url_fonte_interna": "https://world.openbeautyfacts.org/product/3600551125282/mixa"
+        },
+        {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
+          "fonte": "Open Beauty Facts",
+          "fonte_id": "open-beauty",
+          "titulo_original": "Nivea Creme",
+          "titulo_adaptado": null,
+          "score_fonte": 41,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 41 < 75. +Open Beauty Facts; +imagem",
+          "texto_final": null,
+          "url_fonte_interna": "https://world.openbeautyfacts.org/product/4005800137556/nivea-creme"
+        },
+        {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
+          "fonte": "Open Beauty Facts",
+          "fonte_id": "open-beauty",
+          "titulo_original": "Nivea Creme",
+          "titulo_adaptado": null,
+          "score_fonte": 41,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 41 < 75. +Open Beauty Facts; +imagem",
+          "texto_final": null,
+          "url_fonte_interna": "https://world.openbeautyfacts.org/product/4005800137662/nivea-creme"
+        },
+        {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
+          "fonte": "Wikipedia (PT) skincare",
+          "fonte_id": "wiki-pele",
+          "titulo_original": "Colágeno",
+          "titulo_adaptado": null,
+          "score_fonte": 32,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 32 < 75. +Wikipedia PT; -título curto",
+          "texto_final": null,
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Col%C3%A1geno"
+        },
+        {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
+          "fonte": "Open Beauty Facts",
+          "fonte_id": "open-beauty",
+          "titulo_original": "Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml",
+          "titulo_adaptado": null,
+          "score_fonte": 0,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 0 < 75. já publicado nesta Página",
+          "texto_final": null,
+          "url_fonte_interna": "https://world.openbeautyfacts.org/product/4005900201126/protetor-solar-facial-nivea-sun-toque-seco-antissinais-fps-60-50ml"
         }
       ]
     },
     {
       "pagina": "Rota das Duas Rodas - Acessórios",
       "page_id": "1332730186586435",
-      "status": "publicado",
+      "status": "aprovado_validacao",
+      "stats": {
+        "coletados": 37,
+        "aprovados_fonte": 10,
+        "aprovados_texto": 10,
+        "rejeitados": 10,
+        "publicados": 0
+      },
       "melhor": {
-        "titulo": "The Flying Flea C6 is already in Europe: an electric motorcycle for 5,900 euros and 104 km of autonomy",
-        "pontuacao": 91,
-        "preview": null
+        "pagina": "Rota das Duas Rodas - Acessórios",
+        "page_id": "1332730186586435",
+        "fonte": "FreeNewsAPI (motos)",
+        "fonte_id": "freenews-moto",
+        "titulo_original": "MotoGP Yönetim Ekibine Tottenham, Formula 1 ve UFC’den Üst Düzey İsimler Katıldı",
+        "titulo_adaptado": "Atualização no mundo do MotoGP",
+        "score_fonte": 87,
+        "score_texto": 86,
+        "status": "aprovado",
+        "motivo": "Conteúdo relevante e texto adequado (fonte 87, texto 86)",
+        "motivos_fonte": [
+          "+keyword no título (1)",
+          "+keyword forte no título",
+          "+keywords na descrição (1)",
+          "+FreeNews motos",
+          "+recente"
+        ],
+        "motivos_texto": [
+          "+português detectado",
+          "+fonte alinhada ao nicho",
+          "+tamanho adequado"
+        ],
+        "texto_final": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nAtualização no mundo do MotoGP. Para quem anda de moto, equipamento e atenção no trânsito continuam sendo a base da segurança.\n\nFonte de inspiração: FreeNewsAPI (motos)",
+        "url_fonte_interna": "https://trf1.net/motor-sporlari/motogp/motogp-yonetim-ekibine-tottenham-formula-1-ve-ufcden-ust-duzey-isimler-katildi/115618/",
+        "link_no_post": false
       },
       "candidatos": [
         {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
-          "titulo_original": "The Flying Flea C6 is already in Europe: an electric motorcycle for 5,900 euros and 104 km of autonomy",
-          "titulo": "The Flying Flea C6 is already in Europe: an electric motorcycle for 5,900 euros and 104 km of autonomy",
-          "resumo": "It is already a fact: Flying Fleathe electric motorcycle brand Royal Enfieldbegins its commercial journey internationally. Although last April the arrival of the first units The post The Flying Flea C6 is already in Europe: an electric motorcycle for 5,900 euros and 104 km of aut",
-          "url": "https://www.theuth.co/the-flying-flea-c6-is-already-in-europe-an-electric-motorcycle-for-5900-euros-and-104-km-of-autonomy/21979/",
-          "imagem": "",
-          "pontuacao": 91,
+          "titulo_original": "MotoGP Yönetim Ekibine Tottenham, Formula 1 ve UFC’den Üst Düzey İsimler Katıldı",
+          "titulo_adaptado": "Atualização no mundo do MotoGP",
+          "score_fonte": 87,
+          "score_texto": 86,
           "status": "aprovado",
-          "motivos": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+FreeNews motos",
-            "+recente"
-          ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? It is already a fact: Flying Fleathe electric motorcycle brand Royal Enfieldbegins its commercial journey internationally.\n\n🔎 Saiba mais:\nhttps://www.theuth.co/the-flying-flea-c6-is-already-in-europe-an-electric-motorcycle-for-5900-euros-and-104-km-of-autonomy/21979/\n\nFonte: FreeNewsAPI (motos)",
-            "titulo": "The Flying Flea C6 is already in Europe: an electric motorcycle for 5,900 euros and 104 km of autonomy",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "MotoGP-�berraschung: Somkiat Chantra gibt Comeback in Motegi!",
-          "titulo": "MotoGP-�berraschung: Somkiat Chantra gibt Comeback in Motegi!",
-          "resumo": "Somkiat Chantra kehrt am MotoGP-Wochenende von Motegi in die K�nigsklasse zur�ck. Honda bietet ihn als Ersatz f�r den erkrankten Joan Mir auf.",
-          "url": "https://www.motorsport-magazin.com/motogp/news-300380-motogp-ueberraschung-somkiat-chantra-gibt-comeback-in-motegi/",
-          "imagem": "",
-          "pontuacao": 91,
-          "status": "aprovado",
-          "motivos": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+FreeNews motos",
-            "+recente"
-          ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Somkiat Chantra kehrt am MotoGP-Wochenende von Motegi in die K�nigsklasse zur�ck. Honda bietet ihn als Ersatz f�r den erkrankten Joan Mir auf.\n\n🔎 Saiba mais:\nhttps://www.motorsport-magazin.com/motogp/news-300380-motogp-ueberraschung-somkiat-chantra-gibt-comeback-in-motegi/\n\nFonte: FreeNewsAPI (motos)",
-            "titulo": "MotoGP-�berraschung: Somkiat Chantra gibt Comeback in Motegi!",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "MotoGP | UFFICIALE: Honda HRC annuncia il sostituto di Mir per il Giappone",
-          "titulo": "MotoGP | UFFICIALE: Honda HRC annuncia il sostituto di Mir per il Giappone",
-          "resumo": "Somkiat Chantra sostituirà Mir, Honda punta sul thailandese il GP del Giappone della MotoGP Honda HRC ha annunciato che Somkiat Chantra a sostituire Joan Mir ... Leggi tutto L'articolo MotoGP | UFFICIALE: Honda HRC annuncia il sostituto di Mir per il Giappone proviene da Paddock ",
-          "url": "https://paddocknews24.com/moto/motogp/sostituto-mir-honda-motegi-giappone-motogp/",
-          "imagem": "",
-          "pontuacao": 91,
-          "status": "aprovado",
-          "motivos": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+FreeNews motos",
-            "+recente"
-          ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Somkiat Chantra sostituirà Mir, Honda punta sul thailandese il GP del Giappone della MotoGP Honda HRC ha annunciato che Somkiat Chantra a sostituire Joan Mir ...\n\n🔎 Saiba mais:\nhttps://paddocknews24.com/moto/motogp/sostituto-mir-honda-motegi-giappone-motogp/\n\nFonte: FreeNewsAPI (motos)",
-            "titulo": "MotoGP | UFFICIALE: Honda HRC annuncia il sostituto di Mir per il Giappone",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "AGV debuts Pista GP R3 helmet using microscopic protective spheres",
-          "titulo": "AGV debuts Pista GP R3 helmet using microscopic protective spheres",
-          "resumo": "AGV's new Pista GP R3 helmet features an external layer of over 1,600 micro-spheres, enhancing safety by limiting rotational forces during oblique impacts.",
-          "url": "https://www.newsbytesapp.com/news/auto/agv-debuts-pista-gp-r3-helmet-using-microscopic-protective-spheres/tldr",
-          "imagem": "",
-          "pontuacao": 87,
-          "status": "aprovado",
-          "motivos": [
+          "motivo": "Conteúdo relevante e texto adequado (fonte 87, texto 86)",
+          "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
             "+keywords na descrição (1)",
             "+FreeNews motos",
             "+recente"
           ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? AGV's new Pista GP R3 helmet features an external layer of over 1,600 micro-spheres, enhancing safety by limiting rotational forces during oblique impacts.\n\n🔎 Saiba mais:\nhttps://www.newsbytesapp.com/news/auto/agv-debuts-pista-gp-r3-helmet-using-microscopic-protective-spheres/tldr\n\nFonte: FreeNewsAPI (motos)",
-            "titulo": "AGV debuts Pista GP R3 helmet using microscopic protective spheres",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "MotoGP 2027 Rider Lineup: Senna Agius Joins Tech3 as Grid Takes Shape",
-          "titulo": "MotoGP 2027 Rider Lineup: Senna Agius Joins Tech3 as Grid Takes Shape",
-          "resumo": "The grid for the 2027 MotoGP season is taking definitive shape as teams finalize multi-year contracts ahead of sweeping new technical regulations, leaving only two seats vacant on the premier class roster according to recent team announcements and official championship data. Tech",
-          "url": "https://www.archysport.com/2026/09/motogp-2027-rider-lineup-senna-agius-joins-tech3-as-grid-takes-shape/",
-          "imagem": "",
-          "pontuacao": 87,
-          "status": "aprovado",
-          "motivos": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+FreeNews motos",
-            "+recente"
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
           ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? The grid for the 2027 MotoGP season is taking definitive shape as teams finalize multi-year contracts ahead of sweeping new technical regulations, leaving only two seats vacant on the premier class roster…\n\n🔎 Saiba mais:\nhttps://www.archysport.com/2026/09/motogp-2027-rider-lineup-senna-agius-joins-tech3-as-grid-takes-shape/\n\nFonte: FreeNewsAPI (motos)",
-            "titulo": "MotoGP 2027 Rider Lineup: Senna Agius Joins Tech3 as Grid Takes Shape",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "texto_final": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nAtualização no mundo do MotoGP. Para quem anda de moto, equipamento e atenção no trânsito continuam sendo a base da segurança.\n\nFonte de inspiração: FreeNewsAPI (motos)",
+          "url_fonte_interna": "https://trf1.net/motor-sporlari/motogp/motogp-yonetim-ekibine-tottenham-formula-1-ve-ufcden-ust-duzey-isimler-katildi/115618/",
+          "link_no_post": false
         },
         {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
           "fonte": "Wikipedia (PT) motos",
           "fonte_id": "wiki-moto",
           "titulo_original": "Motociclismo",
-          "titulo": "Motociclismo",
-          "resumo": "O motociclismo é uma disciplina que implica tudo o que diga respeito a conduzir um motociclo. É também uma modalidade desportiva que envolve o uso de motos em diversas formas competitivas como velocidade, motocross, enduro e outras. O primeiro motociclo data do final do século XI",
-          "url": "https://pt.wikipedia.org/wiki/Motociclismo",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Peti_bardhal.jpg/330px-Peti_bardhal.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 84,
+          "titulo_adaptado": "Novidade no universo das duas rodas",
+          "score_fonte": 84,
+          "score_texto": 86,
           "status": "aprovado",
-          "motivos": [
+          "motivo": "Conteúdo relevante e texto adequado (fonte 84, texto 86)",
+          "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
             "+keywords na descrição (1)",
             "+Wikipedia PT",
             "+imagem"
           ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? O motociclismo é uma disciplina que implica tudo o que diga respeito a conduzir um motociclo.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Motociclismo\n\nFonte: Wikipedia (PT) motos\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "Motociclismo",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? O motociclismo é uma disciplina que implica tudo o que diga respeito a conduzir um motociclo.\n\nFonte de inspiração: Wikipedia (PT) motos\nAtribuição: CC BY-SA (Wikipedia)",
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Motociclismo",
+          "link_no_post": false
         },
         {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
-          "titulo_original": "Silent Cry to host fundraiser in collaboration with Jokers Motorcycle Club",
-          "titulo": "Silent Cry to host fundraiser in collaboration with Jokers Motorcycle Club",
-          "resumo": "Certain issues tend to bring people together regardless of backgrounds, beliefs, occupation, or other factors. The desire to bring awareness to and fight back against domestic violence is certainly one […]",
-          "url": "https://winchestersun.com/2026/09/22/silent-cry-to-host-fundraiser-in-collaboration-with-jokers-motorcycle-club/",
-          "imagem": "",
-          "pontuacao": 83,
+          "titulo_original": "Beli Tiket MotoGP Pertamina Grand Prix of Indonesia 2026 via wondr by BNI, Diskon hingga Rp300 Ribu",
+          "titulo_adaptado": "Atualização no mundo do MotoGP",
+          "score_fonte": 83,
+          "score_texto": 86,
           "status": "aprovado",
-          "motivos": [
+          "motivo": "Conteúdo relevante e texto adequado (fonte 83, texto 86)",
+          "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
             "+FreeNews motos",
             "+recente"
           ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nSilent Cry to host fundraiser in collaboration with Jokers Motorcycle Club: assunto que interessa quem anda de moto, cuida do equipamento ou acompanha o esporte.\n\n🔎 Saiba mais:\nhttps://winchestersun.com/2026/09/22/silent-cry-to-host-fundraiser-in-collaboration-with-jokers-motorcycle-club/\n\nFonte: FreeNewsAPI (motos)",
-            "titulo": "Silent Cry to host fundraiser in collaboration with Jokers Motorcycle Club",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nAtualização no mundo do MotoGP. Para quem anda de moto, equipamento e atenção no trânsito continuam sendo a base da segurança.\n\nFonte de inspiração: FreeNewsAPI (motos)",
+          "url_fonte_interna": "https://dutaindonesia.com/beli-tiket-motogp-pertamina-grand-prix-of-indonesia-2026-via-wondr-by-bni-diskon-hingga-rp300-ribu/",
+          "link_no_post": false
         },
         {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
-          "titulo_original": "New Western Cape Circuit Aims to Host F1 and MotoGP by 2031",
-          "titulo": "New Western Cape Circuit Aims to Host F1 and MotoGP by 2031",
-          "resumo": "",
-          "url": "https://africandigest.com/article/new-western-cape-circuit-aims-to-host-f1-and-motogp-by-2031",
-          "imagem": "",
-          "pontuacao": 83,
+          "titulo_original": "אקוסטה חוגג ניצחון ראשון ב-MotoGP, מארקז: הוא כבר בקרב על התואר",
+          "titulo_adaptado": "Atualização no mundo do MotoGP",
+          "score_fonte": 83,
+          "score_texto": 86,
           "status": "aprovado",
-          "motivos": [
+          "motivo": "Conteúdo relevante e texto adequado (fonte 83, texto 86)",
+          "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
             "+FreeNews motos",
             "+recente"
           ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nNew Western Cape Circuit Aims to Host F1 and MotoGP by 2031: assunto que interessa quem anda de moto, cuida do equipamento ou acompanha o esporte.\n\n🔎 Saiba mais:\nhttps://africandigest.com/article/new-western-cape-circuit-aims-to-host-f1-and-motogp-by-2031\n\nFonte: FreeNewsAPI (motos)",
-            "titulo": "New Western Cape Circuit Aims to Host F1 and MotoGP by 2031",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nAtualização no mundo do MotoGP. Para quem anda de moto, equipamento e atenção no trânsito continuam sendo a base da segurança.\n\nFonte de inspiração: FreeNewsAPI (motos)",
+          "url_fonte_interna": "https://kruvi.net/2026/09/23/%d7%90%d7%a7%d7%95%d7%a1%d7%98%d7%94-%d7%97%d7%95%d7%92%d7%92-%d7%a0%d7%99%d7%a6%d7%97%d7%95%d7%9f-%d7%a8%d7%90%d7%a9%d7%95%d7%9f-%d7%91-motogp-%d7%9e%d7%90%d7%a8%d7%a7%d7%96-%d7%94%d7%95%d7%90/",
+          "link_no_post": false
         },
         {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
-          "titulo_original": "Újabb lehetőséget kap a MotoGP-ben a tavaly harmatgyenge teljesítményt nyújtó versenyző",
-          "titulo": "Újabb lehetőséget kap a MotoGP-ben a tavaly harmatgyenge teljesítményt nyújtó versenyző",
-          "resumo": "",
-          "url": "https://racingline.hu/motor/ujabb-lehetoseget-kap-a-motogp-ben-a-tavaly-harmatgyenge-teljesitmenyt-nyujto-versenyzo-somkiat-chantra/",
-          "imagem": "",
-          "pontuacao": 83,
+          "titulo_original": "AGV debuts Pista GP R3 helmet using microscopic protective spheres",
+          "titulo_adaptado": "Segurança: o que observar no capacete",
+          "score_fonte": 79,
+          "score_texto": 86,
           "status": "aprovado",
-          "motivos": [
+          "motivo": "Conteúdo relevante e texto adequado (fonte 79, texto 86)",
+          "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
-            "+FreeNews motos",
-            "+recente"
+            "+keywords na descrição (1)",
+            "+FreeNews motos"
           ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nÚjabb lehetőséget kap a MotoGP-ben a tavaly harmatgyenge teljesítményt nyújtó versenyző: assunto que interessa quem anda de moto, cuida do equipamento ou acompanha o esporte.\n\n🔎 Saiba mais:\nhttps://racingline.hu/motor/ujabb-lehetoseget-kap-a-motogp-ben-a-tavaly-harmatgyenge-teljesitmenyt-nyujto-versenyzo-somkiat-chantra/\n\nFonte: FreeNewsAPI (motos)",
-            "titulo": "Újabb lehetőséget kap a MotoGP-ben a tavaly harmatgyenge teljesítményt nyújtó versenyző",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nO capacete é o item de segurança mais importante para quem anda de moto. Ajuste, certificação e conservação fazem diferença em cada trajeto.\n\nFonte de inspiração: FreeNewsAPI (motos)",
+          "url_fonte_interna": "https://www.newsbytesapp.com/news/auto/agv-debuts-pista-gp-r3-helmet-using-microscopic-protective-spheres/tldr",
+          "link_no_post": false
         },
         {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
-          "titulo_original": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
-          "titulo": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
-          "resumo": "Honda QC3 electric scooter has been launched in India at ₹1.35 lakh. It gets a 3 kWh battery, claimed 145 km range, 32-litre storage and connected features. Here’s how it compares with the Honda QC1 and the Activa e.",
-          "url": "https://www.livemint.com/auto-news/honda-qc3-electric-scooter-launched-price-145-km-range-battery-features-rivals-and-more-11790076661909.html",
-          "imagem": "",
-          "pontuacao": 76,
+          "titulo_original": "Nonton MotoGP Mandalika, Tiket via Wondr BNI Dapat Diskon Rp300 Ribu",
+          "titulo_adaptado": "Atualização no mundo do MotoGP",
+          "score_fonte": 79,
+          "score_texto": 86,
           "status": "aprovado",
-          "motivos": [
-            "+keyword no título (2)",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 79, texto 86)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+FreeNews motos"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nAtualização no mundo do MotoGP. Para quem anda de moto, equipamento e atenção no trânsito continuam sendo a base da segurança.\n\nFonte de inspiração: FreeNewsAPI (motos)",
+          "url_fonte_interna": "https://ekonomi.republika.co.id/berita/tltlw2370/nonton-motogp-mandalika-tiket-via-wondr-bni-dapat-diskon-rp300-ribu",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "Wikipedia (PT) motos",
+          "fonte_id": "wiki-moto",
+          "titulo_original": "Motocicleta",
+          "titulo_adaptado": "Novidade no universo das duas rodas",
+          "score_fonte": 78,
+          "score_texto": 86,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 78, texto 86)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
             "+keywords na descrição (2)",
-            "+FreeNews motos",
-            "+recente"
+            "+Wikipedia PT",
+            "+imagem",
+            "-título curto"
           ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Honda QC3 electric scooter has been launched in India at ₹1.35 lakh. It gets a 3 kWh battery, claimed 145 km range, 32-litre storage and connected features.\n\n🔎 Saiba mais:\nhttps://www.livemint.com/auto-news/honda-qc3-electric-scooter-launched-price-145-km-range-battery-features-rivals-and-more-11790076661909.html\n\nFonte: FreeNewsAPI (motos)",
-            "titulo": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Motocicleta ou motociclo, também conhecida pelas formas reduzidas moto e mota (português europeu), informalmente chamada no Brasil de \"motoca\", é um veículo motorizado de duas…\n\nFonte de inspiração: Wikipedia (PT) motos\nAtribuição: CC BY-SA (Wikipedia)",
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Motocicleta",
+          "link_no_post": false
         },
         {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
-          "titulo_original": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
-          "titulo": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
-          "resumo": "Honda QC3 electric scooter has been launched in India at ₹1.35 lakh. It gets a 3 kWh battery, claimed 145 km range, 32-litre storage and connected features. Here’s how it compares with the Honda QC1 and the Activa e.",
-          "url": "https://www.livemint.com/auto-news/honda-qc3-electric-scooter-launched-price-145-km-range-battery-features-rivals-and-more/amp-11790076661909.html",
-          "imagem": "",
-          "pontuacao": 76,
+          "titulo_original": "Tiket MotoGP Mandalika Penjualannya Tembus 70 Persen dari Target 140 Ribu Lebih Penonton",
+          "titulo_adaptado": "Atualização no mundo do MotoGP",
+          "score_fonte": 75,
+          "score_texto": 86,
           "status": "aprovado",
-          "motivos": [
-            "+keyword no título (2)",
-            "+keywords na descrição (2)",
-            "+FreeNews motos",
-            "+recente"
-          ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Honda QC3 electric scooter has been launched in India at ₹1.35 lakh. It gets a 3 kWh battery, claimed 145 km range, 32-litre storage and connected features.\n\n🔎 Saiba mais:\nhttps://www.livemint.com/auto-news/honda-qc3-electric-scooter-launched-price-145-km-range-battery-features-rivals-and-more/amp-11790076661909.html\n\nFonte: FreeNewsAPI (motos)",
-            "titulo": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "MotoGP Giappone 2026: Chantra sostituisce Mir a Motegi",
-          "titulo": "MotoGP Giappone 2026: Chantra sostituisce Mir a Motegi",
-          "resumo": "",
-          "url": "https://infogioco.it/sport/motori/motogp-clamoroso-ritorno-di-somkiat-chantra-sostituira-joan-mir-a-motegi",
-          "imagem": "",
-          "pontuacao": 75,
-          "status": "aprovado",
-          "motivos": [
+          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 86)",
+          "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
             "+FreeNews motos"
           ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nMotoGP Giappone 2026: Chantra sostituisce Mir a Motegi: assunto que interessa quem anda de moto, cuida do equipamento ou acompanha o esporte.\n\n🔎 Saiba mais:\nhttps://infogioco.it/sport/motori/motogp-clamoroso-ritorno-di-somkiat-chantra-sostituira-joan-mir-a-motegi\n\nFonte: FreeNewsAPI (motos)",
-            "titulo": "MotoGP Giappone 2026: Chantra sostituisce Mir a Motegi",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nAtualização no mundo do MotoGP. Para quem anda de moto, equipamento e atenção no trânsito continuam sendo a base da segurança.\n\nFonte de inspiração: FreeNewsAPI (motos)",
+          "url_fonte_interna": "https://koran-jakarta.com/2026-09-23/tiket-motogp-mandalika-penjualannya-tembus-70-persen-dari-target-140-ribu-lebih-penonton",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Beli Tiket MotoGP Pertamina Grand Prix of Indonesia 2026 via wondr by BNI dapat Diskon hingga Rp300 Ribu",
+          "titulo_adaptado": "Atualização no mundo do MotoGP",
+          "score_fonte": 75,
+          "score_texto": 86,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 86)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+FreeNews motos"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nAtualização no mundo do MotoGP. Para quem anda de moto, equipamento e atenção no trânsito continuam sendo a base da segurança.\n\nFonte de inspiração: FreeNewsAPI (motos)",
+          "url_fonte_interna": "https://koran-jakarta.com/2026-09-23/beli-tiket-motogp-pertamina-grand-prix-of-indonesia-2026-via-wondr-by-bni-dapat-diskon-hingga-rp300-ribu",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "&lt;![CDATA[Ducati señala cuál es la \"clave\" para que Marc Márquez gane el Mundial de MotoGP]]&gt;",
+          "titulo_adaptado": "&lt;![CDATA[Ducati señala cuál es la \"clave\" para que Marc Márquez gane el Mundial de…",
+          "score_fonte": 75,
+          "score_texto": 86,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 86)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+FreeNews motos"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\n&lt;![CDATA[Ducati señala cuál es la \"clave\" para que Marc Márquez gane el Mundial de…. Para quem anda de moto, equipamento e atenção no trânsito continuam sendo a base da segurança.\n\nFonte de inspiração: FreeNewsAPI (motos)",
+          "url_fonte_interna": "https://www.lasexta.com/noticias/deportes/motor/ducati-senala-cual-clave-que-marc-marquez-gane-mundial-motogp_202609236ab3d169ca2f3f0cd1a2fd85.html",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "Wikipedia (PT) motos",
+          "fonte_id": "wiki-moto",
+          "titulo_original": "MotoGP",
+          "titulo_adaptado": null,
+          "score_fonte": 73,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 73 < 75. +keyword no título (1); +keyword forte no título",
+          "texto_final": null,
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/MotoGP"
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "Wikipedia (PT) motos",
+          "fonte_id": "wiki-moto",
+          "titulo_original": "Honda",
+          "titulo_adaptado": null,
+          "score_fonte": 59,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 59 < 75. +keyword no título (1); +keywords na descrição (1)",
+          "texto_final": null,
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Honda"
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "ಹೊಂಡಾದ 3ನೇ ಎಲೆಕ್ಟ್ರಿಕ್ ಸ್ಕೂಟರ್ ಲಾಂಚ್!: 3kWh ಬ್ಯಾಟರಿ, ಕೆಲವೇ ಗಂಟೆಯಲ್ಲಿ ಫುಲ್ ಚಾರ್ಜ್!!",
+          "titulo_adaptado": null,
+          "score_fonte": 58,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 58 < 75. +keywords na descrição (2); +FreeNews motos",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.etvbharat.com/kn/technology/honda-qc3-electric-scooter-launched-145km-range-3kwh-battery-tft-price-features-kas26092303375"
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Bus and truck fares rise: Another burden on people",
+          "titulo_adaptado": null,
+          "score_fonte": 54,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 54 < 75. +keywords na descrição (1); +FreeNews motos",
+          "texto_final": null,
+          "url_fonte_interna": "https://en.prothomalo.com/bangladesh/rkycz0u6vw"
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Mahindra XEV 9e Ends Up On Railway Tracks After Crashing Through Barricade: Video",
+          "titulo_adaptado": null,
+          "score_fonte": 54,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 54 < 75. +keywords na descrição (1); +FreeNews motos",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.ndtv.com/auto/mahindra-xev-9e-ends-up-on-railway-tracks-after-crashing-through-barricade-viral-video-12084749"
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "LETTER: Langley School District right to put the brakes on e-rides",
+          "titulo_adaptado": null,
+          "score_fonte": 46,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 46 < 75. +keywords na descrição (1); +FreeNews motos",
+          "texto_final": null,
+          "url_fonte_interna": "https://aldergrovestar.com/2026/09/18/letter-langley-school-district-right-to-put-the-brakes-on-e-rides/"
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "Wikipedia (PT) motos",
+          "fonte_id": "wiki-moto",
+          "titulo_original": "Motoneta",
+          "titulo_adaptado": null,
+          "score_fonte": 45,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 45 < 75. +keywords na descrição (2); +Wikipedia PT",
+          "texto_final": null,
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Motoneta"
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Adam’s Profile Reports: Pearson Air Museum",
+          "titulo_adaptado": null,
+          "score_fonte": 20,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 20 < 75. +FreeNews motos; +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://vintageaviationnews.com/warbird-articles/adams-profile-reports-pearson-air-museum.html"
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Bharat Taxi Launched In Uttar Pradesh With Zero-Commission Model, Rs 5 Lakh Security Cover",
+          "titulo_adaptado": null,
+          "score_fonte": 20,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 20 < 75. +FreeNews motos; +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://contentmediasolution.com/news/bharat-taxi-launched-in-uttar-pradesh-with-zero-commission-model-rs-5-lakh-security-cover/"
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Royal Enfield Classic 350 Signature White Edition Launched",
+          "titulo_adaptado": null,
+          "score_fonte": 20,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 20 < 75. +FreeNews motos; +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.newsbricks.com/automotive/royal-enfield-classic-350-signature-white-edition"
         }
       ]
     },
     {
       "pagina": "Casa & Conforto Utilidades",
       "page_id": "1402223216297975",
-      "status": "publicado",
-      "melhor": {
-        "titulo": "Culinária",
-        "pontuacao": 78,
-        "preview": null
+      "status": "sem_conteudo_qualificado",
+      "stats": {
+        "coletados": 14,
+        "aprovados_fonte": 0,
+        "aprovados_texto": 0,
+        "rejeitados": 14,
+        "publicados": 0
       },
+      "melhor": null,
       "candidatos": [
         {
-          "fonte": "Wikipedia (PT) casa",
-          "fonte_id": "wiki-casa",
-          "titulo_original": "Culinária",
-          "titulo": "Culinária",
-          "resumo": "A culinária é a arte de cozinhar, ou seja, o acto de confeccionar alimentos. Ela evoluiu ao longo da história dos povos para tornar-se parte da cultura de cada povo. Está invariavelmente associada à cozinha, pois este é o local ideal para cozinhar. Os métodos de culinária variam ",
-          "url": "https://pt.wikipedia.org/wiki/Culin%C3%A1ria",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Making_the_Empire_Christmas_Pudding.jpg/330px-Making_the_Empire_Christmas_Pudding.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 78,
-          "status": "aprovado",
-          "motivos": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+Wikipedia PT",
-            "+imagem",
-            "-título curto"
-          ],
-          "preview_post": {
-            "texto": "🏠 DICA PARA CASA\n\nA culinária é a arte de cozinhar, ou seja, o acto de confeccionar alimentos. Ela evoluiu ao longo da história dos povos para tornar-se parte da cultura de cada povo.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Culin%C3%A1ria\n\nFonte: Wikipedia (PT) casa\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "Culinária",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
           "fonte": "Wikipedia (PT) casa",
           "fonte_id": "wiki-casa",
           "titulo_original": "Jardinagem",
-          "titulo": "Jardinagem",
-          "resumo": "Jardinagem é uma atividade profissional ou recreativa que tem o objetivo de embelezar determinados locais, públicos ou privados pelo cultivo e manutenção de plantas.",
-          "url": "https://pt.wikipedia.org/wiki/Jardinagem",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Jardim_santa_barbara.jpg/330px-Jardim_santa_barbara.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 74,
-          "status": "candidato_fraco",
-          "motivos": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+Wikipedia PT",
-            "+imagem",
-            "-título curto"
-          ],
-          "preview_post": {
-            "texto": "🏠 DICA PARA CASA\n\nJardinagem é uma atividade profissional ou recreativa que tem o objetivo de embelezar determinados locais, públicos ou privados pelo cultivo e manutenção de plantas.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Jardinagem\n\nFonte: Wikipedia (PT) casa\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "Jardinagem",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "titulo_adaptado": null,
+          "score_fonte": 74,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 74 < 75. +keyword no título (1); +keyword forte no título",
+          "texto_final": null,
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Jardinagem"
         },
         {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
           "fonte": "Open-Meteo",
           "fonte_id": "open-meteo",
-          "titulo_original": "Clima em São Paulo: 13.5°C, nublado",
-          "titulo": "Clima em São Paulo: 13.5°C, nublado",
-          "resumo": "Umidade: 92%. Temperatura em torno de 14°C (nublado). Bom momento para organizar armários e checar umidade em cantos da casa.",
-          "url": "https://open-meteo.com/",
-          "imagem": "",
-          "pontuacao": 67,
-          "status": "candidato_fraco",
-          "motivos": [
-            "+keywords na descrição (1)",
-            "+dica climática útil",
-            "+recente"
-          ],
-          "preview_post": {
-            "texto": "🏠 DICA PARA CASA\n\nTemperatura em torno de 14°C (nublado). Bom momento para organizar armários e checar umidade em cantos da casa.\n\n🔎 Saiba mais:\nhttps://open-meteo.com/\n\nFonte: Open-Meteo",
-            "titulo": "Clima em São Paulo: 13.5°C, nublado",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "titulo_original": "Clima em São Paulo: 14.4°C, pancadas de chuva",
+          "titulo_adaptado": null,
+          "score_fonte": 63,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 63 < 75. +dica climática útil; +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://open-meteo.com/"
         },
         {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Almeirão, refogado",
-          "titulo": "Almeirão, refogado",
-          "resumo": "Almeirão, refogado (Verduras, hortaliças e derivados): cerca de 65 kcal/100g, 1.7g de proteína, 3.4g de fibra. Fonte: tabela TACO/UNICAMP.",
-          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
-          "imagem": "",
-          "pontuacao": 62,
-          "status": "candidato_fraco",
-          "motivos": [
-            "+TACO em português",
-            "+título PT"
-          ],
-          "preview_post": {
-            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Almeirão, refogado (Verduras, hortaliças e derivados): cerca de 65 kcal/100g, 1.7g de proteína, 3.4g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
-            "titulo": "Almeirão, refogado",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "titulo_original": "Pescada, filé, com farinha de trigo, frito",
+          "titulo_adaptado": null,
+          "score_fonte": 62,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 62 < 75. +TACO em português; +título PT",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/"
         },
         {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Chicória, crua",
-          "titulo": "Chicória, crua",
-          "resumo": "Chicória, crua (Verduras, hortaliças e derivados): cerca de 14 kcal/100g, 1.1g de proteína, 2.2g de fibra. Fonte: tabela TACO/UNICAMP.",
-          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
-          "imagem": "",
-          "pontuacao": 62,
-          "status": "candidato_fraco",
-          "motivos": [
-            "+TACO em português",
-            "+título PT"
-          ],
-          "preview_post": {
-            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Chicória, crua (Verduras, hortaliças e derivados): cerca de 14 kcal/100g, 1.1g de proteína, 2.2g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
-            "titulo": "Chicória, crua",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "titulo_original": "Empada de frango, pré-cozida, assada",
+          "titulo_adaptado": null,
+          "score_fonte": 62,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 62 < 75. +TACO em português; +título PT",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/"
         },
         {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Abóbora, moranga, refogada",
-          "titulo": "Abóbora, moranga, refogada",
-          "resumo": "Abóbora, moranga, refogada (Verduras, hortaliças e derivados): cerca de 29 kcal/100g, 0.4g de proteína, 1.5g de fibra. Fonte: tabela TACO/UNICAMP.",
-          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
-          "imagem": "",
-          "pontuacao": 62,
-          "status": "candidato_fraco",
-          "motivos": [
-            "+TACO em português",
-            "+título PT"
-          ],
-          "preview_post": {
-            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Abóbora, moranga, refogada (Verduras, hortaliças e derivados): cerca de 29 kcal/100g, 0.4g de proteína, 1.5g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
-            "titulo": "Abóbora, moranga, refogada",
-            "validacao": {
-              "ok": true
-            }
-          }
+          "titulo_original": "Lingüiça, porco, crua",
+          "titulo_adaptado": null,
+          "score_fonte": 62,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 62 < 75. +TACO em português; +título PT",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/"
         },
         {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Lingüiça, porco, frita",
+          "titulo_adaptado": null,
+          "score_fonte": 62,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 62 < 75. +TACO em português; +título PT",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/"
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
           "fonte": "Wikipedia (PT) casa",
           "fonte_id": "wiki-casa",
           "titulo_original": "Limpeza",
-          "titulo": "Limpeza",
-          "resumo": "Limpeza é o ato de retirar impurezas de um corpo, de um material ou de um local.",
-          "url": "https://pt.wikipedia.org/wiki/Limpeza",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Caminh%C3%A3o_da_coleta_de_lixo_de_Coronel_Fabriciano_MG.JPG/330px-Caminh%C3%A3o_da_coleta_de_lixo_de_Coronel_Fabriciano_MG.JPG?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 59,
+          "titulo_adaptado": null,
+          "score_fonte": 59,
+          "score_texto": null,
           "status": "rejeitado",
-          "motivos": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+Wikipedia PT",
-            "-título genérico",
-            "+imagem",
-            "-título curto"
-          ],
-          "preview_post": null
+          "motivo": "Score da fonte 59 < 75. +keyword no título (1); +keyword forte no título",
+          "texto_final": null,
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Limpeza"
         },
         {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
           "fonte": "Wikipedia (PT) casa",
           "fonte_id": "wiki-casa",
           "titulo_original": "Organização",
-          "titulo": "Organização",
-          "resumo": "Organização é uma palavra originada do grego \"organon\", que significa instrumento, utensílio.",
-          "url": "https://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o",
-          "imagem": "",
-          "pontuacao": 54,
+          "titulo_adaptado": null,
+          "score_fonte": 54,
+          "score_texto": null,
           "status": "rejeitado",
-          "motivos": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+Wikipedia PT",
-            "-título genérico",
-            "-título curto"
-          ],
-          "preview_post": null
+          "motivo": "Score da fonte 54 < 75. +keyword no título (1); +keyword forte no título",
+          "texto_final": null,
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o"
         },
         {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Manga, Haden, crua",
-          "titulo": "Manga, Haden, crua",
-          "resumo": "Manga, Haden, crua (Frutas e derivados): cerca de 64 kcal/100g, 0.4g de proteína, 1.6g de fibra. Fonte: tabela TACO/UNICAMP.",
-          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
-          "imagem": "",
-          "pontuacao": 52,
+          "titulo_original": "Carne, bovina, patinho, sem gordura, grelhado",
+          "titulo_adaptado": null,
+          "score_fonte": 52,
+          "score_texto": null,
           "status": "rejeitado",
-          "motivos": [
-            "+TACO em português"
-          ],
-          "preview_post": null
+          "motivo": "Score da fonte 52 < 75. +TACO em português",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/"
         },
         {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Carne, bovina, cupim, assado",
+          "titulo_adaptado": null,
+          "score_fonte": 52,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 52 < 75. +TACO em português",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/"
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Quibe, assado",
+          "titulo_adaptado": null,
+          "score_fonte": 52,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 52 < 75. +TACO em português",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/"
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
           "titulo_original": "Queijo, petit suisse, morango",
-          "titulo": "Queijo, petit suisse, morango",
-          "resumo": "Queijo, petit suisse, morango (Leite e derivados): cerca de 121 kcal/100g, 5.8g de proteína. Fonte: tabela TACO/UNICAMP.",
-          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
-          "imagem": "",
-          "pontuacao": 52,
+          "titulo_adaptado": null,
+          "score_fonte": 52,
+          "score_texto": null,
           "status": "rejeitado",
-          "motivos": [
-            "+TACO em português"
-          ],
-          "preview_post": null
+          "motivo": "Score da fonte 52 < 75. +TACO em português",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/"
         },
         {
-          "fonte": "TACO (alimentos BR)",
-          "fonte_id": "taco",
-          "titulo_original": "Palmito, pupunha, em conserva",
-          "titulo": "Palmito, pupunha, em conserva",
-          "resumo": "Palmito, pupunha, em conserva (Verduras, hortaliças e derivados): cerca de 29 kcal/100g, 2.5g de proteína, 2.5g de fibra. Fonte: tabela TACO/UNICAMP.",
-          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
-          "imagem": "",
-          "pontuacao": 52,
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "Wikipedia (PT) casa",
+          "fonte_id": "wiki-casa",
+          "titulo_original": "Design de interiores",
+          "titulo_adaptado": null,
+          "score_fonte": 51,
+          "score_texto": null,
           "status": "rejeitado",
-          "motivos": [
-            "+TACO em português"
-          ],
-          "preview_post": null
+          "motivo": "Score da fonte 51 < 75. +keywords na descrição (1); +Wikipedia PT",
+          "texto_final": null,
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Design_de_interiores"
         },
         {
-          "fonte": "TACO (alimentos BR)",
-          "fonte_id": "taco",
-          "titulo_original": "Cereais, mistura para vitamina, trigo, cevada e aveia",
-          "titulo": "Cereais, mistura para vitamina, trigo, cevada e aveia",
-          "resumo": "Cereais, mistura para vitamina, trigo, cevada e aveia (Cereais e derivados): cerca de 381 kcal/100g, 8.9g de proteína, 5.0g de fibra. Fonte: tabela TACO/UNICAMP.",
-          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
-          "imagem": "",
-          "pontuacao": 52,
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "Wikipedia (PT) casa",
+          "fonte_id": "wiki-casa",
+          "titulo_original": "Culinária",
+          "titulo_adaptado": null,
+          "score_fonte": 0,
+          "score_texto": null,
           "status": "rejeitado",
-          "motivos": [
-            "+TACO em português"
-          ],
-          "preview_post": null
+          "motivo": "Score da fonte 0 < 75. já publicado nesta Página",
+          "texto_final": null,
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Culin%C3%A1ria"
         }
       ]
     }

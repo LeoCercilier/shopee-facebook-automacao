@@ -1,30 +1,63 @@
 {
-  "gerado_em": "2026-09-23T09:12:29.924Z",
-  "modo": "publicacao",
+  "gerado_em": "2026-09-23T15:12:44.861Z",
+  "modo": "validacao",
+  "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
     {
       "pagina": "Marketing Tips",
-      "status": "publicado",
-      "pontuacao": 94,
-      "titulo": "Architecting a Resilient DevSecOps Pipeline for Enterprise AI Agents"
+      "status": "aprovado_validacao",
+      "stats": {
+        "coletados": 67,
+        "aprovados_fonte": 25,
+        "aprovados_texto": 20,
+        "rejeitados": 0,
+        "publicados": 0
+      },
+      "melhor_titulo": "IA e produtividade no dia a dia digital",
+      "score_fonte": 94,
+      "score_texto": 94
     },
     {
       "pagina": "Studio Marine Cuidados Pessoais",
-      "status": "publicado",
-      "pontuacao": 100,
-      "titulo": "Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml"
+      "status": "aprovado_validacao",
+      "stats": {
+        "coletados": 18,
+        "aprovados_fonte": 4,
+        "aprovados_texto": 4,
+        "rejeitados": 14,
+        "publicados": 0
+      },
+      "melhor_titulo": "Proteção solar no dia a dia",
+      "score_fonte": 100,
+      "score_texto": 98
     },
     {
       "pagina": "Rota das Duas Rodas - Acessórios",
-      "status": "publicado",
-      "pontuacao": 91,
-      "titulo": "The Flying Flea C6 is already in Europe: an electric motorcycle for 5,900 euros and 104 km of autonomy"
+      "status": "aprovado_validacao",
+      "stats": {
+        "coletados": 37,
+        "aprovados_fonte": 10,
+        "aprovados_texto": 10,
+        "rejeitados": 10,
+        "publicados": 0
+      },
+      "melhor_titulo": "Atualização no mundo do MotoGP",
+      "score_fonte": 87,
+      "score_texto": 86
     },
     {
       "pagina": "Casa & Conforto Utilidades",
-      "status": "publicado",
-      "pontuacao": 78,
-      "titulo": "Culinária"
+      "status": "sem_conteudo_qualificado",
+      "stats": {
+        "coletados": 14,
+        "aprovados_fonte": 0,
+        "aprovados_texto": 0,
+        "rejeitados": 14,
+        "publicados": 0
+      },
+      "melhor_titulo": null,
+      "score_fonte": null,
+      "score_texto": null
     }
   ]
 }
