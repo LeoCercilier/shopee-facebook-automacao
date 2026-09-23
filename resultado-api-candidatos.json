@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-23T07:52:40.408Z",
+  "gerado_em": "2026-09-23T07:59:14.044Z",
   "modo": "validacao",
   "pontuacao_minima": 75,
   "paginas": [
@@ -285,37 +285,11 @@
         {
           "fonte": "Wikipedia (PT)",
           "fonte_id": "wiki-pele",
-          "titulo_original": "Filtro solar",
-          "titulo": "Filtro solar",
-          "resumo": "O filtro solar ou protetor solar é uma loção, spray ou produto tópico que ajuda a proteger a pele da radiação ultravioleta do sol, o que reduz as queimaduras solares e outros danos à pele, intimamente ligado a um menor risco de câncer de pele. Entretanto, a loção de bronzeamento ",
-          "url": "https://pt.wikipedia.org/wiki/Filtro_solar",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/UV_and_Vis_Sunscreen.jpg/330px-UV_and_Vis_Sunscreen.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 100,
-          "status": "aprovado",
-          "motivos": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+keywords na descrição (4)",
-            "+Wikipedia em português",
-            "+imagem url",
-            "+skincare prático"
-          ],
-          "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nO filtro solar ou protetor solar é uma loção, spray ou produto tópico que ajuda a proteger a pele da radiação ultravioleta do sol, o que reduz as queimaduras solares e outros danos à pele,… Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Filtro_solar\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "Filtro solar",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "Wikipedia (PT)",
-          "fonte_id": "wiki-pele",
-          "titulo_original": "Acne",
-          "titulo": "Acne",
-          "resumo": "Acne é uma condição cutânea de longa duração caracterizada por áreas de pontos negros, pontos brancos, pústulas, pele oleosa e possibilidade de aparecimento de cicatrizes. Dependendo do grau de incidência, infecção e dimensão dos pontos de acne sobre a pele, as consequências na a",
-          "url": "https://pt.wikipedia.org/wiki/Acne",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Acne_vulgaris_on_a_very_oily_skin.jpg/330px-Acne_vulgaris_on_a_very_oily_skin.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "titulo_original": "Melasma",
+          "titulo": "Melasma",
+          "resumo": "Melasma é uma distúrbio pigmentar da pele caracterizada por manchas escuras na pele. Ocorre principalmente no rosto, mas pode ocorrer em outros segmentos do corpo. Ocorre mais frequentemente em mulheres. Acontece em cerca de dez por cento nos homens. Quando as manchas aparecem na",
+          "url": "https://pt.wikipedia.org/wiki/Melasma",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Melasmablemish.jpg/330px-Melasmablemish.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
           "pontuacao": 88,
           "status": "aprovado",
           "motivos": [
@@ -328,8 +302,8 @@
             "+skincare prático"
           ],
           "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nAcne é uma condição cutânea de longa duração caracterizada por áreas de pontos negros, pontos brancos, pústulas, pele oleosa e possibilidade de aparecimento de cicatrizes. Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Acne\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "Acne",
+            "texto": "✨ CUIDADO COM A PELE\n\nMelasma é uma distúrbio pigmentar da pele caracterizada por manchas escuras na pele. Ocorre principalmente no rosto, mas pode ocorrer em outros segmentos do corpo. Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Melasma\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "Melasma",
             "validacao": {
               "ok": true
             }
@@ -364,25 +338,6 @@
         {
           "fonte": "Wikipedia (PT)",
           "fonte_id": "wiki-pele",
-          "titulo_original": "Cosmético",
-          "titulo": "Cosmético",
-          "resumo": "Cosméticos são feitos de misturas de compostos químicos derivados de fontes naturais ou criados sinteticamente. Os cosméticos têm vários propósitos, incluindo cuidados pessoais e da pele. Eles também podem ser usados para esconder manchas e realçar características naturais. A maq",
-          "url": "https://pt.wikipedia.org/wiki/Cosm%C3%A9tico",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Cosmetics.JPG/330px-Cosmetics.JPG?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 59,
-          "status": "rejeitado",
-          "motivos": [
-            "+keyword no título (2)",
-            "+keywords na descrição (1)",
-            "+Wikipedia em português",
-            "+imagem url",
-            "-título curto"
-          ],
-          "preview_post": null
-        },
-        {
-          "fonte": "Wikipedia (PT)",
-          "fonte_id": "wiki-pele",
           "titulo_original": "Colágeno",
           "titulo": "Colágeno",
           "resumo": "O colágeno (português brasileiro) ou colagénio (português europeu) é uma proteína de importância fundamental na constituição da matriz extracelular do tecido conjuntivo, sendo responsável por grande parte de suas propriedades físicas.",
@@ -394,6 +349,24 @@
             "+keyword no título (2)",
             "+keywords na descrição (2)",
             "+Wikipedia em português",
+            "-título curto"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "Wikipedia (PT)",
+          "fonte_id": "wiki-pele",
+          "titulo_original": "Hidratação",
+          "titulo": "Hidratação",
+          "resumo": "Hidratação essencialmente é a reposição de água no organismo, mantendo sua composição corporal. A água representa cerca de 60% do peso corporal de um adulto. A hidratação pode ser realizada por via oral ou intravenosa.",
+          "url": "https://pt.wikipedia.org/wiki/Hidrata%C3%A7%C3%A3o",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Infuuszakjes.jpg/330px-Infuuszakjes.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 52,
+          "status": "rejeitado",
+          "motivos": [
+            "+keyword forte no título",
+            "+Wikipedia em português",
+            "+imagem url",
             "-título curto"
           ],
           "preview_post": null
@@ -517,22 +490,22 @@
         {
           "fonte": "Wikipedia (PT)",
           "fonte_id": "wiki-moto",
-          "titulo_original": "BMW Motorrad",
-          "titulo": "BMW Motorrad",
-          "resumo": "BMW Motorrad é uma subsidiária do Grupo BMW que se dedica a produção de motos. No início do século 20, era uma fabricante de motores de aeronaves e foi por meio da 1° Guerra Mundial que surgiu a primeira motocicleta BMW, denominada R32, em 1923.",
-          "url": "https://pt.wikipedia.org/wiki/BMW_Motorrad",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/BMW_HP2_Megamoto.jpg/330px-BMW_HP2_Megamoto.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 73,
+          "titulo_original": "Yamaha Corporation",
+          "titulo": "Yamaha Corporation",
+          "resumo": "A Yamaha Corporation  é uma companhia japonesa multinacional fabricante de instrumentos musicais e equipamentos de áudio.",
+          "url": "https://pt.wikipedia.org/wiki/Yamaha_Corporation",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/YAMAHA_%28headquarters_1%29.jpg/330px-YAMAHA_%28headquarters_1%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 69,
           "status": "candidato_fraco",
           "motivos": [
             "+keyword no título (1)",
-            "+keywords na descrição (2)",
+            "+keywords na descrição (1)",
             "+Wikipedia em português",
             "+imagem url"
           ],
           "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? BMW Motorrad é uma subsidiária do Grupo BMW que se dedica a produção de motos.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/BMW_Motorrad\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "BMW Motorrad",
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? A Yamaha Corporation é uma companhia japonesa multinacional fabricante de instrumentos musicais e equipamentos de áudio.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Yamaha_Corporation\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "Yamaha Corporation",
             "validacao": {
               "ok": true
             }
@@ -541,15 +514,16 @@
         {
           "fonte": "Wikipedia (PT)",
           "fonte_id": "wiki-moto",
-          "titulo_original": "Motoneta",
-          "titulo": "Motoneta",
-          "resumo": "Motoreta, motoneta, \"moto\", motinha, ou o estrangeirismo scooter, também conhecido pelas marca genéricas lambreta e vespa, é um veículo motorizado de duas rodas no qual o condutor condiciona suas pernas para a frente de seu tronco, sobre uma plataforma, em vez de para os lados, c",
-          "url": "https://pt.wikipedia.org/wiki/Motoneta",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Z%C3%BCndapp_Bella_R_154_%282008-05-21%29_Seitenansicht_ret.jpg/330px-Z%C3%BCndapp_Bella_R_154_%282008-05-21%29_Seitenansicht_ret.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 49,
+          "titulo_original": "Honda",
+          "titulo": "Honda",
+          "resumo": "Honda Motor Company , comumente conhecida como Honda (ホンダ), é um dos mais importantes fabricantes de automóveis e motocicletas do mundo. Fundada por Soichiro Honda. Teve sua pronúncia \"ronda\" consolidada — antes \"ondá\" — após sua expansão e entrada no mercado alemão, determinando",
+          "url": "https://pt.wikipedia.org/wiki/Honda",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Honda-Motor-Aoyama-01.jpg/330px-Honda-Motor-Aoyama-01.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 59,
           "status": "rejeitado",
           "motivos": [
-            "+keywords na descrição (3)",
+            "+keyword no título (1)",
+            "+keywords na descrição (1)",
             "+Wikipedia em português",
             "+imagem url",
             "-título curto"
@@ -590,11 +564,11 @@
         {
           "fonte": "TheMealDB",
           "fonte_id": "themealdb",
-          "titulo_original": "Rocky Road Fudge",
-          "titulo": "Rocky Road Fudge",
-          "resumo": "Categoria: Sobremesa · Culinária United States",
-          "url": "http://tiphero.com/rocky-road-fudge/",
-          "imagem": "https://www.themealdb.com/images/media/meals/vtxyxv1483567157.jpg",
+          "titulo_original": "Mee goreng mamak",
+          "titulo": "Mee goreng mamak",
+          "resumo": "Categoria: Frutos do mar · Culinária malaia",
+          "url": "https://www.nyonyacooking.com/recipes/mee-goreng-mamak~BkTLRjTuX",
+          "imagem": "https://www.themealdb.com/images/media/meals/xquakq1619787532.jpg",
           "pontuacao": 43,
           "status": "rejeitado",
           "motivos": [
@@ -606,11 +580,11 @@
         {
           "fonte": "TheMealDB",
           "fonte_id": "themealdb",
-          "titulo_original": "Creamy Corn Soup Recipe",
-          "titulo": "Creamy Corn Soup Recipe",
-          "resumo": "Categoria: Vegetariano",
-          "url": "https://www.mycolombianrecipes.com/corn-soup-crema-de-mazorca/#recipe",
-          "imagem": "https://www.themealdb.com/images/media/meals/yf5eyw1783804464.jpg",
+          "titulo_original": "Jamon & wild garlic croquetas",
+          "titulo": "Jamon & wild garlic croquetas",
+          "resumo": "Categoria: Porco · Culinária espanhola",
+          "url": "https://www.bbcgoodfood.com/recipes/jamon-wild-garlic-croquetas",
+          "imagem": "https://www.themealdb.com/images/media/meals/zc9cwz1763196177.jpg",
           "pontuacao": 43,
           "status": "rejeitado",
           "motivos": [
@@ -622,11 +596,11 @@
         {
           "fonte": "TheMealDB",
           "fonte_id": "themealdb",
-          "titulo_original": "Salmon Avocado Salad",
-          "titulo": "Salmon Avocado Salad",
-          "resumo": "Categoria: Frutos do mar · Culinária britânica",
-          "url": "https://www.bbcgoodfood.com/recipes/4521/salmon-avocado-and-cucumber-salad",
-          "imagem": "https://www.themealdb.com/images/media/meals/1549542994.jpg",
+          "titulo_original": "Strawberry Rhubarb Pie",
+          "titulo": "Strawberry Rhubarb Pie",
+          "resumo": "Categoria: Sobremesa · Culinária britânica",
+          "url": "https://www.joyofbaking.com/StrawberryRhubarbPie.html",
+          "imagem": "https://www.themealdb.com/images/media/meals/178z5o1585514569.jpg",
           "pontuacao": 43,
           "status": "rejeitado",
           "motivos": [
@@ -638,11 +612,11 @@
         {
           "fonte": "TheMealDB",
           "fonte_id": "themealdb",
-          "titulo_original": "Hot Chocolate Fudge",
-          "titulo": "Hot Chocolate Fudge",
-          "resumo": "Categoria: Sobremesa · Culinária United States",
-          "url": "https://www.youtube.com/watch?v=oJvbsVSblfk",
-          "imagem": "https://www.themealdb.com/images/media/meals/xrysxr1483568462.jpg",
+          "titulo_original": "Sticky Chicken",
+          "titulo": "Sticky Chicken",
+          "resumo": "Categoria: Frango · Culinária Australian",
+          "url": "https://www.bbcgoodfood.com/recipes/sticky-chicken",
+          "imagem": "https://www.themealdb.com/images/media/meals/cj56fs1762340001.jpg",
           "pontuacao": 43,
           "status": "rejeitado",
           "motivos": [
@@ -654,43 +628,11 @@
         {
           "fonte": "TheMealDB",
           "fonte_id": "themealdb",
-          "titulo_original": "Creamy Tomato Soup",
-          "titulo": "Creamy Tomato Soup",
-          "resumo": "Categoria: Entrada · Culinária britânica",
-          "url": "https://www.bbcgoodfood.com/recipes/2604646/creamy-tomato-soup",
-          "imagem": "https://www.themealdb.com/images/media/meals/stpuws1511191310.jpg",
-          "pontuacao": 43,
-          "status": "rejeitado",
-          "motivos": [
-            "+imagem",
-            "+imagem url"
-          ],
-          "preview_post": null
-        },
-        {
-          "fonte": "TheMealDB",
-          "fonte_id": "themealdb",
-          "titulo_original": "Singapore Noodles with Shrimp",
-          "titulo": "Singapore Noodles with Shrimp",
-          "resumo": "Categoria: Frutos do mar · Culinária chinesa",
-          "url": "https://www.simplyrecipes.com/recipes/singapore_noodles_with_shrimp/",
-          "imagem": "https://www.themealdb.com/images/media/meals/f3cxnc1765656994.jpg",
-          "pontuacao": 43,
-          "status": "rejeitado",
-          "motivos": [
-            "+imagem",
-            "+imagem url"
-          ],
-          "preview_post": null
-        },
-        {
-          "fonte": "TheMealDB",
-          "fonte_id": "themealdb",
-          "titulo_original": "Stir-fried chicken with chillies & basil",
-          "titulo": "Stir-fried chicken with chillies & basil",
+          "titulo_original": "Thai drumsticks",
+          "titulo": "Thai drumsticks",
           "resumo": "Categoria: Frango · Culinária tailandesa",
-          "url": "https://www.bbcgoodfood.com/recipes/ken-homs-stir-fried-chicken-chillies-basil",
-          "imagem": "https://www.themealdb.com/images/media/meals/el64dy1763483009.jpg",
+          "url": "https://www.bbcgoodfood.com/recipes/fragrant-thai-drumsticks",
+          "imagem": "https://www.themealdb.com/images/media/meals/ittake1763586925.jpg",
           "pontuacao": 43,
           "status": "rejeitado",
           "motivos": [
@@ -702,11 +644,43 @@
         {
           "fonte": "TheMealDB",
           "fonte_id": "themealdb",
-          "titulo_original": "Flan",
-          "titulo": "Flan",
-          "resumo": "Categoria: Sobremesa · Culinária Uruguayan",
-          "url": "https://jennyisbaking.com/2019/12/20/uruguayan-flan-and-merry-christmas/",
-          "imagem": "https://www.themealdb.com/images/media/meals/0s80wo1764374393.jpg",
+          "titulo_original": "Pouding chomeur",
+          "titulo": "Pouding chomeur",
+          "resumo": "Categoria: Sobremesa · Culinária canadense",
+          "url": "http://www.geniuskitchen.com/recipe/pouding-chomeur-poor-mans-pudding-with-maple-syrup-sauce-218797",
+          "imagem": "https://www.themealdb.com/images/media/meals/yqqqwu1511816912.jpg",
+          "pontuacao": 43,
+          "status": "rejeitado",
+          "motivos": [
+            "+imagem",
+            "+imagem url"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "TheMealDB",
+          "fonte_id": "themealdb",
+          "titulo_original": "Spanish tomato bread with jamón Serrano",
+          "titulo": "Spanish tomato bread with jamón Serrano",
+          "resumo": "Categoria: Porco · Culinária espanhola",
+          "url": "https://www.bbcgoodfood.com/recipes/spanish-tomato-bread-jamon-serrano",
+          "imagem": "https://www.themealdb.com/images/media/meals/hsp1fo1763327867.jpg",
+          "pontuacao": 43,
+          "status": "rejeitado",
+          "motivos": [
+            "+imagem",
+            "+imagem url"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "TheMealDB",
+          "fonte_id": "themealdb",
+          "titulo_original": "Flamiche",
+          "titulo": "Flamiche",
+          "resumo": "Categoria: Vegetariano · Culinária France",
+          "url": "http://www.deliciousmagazine.co.uk/recipes/flamiche-flemish-leek-tart/",
+          "imagem": "https://www.themealdb.com/images/media/meals/wssvvs1511785879.jpg",
           "pontuacao": 33,
           "status": "rejeitado",
           "motivos": [
