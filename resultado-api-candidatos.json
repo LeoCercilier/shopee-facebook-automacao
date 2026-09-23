@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-23T07:59:14.044Z",
+  "gerado_em": "2026-09-23T08:36:39.619Z",
   "modo": "validacao",
   "pontuacao_minima": 75,
   "paginas": [
@@ -8,239 +8,311 @@
       "page_id": "369805844018354",
       "status": "aprovado_validacao",
       "melhor": {
-        "titulo": "GPT-6 Sol and Luna",
-        "pontuacao": 79,
-        "fonte": "Hacker News",
-        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-        "preview": "💡 INSIGHT DE TECNOLOGIA\n\nGPT-6 Sol and Luna. Um tema em evidência para quem acompanha tecnologia, negócios digitais e inovação.\n\n🔎 Saiba mais:\nhttps://openai.com/index/introducing-gpt-6-sol-and-luna/\n\nFonte: Hacker News"
+        "titulo": "Architecting a Resilient DevSecOps Pipeline for Enterprise AI Agents",
+        "pontuacao": 94,
+        "fonte": "DEV.to",
+        "url": "https://dev.to/gde/architecting-a-resilient-devsecops-pipeline-for-enterprise-ai-agents-on4",
+        "preview": "💡 INSIGHT DE TECNOLOGIA\n\nArchitecting a Resilient DevSecOps Pipeline for Enterprise AI Agents. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://dev.to/gde/architecting-a-resilient-devsecops-pipeline-for-enterprise-ai-agents-on4\n\nFonte: DEV.to"
       },
       "candidatos": [
         {
-          "fonte": "Hacker News",
-          "fonte_id": "hacker-news",
-          "titulo_original": "GPT-6 Sol and Luna",
-          "titulo": "GPT-6 Sol and Luna",
-          "resumo": "",
-          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-          "imagem": "",
-          "pontuacao": 79,
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "Architecting a Resilient DevSecOps Pipeline for Enterprise AI Agents",
+          "titulo": "Architecting a Resilient DevSecOps Pipeline for Enterprise AI Agents",
+          "resumo": "A four-stage DevSecOps CI/CD architecture for securing enterprise AI agents with GitHub Actions, secret scanning, AI-assisted review, Veracode SCA, and Pipeline SAST.",
+          "url": "https://dev.to/gde/architecting-a-resilient-devsecops-pipeline-for-enterprise-ai-agents-on4",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fmiro.medium.com%2Fv2%2Fresize%3Afit%3A1400%2F1%2AzWubiPyAk5YCdtX9j1_mUA.png",
+          "pontuacao": 94,
           "status": "aprovado",
           "motivos": [
             "+keyword no título (1)",
             "+keyword forte no título",
-            "+fonte HN",
+            "+keywords na descrição (1)",
+            "+DEV.to (fonte prioritária)",
+            "+imagem",
             "+recente"
           ],
           "preview_post": {
-            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nGPT-6 Sol and Luna. Um tema em evidência para quem acompanha tecnologia, negócios digitais e inovação.\n\n🔎 Saiba mais:\nhttps://openai.com/index/introducing-gpt-6-sol-and-luna/\n\nFonte: Hacker News",
-            "titulo": "GPT-6 Sol and Luna",
+            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nArchitecting a Resilient DevSecOps Pipeline for Enterprise AI Agents. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://dev.to/gde/architecting-a-resilient-devsecops-pipeline-for-enterprise-ai-agents-on4\n\nFonte: DEV.to",
+            "titulo": "Architecting a Resilient DevSecOps Pipeline for Enterprise AI Agents",
             "validacao": {
               "ok": true
             }
           }
         },
         {
-          "fonte": "Hacker News",
-          "fonte_id": "hacker-news",
-          "titulo_original": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
-          "titulo": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
-          "resumo": "",
-          "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "Christian Konopatzki: Winner of the 2021 Best Affiliate Marketing Manager (UAE) Award from International Business Magazine (Dubai)",
+          "titulo": "Christian Konopatzki: Winner of the 2021 Best Affiliate Marketing Manager (UAE) Award from International Business Magazine (Dubai)",
+          "resumo": "As an influencer and marketing expert, Christian Konopatzki has created a lucrative business using his eCommerce platform to drive business through affiliate marketing, achieving a level of success people only dream of. Because of his talent and drive, Christian Konopatzki has at",
+          "url": "https://entrepreneurialmag.com/christian-konopatzki-winner-of-the-2021-best-affiliate-marketing-manager/",
           "imagem": "",
-          "pontuacao": 79,
+          "pontuacao": 93,
           "status": "aprovado",
           "motivos": [
             "+keyword no título (2)",
             "+keyword forte no título",
-            "+fonte HN",
+            "+keywords na descrição (3)",
+            "+FreeNews negócios",
             "+recente"
           ],
           "preview_post": {
-            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nOpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005. Um tema em evidência para quem acompanha tecnologia, negócios digitais e inovação.\n\n🔎 Saiba mais:\nhttps://www.cryptocellar.org/bgac/the-mvueh-break.html\n\nFonte: Hacker News",
-            "titulo": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nChristian Konopatzki: Winner of the 2021 Best Affiliate Marketing Manager (UAE) Award from International Business Magazine (Dubai). As an influencer and marketing expert, Christian Konopatzki has created a lucrative business using his eCommerce platform to drive business through affiliate marketing, achieving…\n\n🔎 Saiba mais:\nhttps://entrepreneurialmag.com/christian-konopatzki-winner-of-the-2021-best-affiliate-marketing-manager/\n\nFonte: FreeNewsAPI (negócios/IA)",
+            "titulo": "Christian Konopatzki: Winner of the 2021 Best Affiliate Marketing Manager (UAE) Award from International Business Magazine (Dubai)",
             "validacao": {
               "ok": true
             }
           }
         },
         {
-          "fonte": "Hacker News",
-          "fonte_id": "hacker-news",
-          "titulo_original": "OpenAI is well positioned to fast-follow Jev",
-          "titulo": "OpenAI is well positioned to fast-follow Jev",
-          "resumo": "",
-          "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
-          "imagem": "",
-          "pontuacao": 79,
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "What If Your AI Agent Never Had to Leave the Browser? (Demo 🚀)",
+          "titulo": "What If Your AI Agent Never Had to Leave the Browser? (Demo 🚀)",
+          "resumo": "I haven't written anything lately because, honestly, I just didn't have the headspace for it. There...",
+          "url": "https://dev.to/sylwia-lask/what-if-your-ai-agent-never-had-to-leave-the-browser-demo--5g",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyv8119jpkpgyckuk1v1c.png",
+          "pontuacao": 90,
           "status": "aprovado",
           "motivos": [
             "+keyword no título (1)",
             "+keyword forte no título",
-            "+fonte HN",
+            "+DEV.to (fonte prioritária)",
+            "+imagem",
             "+recente"
           ],
           "preview_post": {
-            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nOpenAI is well positioned to fast-follow Jev. Um tema em evidência para quem acompanha tecnologia, negócios digitais e inovação.\n\n🔎 Saiba mais:\nhttps://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/\n\nFonte: Hacker News",
-            "titulo": "OpenAI is well positioned to fast-follow Jev",
+            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nWhat If Your AI Agent Never Had to Leave the Browser? (Demo 🚀). I haven't written anything lately because, honestly, I just didn't have the headspace for it. There...\n\n🔎 Saiba mais:\nhttps://dev.to/sylwia-lask/what-if-your-ai-agent-never-had-to-leave-the-browser-demo--5g\n\nFonte: DEV.to",
+            "titulo": "What If Your AI Agent Never Had to Leave the Browser? (Demo 🚀)",
             "validacao": {
               "ok": true
             }
           }
         },
         {
-          "fonte": "Hacker News",
-          "fonte_id": "hacker-news",
-          "titulo_original": "Claude Opus 5.5",
-          "titulo": "Claude Opus 5.5",
-          "resumo": "",
-          "url": "https://www.anthropic.com/claude-opus-5-5",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "AstroForge Plans 2027 Autonomous Spacecraft Mission Controlled by Its Solo AI System",
+          "titulo": "AstroForge Plans 2027 Autonomous Spacecraft Mission Controlled by Its Solo AI System",
+          "resumo": "Asteroid mining startup AstroForge plans to put its in-house AI system in control of a spacecraft in 2027, reducing its dependence on commands from flight controllers on Earth. The company developed the transformer-based system, called Solo, after communication problems prevented",
+          "url": "https://digitalmarketreports.com/news/92340/astroforge-plans-2027-autonomous-spacecraft-mission-controlled-by-its-solo-ai-system/",
           "imagem": "",
-          "pontuacao": 39,
-          "status": "rejeitado",
+          "pontuacao": 89,
+          "status": "aprovado",
           "motivos": [
             "+keyword no título (1)",
-            "+fonte HN",
-            "+recente",
-            "-pouca relação IA/negócios/marketing"
+            "+keyword forte no título",
+            "+keywords na descrição (2)",
+            "+FreeNews negócios",
+            "+recente"
           ],
-          "preview_post": null
+          "preview_post": {
+            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nAstroForge Plans 2027 Autonomous Spacecraft Mission Controlled by Its Solo AI System. Asteroid mining startup AstroForge plans to put its in-house AI system in control of a spacecraft in 2027, reducing its dependence on commands from flight controllers on Earth.\n\n🔎 Saiba mais:\nhttps://digitalmarketreports.com/news/92340/astroforge-plans-2027-autonomous-spacecraft-mission-controlled-by-its-solo-ai-system/\n\nFonte: FreeNewsAPI (negócios/IA)",
+            "titulo": "AstroForge Plans 2027 Autonomous Spacecraft Mission Controlled by Its Solo AI System",
+            "validacao": {
+              "ok": true
+            }
+          }
         },
         {
-          "fonte": "Hacker News",
-          "fonte_id": "hacker-news",
-          "titulo_original": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
-          "titulo": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
-          "resumo": "",
-          "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "Meet Nuvr, the bootstrapped startup managing Rs 1,200 Cr of ecommerce sales for brands",
+          "titulo": "Meet Nuvr, the bootstrapped startup managing Rs 1,200 Cr of ecommerce sales for brands",
+          "resumo": "The Bengaluru-based venture runs online P&Ls for brands such as Medimix, Nilon’s and Origami, using its own technology and a performance-linked revenue model.",
+          "url": "https://yourstory.com/2026/09/nuvr-bootstrapped-startup-managing-rs-1200-cr-ecommerce-sales-brands",
           "imagem": "",
-          "pontuacao": 39,
-          "status": "rejeitado",
+          "pontuacao": 89,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (2)",
+            "+keyword forte no título",
+            "+keywords na descrição (2)",
+            "+FreeNews negócios",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nMeet Nuvr, the bootstrapped startup managing Rs 1,200 Cr of ecommerce sales for brands. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://yourstory.com/2026/09/nuvr-bootstrapped-startup-managing-rs-1200-cr-ecommerce-sales-brands\n\nFonte: FreeNewsAPI (negócios/IA)",
+            "titulo": "Meet Nuvr, the bootstrapped startup managing Rs 1,200 Cr of ecommerce sales for brands",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "DS Group Launches DCODE 2.0 in Collaboration with WPP Media & MICA, Integrating AI Across the Digital Marketing Ecosystem",
+          "titulo": "DS Group Launches DCODE 2.0 in Collaboration with WPP Media & MICA, Integrating AI Across the Digital Marketing Ecosystem",
+          "resumo": "Dharampal Satyapal Group (DS Group), a leading FMCG conglomerate and multi-business corporation, in collaboration with WPP Media and MICA (Mudra Institute of Communications, Ahmedabad), has launched DCODE 2.0 – The Guide to Digital Marketing, an evolved and expanded edition of it",
+          "url": "https://peopletalky.com/partners-content/ds-group-launches-dcode-2-0-in-collaboration-with-wpp-media-mica-integrating-ai-across-the-digital-marketing-ecosystem/",
+          "imagem": "",
+          "pontuacao": 89,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (2)",
+            "+keyword forte no título",
+            "+keywords na descrição (2)",
+            "+FreeNews negócios",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nDS Group Launches DCODE 2.0 in Collaboration with WPP Media & MICA, Integrating AI Across the Digital Marketing Ecosystem. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://peopletalky.com/partners-content/ds-group-launches-dcode-2-0-in-collaboration-with-wpp-media-mica-integrating-ai-across-the-digital-marketing-ecosystem/\n\nFonte: FreeNewsAPI (negócios/IA)",
+            "titulo": "DS Group Launches DCODE 2.0 in Collaboration with WPP Media & MICA, Integrating AI Across the Digital Marketing Ecosystem",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "Call For Applications: UNECA Continental Call for African AI Innovations 2026 For African Startups and Innovators",
+          "titulo": "Call For Applications: UNECA Continental Call for African AI Innovations 2026 For African Startups and Innovators",
+          "resumo": "Applications are open for the UNECA Continental Call for African AI Innovations 2026, an opportunity for African innovators to showcase practical artificial intelligence solutions addressing development challenges across the continent. The initiative, known as the ECA Innovation ",
+          "url": "https://msmeafricaonline.com/call-for-applications-uneca-continental-call-for-african-ai-innovations-2026-for-african-startups-and-innovators/?utm_source=rss&utm_medium=rss&utm_campaign=call-for-applications-uneca-continental-call-for-african-ai-innovations-2026-for-african-startups-and-innovators",
+          "imagem": "",
+          "pontuacao": 89,
+          "status": "aprovado",
           "motivos": [
             "+keyword no título (1)",
-            "+fonte HN",
-            "+recente",
-            "-pouca relação IA/negócios/marketing"
+            "+keyword forte no título",
+            "+keywords na descrição (2)",
+            "+FreeNews negócios",
+            "+recente"
           ],
-          "preview_post": null
+          "preview_post": {
+            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nCall For Applications: UNECA Continental Call for African AI Innovations 2026 For African Startups and Innovators. Applications are open for the UNECA Continental Call for African AI Innovations 2026, an opportunity for African innovators to showcase practical artificial intelligence…\n\n🔎 Saiba mais:\nhttps://msmeafricaonline.com/call-for-applications-uneca-continental-call-for-african-ai-innovations-2026-for-african-startups-and-innovators/?utm_source=rss&utm_medium=rss&utm_campaign=call-for-applications-uneca-continental-call-for-african-ai-innovations-2026-for-african-startups-and-innovators\n\nFonte: FreeNewsAPI (negócios/IA)",
+            "titulo": "Call For Applications: UNECA Continental Call for African AI Innovations 2026 For African Startups and Innovators",
+            "validacao": {
+              "ok": true
+            }
+          }
         },
         {
-          "fonte": "Hacker News",
-          "fonte_id": "hacker-news",
-          "titulo_original": "Transit rewards",
-          "titulo": "Transit rewards",
-          "resumo": "",
-          "url": "https://waymo.com/blog/2026/09/transit-rewards/",
-          "imagem": "",
-          "pontuacao": 21,
-          "status": "rejeitado",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "AI Can Write Code Faster Than We Can Review It — And That’s Becoming the Real Bottleneck",
+          "titulo": "AI Can Write Code Faster Than We Can Review It — And That’s Becoming the Real Bottleneck",
+          "resumo": "AI Can Write Code Faster Than We Can Review It — And That’s Becoming the Real...",
+          "url": "https://dev.to/robertadam987_/ai-can-write-code-faster-than-we-can-review-it-and-thats-becoming-the-real-bottleneck-25ee",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmoxxmtc3sed461hphk2t.png",
+          "pontuacao": 86,
+          "status": "aprovado",
           "motivos": [
-            "+fonte HN",
-            "+recente",
-            "-pouca relação IA/negócios/marketing"
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+DEV.to (fonte prioritária)",
+            "+imagem"
           ],
-          "preview_post": null
+          "preview_post": {
+            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nAI Can Write Code Faster Than We Can Review It — And That’s Becoming the Real Bottleneck. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://dev.to/robertadam987_/ai-can-write-code-faster-than-we-can-review-it-and-thats-becoming-the-real-bottleneck-25ee\n\nFonte: DEV.to",
+            "titulo": "AI Can Write Code Faster Than We Can Review It — And That’s Becoming the Real Bottleneck",
+            "validacao": {
+              "ok": true
+            }
+          }
         },
         {
-          "fonte": "Hacker News",
-          "fonte_id": "hacker-news",
-          "titulo_original": "Data-only attacks are easier than you think (2024)",
-          "titulo": "Data-only attacks are easier than you think (2024)",
-          "resumo": "",
-          "url": "https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "TacnIQ.ai raises US$1.5 million from In Group Holdings to scale tactile AI",
+          "titulo": "TacnIQ.ai raises US$1.5 million from In Group Holdings to scale tactile AI",
+          "resumo": "Part of a US$3 million pre-seed round, the funding will accelerate the physical AI start-up's tactile foundation model, engineering team and commercial deployments across five key industries SINGAPORE, Sept. 23, 2026 /PRNewswire/ -- TacnIQ.ai, a physical AI startup building techn",
+          "url": "https://www.manilatimes.net/2026/09/23/tmt-newswire/pr-newswire/tacniqai-raises-us15-million-from-in-group-holdings-to-scale-tactile-ai/2430910",
           "imagem": "",
-          "pontuacao": 21,
-          "status": "rejeitado",
+          "pontuacao": 85,
+          "status": "aprovado",
           "motivos": [
-            "+fonte HN",
-            "+recente",
-            "-pouca relação IA/negócios/marketing"
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (3)",
+            "+FreeNews negócios"
           ],
-          "preview_post": null
+          "preview_post": {
+            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nTacnIQ.ai raises US$1.5 million from In Group Holdings to scale tactile AI. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://www.manilatimes.net/2026/09/23/tmt-newswire/pr-newswire/tacniqai-raises-us15-million-from-in-group-holdings-to-scale-tactile-ai/2430910\n\nFonte: FreeNewsAPI (negócios/IA)",
+            "titulo": "TacnIQ.ai raises US$1.5 million from In Group Holdings to scale tactile AI",
+            "validacao": {
+              "ok": true
+            }
+          }
         },
         {
-          "fonte": "Hacker News",
-          "fonte_id": "hacker-news",
-          "titulo_original": "Show HN: Npunlock – Run custom C kernels for Intel NPUs",
-          "titulo": "Show HN: Npunlock – Run custom C kernels for Intel NPUs",
-          "resumo": "",
-          "url": "https://github.com/hsfzxjy/npunlock",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "Rabbit Introduces OS3 Cross-Platform AI Agent for Existing Hardware",
+          "titulo": "Rabbit Introduces OS3 Cross-Platform AI Agent for Existing Hardware",
+          "resumo": "Rabbit has released OS3, a cross-platform software agent that manages computing tasks across existing desktop and mobile operating systems. The post Rabbit Introduces OS3 Cross-Platform AI Agent for Existing Hardware appeared first on Saudishopper .",
+          "url": "https://saudishopper.com.sa/en/rabbit-os3-cross-platform-ai-agent-launch/",
           "imagem": "",
-          "pontuacao": 21,
-          "status": "rejeitado",
+          "pontuacao": 85,
+          "status": "aprovado",
           "motivos": [
-            "+fonte HN",
-            "+recente",
-            "-pouca relação IA/negócios/marketing"
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+FreeNews negócios",
+            "+recente"
           ],
-          "preview_post": null
+          "preview_post": {
+            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nRabbit Introduces OS3 Cross-Platform AI Agent for Existing Hardware. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://saudishopper.com.sa/en/rabbit-os3-cross-platform-ai-agent-launch/\n\nFonte: FreeNewsAPI (negócios/IA)",
+            "titulo": "Rabbit Introduces OS3 Cross-Platform AI Agent for Existing Hardware",
+            "validacao": {
+              "ok": true
+            }
+          }
         },
         {
-          "fonte": "Hacker News",
-          "fonte_id": "hacker-news",
-          "titulo_original": "ReBarUEFI: Resizable BAR for almost any UEFI system",
-          "titulo": "ReBarUEFI: Resizable BAR for almost any UEFI system",
-          "resumo": "",
-          "url": "https://github.com/xCuri0/ReBarUEFI",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "FL Beef Council Reviews Results on Ecommerce Campaign",
+          "titulo": "FL Beef Council Reviews Results on Ecommerce Campaign",
+          "resumo": "The Florida Beef Council recently wrapped up an e-commerce program. Here is Deanne Maples with the Florida Beef Council to tell us more. “So this spring, the Florida Beef Council invested $50,000 in a digital e-commerce campaign with one of the nation’s largest retailers. And we ",
+          "url": "https://southeastagnet.com/2026/09/22/florida-beef-council-ecommerce-campaign-beef-sales/",
           "imagem": "",
-          "pontuacao": 21,
-          "status": "rejeitado",
+          "pontuacao": 85,
+          "status": "aprovado",
           "motivos": [
-            "+fonte HN",
-            "+recente",
-            "-pouca relação IA/negócios/marketing"
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+FreeNews negócios",
+            "+recente"
           ],
-          "preview_post": null
+          "preview_post": {
+            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nFL Beef Council Reviews Results on Ecommerce Campaign. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://southeastagnet.com/2026/09/22/florida-beef-council-ecommerce-campaign-beef-sales/\n\nFonte: FreeNewsAPI (negócios/IA)",
+            "titulo": "FL Beef Council Reviews Results on Ecommerce Campaign",
+            "validacao": {
+              "ok": true
+            }
+          }
         },
         {
-          "fonte": "Hacker News",
-          "fonte_id": "hacker-news",
-          "titulo_original": "SAML: A fractal of bad design",
-          "titulo": "SAML: A fractal of bad design",
-          "resumo": "",
-          "url": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
-          "imagem": "",
-          "pontuacao": 21,
-          "status": "rejeitado",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "How AI Actually Calls an API? Tool Calling Explained from Scratch",
+          "titulo": "How AI Actually Calls an API? Tool Calling Explained from Scratch",
+          "resumo": "In the previous post, we taught a model to read our documents. It could search a pile of files and...",
+          "url": "https://dev.to/aws/how-ai-actually-calls-an-api-tool-calling-explained-from-scratch-4lf8",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmhtvo6zedugelnfp6o2v.png",
+          "pontuacao": 82,
+          "status": "aprovado",
           "motivos": [
-            "+fonte HN",
-            "+recente",
-            "-pouca relação IA/negócios/marketing"
+            "+keyword no título (2)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem"
           ],
-          "preview_post": null
-        },
-        {
-          "fonte": "Hacker News",
-          "fonte_id": "hacker-news",
-          "titulo_original": "WordPress: Unauthenticated path traversal leading to conditional RCE",
-          "titulo": "WordPress: Unauthenticated path traversal leading to conditional RCE",
-          "resumo": "",
-          "url": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp",
-          "imagem": "",
-          "pontuacao": 21,
-          "status": "rejeitado",
-          "motivos": [
-            "+fonte HN",
-            "+recente",
-            "-pouca relação IA/negócios/marketing"
-          ],
-          "preview_post": null
-        },
-        {
-          "fonte": "Hacker News",
-          "fonte_id": "hacker-news",
-          "titulo_original": "No Easy Fix for Bogus Respondents in Online Opt-In Polls",
-          "titulo": "No Easy Fix for Bogus Respondents in Online Opt-In Polls",
-          "resumo": "",
-          "url": "https://www.pewresearch.org/methods/2026/08/27/no-easy-fix-for-bogus-respondents-in-online-opt-in-polls/",
-          "imagem": "",
-          "pontuacao": 21,
-          "status": "rejeitado",
-          "motivos": [
-            "+fonte HN",
-            "+recente",
-            "-pouca relação IA/negócios/marketing"
-          ],
-          "preview_post": null
+          "preview_post": {
+            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nHow AI Actually Calls an API? Tool Calling Explained from Scratch. In the previous post, we taught a model to read our documents. It could search a pile of files and...\n\n🔎 Saiba mais:\nhttps://dev.to/aws/how-ai-actually-calls-an-api-tool-calling-explained-from-scratch-4lf8\n\nFonte: DEV.to",
+            "titulo": "How AI Actually Calls an API? Tool Calling Explained from Scratch",
+            "validacao": {
+              "ok": true
+            }
+          }
         }
       ]
     },
@@ -249,15 +321,67 @@
       "page_id": "1247772158429331",
       "status": "aprovado_validacao",
       "melhor": {
-        "titulo": "Filtro solar",
+        "titulo": "Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml",
         "pontuacao": 100,
-        "fonte": "Wikipedia (PT)",
-        "url": "https://pt.wikipedia.org/wiki/Filtro_solar",
-        "preview": "✨ CUIDADO COM A PELE\n\nO filtro solar ou protetor solar é uma loção, spray ou produto tópico que ajuda a proteger a pele da radiação ultravioleta do sol, o que reduz as queimaduras solares e outros danos à pele,… Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Filtro_solar\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)"
+        "fonte": "Open Beauty Facts",
+        "url": "https://world.openbeautyfacts.org/product/4005900201126/protetor-solar-facial-nivea-sun-toque-seco-antissinais-fps-60-50ml",
+        "preview": "✨ CUIDADO COM A PELE\n\nProduto em destaque na base aberta de cosméticos: Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml. Use como referência para comparar rótulos e FPS — sempre de acordo com a sua pele e orientação profissional.\n\n🔎 Saiba mais:\nhttps://world.openbeautyfacts.org/product/4005900201126/protetor-solar-facial-nivea-sun-toque-seco-antissinais-fps-60-50ml\n\nFonte: Open Beauty Facts"
       },
       "candidatos": [
         {
-          "fonte": "Wikipedia (PT)",
+          "fonte": "Open Beauty Facts",
+          "fonte_id": "open-beauty",
+          "titulo_original": "Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml",
+          "titulo": "Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml",
+          "resumo": "Categoria: Protetor solar, cuidados com a pele. Dados Open Beauty Facts (base aberta de cosméticos).",
+          "url": "https://world.openbeautyfacts.org/product/4005900201126/protetor-solar-facial-nivea-sun-toque-seco-antissinais-fps-60-50ml",
+          "imagem": "",
+          "pontuacao": 100,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (3)",
+            "+keyword forte no título",
+            "+keywords na descrição (3)",
+            "+Open Beauty Facts",
+            "+produto skincare claro",
+            "+skincare prático"
+          ],
+          "preview_post": {
+            "texto": "✨ CUIDADO COM A PELE\n\nProduto em destaque na base aberta de cosméticos: Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml. Use como referência para comparar rótulos e FPS — sempre de acordo com a sua pele e orientação profissional.\n\n🔎 Saiba mais:\nhttps://world.openbeautyfacts.org/product/4005900201126/protetor-solar-facial-nivea-sun-toque-seco-antissinais-fps-60-50ml\n\nFonte: Open Beauty Facts",
+            "titulo": "Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Open Beauty Facts",
+          "fonte_id": "open-beauty",
+          "titulo_original": "Protetor Solar Facial Neutrogena Sun Fresh FPS30 40g",
+          "titulo": "Protetor Solar Facial Neutrogena Sun Fresh FPS30 40g",
+          "resumo": "Categoria: Protetor solar, Cuidados com a pele, Proteção UV. Dados Open Beauty Facts (base aberta de cosméticos).",
+          "url": "https://world.openbeautyfacts.org/product/7891010250980/protetor-solar-facial-neutrogena-sun-fresh-fps30-40g",
+          "imagem": "",
+          "pontuacao": 100,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (2)",
+            "+keyword forte no título",
+            "+keywords na descrição (3)",
+            "+Open Beauty Facts",
+            "+produto skincare claro",
+            "+skincare prático"
+          ],
+          "preview_post": {
+            "texto": "✨ CUIDADO COM A PELE\n\nProduto em destaque na base aberta de cosméticos: Protetor Solar Facial Neutrogena Sun Fresh FPS30 40g. Use como referência para comparar rótulos e FPS — sempre de acordo com a sua pele e orientação profissional.\n\n🔎 Saiba mais:\nhttps://world.openbeautyfacts.org/product/7891010250980/protetor-solar-facial-neutrogena-sun-fresh-fps30-40g\n\nFonte: Open Beauty Facts",
+            "titulo": "Protetor Solar Facial Neutrogena Sun Fresh FPS30 40g",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Wikipedia (PT) skincare",
           "fonte_id": "wiki-pele",
           "titulo_original": "Filtro solar",
           "titulo": "Filtro solar",
@@ -270,12 +394,12 @@
             "+keyword no título (2)",
             "+keyword forte no título",
             "+keywords na descrição (4)",
-            "+Wikipedia em português",
-            "+imagem url",
+            "+Wikipedia PT",
+            "+imagem",
             "+skincare prático"
           ],
           "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nO filtro solar ou protetor solar é uma loção, spray ou produto tópico que ajuda a proteger a pele da radiação ultravioleta do sol, o que reduz as queimaduras solares e outros danos à pele,… Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Filtro_solar\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
+            "texto": "✨ CUIDADO COM A PELE\n\nO filtro solar ou protetor solar é uma loção, spray ou produto tópico que ajuda a proteger a pele da radiação ultravioleta do sol, o que reduz as queimaduras solares e outros danos à pele,… Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Filtro_solar\n\nFonte: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
             "titulo": "Filtro solar",
             "validacao": {
               "ok": true
@@ -283,34 +407,34 @@
           }
         },
         {
-          "fonte": "Wikipedia (PT)",
+          "fonte": "Wikipedia (PT) skincare",
           "fonte_id": "wiki-pele",
-          "titulo_original": "Melasma",
-          "titulo": "Melasma",
-          "resumo": "Melasma é uma distúrbio pigmentar da pele caracterizada por manchas escuras na pele. Ocorre principalmente no rosto, mas pode ocorrer em outros segmentos do corpo. Ocorre mais frequentemente em mulheres. Acontece em cerca de dez por cento nos homens. Quando as manchas aparecem na",
-          "url": "https://pt.wikipedia.org/wiki/Melasma",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Melasmablemish.jpg/330px-Melasmablemish.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "titulo_original": "Acne",
+          "titulo": "Acne",
+          "resumo": "Acne é uma condição cutânea de longa duração caracterizada por áreas de pontos negros, pontos brancos, pústulas, pele oleosa e possibilidade de aparecimento de cicatrizes. Dependendo do grau de incidência, infecção e dimensão dos pontos de acne sobre a pele, as consequências na a",
+          "url": "https://pt.wikipedia.org/wiki/Acne",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Acne_vulgaris_on_a_very_oily_skin.jpg/330px-Acne_vulgaris_on_a_very_oily_skin.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
           "pontuacao": 88,
           "status": "aprovado",
           "motivos": [
             "+keyword no título (1)",
             "+keyword forte no título",
             "+keywords na descrição (2)",
-            "+Wikipedia em português",
-            "+imagem url",
+            "+Wikipedia PT",
+            "+imagem",
             "-título curto",
             "+skincare prático"
           ],
           "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nMelasma é uma distúrbio pigmentar da pele caracterizada por manchas escuras na pele. Ocorre principalmente no rosto, mas pode ocorrer em outros segmentos do corpo. Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Melasma\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "Melasma",
+            "texto": "✨ CUIDADO COM A PELE\n\nAcne é uma condição cutânea de longa duração caracterizada por áreas de pontos negros, pontos brancos, pústulas, pele oleosa e possibilidade de aparecimento de cicatrizes. Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Acne\n\nFonte: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "Acne",
             "validacao": {
               "ok": true
             }
           }
         },
         {
-          "fonte": "Wikipedia (PT)",
+          "fonte": "Wikipedia (PT) skincare",
           "fonte_id": "wiki-pele",
           "titulo_original": "Retinol",
           "titulo": "Retinol",
@@ -323,12 +447,12 @@
             "+keyword no título (1)",
             "+keyword forte no título",
             "+keywords na descrição (1)",
-            "+Wikipedia em português",
+            "+Wikipedia PT",
             "-título curto",
             "+skincare prático"
           ],
           "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nO retinol, também conhecido como vitamina A1, é uma vitamina encontrada nos alimentos e utilizada como suplemento dietético. Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Retinol\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
+            "texto": "✨ CUIDADO COM A PELE\n\nO retinol, também conhecido como vitamina A1, é uma vitamina encontrada nos alimentos e utilizada como suplemento dietético. Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Retinol\n\nFonte: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
             "titulo": "Retinol",
             "validacao": {
               "ok": true
@@ -336,38 +460,155 @@
           }
         },
         {
-          "fonte": "Wikipedia (PT)",
-          "fonte_id": "wiki-pele",
-          "titulo_original": "Colágeno",
-          "titulo": "Colágeno",
-          "resumo": "O colágeno (português brasileiro) ou colagénio (português europeu) é uma proteína de importância fundamental na constituição da matriz extracelular do tecido conjuntivo, sendo responsável por grande parte de suas propriedades físicas.",
-          "url": "https://pt.wikipedia.org/wiki/Col%C3%A1geno",
+          "fonte": "Open Beauty Facts",
+          "fonte_id": "open-beauty",
+          "titulo_original": "SVR Spray Sun Secure SPF 50+",
+          "titulo": "SVR Spray Sun Secure SPF 50+",
+          "resumo": "Categoria: Sunscreen. Dados Open Beauty Facts (base aberta de cosméticos).",
+          "url": "https://world.openbeautyfacts.org/product/3662361002146/svr-spray-sun-secure-spf-50",
+          "imagem": "https://images.openbeautyfacts.org/images/products/366/236/100/2146/front_en.4.200.jpg",
+          "pontuacao": 73,
+          "status": "candidato_fraco",
+          "motivos": [
+            "+keywords na descrição (1)",
+            "+Open Beauty Facts",
+            "+produto skincare claro",
+            "+imagem",
+            "+skincare prático"
+          ],
+          "preview_post": {
+            "texto": "✨ CUIDADO COM A PELE\n\nProduto em destaque na base aberta de cosméticos: SVR Spray Sun Secure SPF 50+. Use como referência para comparar rótulos e FPS — sempre de acordo com a sua pele e orientação profissional.\n\n🔎 Saiba mais:\nhttps://world.openbeautyfacts.org/product/3662361002146/svr-spray-sun-secure-spf-50\n\nFonte: Open Beauty Facts",
+            "titulo": "SVR Spray Sun Secure SPF 50+",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Open Beauty Facts",
+          "fonte_id": "open-beauty",
+          "titulo_original": "Wella Invigo Sun UV Hair Color Protection - Spray Leave-in 150ml",
+          "titulo": "Wella Invigo Sun UV Hair Color Protection - Spray Leave-in 150ml",
+          "resumo": "Categoria: Protetor solar, leave-in. Dados Open Beauty Facts (base aberta de cosméticos).",
+          "url": "https://world.openbeautyfacts.org/product/3614226743916/wella-invigo-sun-uv-hair-color-protection-spray-leave-in-150ml",
           "imagem": "",
-          "pontuacao": 58,
+          "pontuacao": 72,
+          "status": "candidato_fraco",
+          "motivos": [
+            "+keywords na descrição (2)",
+            "+Open Beauty Facts",
+            "+produto skincare claro",
+            "+skincare prático"
+          ],
+          "preview_post": {
+            "texto": "✨ CUIDADO COM A PELE\n\nProduto em destaque na base aberta de cosméticos: Wella Invigo Sun UV Hair Color Protection - Spray Leave-in 150ml. Use como referência para comparar rótulos e FPS — sempre de acordo com a sua pele e orientação profissional.\n\n🔎 Saiba mais:\nhttps://world.openbeautyfacts.org/product/3614226743916/wella-invigo-sun-uv-hair-color-protection-spray-leave-in-150ml\n\nFonte: Open Beauty Facts",
+            "titulo": "Wella Invigo Sun UV Hair Color Protection - Spray Leave-in 150ml",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Open Beauty Facts",
+          "fonte_id": "open-beauty",
+          "titulo_original": "Vitamins Keratin Protein Hair Serum",
+          "titulo": "Vitamins Keratin Protein Hair Serum",
+          "resumo": "Categoria: Protetor solar, Cuidados com os cabelos. Dados Open Beauty Facts (base aberta de cosméticos).",
+          "url": "https://world.openbeautyfacts.org/product/0074590516876/vitamins-keratin-protein-hair-serum",
+          "imagem": "",
+          "pontuacao": 72,
+          "status": "candidato_fraco",
+          "motivos": [
+            "+keywords na descrição (2)",
+            "+Open Beauty Facts",
+            "+produto skincare claro",
+            "+skincare prático"
+          ],
+          "preview_post": {
+            "texto": "✨ CUIDADO COM A PELE\n\nProduto em destaque na base aberta de cosméticos: Vitamins Keratin Protein Hair Serum. Use como referência para comparar rótulos e FPS — sempre de acordo com a sua pele e orientação profissional.\n\n🔎 Saiba mais:\nhttps://world.openbeautyfacts.org/product/0074590516876/vitamins-keratin-protein-hair-serum\n\nFonte: Open Beauty Facts",
+            "titulo": "Vitamins Keratin Protein Hair Serum",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Wikipedia (PT) skincare",
+          "fonte_id": "wiki-pele",
+          "titulo_original": "Ácido hialurônico",
+          "titulo": "Ácido hialurônico",
+          "resumo": "Ácido hialurônico (português brasileiro) ou ácido hialurónico (português europeu) é um biopolímero formado pelo ácido glucurônico e a N-acetilglicosamina. De textura viscosa, existe no líquido sinovial, humor vítreo e no tecido conjuntivo colágeno de numerosos organismos, sendo u",
+          "url": "https://pt.wikipedia.org/wiki/%C3%81cido_hialur%C3%B4nico",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Hyaluronan.png/330px-Hyaluronan.png?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 69,
+          "status": "candidato_fraco",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keywords na descrição (1)",
+            "+Wikipedia PT",
+            "+imagem"
+          ],
+          "preview_post": {
+            "texto": "✨ CUIDADO COM A PELE\n\nÁcido hialurônico (português brasileiro) ou ácido hialurónico (português europeu) é um biopolímero formado pelo ácido glucurônico e a N-acetilglicosamina. Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/%C3%81cido_hialur%C3%B4nico\n\nFonte: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "Ácido hialurônico",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Wikipedia (PT) skincare",
+          "fonte_id": "wiki-pele",
+          "titulo_original": "Nicotinamida",
+          "titulo": "Nicotinamida",
+          "resumo": "Nicotinamida ou niacinamida é a amida correspondente ao ácido carboxílico niacina (ácido nicotínico). Nicotinamida, niacina e hexanicotinato de inositol são formas da Vitamina B3, com efeitos diferentes. Nicotinamida, também conhecida como vitamina B3 ou vitamina PP, desempenha u",
+          "url": "https://pt.wikipedia.org/wiki/Nicotinamida",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Nicotinamide_structure.svg/langpt-330px-Nicotinamide_structure.svg.png?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 61,
+          "status": "candidato_fraco",
+          "motivos": [
+            "+keywords na descrição (1)",
+            "+Wikipedia PT",
+            "+imagem",
+            "+skincare prático"
+          ],
+          "preview_post": {
+            "texto": "✨ CUIDADO COM A PELE\n\nNicotinamida ou niacinamida é a amida correspondente ao ácido carboxílico niacina (ácido nicotínico). Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Nicotinamida\n\nFonte: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "Nicotinamida",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Open Beauty Facts",
+          "fonte_id": "open-beauty",
+          "titulo_original": "Dermo protect spf 50+",
+          "titulo": "Dermo protect spf 50+",
+          "resumo": "Categoria: Crèmes solaires. Dados Open Beauty Facts (base aberta de cosméticos).",
+          "url": "https://world.openbeautyfacts.org/product/3600551125305/dermo-protect-spf-50-mixa",
+          "imagem": "https://images.openbeautyfacts.org/images/products/360/055/112/5305/front_fr.9.200.jpg",
+          "pontuacao": 51,
           "status": "rejeitado",
           "motivos": [
-            "+keyword no título (2)",
-            "+keywords na descrição (2)",
-            "+Wikipedia em português",
-            "-título curto"
+            "+Open Beauty Facts",
+            "+imagem"
           ],
           "preview_post": null
         },
         {
-          "fonte": "Wikipedia (PT)",
-          "fonte_id": "wiki-pele",
-          "titulo_original": "Hidratação",
-          "titulo": "Hidratação",
-          "resumo": "Hidratação essencialmente é a reposição de água no organismo, mantendo sua composição corporal. A água representa cerca de 60% do peso corporal de um adulto. A hidratação pode ser realizada por via oral ou intravenosa.",
-          "url": "https://pt.wikipedia.org/wiki/Hidrata%C3%A7%C3%A3o",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Infuuszakjes.jpg/330px-Infuuszakjes.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 52,
+          "fonte": "Open Beauty Facts",
+          "fonte_id": "open-beauty",
+          "titulo_original": "Spray solaire",
+          "titulo": "Spray solaire",
+          "resumo": "Categoria: Crema solare. Dados Open Beauty Facts (base aberta de cosméticos).",
+          "url": "https://world.openbeautyfacts.org/product/3504105036751/high-protection-sun-spray-mustela",
+          "imagem": "https://images.openbeautyfacts.org/images/products/350/410/503/6751/front_en.7.200.jpg",
+          "pontuacao": 51,
           "status": "rejeitado",
           "motivos": [
-            "+keyword forte no título",
-            "+Wikipedia em português",
-            "+imagem url",
-            "-título curto"
+            "+Open Beauty Facts",
+            "+imagem"
           ],
           "preview_post": null
         }
@@ -378,15 +619,140 @@
       "page_id": "1332730186586435",
       "status": "aprovado_validacao",
       "melhor": {
-        "titulo": "Motociclismo",
-        "pontuacao": 84,
-        "fonte": "Wikipedia (PT)",
-        "url": "https://pt.wikipedia.org/wiki/Motociclismo",
-        "preview": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? O motociclismo é uma disciplina que implica tudo o que diga respeito a conduzir um motociclo.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Motociclismo\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)"
+        "titulo": "The Flying Flea C6 is already in Europe: an electric motorcycle for 5,900 euros and 104 km of autonomy",
+        "pontuacao": 91,
+        "fonte": "FreeNewsAPI (motos)",
+        "url": "https://www.theuth.co/the-flying-flea-c6-is-already-in-europe-an-electric-motorcycle-for-5900-euros-and-104-km-of-autonomy/21979/",
+        "preview": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? It is already a fact: Flying Fleathe electric motorcycle brand Royal Enfieldbegins its commercial journey internationally.\n\n🔎 Saiba mais:\nhttps://www.theuth.co/the-flying-flea-c6-is-already-in-europe-an-electric-motorcycle-for-5900-euros-and-104-km-of-autonomy/21979/\n\nFonte: FreeNewsAPI (motos)"
       },
       "candidatos": [
         {
-          "fonte": "Wikipedia (PT)",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "The Flying Flea C6 is already in Europe: an electric motorcycle for 5,900 euros and 104 km of autonomy",
+          "titulo": "The Flying Flea C6 is already in Europe: an electric motorcycle for 5,900 euros and 104 km of autonomy",
+          "resumo": "It is already a fact: Flying Fleathe electric motorcycle brand Royal Enfieldbegins its commercial journey internationally. Although last April the arrival of the first units The post The Flying Flea C6 is already in Europe: an electric motorcycle for 5,900 euros and 104 km of aut",
+          "url": "https://www.theuth.co/the-flying-flea-c6-is-already-in-europe-an-electric-motorcycle-for-5900-euros-and-104-km-of-autonomy/21979/",
+          "imagem": "",
+          "pontuacao": 91,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (2)",
+            "+keyword forte no título",
+            "+keywords na descrição (2)",
+            "+FreeNews motos",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? It is already a fact: Flying Fleathe electric motorcycle brand Royal Enfieldbegins its commercial journey internationally.\n\n🔎 Saiba mais:\nhttps://www.theuth.co/the-flying-flea-c6-is-already-in-europe-an-electric-motorcycle-for-5900-euros-and-104-km-of-autonomy/21979/\n\nFonte: FreeNewsAPI (motos)",
+            "titulo": "The Flying Flea C6 is already in Europe: an electric motorcycle for 5,900 euros and 104 km of autonomy",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "AGV debuts Pista GP R3 helmet using microscopic protective spheres",
+          "titulo": "AGV debuts Pista GP R3 helmet using microscopic protective spheres",
+          "resumo": "AGV's new Pista GP R3 helmet features an external layer of over 1,600 micro-spheres, enhancing safety by limiting rotational forces during oblique impacts.",
+          "url": "https://www.newsbytesapp.com/news/auto/agv-debuts-pista-gp-r3-helmet-using-microscopic-protective-spheres/tldr",
+          "imagem": "",
+          "pontuacao": 87,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+FreeNews motos",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? AGV's new Pista GP R3 helmet features an external layer of over 1,600 micro-spheres, enhancing safety by limiting rotational forces during oblique impacts.\n\n🔎 Saiba mais:\nhttps://www.newsbytesapp.com/news/auto/agv-debuts-pista-gp-r3-helmet-using-microscopic-protective-spheres/tldr\n\nFonte: FreeNewsAPI (motos)",
+            "titulo": "AGV debuts Pista GP R3 helmet using microscopic protective spheres",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "MotoGP 2027 Rider Lineup: Senna Agius Joins Tech3 as Grid Takes Shape",
+          "titulo": "MotoGP 2027 Rider Lineup: Senna Agius Joins Tech3 as Grid Takes Shape",
+          "resumo": "The grid for the 2027 MotoGP season is taking definitive shape as teams finalize multi-year contracts ahead of sweeping new technical regulations, leaving only two seats vacant on the premier class roster according to recent team announcements and official championship data. Tech",
+          "url": "https://www.archysport.com/2026/09/motogp-2027-rider-lineup-senna-agius-joins-tech3-as-grid-takes-shape/",
+          "imagem": "",
+          "pontuacao": 87,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+FreeNews motos",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? The grid for the 2027 MotoGP season is taking definitive shape as teams finalize multi-year contracts ahead of sweeping new technical regulations, leaving only two seats vacant on the premier class roster…\n\n🔎 Saiba mais:\nhttps://www.archysport.com/2026/09/motogp-2027-rider-lineup-senna-agius-joins-tech3-as-grid-takes-shape/\n\nFonte: FreeNewsAPI (motos)",
+            "titulo": "MotoGP 2027 Rider Lineup: Senna Agius Joins Tech3 as Grid Takes Shape",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Joan Mir escluso dal double-header di MotoGP per problemi di salute non confermati",
+          "titulo": "Joan Mir escluso dal double-header di MotoGP per problemi di salute non confermati",
+          "resumo": "Joan Mir non parteciperà ai prossimi Gran Premi di Giappone e Indonesia a causa di problemi di salute non confermati. The post Joan Mir escluso dal double-header di MotoGP per problemi di salute non confermati appeared first on solomotori.it .",
+          "url": "https://www.solomotori.it/2026/09/23/joan-mir-escluso-dal-double-header-motogp-problemi-salute-confermati/",
+          "imagem": "",
+          "pontuacao": 87,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+FreeNews motos",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Joan Mir non parteciperà ai prossimi Gran Premi di Giappone e Indonesia a causa di problemi di salute non confermati.\n\n🔎 Saiba mais:\nhttps://www.solomotori.it/2026/09/23/joan-mir-escluso-dal-double-header-motogp-problemi-salute-confermati/\n\nFonte: FreeNewsAPI (motos)",
+            "titulo": "Joan Mir escluso dal double-header di MotoGP per problemi di salute non confermati",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Spielberg-Test: Bestzeit für Moreira (Honda) – Senna Agius überraschte - MotoGP - SPEEDWEEK.com",
+          "titulo": "Spielberg-Test: Bestzeit für Moreira (Honda) – Senna Agius überraschte - MotoGP - SPEEDWEEK.com",
+          "resumo": "Obwohl der MotoGP-Test in Spielberg mit den 850er-Motorrädern und den Pirelli-Reifen unter Ausschluss der Öffentlichkeit stattfand, sind die Rundenzeiten der Protagonisten durchgesickert.",
+          "url": "https://www.speedweek.com/a/motogp/spielberg-motogp-test-bestzeit-moreira-agius-ueberrascht",
+          "imagem": "",
+          "pontuacao": 87,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (2)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+FreeNews motos",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Obwohl der MotoGP-Test in Spielberg mit den 850er-Motorrädern und den Pirelli-Reifen unter Ausschluss der Öffentlichkeit stattfand, sind die Rundenzeiten der Protagonisten durchgesickert.\n\n🔎 Saiba mais:\nhttps://www.speedweek.com/a/motogp/spielberg-motogp-test-bestzeit-moreira-agius-ueberrascht\n\nFonte: FreeNewsAPI (motos)",
+            "titulo": "Spielberg-Test: Bestzeit für Moreira (Honda) – Senna Agius überraschte - MotoGP - SPEEDWEEK.com",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Wikipedia (PT) motos",
           "fonte_id": "wiki-moto",
           "titulo_original": "Motociclismo",
           "titulo": "Motociclismo",
@@ -399,11 +765,11 @@
             "+keyword no título (1)",
             "+keyword forte no título",
             "+keywords na descrição (1)",
-            "+Wikipedia em português",
-            "+imagem url"
+            "+Wikipedia PT",
+            "+imagem"
           ],
           "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? O motociclismo é uma disciplina que implica tudo o que diga respeito a conduzir um motociclo.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Motociclismo\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? O motociclismo é uma disciplina que implica tudo o que diga respeito a conduzir um motociclo.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Motociclismo\n\nFonte: Wikipedia (PT) motos\nAtribuição: CC BY-SA (Wikipedia)",
             "titulo": "Motociclismo",
             "validacao": {
               "ok": true
@@ -411,25 +777,73 @@
           }
         },
         {
-          "fonte": "Wikipedia (PT)",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Silent Cry to host fundraiser in collaboration with Jokers Motorcycle Club",
+          "titulo": "Silent Cry to host fundraiser in collaboration with Jokers Motorcycle Club",
+          "resumo": "Certain issues tend to bring people together regardless of backgrounds, beliefs, occupation, or other factors. The desire to bring awareness to and fight back against domestic violence is certainly one […]",
+          "url": "https://winchestersun.com/2026/09/22/silent-cry-to-host-fundraiser-in-collaboration-with-jokers-motorcycle-club/",
+          "imagem": "",
+          "pontuacao": 83,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+FreeNews motos",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nSilent Cry to host fundraiser in collaboration with Jokers Motorcycle Club: assunto que interessa quem anda de moto, cuida do equipamento ou acompanha o esporte.\n\n🔎 Saiba mais:\nhttps://winchestersun.com/2026/09/22/silent-cry-to-host-fundraiser-in-collaboration-with-jokers-motorcycle-club/\n\nFonte: FreeNewsAPI (motos)",
+            "titulo": "Silent Cry to host fundraiser in collaboration with Jokers Motorcycle Club",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "MotoGp: Honda, Chantra al posto di Mir in Giappone",
+          "titulo": "MotoGp: Honda, Chantra al posto di Mir in Giappone",
+          "resumo": "",
+          "url": "https://www.mattinopadova.it/italia/motogp-honda-chantra-al-posto-di-mir-in-giappone-p44ce8qt",
+          "imagem": "",
+          "pontuacao": 83,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (2)",
+            "+keyword forte no título",
+            "+FreeNews motos",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nMotoGp: Honda, Chantra al posto di Mir in Giappone: assunto que interessa quem anda de moto, cuida do equipamento ou acompanha o esporte.\n\n🔎 Saiba mais:\nhttps://www.mattinopadova.it/italia/motogp-honda-chantra-al-posto-di-mir-in-giappone-p44ce8qt\n\nFonte: FreeNewsAPI (motos)",
+            "titulo": "MotoGp: Honda, Chantra al posto di Mir in Giappone",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Wikipedia (PT) motos",
           "fonte_id": "wiki-moto",
           "titulo_original": "Motocicleta",
           "titulo": "Motocicleta",
           "resumo": "Motocicleta ou motociclo, também conhecida pelas formas reduzidas moto e mota (português europeu), informalmente chamada no Brasil de \"motoca\", é um veículo motorizado de duas rodas dirigido por um guidão a partir de um assento tipo assento. Uma motocicleta é amplamente definida ",
           "url": "https://pt.wikipedia.org/wiki/Motocicleta",
           "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Red_Honda_C50_%281975%3F%29_in_Athens_on_10-13-2023.jpg/330px-Red_Honda_C50_%281975%3F%29_in_Athens_on_10-13-2023.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 82,
+          "pontuacao": 78,
           "status": "aprovado",
           "motivos": [
             "+keyword no título (1)",
             "+keyword forte no título",
-            "+keywords na descrição (3)",
-            "+Wikipedia em português",
-            "+imagem url",
+            "+keywords na descrição (2)",
+            "+Wikipedia PT",
+            "+imagem",
             "-título curto"
           ],
           "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Motocicleta ou motociclo, também conhecida pelas formas reduzidas moto e mota (português europeu), informalmente chamada no Brasil de \"motoca\", é um veículo motorizado de duas rodas dirigido por um guidão a…\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Motocicleta\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Motocicleta ou motociclo, também conhecida pelas formas reduzidas moto e mota (português europeu), informalmente chamada no Brasil de \"motoca\", é um veículo motorizado de duas rodas dirigido por um guidão a…\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Motocicleta\n\nFonte: Wikipedia (PT) motos\nAtribuição: CC BY-SA (Wikipedia)",
             "titulo": "Motocicleta",
             "validacao": {
               "ok": true
@@ -437,256 +851,330 @@
           }
         },
         {
-          "fonte": "Wikipedia (PT)",
-          "fonte_id": "wiki-moto",
-          "titulo_original": "Capacete",
-          "titulo": "Capacete",
-          "resumo": "Capacete é um objeto que serve para proteger a cabeça de impactos externos. Existem capacetes para várias aplicações, variando quanto à segurança oferecida. No caso dos motociclistas, os capacetes protegem em caso de quedas ou colisões. Capacetes de aplicação militar, por sua vez",
-          "url": "https://pt.wikipedia.org/wiki/Capacete",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Helmet_centurion_end_of_second_century.jpg/330px-Helmet_centurion_end_of_second_century.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 74,
-          "status": "candidato_fraco",
-          "motivos": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+Wikipedia em português",
-            "+imagem url",
-            "-título curto"
-          ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Capacete é um objeto que serve para proteger a cabeça de impactos externos. Existem capacetes para várias aplicações, variando quanto à segurança oferecida.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Capacete\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "Capacete",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "Wikipedia (PT)",
-          "fonte_id": "wiki-moto",
-          "titulo_original": "MotoGP",
-          "titulo": "MotoGP",
-          "resumo": "MotoGP ou Moto Grand Prix é a categoria principal do Campeonato Mundial de Motovelocidade e um dos mais antigos campeonatos do mundo de desportos motorizados – o primeiro ano de competição teve lugar em 1949. É disputado simultaneamente às categorias de Moto3, e Moto2.",
-          "url": "https://pt.wikipedia.org/wiki/MotoGP",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
+          "titulo": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
+          "resumo": "Honda QC3 electric scooter has been launched in India at ₹1.35 lakh. It gets a 3 kWh battery, claimed 145 km range, 32-litre storage and connected features. Here’s how it compares with the Honda QC1 and the Activa e.",
+          "url": "https://www.livemint.com/auto-news/honda-qc3-electric-scooter-launched-price-145-km-range-battery-features-rivals-and-more-11790076661909.html",
           "imagem": "",
-          "pontuacao": 73,
-          "status": "candidato_fraco",
+          "pontuacao": 76,
+          "status": "aprovado",
           "motivos": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
+            "+keyword no título (2)",
             "+keywords na descrição (2)",
-            "+Wikipedia em português",
-            "-título curto"
+            "+FreeNews motos",
+            "+recente"
           ],
           "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? MotoGP ou Moto Grand Prix é a categoria principal do Campeonato Mundial de Motovelocidade e um dos mais antigos campeonatos do mundo de desportos motorizados – o primeiro ano de competição teve lugar em 1949.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/MotoGP\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "MotoGP",
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Honda QC3 electric scooter has been launched in India at ₹1.35 lakh. It gets a 3 kWh battery, claimed 145 km range, 32-litre storage and connected features.\n\n🔎 Saiba mais:\nhttps://www.livemint.com/auto-news/honda-qc3-electric-scooter-launched-price-145-km-range-battery-features-rivals-and-more-11790076661909.html\n\nFonte: FreeNewsAPI (motos)",
+            "titulo": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
             "validacao": {
               "ok": true
             }
           }
         },
         {
-          "fonte": "Wikipedia (PT)",
-          "fonte_id": "wiki-moto",
-          "titulo_original": "Yamaha Corporation",
-          "titulo": "Yamaha Corporation",
-          "resumo": "A Yamaha Corporation  é uma companhia japonesa multinacional fabricante de instrumentos musicais e equipamentos de áudio.",
-          "url": "https://pt.wikipedia.org/wiki/Yamaha_Corporation",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/YAMAHA_%28headquarters_1%29.jpg/330px-YAMAHA_%28headquarters_1%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 69,
-          "status": "candidato_fraco",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
+          "titulo": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
+          "resumo": "Honda QC3 electric scooter has been launched in India at ₹1.35 lakh. It gets a 3 kWh battery, claimed 145 km range, 32-litre storage and connected features. Here’s how it compares with the Honda QC1 and the Activa e.",
+          "url": "https://www.livemint.com/auto-news/honda-qc3-electric-scooter-launched-price-145-km-range-battery-features-rivals-and-more/amp-11790076661909.html",
+          "imagem": "",
+          "pontuacao": 76,
+          "status": "aprovado",
           "motivos": [
-            "+keyword no título (1)",
-            "+keywords na descrição (1)",
-            "+Wikipedia em português",
-            "+imagem url"
+            "+keyword no título (2)",
+            "+keywords na descrição (2)",
+            "+FreeNews motos",
+            "+recente"
           ],
           "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? A Yamaha Corporation é uma companhia japonesa multinacional fabricante de instrumentos musicais e equipamentos de áudio.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Yamaha_Corporation\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "Yamaha Corporation",
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Honda QC3 electric scooter has been launched in India at ₹1.35 lakh. It gets a 3 kWh battery, claimed 145 km range, 32-litre storage and connected features.\n\n🔎 Saiba mais:\nhttps://www.livemint.com/auto-news/honda-qc3-electric-scooter-launched-price-145-km-range-battery-features-rivals-and-more/amp-11790076661909.html\n\nFonte: FreeNewsAPI (motos)",
+            "titulo": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
             "validacao": {
               "ok": true
             }
           }
         },
         {
-          "fonte": "Wikipedia (PT)",
-          "fonte_id": "wiki-moto",
-          "titulo_original": "Honda",
-          "titulo": "Honda",
-          "resumo": "Honda Motor Company , comumente conhecida como Honda (ホンダ), é um dos mais importantes fabricantes de automóveis e motocicletas do mundo. Fundada por Soichiro Honda. Teve sua pronúncia \"ronda\" consolidada — antes \"ondá\" — após sua expansão e entrada no mercado alemão, determinando",
-          "url": "https://pt.wikipedia.org/wiki/Honda",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Honda-Motor-Aoyama-01.jpg/330px-Honda-Motor-Aoyama-01.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 59,
-          "status": "rejeitado",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Honda moet wereldkampioen meerdere Grands Prix missen door vreemde klachten",
+          "titulo": "Honda moet wereldkampioen meerdere Grands Prix missen door vreemde klachten",
+          "resumo": "Honda moet het de komende twee MotoGP-weekenden zonder Joan Mir stellen. De wereldkampioen van 2020 ontbreekt tijdens de Grands Prix van Japan en Indonesië nadat bloedonderzoek afwijkende waarden aan het licht heeft gebracht. MotoGP-arts Dr. Angel Charte laat bovendien weten dat ",
+          "url": "https://www.f1head.nl/gpblog/honda-moet-wereldkampioen-meerdere-grands-prix-missen-door-vreemde-klachten/",
+          "imagem": "",
+          "pontuacao": 76,
+          "status": "aprovado",
           "motivos": [
             "+keyword no título (1)",
-            "+keywords na descrição (1)",
-            "+Wikipedia em português",
-            "+imagem url",
-            "-título curto"
+            "+keywords na descrição (2)",
+            "+FreeNews motos",
+            "+recente"
           ],
-          "preview_post": null
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Honda moet het de komende twee MotoGP-weekenden zonder Joan Mir stellen.\n\n🔎 Saiba mais:\nhttps://www.f1head.nl/gpblog/honda-moet-wereldkampioen-meerdere-grands-prix-missen-door-vreemde-klachten/\n\nFonte: FreeNewsAPI (motos)",
+            "titulo": "Honda moet wereldkampioen meerdere Grands Prix missen door vreemde klachten",
+            "validacao": {
+              "ok": true
+            }
+          }
         }
       ]
     },
     {
       "pagina": "Casa & Conforto Utilidades",
       "page_id": "1402223216297975",
-      "status": "sem_conteudo_qualificado",
-      "melhor": null,
+      "status": "aprovado_validacao",
+      "melhor": {
+        "titulo": "Culinária",
+        "pontuacao": 78,
+        "fonte": "Wikipedia (PT) casa",
+        "url": "https://pt.wikipedia.org/wiki/Culin%C3%A1ria",
+        "preview": "🏠 DICA PARA CASA\n\nA culinária é a arte de cozinhar, ou seja, o acto de confeccionar alimentos. Ela evoluiu ao longo da história dos povos para tornar-se parte da cultura de cada povo.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Culin%C3%A1ria\n\nFonte: Wikipedia (PT) casa\nAtribuição: CC BY-SA (Wikipedia)"
+      },
       "candidatos": [
         {
-          "fonte": "Open-Meteo",
-          "fonte_id": "open-meteo",
-          "titulo_original": "Clima em São Paulo: 13.9°C, nublado",
-          "titulo": "Clima em São Paulo: 13.9°C, nublado",
-          "resumo": "Umidade: 92%. Temperatura em torno de 14°C (nublado). Bom momento para organizar armários, checar cobertores e evitar mofo em cantos úmidos da casa.",
-          "url": "https://open-meteo.com/",
-          "imagem": "",
-          "pontuacao": 71,
-          "status": "candidato_fraco",
+          "fonte": "Wikipedia (PT) casa",
+          "fonte_id": "wiki-casa",
+          "titulo_original": "Culinária",
+          "titulo": "Culinária",
+          "resumo": "A culinária é a arte de cozinhar, ou seja, o acto de confeccionar alimentos. Ela evoluiu ao longo da história dos povos para tornar-se parte da cultura de cada povo. Está invariavelmente associada à cozinha, pois este é o local ideal para cozinhar. Os métodos de culinária variam ",
+          "url": "https://pt.wikipedia.org/wiki/Culin%C3%A1ria",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Making_the_Empire_Christmas_Pudding.jpg/330px-Making_the_Empire_Christmas_Pudding.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 78,
+          "status": "aprovado",
           "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
             "+keywords na descrição (2)",
-            "+dica climática útil",
-            "+recente"
+            "+Wikipedia PT",
+            "+imagem",
+            "-título curto"
           ],
           "preview_post": {
-            "texto": "🏠 DICA PARA CASA\n\nTemperatura em torno de 14°C (nublado). Bom momento para organizar armários, checar cobertores e evitar mofo em cantos úmidos da casa.\n\n🔎 Saiba mais:\nhttps://open-meteo.com/\n\nFonte: Open-Meteo",
-            "titulo": "Clima em São Paulo: 13.9°C, nublado",
+            "texto": "🏠 DICA PARA CASA\n\nA culinária é a arte de cozinhar, ou seja, o acto de confeccionar alimentos. Ela evoluiu ao longo da história dos povos para tornar-se parte da cultura de cada povo.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Culin%C3%A1ria\n\nFonte: Wikipedia (PT) casa\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "Culinária",
             "validacao": {
               "ok": true
             }
           }
         },
         {
-          "fonte": "TheMealDB",
-          "fonte_id": "themealdb",
-          "titulo_original": "Mee goreng mamak",
-          "titulo": "Mee goreng mamak",
-          "resumo": "Categoria: Frutos do mar · Culinária malaia",
-          "url": "https://www.nyonyacooking.com/recipes/mee-goreng-mamak~BkTLRjTuX",
-          "imagem": "https://www.themealdb.com/images/media/meals/xquakq1619787532.jpg",
-          "pontuacao": 43,
-          "status": "rejeitado",
+          "fonte": "Wikipedia (PT) casa",
+          "fonte_id": "wiki-casa",
+          "titulo_original": "Jardinagem",
+          "titulo": "Jardinagem",
+          "resumo": "Jardinagem é uma atividade profissional ou recreativa que tem o objetivo de embelezar determinados locais, públicos ou privados pelo cultivo e manutenção de plantas.",
+          "url": "https://pt.wikipedia.org/wiki/Jardinagem",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Jardim_santa_barbara.jpg/330px-Jardim_santa_barbara.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 74,
+          "status": "candidato_fraco",
           "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+Wikipedia PT",
             "+imagem",
-            "+imagem url"
-          ],
-          "preview_post": null
-        },
-        {
-          "fonte": "TheMealDB",
-          "fonte_id": "themealdb",
-          "titulo_original": "Jamon & wild garlic croquetas",
-          "titulo": "Jamon & wild garlic croquetas",
-          "resumo": "Categoria: Porco · Culinária espanhola",
-          "url": "https://www.bbcgoodfood.com/recipes/jamon-wild-garlic-croquetas",
-          "imagem": "https://www.themealdb.com/images/media/meals/zc9cwz1763196177.jpg",
-          "pontuacao": 43,
-          "status": "rejeitado",
-          "motivos": [
-            "+imagem",
-            "+imagem url"
-          ],
-          "preview_post": null
-        },
-        {
-          "fonte": "TheMealDB",
-          "fonte_id": "themealdb",
-          "titulo_original": "Strawberry Rhubarb Pie",
-          "titulo": "Strawberry Rhubarb Pie",
-          "resumo": "Categoria: Sobremesa · Culinária britânica",
-          "url": "https://www.joyofbaking.com/StrawberryRhubarbPie.html",
-          "imagem": "https://www.themealdb.com/images/media/meals/178z5o1585514569.jpg",
-          "pontuacao": 43,
-          "status": "rejeitado",
-          "motivos": [
-            "+imagem",
-            "+imagem url"
-          ],
-          "preview_post": null
-        },
-        {
-          "fonte": "TheMealDB",
-          "fonte_id": "themealdb",
-          "titulo_original": "Sticky Chicken",
-          "titulo": "Sticky Chicken",
-          "resumo": "Categoria: Frango · Culinária Australian",
-          "url": "https://www.bbcgoodfood.com/recipes/sticky-chicken",
-          "imagem": "https://www.themealdb.com/images/media/meals/cj56fs1762340001.jpg",
-          "pontuacao": 43,
-          "status": "rejeitado",
-          "motivos": [
-            "+imagem",
-            "+imagem url"
-          ],
-          "preview_post": null
-        },
-        {
-          "fonte": "TheMealDB",
-          "fonte_id": "themealdb",
-          "titulo_original": "Thai drumsticks",
-          "titulo": "Thai drumsticks",
-          "resumo": "Categoria: Frango · Culinária tailandesa",
-          "url": "https://www.bbcgoodfood.com/recipes/fragrant-thai-drumsticks",
-          "imagem": "https://www.themealdb.com/images/media/meals/ittake1763586925.jpg",
-          "pontuacao": 43,
-          "status": "rejeitado",
-          "motivos": [
-            "+imagem",
-            "+imagem url"
-          ],
-          "preview_post": null
-        },
-        {
-          "fonte": "TheMealDB",
-          "fonte_id": "themealdb",
-          "titulo_original": "Pouding chomeur",
-          "titulo": "Pouding chomeur",
-          "resumo": "Categoria: Sobremesa · Culinária canadense",
-          "url": "http://www.geniuskitchen.com/recipe/pouding-chomeur-poor-mans-pudding-with-maple-syrup-sauce-218797",
-          "imagem": "https://www.themealdb.com/images/media/meals/yqqqwu1511816912.jpg",
-          "pontuacao": 43,
-          "status": "rejeitado",
-          "motivos": [
-            "+imagem",
-            "+imagem url"
-          ],
-          "preview_post": null
-        },
-        {
-          "fonte": "TheMealDB",
-          "fonte_id": "themealdb",
-          "titulo_original": "Spanish tomato bread with jamón Serrano",
-          "titulo": "Spanish tomato bread with jamón Serrano",
-          "resumo": "Categoria: Porco · Culinária espanhola",
-          "url": "https://www.bbcgoodfood.com/recipes/spanish-tomato-bread-jamon-serrano",
-          "imagem": "https://www.themealdb.com/images/media/meals/hsp1fo1763327867.jpg",
-          "pontuacao": 43,
-          "status": "rejeitado",
-          "motivos": [
-            "+imagem",
-            "+imagem url"
-          ],
-          "preview_post": null
-        },
-        {
-          "fonte": "TheMealDB",
-          "fonte_id": "themealdb",
-          "titulo_original": "Flamiche",
-          "titulo": "Flamiche",
-          "resumo": "Categoria: Vegetariano · Culinária France",
-          "url": "http://www.deliciousmagazine.co.uk/recipes/flamiche-flemish-leek-tart/",
-          "imagem": "https://www.themealdb.com/images/media/meals/wssvvs1511785879.jpg",
-          "pontuacao": 33,
-          "status": "rejeitado",
-          "motivos": [
-            "+imagem",
-            "+imagem url",
             "-título curto"
+          ],
+          "preview_post": {
+            "texto": "🏠 DICA PARA CASA\n\nJardinagem é uma atividade profissional ou recreativa que tem o objetivo de embelezar determinados locais, públicos ou privados pelo cultivo e manutenção de plantas.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Jardinagem\n\nFonte: Wikipedia (PT) casa\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "Jardinagem",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Open-Meteo",
+          "fonte_id": "open-meteo",
+          "titulo_original": "Clima em São Paulo: 13.7°C, nublado",
+          "titulo": "Clima em São Paulo: 13.7°C, nublado",
+          "resumo": "Umidade: 92%. Temperatura em torno de 14°C (nublado). Bom momento para organizar armários e checar umidade em cantos da casa.",
+          "url": "https://open-meteo.com/",
+          "imagem": "",
+          "pontuacao": 67,
+          "status": "candidato_fraco",
+          "motivos": [
+            "+keywords na descrição (1)",
+            "+dica climática útil",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "🏠 DICA PARA CASA\n\nTemperatura em torno de 14°C (nublado). Bom momento para organizar armários e checar umidade em cantos da casa.\n\n🔎 Saiba mais:\nhttps://open-meteo.com/\n\nFonte: Open-Meteo",
+            "titulo": "Clima em São Paulo: 13.7°C, nublado",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Pamonha, barra para cozimento, pré-cozida",
+          "titulo": "Pamonha, barra para cozimento, pré-cozida",
+          "resumo": "Pamonha, barra para cozimento, pré-cozida (Cereais e derivados): cerca de 171 kcal/100g, 2.6g de proteína, 2.4g de fibra. Fonte: tabela TACO/UNICAMP.",
+          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
+          "pontuacao": 62,
+          "status": "candidato_fraco",
+          "motivos": [
+            "+TACO em português",
+            "+título PT"
+          ],
+          "preview_post": {
+            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Pamonha, barra para cozimento, pré-cozida (Cereais e derivados): cerca de 171 kcal/100g, 2.6g de proteína, 2.4g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
+            "titulo": "Pamonha, barra para cozimento, pré-cozida",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Fécula, de mandioca",
+          "titulo": "Fécula, de mandioca",
+          "resumo": "Fécula, de mandioca (Verduras, hortaliças e derivados): cerca de 331 kcal/100g, 0.5g de proteína, 0.6g de fibra. Fonte: tabela TACO/UNICAMP.",
+          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
+          "pontuacao": 62,
+          "status": "candidato_fraco",
+          "motivos": [
+            "+TACO em português",
+            "+título PT"
+          ],
+          "preview_post": {
+            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Fécula, de mandioca (Verduras, hortaliças e derivados): cerca de 331 kcal/100g, 0.5g de proteína, 0.6g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
+            "titulo": "Fécula, de mandioca",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Espinafre, Nova Zelândia, refogado",
+          "titulo": "Espinafre, Nova Zelândia, refogado",
+          "resumo": "Espinafre, Nova Zelândia, refogado (Verduras, hortaliças e derivados): cerca de 67 kcal/100g, 2.7g de proteína, 2.5g de fibra. Fonte: tabela TACO/UNICAMP.",
+          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
+          "pontuacao": 62,
+          "status": "candidato_fraco",
+          "motivos": [
+            "+TACO em português",
+            "+título PT"
+          ],
+          "preview_post": {
+            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Espinafre, Nova Zelândia, refogado (Verduras, hortaliças e derivados): cerca de 67 kcal/100g, 2.7g de proteína, 2.5g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
+            "titulo": "Espinafre, Nova Zelândia, refogado",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Wikipedia (PT) casa",
+          "fonte_id": "wiki-casa",
+          "titulo_original": "Limpeza",
+          "titulo": "Limpeza",
+          "resumo": "Limpeza é o ato de retirar impurezas de um corpo, de um material ou de um local.",
+          "url": "https://pt.wikipedia.org/wiki/Limpeza",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Caminh%C3%A3o_da_coleta_de_lixo_de_Coronel_Fabriciano_MG.JPG/330px-Caminh%C3%A3o_da_coleta_de_lixo_de_Coronel_Fabriciano_MG.JPG?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 59,
+          "status": "rejeitado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+Wikipedia PT",
+            "-título genérico",
+            "+imagem",
+            "-título curto"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "Wikipedia (PT) casa",
+          "fonte_id": "wiki-casa",
+          "titulo_original": "Organização",
+          "titulo": "Organização",
+          "resumo": "Organização é uma palavra originada do grego \"organon\", que significa instrumento, utensílio.",
+          "url": "https://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o",
+          "imagem": "",
+          "pontuacao": 54,
+          "status": "rejeitado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+Wikipedia PT",
+            "-título genérico",
+            "-título curto"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Glicose de milho",
+          "titulo": "Glicose de milho",
+          "resumo": "Glicose de milho (Produtos açucarados): cerca de 292 kcal/100g, 0.0g de proteína. Fonte: tabela TACO/UNICAMP.",
+          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
+          "pontuacao": 52,
+          "status": "rejeitado",
+          "motivos": [
+            "+TACO em português"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Abobrinha, italiana, crua",
+          "titulo": "Abobrinha, italiana, crua",
+          "resumo": "Abobrinha, italiana, crua (Verduras, hortaliças e derivados): cerca de 19 kcal/100g, 1.1g de proteína, 1.4g de fibra. Fonte: tabela TACO/UNICAMP.",
+          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
+          "pontuacao": 52,
+          "status": "rejeitado",
+          "motivos": [
+            "+TACO em português"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Alface, crespa, crua",
+          "titulo": "Alface, crespa, crua",
+          "resumo": "Alface, crespa, crua (Verduras, hortaliças e derivados): cerca de 11 kcal/100g, 1.3g de proteína, 1.8g de fibra. Fonte: tabela TACO/UNICAMP.",
+          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
+          "pontuacao": 52,
+          "status": "rejeitado",
+          "motivos": [
+            "+TACO em português"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Cenoura, crua",
+          "titulo": "Cenoura, crua",
+          "resumo": "Cenoura, crua (Verduras, hortaliças e derivados): cerca de 34 kcal/100g, 1.3g de proteína, 3.2g de fibra. Fonte: tabela TACO/UNICAMP.",
+          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
+          "pontuacao": 52,
+          "status": "rejeitado",
+          "motivos": [
+            "+TACO em português"
           ],
           "preview_post": null
         }
