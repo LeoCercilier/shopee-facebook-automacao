@@ -9,13 +9,9 @@ function normalizar(s) {
     .replace(/[\u0300-\u036f]/g, '');
 }
 
-/** Match por palavra/frase; evita substring curta (ex.: "ai" em "fair"). */
 function matchKeyword(textoNorm, kwNorm) {
   if (!kwNorm || kwNorm.length < 2) return false;
-  if (kwNorm.includes(' ')) {
-    return textoNorm.includes(kwNorm);
-  }
-  // palavra inteira
+  if (kwNorm.includes(' ')) return textoNorm.includes(kwNorm);
   const re = new RegExp(
     `(^|[^a-z0-9])${kwNorm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}([^a-z0-9]|$)`,
     'i'
@@ -72,33 +68,18 @@ function pontuar(item, paginaCfg, cfgGlobal = {}) {
   const desc = item.descricao || '';
   const blob = `${titulo} ${desc}`;
   const nicho = paginaCfg.nicho;
+  const fid = item.fonte_id || '';
 
   if (contemKeyword(blob, paginaCfg.keywords_negativas)) {
-    return {
-      score: 5,
-      motivos: ['keyword negativa / tema proibido'],
-      status: 'rejeitado',
-    };
+    return { score: 5, motivos: ['keyword negativa / tema proibido'], status: 'rejeitado' };
   }
 
-  // Spaceflight / HN: rejeitar esportes e celebridades
   if (
     contemKeyword(blob, [
-      'ravens',
-      'saints',
-      'nfl',
-      'nba',
-      'soccer',
-      'football game',
-      'vs.',
-      ' vs ',
+      'ravens', 'saints', 'nfl', 'nba', 'soccer', 'football game', 'vs.', ' vs ',
     ])
   ) {
-    return {
-      score: 8,
-      motivos: ['conteúdo esportivo / não editorial'],
-      status: 'rejeitado',
-    };
+    return { score: 8, motivos: ['conteúdo esportivo'], status: 'rejeitado' };
   }
 
   if (
@@ -108,19 +89,11 @@ function pontuar(item, paginaCfg, cfgGlobal = {}) {
       normalizar(item.id_unico).includes(normalizar(String(t).replace(/\s+/g, '_')))
     )
   ) {
-    return {
-      score: 10,
-      motivos: ['tópico na lista de exclusão'],
-      status: 'rejeitado',
-    };
+    return { score: 10, motivos: ['tópico na lista de exclusão'], status: 'rejeitado' };
   }
 
   if (historico.jaPublicado(paginaCfg.pageId, item)) {
-    return {
-      score: 0,
-      motivos: ['já publicado nesta Página'],
-      status: 'rejeitado',
-    };
+    return { score: 0, motivos: ['já publicado nesta Página'], status: 'rejeitado' };
   }
 
   const kwTitulo = contarKeywords(titulo, paginaCfg.keywords_positivas);
@@ -133,42 +106,50 @@ function pontuar(item, paginaCfg, cfgGlobal = {}) {
     score += 15;
     motivos.push('+keyword forte no título');
   }
-
   const kwDesc = contarKeywords(desc, paginaCfg.keywords_positivas);
   if (kwDesc >= 1) {
     score += Math.min(12, kwDesc * 4);
     motivos.push(`+keywords na descrição (${kwDesc})`);
   }
 
-  if (item.fonte_id === 'hacker-news' && nicho === 'marketing') {
-    score += 8;
-    motivos.push('+fonte HN');
+  // Fontes preferidas
+  if (fid === 'devto' && nicho === 'marketing') {
+    score += 14;
+    motivos.push('+DEV.to (fonte prioritária)');
   }
-  if (item.fonte_id === 'spaceflight-news' && nicho === 'marketing') {
-    if (
-      contemKeyword(blob, [
-        'ai',
-        'artificial intelligence',
-        'machine learning',
-        'software',
-        'startup',
-        'commercial space',
-        'satellite internet',
-        'innovation',
-      ])
-    ) {
-      score += 6;
-      motivos.push('+spaceflight com ângulo tech');
-    } else {
-      score -= 30;
-      motivos.push('-spaceflight sem ângulo tech/negócio claro');
+  if (fid === 'freenews-biz' && nicho === 'marketing') {
+    score += 10;
+    motivos.push('+FreeNews negócios');
+  }
+  if (fid === 'hacker-news' && nicho === 'marketing') {
+    score += 4;
+    motivos.push('+HN secundário');
+  }
+  if (fid === 'open-beauty' && nicho === 'beleza') {
+    score += 16;
+    motivos.push('+Open Beauty Facts');
+    if (contemKeyword(blob, ['protetor', 'solar', 'sunscreen', 'fps', 'hidrat'])) {
+      score += 8;
+      motivos.push('+produto skincare claro');
     }
   }
+  if (fid === 'taco' && nicho === 'casa') {
+    score += 22;
+    motivos.push('+TACO em português');
+    if (parecePortugues(titulo)) {
+      score += 10;
+      motivos.push('+título PT');
+    }
+  }
+  if (fid === 'freenews-moto' && nicho === 'motociclismo') {
+    score += 12;
+    motivos.push('+FreeNews motos');
+  }
 
-  if (String(item.fonte_id || '').startsWith('wiki')) {
+  if (String(fid).startsWith('wiki')) {
     if (parecePortugues(desc) || parecePortugues(titulo)) {
       score += 12;
-      motivos.push('+Wikipedia em português');
+      motivos.push('+Wikipedia PT');
     }
     if (titulo.trim().split(/\s+/).length <= 1 && desc.length < 100) {
       score -= 15;
@@ -176,35 +157,19 @@ function pontuar(item, paginaCfg, cfgGlobal = {}) {
     }
   }
 
-  if (item.fonte_id === 'themealdb') {
-    if (pareceIngles(titulo) && !item.titulo_pt) {
-      score -= 12;
-      motivos.push('-título em inglês');
-    }
-    if (item.imagem) {
-      score += 8;
-      motivos.push('+imagem');
-    }
-  }
-
-  if (item.fonte_id === 'open-meteo') {
+  if (fid === 'open-meteo') {
     if (item.dica_casa) {
       score += 25;
       motivos.push('+dica climática útil');
     } else {
       score -= 30;
-      motivos.push('-clima sem dica prática');
+      motivos.push('-clima sem dica');
     }
-  }
-
-  if (item.fonte_id === 'dog-ceo') {
-    score -= 15;
-    motivos.push('-pet aleatório');
   }
 
   if (item.imagem && /^https?:\/\//i.test(item.imagem)) {
     score += 5;
-    motivos.push('+imagem url');
+    motivos.push('+imagem');
   }
 
   if (item.data) {
@@ -218,11 +183,9 @@ function pontuar(item, paginaCfg, cfgGlobal = {}) {
     }
   }
 
-  if (nicho === 'marketing' && pareceIngles(titulo)) {
-    if (kwFortes < 1 && kwTitulo < 1) {
-      score -= 20;
-      motivos.push('-EN sem keyword de nicho');
-    }
+  if (nicho === 'marketing' && pareceIngles(titulo) && kwFortes < 1 && kwTitulo < 1) {
+    score -= 20;
+    motivos.push('-EN sem keyword de nicho');
   }
 
   if (titulo.length < 12) {
@@ -231,14 +194,12 @@ function pontuar(item, paginaCfg, cfgGlobal = {}) {
   }
   if (/\b(shock|killed|dead|attack|missile)\b/i.test(titulo)) {
     score -= 20;
-    motivos.push('-tom sensacionalista/bélico');
+    motivos.push('-tom sensacionalista');
   }
 
-  if (nicho === 'marketing') {
-    if (kwFortes < 1 && kwTitulo < 2) {
-      score -= 25;
-      motivos.push('-pouca relação IA/negócios/marketing');
-    }
+  if (nicho === 'marketing' && kwFortes < 1 && kwTitulo < 2) {
+    score -= 25;
+    motivos.push('-pouca relação IA/negócios');
   }
 
   if (nicho === 'motociclismo') {
@@ -246,35 +207,30 @@ function pontuar(item, paginaCfg, cfgGlobal = {}) {
       score -= 30;
       motivos.push('-sem relação com motos');
     }
-    if (contemKeyword(titulo, ['motor de combustão', 'combustao interna'])) {
-      score -= 40;
-      motivos.push('-motor genérico');
-    }
   }
 
   if (nicho === 'beleza') {
     if (
       contemKeyword(blob, [
-        'filtro solar',
-        'protetor',
-        'acne',
-        'hidrata',
-        'retinol',
-        'melasma',
-        'niacinamida',
+        'filtro solar', 'protetor', 'acne', 'hidrata', 'retinol',
+        'melasma', 'niacinamida', 'sunscreen', 'fps',
       ])
     ) {
       score += 10;
       motivos.push('+skincare prático');
     }
-    if (contemKeyword(blob, ['doença', 'hospital', 'diagnóstico'])) {
-      score -= 20;
-      motivos.push('-tom hospitalar');
+  }
+
+  if (nicho === 'casa' && fid === 'taco') {
+    // já bem pontuado; não exigir keyword forte de "limpeza" no nome do alimento
+  } else if (nicho === 'casa' && fid !== 'open-meteo' && fid !== 'taco') {
+    if (!contemKeyword(blob, paginaCfg.keywords_positivas) && !parecePortugues(titulo)) {
+      score -= 15;
+      motivos.push('-pouca relação com casa');
     }
   }
 
   score = Math.max(0, Math.min(100, Math.round(score)));
-
   const min =
     typeof cfgGlobal.pontuacao_minima_publicacao === 'number'
       ? cfgGlobal.pontuacao_minima_publicacao
