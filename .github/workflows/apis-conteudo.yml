@@ -30,11 +30,11 @@ jobs:
       - name: Instalar dependências
         run: npm ci || npm install
 
-      - name: Curadoria de conteúdo (validação / publicação conforme config)
+      - name: Curadoria (validação — sem publicação)
         env:
           FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
-          # Libera publicação quando o config estiver em modo de publicação
-          PUBLICAR_API: "true"
+          # Força não publicar; só Shopee pode ter link de produto
+          PUBLICAR_API: "false"
         run: node api-conteudo/pipeline.js
 
       - name: Persistir candidatos
