@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-23T15:49:42.149Z",
+  "gerado_em": "2026-09-23T15:53:22.722Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "pontuacao_minima_fonte": 75,
@@ -11,27 +11,27 @@
       "status": "publicado",
       "stats": {
         "coletados": 67,
-        "aprovados_fonte": 20,
-        "aprovados_texto": 20,
-        "rejeitados": 0,
+        "aprovados_fonte": 19,
+        "aprovados_texto": 19,
+        "rejeitados": 1,
         "publicados": 1
       },
       "melhor": {
         "pagina": "Marketing Tips",
         "page_id": "369805844018354",
-        "fonte": "FreeNewsAPI (negócios/IA)",
-        "fonte_id": "freenews-biz",
-        "titulo_original": "Ema raises $77M in funding to deploy AI employees across enterprise HR, IT and finance departments",
+        "fonte": "DEV.to",
+        "fonte_id": "devto",
+        "titulo_original": "What If Your AI Agent Never Had to Leave the Browser? (Demo 🚀)",
         "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-        "score_fonte": 93,
+        "score_fonte": 90,
         "score_texto": 94,
         "status": "aprovado",
-        "motivo": "Conteúdo relevante e texto adequado (fonte 93, texto 94)",
+        "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
         "motivos_fonte": [
-          "+keyword no título (2)",
+          "+keyword no título (1)",
           "+keyword forte no título",
-          "+keywords na descrição (3)",
-          "+FreeNews negócios",
+          "+DEV.to (fonte prioritária)",
+          "+imagem",
           "+recente"
         ],
         "motivos_texto": [
@@ -40,9 +40,9 @@
           "+fonte alinhada ao nicho",
           "+tamanho adequado"
         ],
-        "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-        "url_fonte_interna": "https://siliconangle.com/2026/09/23/ema-raises-77m-in-funding-to-deploy-ai-employees-across-enterprise-hr-it-and-finance-departments/",
-        "imagem": "",
+        "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+        "url_fonte_interna": "https://dev.to/sylwia-lask/what-if-your-ai-agent-never-had-to-leave-the-browser-demo--5g",
+        "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyv8119jpkpgyckuk1v1c.png",
         "link_no_post": false,
         "graph_extras": {
           "text_format_preset_id": null,
@@ -51,40 +51,6 @@
         }
       },
       "candidatos": [
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "FreeNewsAPI (negócios/IA)",
-          "fonte_id": "freenews-biz",
-          "titulo_original": "Ema raises $77M in funding to deploy AI employees across enterprise HR, IT and finance departments",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 93,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 93, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+keywords na descrição (3)",
-            "+FreeNews negócios",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://siliconangle.com/2026/09/23/ema-raises-77m-in-funding-to-deploy-ai-employees-across-enterprise-hr-it-and-finance-departments/",
-          "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
         {
           "pagina": "Marketing Tips",
           "page_id": "369805844018354",
@@ -720,6 +686,22 @@
             "place": null,
             "feeling": null
           }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "5th Global Digital Trade Expo opens in Hangzhou, highlighting AI-empowered future",
+          "titulo_adaptado": null,
+          "score_fonte": 73,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 73 < 75. +keyword no título (1); +keyword forte no título",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.manilatimes.net/2026/09/23/tmt-newswire/globenewswire/5th-global-digital-trade-expo-opens-in-hangzhou-highlighting-ai-empowered-future/2431471",
+          "imagem": "",
+          "graph_extras": null
         }
       ]
     },
@@ -728,10 +710,10 @@
       "page_id": "1247772158429331",
       "status": "sem_conteudo_qualificado",
       "stats": {
-        "coletados": 18,
+        "coletados": 19,
         "aprovados_fonte": 3,
         "aprovados_texto": 0,
-        "rejeitados": 18,
+        "rejeitados": 19,
         "publicados": 0
       },
       "melhor": null,
@@ -882,6 +864,22 @@
           "motivo": "Score da fonte 72 < 75. +keywords na descrição (2); +Open Beauty Facts",
           "texto_final": null,
           "url_fonte_interna": "https://world.openbeautyfacts.org/product/0074590516876/vitamins-keratin-protein-hair-serum",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
+          "fonte": "Wikipedia (PT) skincare",
+          "fonte_id": "wiki-pele",
+          "titulo_original": "Ácido hialurônico",
+          "titulo_adaptado": null,
+          "score_fonte": 69,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 69 < 75. +keyword no título (1); +keywords na descrição (1)",
+          "texto_final": null,
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/%C3%81cido_hialur%C3%B4nico",
           "imagem": "",
           "graph_extras": null
         },
@@ -1085,37 +1083,36 @@
       "status": "publicado",
       "stats": {
         "coletados": 37,
-        "aprovados_fonte": 9,
-        "aprovados_texto": 9,
-        "rejeitados": 11,
+        "aprovados_fonte": 8,
+        "aprovados_texto": 8,
+        "rejeitados": 12,
         "publicados": 1
       },
       "melhor": {
         "pagina": "Rota das Duas Rodas - Acessórios",
         "page_id": "1332730186586435",
-        "fonte": "Wikipedia (PT) motos",
-        "fonte_id": "wiki-moto",
-        "titulo_original": "Motociclismo",
-        "titulo_adaptado": "No universo das duas rodas",
-        "score_fonte": 84,
+        "fonte": "FreeNewsAPI (motos)",
+        "fonte_id": "freenews-moto",
+        "titulo_original": "&lt;![CDATA[Ducati señala cuál es la \"clave\" para que Marc Márquez gane el Mundial de MotoGP]]&gt;",
+        "titulo_adaptado": "&lt;![CDATA[Ducati señala cuál es la \"clave\" para que Marc Márquez gane el Mundial de…",
+        "score_fonte": 83,
         "score_texto": 86,
         "status": "aprovado",
-        "motivo": "Conteúdo relevante e texto adequado (fonte 84, texto 86)",
+        "motivo": "Conteúdo relevante e texto adequado (fonte 83, texto 86)",
         "motivos_fonte": [
           "+keyword no título (1)",
           "+keyword forte no título",
-          "+keywords na descrição (1)",
-          "+Wikipedia PT",
-          "+imagem"
+          "+FreeNews motos",
+          "+recente"
         ],
         "motivos_texto": [
           "+português detectado",
           "+fonte alinhada ao nicho",
           "+tamanho adequado"
         ],
-        "texto_final": "🏍️ Curiosidade das duas rodas\n\nVocê sabia? O motociclismo é uma disciplina que implica tudo o que diga respeito a conduzir um motociclo. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: Wikipedia (PT) motos\nAtribuição: CC BY-SA (Wikipedia)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
-        "url_fonte_interna": "https://pt.wikipedia.org/wiki/Motociclismo",
-        "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Peti_bardhal.jpg/330px-Peti_bardhal.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "texto_final": "🏍️ Curiosidade das duas rodas\n\n&lt;![CDATA[Ducati señala cuál es la \"clave\" para que Marc Márquez gane el Mundial de…. Para quem anda de moto, equipamento em ordem e atenção no trânsito continuam sendo a base da segurança. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
+        "url_fonte_interna": "https://www.lasexta.com/noticias/deportes/motor/ducati-senala-cual-clave-que-marc-marquez-gane-mundial-motogp_202609236ab3d169ca2f3f0cd1a2fd85.html",
+        "imagem": "",
         "link_no_post": false,
         "graph_extras": {
           "text_format_preset_id": null,
@@ -1124,39 +1121,6 @@
         }
       },
       "candidatos": [
-        {
-          "pagina": "Rota das Duas Rodas - Acessórios",
-          "page_id": "1332730186586435",
-          "fonte": "Wikipedia (PT) motos",
-          "fonte_id": "wiki-moto",
-          "titulo_original": "Motociclismo",
-          "titulo_adaptado": "No universo das duas rodas",
-          "score_fonte": 84,
-          "score_texto": 86,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 84, texto 86)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+Wikipedia PT",
-            "+imagem"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "🏍️ Curiosidade das duas rodas\n\nVocê sabia? O motociclismo é uma disciplina que implica tudo o que diga respeito a conduzir um motociclo. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: Wikipedia (PT) motos\nAtribuição: CC BY-SA (Wikipedia)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
-          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Motociclismo",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Peti_bardhal.jpg/330px-Peti_bardhal.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
         {
           "pagina": "Rota das Duas Rodas - Acessórios",
           "page_id": "1332730186586435",
@@ -1433,14 +1397,14 @@
           "page_id": "1332730186586435",
           "fonte": "Wikipedia (PT) motos",
           "fonte_id": "wiki-moto",
-          "titulo_original": "MotoGP",
+          "titulo_original": "Yamaha Corporation",
           "titulo_adaptado": null,
-          "score_fonte": 73,
+          "score_fonte": 69,
           "score_texto": null,
           "status": "rejeitado",
-          "motivo": "Score da fonte 73 < 75. +keyword no título (1); +keyword forte no título",
+          "motivo": "Score da fonte 69 < 75. +keyword no título (1); +keywords na descrição (1)",
           "texto_final": null,
-          "url_fonte_interna": "https://pt.wikipedia.org/wiki/MotoGP",
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Yamaha_Corporation",
           "imagem": "",
           "graph_extras": null
         },
@@ -1587,6 +1551,22 @@
           "url_fonte_interna": "https://www.livemint.com/companies/start-ups/ultraviolette-automotive-raises-85-million-funding-yali-capital-tdk-ventures-11790129549151.html",
           "imagem": "",
           "graph_extras": null
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Ultraviolette: E-bike maker Ultraviolette raises $85 million, ropes in Intel chief Lip-Bu Tan as investor, advisor - The Economic Times",
+          "titulo_adaptado": null,
+          "score_fonte": 20,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 20 < 75. +FreeNews motos; +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://economictimes.indiatimes.com/tech/funding/e-bike-maker-ultraviolette-raises-85-million-from-yali-capital-tdk-ventures-others/articleshow/134427452.cms",
+          "imagem": "",
+          "graph_extras": null
         }
       ]
     },
@@ -1624,38 +1604,6 @@
           "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Lingüiça, frango, frita",
-          "titulo_adaptado": null,
-          "score_fonte": 62,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 62 < 75. +TACO em português; +título PT",
-          "texto_final": null,
-          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Casa & Conforto Utilidades",
-          "page_id": "1402223216297975",
-          "fonte": "TACO (alimentos BR)",
-          "fonte_id": "taco",
-          "titulo_original": "Hambúrguer, bovino, frito",
-          "titulo_adaptado": null,
-          "score_fonte": 62,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 62 < 75. +TACO em português; +título PT",
-          "texto_final": null,
-          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Casa & Conforto Utilidades",
-          "page_id": "1402223216297975",
-          "fonte": "TACO (alimentos BR)",
-          "fonte_id": "taco",
           "titulo_original": "Carne, bovina, capa de contra-filé, sem gordura, crua",
           "titulo_adaptado": null,
           "score_fonte": 62,
@@ -1672,7 +1620,7 @@
           "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Presunto, com capa de gordura",
+          "titulo_original": "Carne, bovina, almôndegas, cruas",
           "titulo_adaptado": null,
           "score_fonte": 62,
           "score_texto": null,
@@ -1688,7 +1636,7 @@
           "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Hambúrguer, bovino, grelhado",
+          "titulo_original": "Café, infusão 10%",
           "titulo_adaptado": null,
           "score_fonte": 62,
           "score_texto": null,
@@ -1718,22 +1666,6 @@
         {
           "pagina": "Casa & Conforto Utilidades",
           "page_id": "1402223216297975",
-          "fonte": "TACO (alimentos BR)",
-          "fonte_id": "taco",
-          "titulo_original": "Iogurte, sabor abacaxi",
-          "titulo_adaptado": null,
-          "score_fonte": 56,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 56 < 75. +keywords na descrição (1); +TACO em português",
-          "texto_final": null,
-          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Casa & Conforto Utilidades",
-          "page_id": "1402223216297975",
           "fonte": "Wikipedia (PT) casa",
           "fonte_id": "wiki-casa",
           "titulo_original": "Organização",
@@ -1752,7 +1684,7 @@
           "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Carne, bovina, costela, crua",
+          "titulo_original": "Nhoque, batata, cozido",
           "titulo_adaptado": null,
           "score_fonte": 52,
           "score_texto": null,
@@ -1768,7 +1700,55 @@
           "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Iogurte, natural",
+          "titulo_original": "Pescada, branca, crua",
+          "titulo_adaptado": null,
+          "score_fonte": 52,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 52 < 75. +TACO em português",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Carne, bovina, maminha, grelhada",
+          "titulo_adaptado": null,
+          "score_fonte": 52,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 52 < 75. +TACO em português",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Ervilha, em vagem",
+          "titulo_adaptado": null,
+          "score_fonte": 52,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 52 < 75. +TACO em português",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Doce, de leite, cremoso",
           "titulo_adaptado": null,
           "score_fonte": 52,
           "score_texto": null,

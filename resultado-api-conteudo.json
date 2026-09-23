@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-23T15:49:42.149Z",
+  "gerado_em": "2026-09-23T15:53:22.722Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -8,24 +8,24 @@
       "status": "publicado",
       "stats": {
         "coletados": 67,
-        "aprovados_fonte": 20,
-        "aprovados_texto": 20,
-        "rejeitados": 0,
+        "aprovados_fonte": 19,
+        "aprovados_texto": 19,
+        "rejeitados": 1,
         "publicados": 1
       },
       "melhor_titulo": "Como a IA pode ajudar no dia a dia do negócio",
-      "score_fonte": 93,
+      "score_fonte": 90,
       "score_texto": 94,
-      "tem_imagem": false
+      "tem_imagem": true
     },
     {
       "pagina": "Studio Marine Cuidados Pessoais",
       "status": "sem_conteudo_qualificado",
       "stats": {
-        "coletados": 18,
+        "coletados": 19,
         "aprovados_fonte": 3,
         "aprovados_texto": 0,
-        "rejeitados": 18,
+        "rejeitados": 19,
         "publicados": 0
       },
       "melhor_titulo": null,
@@ -38,15 +38,15 @@
       "status": "publicado",
       "stats": {
         "coletados": 37,
-        "aprovados_fonte": 9,
-        "aprovados_texto": 9,
-        "rejeitados": 11,
+        "aprovados_fonte": 8,
+        "aprovados_texto": 8,
+        "rejeitados": 12,
         "publicados": 1
       },
-      "melhor_titulo": "No universo das duas rodas",
-      "score_fonte": 84,
+      "melhor_titulo": "&lt;![CDATA[Ducati señala cuál es la \"clave\" para que Marc Márquez gane el Mundial de…",
+      "score_fonte": 83,
       "score_texto": 86,
-      "tem_imagem": true
+      "tem_imagem": false
     },
     {
       "pagina": "Casa & Conforto Utilidades",
