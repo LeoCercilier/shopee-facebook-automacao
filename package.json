@@ -1,8 +1,8 @@
 {
   "name": "shopee-facebook-automacao",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "private": true,
-  "description": "Coleta ofertas do Shopee Achadinho e publica automaticamente na Página do Facebook; módulo editorial separado para conteúdo útil por nicho",
+  "description": "Ofertas Shopee + conteúdo útil via APIs públicas nas Páginas do Facebook",
   "scripts": {
     "start": "node coletor.js",
     "coletar": "node coletor.js",
@@ -10,8 +10,8 @@
     "postar": "node modulo3.js",
     "pipeline": "node coletor.js && node modulo2.js && node modulo3.js",
     "pipeline:dry": "node coletor.js && node modulo2.js && FACEBOOK_DRY_RUN=1 node modulo3.js",
-    "editorial": "node editorial/pipeline.js",
-    "test:editorial-syntax": "node --check editorial/pipeline.js && node --check editorial/coletor-rss.js && node --check editorial/filtro.js && node --check editorial/gerador.js && node --check editorial/publicador.js && node --check editorial/historico.js"
+    "apis": "node api-conteudo/pipeline.js",
+    "test:apis-syntax": "node --check api-conteudo/pipeline.js && node --check api-conteudo/coletor.js && node --check api-conteudo/filtro.js && node --check api-conteudo/gerador.js && node --check api-conteudo/publicador.js && node --check api-conteudo/historico.js"
   },
   "dependencies": {
     "playwright": "^1.55.0"
