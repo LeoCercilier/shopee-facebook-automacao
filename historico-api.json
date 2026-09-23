@@ -1,4 +1,54 @@
 {
   "versao": 1,
-  "publicacoes": []
+  "atualizado_em": "2026-09-23T07:32:02.715Z",
+  "publicacoes": [
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "hacker-news",
+      "fonte_nome": "Hacker News",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "chave": "https://www.bloomberg.com/graphics/2026-iran-school-attack",
+      "titulo": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+      "post_id": "369805844018354_1484443000369506",
+      "publicado_em": "2026-09-23T07:31:47.613Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "wiki-pele",
+      "fonte_nome": "Wikipedia (PT)",
+      "url": "https://pt.wikipedia.org/wiki/Psor%C3%ADase",
+      "chave": "https://pt.wikipedia.org/wiki/psor%c3%adase",
+      "titulo": "Psoríase",
+      "post_id": "1247772158429331_122100448239485849",
+      "publicado_em": "2026-09-23T07:31:52.803Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "wiki-moto",
+      "fonte_nome": "Wikipedia (PT)",
+      "url": "https://pt.wikipedia.org/wiki/Motor_de_combust%C3%A3o_interna",
+      "chave": "https://pt.wikipedia.org/wiki/motor_de_combust%c3%a3o_interna",
+      "titulo": "Motor de combustão interna",
+      "post_id": "1332730186586435_122099581281486415",
+      "publicado_em": "2026-09-23T07:31:57.177Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "themealdb",
+      "fonte_nome": "TheMealDB",
+      "url": "https://www.bbcgoodfood.com/recipes/pork-rib-bortsch",
+      "chave": "https://www.bbcgoodfood.com/recipes/pork-rib-bortsch",
+      "titulo": "Pork rib bortsch",
+      "post_id": "1402223216297975_122109379617476480",
+      "publicado_em": "2026-09-23T07:32:02.715Z"
+    }
+  ]
 }
