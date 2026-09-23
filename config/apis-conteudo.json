@@ -4,7 +4,7 @@
   "max_posts_por_pagina": 1,
   "pontuacao_minima_publicacao": 75,
   "modo_validacao": true,
-  "publicar": false,
+  "publicar": true,
   "paginas": [
     {
       "id": "marketing-tips",
