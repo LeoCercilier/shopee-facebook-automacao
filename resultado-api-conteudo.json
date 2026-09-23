@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-23T15:25:00.242Z",
+  "gerado_em": "2026-09-23T15:37:18.430Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -8,40 +8,40 @@
       "status": "publicado",
       "stats": {
         "coletados": 67,
-        "aprovados_fonte": 22,
+        "aprovados_fonte": 21,
         "aprovados_texto": 20,
         "rejeitados": 0,
         "publicados": 1
       },
-      "melhor_titulo": "IA e produtividade no dia a dia digital",
-      "score_fonte": 94,
+      "melhor_titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "score_fonte": 93,
       "score_texto": 94
     },
     {
       "pagina": "Studio Marine Cuidados Pessoais",
-      "status": "publicado",
+      "status": "sem_conteudo_qualificado",
       "stats": {
         "coletados": 18,
-        "aprovados_fonte": 4,
-        "aprovados_texto": 4,
-        "rejeitados": 14,
-        "publicados": 1
+        "aprovados_fonte": 3,
+        "aprovados_texto": 0,
+        "rejeitados": 18,
+        "publicados": 0
       },
-      "melhor_titulo": "Proteção solar no dia a dia",
-      "score_fonte": 100,
-      "score_texto": 98
+      "melhor_titulo": null,
+      "score_fonte": null,
+      "score_texto": null
     },
     {
       "pagina": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
       "stats": {
-        "coletados": 37,
-        "aprovados_fonte": 9,
-        "aprovados_texto": 9,
-        "rejeitados": 11,
+        "coletados": 38,
+        "aprovados_fonte": 10,
+        "aprovados_texto": 10,
+        "rejeitados": 10,
         "publicados": 1
       },
-      "melhor_titulo": "Atualização no mundo do MotoGP",
+      "melhor_titulo": "O que está em alta no MotoGP",
       "score_fonte": 87,
       "score_texto": 86
     },
