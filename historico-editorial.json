@@ -1,4 +1,50 @@
 {
   "versao": 1,
-  "publicacoes": []
+  "atualizado_em": "2026-09-23T02:23:41.817Z",
+  "publicacoes": [
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "brazil-journal",
+      "fonte_nome": "Brazil Journal",
+      "url": "https://braziljournal.com/o-medo-real-dos-donos-da-ai-liability/",
+      "titulo": "O medo real dos donos da AI: Liability",
+      "post_id": "369805844018354_1484268257053647",
+      "publicado_em": "2026-09-23T02:23:17.960Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "folha-equilibrio",
+      "fonte_nome": "Folha Equilíbrio e Saúde",
+      "url": "https://redir.folha.com.br/redir/online/equilibrioesaude/rss091/*https://www1.folha.uol.com.br/equilibrio/2026/09/exposicao-a-barulho-constante-pode-causar-danos-alem-da-perda-auditiva.shtml",
+      "titulo": "Exposi��o a barulho constante pode causar danos al�m da perda auditiva",
+      "post_id": "1247772158429331_122100272601485849",
+      "publicado_em": "2026-09-23T02:23:23.797Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/avelloz-quatro-novas-motos-2027/",
+      "titulo": "Avelloz planeja ter mais quatro novas motos em seu portfólio em 2027",
+      "post_id": "1332730186586435_122099430219486415",
+      "publicado_em": "2026-09-23T02:23:31.679Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "precolandia",
+      "fonte_nome": "Blog Preçolandia",
+      "url": "https://blog.precolandia.com.br/varal-para-apartamento/",
+      "titulo": "Varal para apartamento: escolha o modelo ideal para seu lar",
+      "post_id": "1402223216297975_122109171159476480",
+      "publicado_em": "2026-09-23T02:23:41.817Z"
+    }
+  ]
 }

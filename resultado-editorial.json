@@ -1,0 +1,52 @@
+{
+  "gerado_em": "2026-09-23T02:23:41.842Z",
+  "publicados": 4,
+  "sem_conteudo": 0,
+  "erros": 0,
+  "resultados": [
+    {
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "status": "publicado",
+      "post_id": "369805844018354_1484268257053647",
+      "tipo": "photo",
+      "titulo": "O medo real dos donos da AI: Liability",
+      "url": "https://braziljournal.com/o-medo-real-dos-donos-da-ai-liability/",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
+    },
+    {
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "status": "publicado",
+      "post_id": "1247772158429331_122100272601485849",
+      "tipo": "feed",
+      "titulo": "Exposi��o a barulho constante pode causar danos al�m da perda auditiva",
+      "url": "https://redir.folha.com.br/redir/online/equilibrioesaude/rss091/*https://www1.folha.uol.com.br/equilibrio/2026/09/exposicao-a-barulho-constante-pode-causar-danos-alem-da-perda-auditiva.shtml",
+      "fonte": "Folha Equilíbrio e Saúde",
+      "fonte_id": "folha-equilibrio"
+    },
+    {
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "status": "publicado",
+      "post_id": "1332730186586435_122099430219486415",
+      "tipo": "photo",
+      "titulo": "Avelloz planeja ter mais quatro novas motos em seu portfólio em 2027",
+      "url": "https://motociclismoonline.com.br/noticias/avelloz-quatro-novas-motos-2027/",
+      "fonte": "Motociclismo Online",
+      "fonte_id": "motociclismo-online"
+    },
+    {
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "status": "publicado",
+      "post_id": "1402223216297975_122109171159476480",
+      "tipo": "feed",
+      "titulo": "Varal para apartamento: escolha o modelo ideal para seu lar",
+      "url": "https://blog.precolandia.com.br/varal-para-apartamento/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
+    }
+  ]
+}
