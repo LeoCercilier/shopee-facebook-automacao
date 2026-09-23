@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-23T15:53:22.722Z",
+  "gerado_em": "2026-09-23T17:37:23.338Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -8,24 +8,24 @@
       "status": "publicado",
       "stats": {
         "coletados": 67,
-        "aprovados_fonte": 19,
-        "aprovados_texto": 19,
-        "rejeitados": 1,
+        "aprovados_fonte": 17,
+        "aprovados_texto": 17,
+        "rejeitados": 3,
         "publicados": 1
       },
       "melhor_titulo": "Como a IA pode ajudar no dia a dia do negócio",
-      "score_fonte": 90,
+      "score_fonte": 93,
       "score_texto": 94,
-      "tem_imagem": true
+      "tem_imagem": false
     },
     {
       "pagina": "Studio Marine Cuidados Pessoais",
       "status": "sem_conteudo_qualificado",
       "stats": {
-        "coletados": 19,
-        "aprovados_fonte": 3,
+        "coletados": 16,
+        "aprovados_fonte": 2,
         "aprovados_texto": 0,
-        "rejeitados": 19,
+        "rejeitados": 16,
         "publicados": 0
       },
       "melhor_titulo": null,
@@ -37,14 +37,14 @@
       "pagina": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
       "stats": {
-        "coletados": 37,
+        "coletados": 34,
         "aprovados_fonte": 8,
         "aprovados_texto": 8,
         "rejeitados": 12,
         "publicados": 1
       },
-      "melhor_titulo": "&lt;![CDATA[Ducati señala cuál es la \"clave\" para que Marc Márquez gane el Mundial de…",
-      "score_fonte": 83,
+      "melhor_titulo": "Capacete: o detalhe que protege de verdade",
+      "score_fonte": 91,
       "score_texto": 86,
       "tem_imagem": false
     },
@@ -52,10 +52,10 @@
       "pagina": "Casa & Conforto Utilidades",
       "status": "sem_conteudo_qualificado",
       "stats": {
-        "coletados": 14,
+        "coletados": 10,
         "aprovados_fonte": 0,
         "aprovados_texto": 0,
-        "rejeitados": 14,
+        "rejeitados": 10,
         "publicados": 0
       },
       "melhor_titulo": null,

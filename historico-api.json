@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-23T15:53:21.764Z",
+  "atualizado_em": "2026-09-23T17:37:21.798Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -205,6 +205,30 @@
       "titulo": "&lt;![CDATA[Ducati señala cuál es la \"clave\" para que Marc Márquez gane el Mundial de…",
       "post_id": "1332730186586435_122099897385486415",
       "publicado_em": "2026-09-23T15:53:21.764Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "freenews-biz",
+      "fonte_nome": "FreeNewsAPI (negócios/IA)",
+      "url": "https://cvj.ai/briefing/finance-news/selas-21m-raise-voice-ai-for-mortgage-lending/",
+      "chave": "https://cvj.ai/briefing/finance-news/selas-21m-raise-voice-ai-for-mortgage-lending",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1484862023660937",
+      "publicado_em": "2026-09-23T17:37:15.187Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.tribuneindia.com/news/haryana/minor-riding-bike-with-illegal-siren-no-helmet-fined-rs-31000-in-panchkula/",
+      "chave": "https://www.tribuneindia.com/news/haryana/minor-riding-bike-with-illegal-siren-no-helmet-fined-rs-31000-in-panchkula",
+      "titulo": "Capacete: o detalhe que protege de verdade",
+      "post_id": "1332730186586435_122099944605486415",
+      "publicado_em": "2026-09-23T17:37:21.798Z"
     }
   ]
 }
