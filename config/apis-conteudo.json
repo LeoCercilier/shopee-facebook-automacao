@@ -1,0 +1,165 @@
+{
+  "versao": 1,
+  "graph_version": "v21.0",
+  "max_posts_por_pagina": 1,
+  "paginas": [
+    {
+      "id": "marketing-tips",
+      "nome": "Marketing Tips",
+      "pageId": "369805844018354",
+      "nicho": "marketing",
+      "ativo": true,
+      "emoji": "💡",
+      "rotulo": "CURIOSIDADE DO DIA",
+      "fontes": [
+        {
+          "id": "hacker-news",
+          "nome": "Hacker News",
+          "tipo": "hacker_news",
+          "url": "https://hacker-news.firebaseio.com/v0",
+          "exige_key": false,
+          "prioridade": 1
+        },
+        {
+          "id": "spaceflight-news",
+          "nome": "Spaceflight News",
+          "tipo": "spaceflight_news",
+          "url": "https://api.spaceflightnewsapi.net/v4/articles/?limit=15",
+          "exige_key": false,
+          "prioridade": 2
+        }
+      ],
+      "keywords_positivas": [
+        "ai", "artificial intelligence", "startup", "saas", "ecommerce",
+        "e-commerce", "marketing", "business", "finance", "funding",
+        "openai", "llm", "software", "tech", "technology", "product",
+        "launch", "space", "nasa", "satellite", "rocket"
+      ],
+      "keywords_negativas": ["nsfw", "porn", "hacked password"]
+    },
+    {
+      "id": "studio-marine",
+      "nome": "Studio Marine Cuidados Pessoais",
+      "pageId": "1247772158429331",
+      "nicho": "beleza",
+      "ativo": true,
+      "emoji": "✨",
+      "rotulo": "CUIDADOS COM A PELE",
+      "fontes": [
+        {
+          "id": "wiki-pele",
+          "nome": "Wikipedia (PT)",
+          "tipo": "wikipedia_topics",
+          "url": "https://pt.wikipedia.org/api/rest_v1/page/summary/",
+          "exige_key": false,
+          "prioridade": 1,
+          "topics": [
+            "Filtro_solar",
+            "Dermatite",
+            "Acne",
+            "Melasma",
+            "Pele",
+            "Hidratação",
+            "Vitamina_C",
+            "Ácido_hialurônico",
+            "Retinol",
+            "Colágeno",
+            "Psoríase",
+            "Rosácea",
+            "Seborreia",
+            "Cosmético",
+            "Cuidado_pessoal"
+          ]
+        }
+      ],
+      "keywords_positivas": [
+        "pele", "solar", "dermat", "acne", "melasma", "hidrat",
+        "vitamina", "colágeno", "colageno", "retinol", "cosmético",
+        "cosmetico", "psoríase", "psoriase", "rosácea", "rosacea",
+        "cuidado", "hialurônico", "hialuronico"
+      ],
+      "keywords_negativas": [
+        "diagnóstico", "receita médica", "cura garantida"
+      ]
+    },
+    {
+      "id": "rota-duas-rodas",
+      "nome": "Rota das Duas Rodas - Acessórios",
+      "pageId": "1332730186586435",
+      "nicho": "motociclismo",
+      "ativo": true,
+      "emoji": "🏍️",
+      "rotulo": "MUNDO DAS DUAS RODAS",
+      "fontes": [
+        {
+          "id": "wiki-moto",
+          "nome": "Wikipedia (PT)",
+          "tipo": "wikipedia_topics",
+          "url": "https://pt.wikipedia.org/api/rest_v1/page/summary/",
+          "exige_key": false,
+          "prioridade": 1,
+          "topics": [
+            "Motocicleta",
+            "Motociclismo",
+            "Capacete",
+            "Scooter",
+            "Motocicleta_de_trabalho",
+            "Motocicleta_trail",
+            "Código_de_Trânsito_Brasileiro",
+            "Trânsito",
+            "Pneu",
+            "Freio",
+            "Motor_de_combustão_interna",
+            "Honda",
+            "Yamaha",
+            "BMW_Motorrad",
+            "MotoGP"
+          ]
+        }
+      ],
+      "keywords_positivas": [
+        "moto", "motocicleta", "motociclismo", "capacete", "scooter",
+        "trânsito", "transito", "pneu", "freio", "honda", "yamaha",
+        "bmw", "motogp", "duas rodas"
+      ],
+      "keywords_negativas": []
+    },
+    {
+      "id": "casa-conforto",
+      "nome": "Casa & Conforto Utilidades",
+      "pageId": "1402223216297975",
+      "nicho": "casa",
+      "ativo": true,
+      "emoji": "🏠",
+      "rotulo": "CASA E DIA A DIA",
+      "fontes": [
+        {
+          "id": "themealdb",
+          "nome": "TheMealDB",
+          "tipo": "themealdb",
+          "url": "https://www.themealdb.com/api/json/v1/1/random.php",
+          "exige_key": false,
+          "prioridade": 1
+        },
+        {
+          "id": "dog-ceo",
+          "nome": "Dog CEO",
+          "tipo": "dog_ceo",
+          "url": "https://dog.ceo/api/breeds/image/random",
+          "exige_key": false,
+          "prioridade": 2
+        },
+        {
+          "id": "open-meteo",
+          "nome": "Open-Meteo",
+          "tipo": "open_meteo",
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=-23.55&longitude=-46.63&current=temperature_2m,relative_humidity_2m,weather_code&timezone=America%2FSao_Paulo",
+          "exige_key": false,
+          "prioridade": 3
+        }
+      ],
+      "keywords_positivas": [],
+      "keywords_negativas": []
+    }
+  ]
+}
