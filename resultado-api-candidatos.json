@@ -1,0 +1,722 @@
+{
+  "gerado_em": "2026-09-23T07:52:40.408Z",
+  "modo": "validacao",
+  "pontuacao_minima": 75,
+  "paginas": [
+    {
+      "pagina": "Marketing Tips",
+      "page_id": "369805844018354",
+      "status": "aprovado_validacao",
+      "melhor": {
+        "titulo": "GPT-6 Sol and Luna",
+        "pontuacao": 79,
+        "fonte": "Hacker News",
+        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+        "preview": "💡 INSIGHT DE TECNOLOGIA\n\nGPT-6 Sol and Luna. Um tema em evidência para quem acompanha tecnologia, negócios digitais e inovação.\n\n🔎 Saiba mais:\nhttps://openai.com/index/introducing-gpt-6-sol-and-luna/\n\nFonte: Hacker News"
+      },
+      "candidatos": [
+        {
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "GPT-6 Sol and Luna",
+          "titulo": "GPT-6 Sol and Luna",
+          "resumo": "",
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+          "imagem": "",
+          "pontuacao": 79,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+fonte HN",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nGPT-6 Sol and Luna. Um tema em evidência para quem acompanha tecnologia, negócios digitais e inovação.\n\n🔎 Saiba mais:\nhttps://openai.com/index/introducing-gpt-6-sol-and-luna/\n\nFonte: Hacker News",
+            "titulo": "GPT-6 Sol and Luna",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+          "titulo": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+          "resumo": "",
+          "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+          "imagem": "",
+          "pontuacao": 79,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (2)",
+            "+keyword forte no título",
+            "+fonte HN",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nOpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005. Um tema em evidência para quem acompanha tecnologia, negócios digitais e inovação.\n\n🔎 Saiba mais:\nhttps://www.cryptocellar.org/bgac/the-mvueh-break.html\n\nFonte: Hacker News",
+            "titulo": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "OpenAI is well positioned to fast-follow Jev",
+          "titulo": "OpenAI is well positioned to fast-follow Jev",
+          "resumo": "",
+          "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+          "imagem": "",
+          "pontuacao": 79,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+fonte HN",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nOpenAI is well positioned to fast-follow Jev. Um tema em evidência para quem acompanha tecnologia, negócios digitais e inovação.\n\n🔎 Saiba mais:\nhttps://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/\n\nFonte: Hacker News",
+            "titulo": "OpenAI is well positioned to fast-follow Jev",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "Claude Opus 5.5",
+          "titulo": "Claude Opus 5.5",
+          "resumo": "",
+          "url": "https://www.anthropic.com/claude-opus-5-5",
+          "imagem": "",
+          "pontuacao": 39,
+          "status": "rejeitado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+fonte HN",
+            "+recente",
+            "-pouca relação IA/negócios/marketing"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+          "titulo": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+          "resumo": "",
+          "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+          "imagem": "",
+          "pontuacao": 39,
+          "status": "rejeitado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+fonte HN",
+            "+recente",
+            "-pouca relação IA/negócios/marketing"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "Transit rewards",
+          "titulo": "Transit rewards",
+          "resumo": "",
+          "url": "https://waymo.com/blog/2026/09/transit-rewards/",
+          "imagem": "",
+          "pontuacao": 21,
+          "status": "rejeitado",
+          "motivos": [
+            "+fonte HN",
+            "+recente",
+            "-pouca relação IA/negócios/marketing"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "Data-only attacks are easier than you think (2024)",
+          "titulo": "Data-only attacks are easier than you think (2024)",
+          "resumo": "",
+          "url": "https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think",
+          "imagem": "",
+          "pontuacao": 21,
+          "status": "rejeitado",
+          "motivos": [
+            "+fonte HN",
+            "+recente",
+            "-pouca relação IA/negócios/marketing"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "Show HN: Npunlock – Run custom C kernels for Intel NPUs",
+          "titulo": "Show HN: Npunlock – Run custom C kernels for Intel NPUs",
+          "resumo": "",
+          "url": "https://github.com/hsfzxjy/npunlock",
+          "imagem": "",
+          "pontuacao": 21,
+          "status": "rejeitado",
+          "motivos": [
+            "+fonte HN",
+            "+recente",
+            "-pouca relação IA/negócios/marketing"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "ReBarUEFI: Resizable BAR for almost any UEFI system",
+          "titulo": "ReBarUEFI: Resizable BAR for almost any UEFI system",
+          "resumo": "",
+          "url": "https://github.com/xCuri0/ReBarUEFI",
+          "imagem": "",
+          "pontuacao": 21,
+          "status": "rejeitado",
+          "motivos": [
+            "+fonte HN",
+            "+recente",
+            "-pouca relação IA/negócios/marketing"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "SAML: A fractal of bad design",
+          "titulo": "SAML: A fractal of bad design",
+          "resumo": "",
+          "url": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+          "imagem": "",
+          "pontuacao": 21,
+          "status": "rejeitado",
+          "motivos": [
+            "+fonte HN",
+            "+recente",
+            "-pouca relação IA/negócios/marketing"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "WordPress: Unauthenticated path traversal leading to conditional RCE",
+          "titulo": "WordPress: Unauthenticated path traversal leading to conditional RCE",
+          "resumo": "",
+          "url": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp",
+          "imagem": "",
+          "pontuacao": 21,
+          "status": "rejeitado",
+          "motivos": [
+            "+fonte HN",
+            "+recente",
+            "-pouca relação IA/negócios/marketing"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "No Easy Fix for Bogus Respondents in Online Opt-In Polls",
+          "titulo": "No Easy Fix for Bogus Respondents in Online Opt-In Polls",
+          "resumo": "",
+          "url": "https://www.pewresearch.org/methods/2026/08/27/no-easy-fix-for-bogus-respondents-in-online-opt-in-polls/",
+          "imagem": "",
+          "pontuacao": 21,
+          "status": "rejeitado",
+          "motivos": [
+            "+fonte HN",
+            "+recente",
+            "-pouca relação IA/negócios/marketing"
+          ],
+          "preview_post": null
+        }
+      ]
+    },
+    {
+      "pagina": "Studio Marine Cuidados Pessoais",
+      "page_id": "1247772158429331",
+      "status": "aprovado_validacao",
+      "melhor": {
+        "titulo": "Filtro solar",
+        "pontuacao": 100,
+        "fonte": "Wikipedia (PT)",
+        "url": "https://pt.wikipedia.org/wiki/Filtro_solar",
+        "preview": "✨ CUIDADO COM A PELE\n\nO filtro solar ou protetor solar é uma loção, spray ou produto tópico que ajuda a proteger a pele da radiação ultravioleta do sol, o que reduz as queimaduras solares e outros danos à pele,… Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Filtro_solar\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)"
+      },
+      "candidatos": [
+        {
+          "fonte": "Wikipedia (PT)",
+          "fonte_id": "wiki-pele",
+          "titulo_original": "Filtro solar",
+          "titulo": "Filtro solar",
+          "resumo": "O filtro solar ou protetor solar é uma loção, spray ou produto tópico que ajuda a proteger a pele da radiação ultravioleta do sol, o que reduz as queimaduras solares e outros danos à pele, intimamente ligado a um menor risco de câncer de pele. Entretanto, a loção de bronzeamento ",
+          "url": "https://pt.wikipedia.org/wiki/Filtro_solar",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/UV_and_Vis_Sunscreen.jpg/330px-UV_and_Vis_Sunscreen.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 100,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (2)",
+            "+keyword forte no título",
+            "+keywords na descrição (4)",
+            "+Wikipedia em português",
+            "+imagem url",
+            "+skincare prático"
+          ],
+          "preview_post": {
+            "texto": "✨ CUIDADO COM A PELE\n\nO filtro solar ou protetor solar é uma loção, spray ou produto tópico que ajuda a proteger a pele da radiação ultravioleta do sol, o que reduz as queimaduras solares e outros danos à pele,… Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Filtro_solar\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "Filtro solar",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Wikipedia (PT)",
+          "fonte_id": "wiki-pele",
+          "titulo_original": "Filtro solar",
+          "titulo": "Filtro solar",
+          "resumo": "O filtro solar ou protetor solar é uma loção, spray ou produto tópico que ajuda a proteger a pele da radiação ultravioleta do sol, o que reduz as queimaduras solares e outros danos à pele, intimamente ligado a um menor risco de câncer de pele. Entretanto, a loção de bronzeamento ",
+          "url": "https://pt.wikipedia.org/wiki/Filtro_solar",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/UV_and_Vis_Sunscreen.jpg/330px-UV_and_Vis_Sunscreen.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 100,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (2)",
+            "+keyword forte no título",
+            "+keywords na descrição (4)",
+            "+Wikipedia em português",
+            "+imagem url",
+            "+skincare prático"
+          ],
+          "preview_post": {
+            "texto": "✨ CUIDADO COM A PELE\n\nO filtro solar ou protetor solar é uma loção, spray ou produto tópico que ajuda a proteger a pele da radiação ultravioleta do sol, o que reduz as queimaduras solares e outros danos à pele,… Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Filtro_solar\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "Filtro solar",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Wikipedia (PT)",
+          "fonte_id": "wiki-pele",
+          "titulo_original": "Acne",
+          "titulo": "Acne",
+          "resumo": "Acne é uma condição cutânea de longa duração caracterizada por áreas de pontos negros, pontos brancos, pústulas, pele oleosa e possibilidade de aparecimento de cicatrizes. Dependendo do grau de incidência, infecção e dimensão dos pontos de acne sobre a pele, as consequências na a",
+          "url": "https://pt.wikipedia.org/wiki/Acne",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Acne_vulgaris_on_a_very_oily_skin.jpg/330px-Acne_vulgaris_on_a_very_oily_skin.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 88,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (2)",
+            "+Wikipedia em português",
+            "+imagem url",
+            "-título curto",
+            "+skincare prático"
+          ],
+          "preview_post": {
+            "texto": "✨ CUIDADO COM A PELE\n\nAcne é uma condição cutânea de longa duração caracterizada por áreas de pontos negros, pontos brancos, pústulas, pele oleosa e possibilidade de aparecimento de cicatrizes. Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Acne\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "Acne",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Wikipedia (PT)",
+          "fonte_id": "wiki-pele",
+          "titulo_original": "Retinol",
+          "titulo": "Retinol",
+          "resumo": "O retinol, também conhecido como vitamina A1, é uma vitamina encontrada nos alimentos e utilizada como suplemento dietético. Como suplemento é usado para tratar e prevenir a deficiência de vitamina A, especialmente aquela que causa xeroftalmia. Em regiões onde a deficiência é com",
+          "url": "https://pt.wikipedia.org/wiki/Retinol",
+          "imagem": "",
+          "pontuacao": 79,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+Wikipedia em português",
+            "-título curto",
+            "+skincare prático"
+          ],
+          "preview_post": {
+            "texto": "✨ CUIDADO COM A PELE\n\nO retinol, também conhecido como vitamina A1, é uma vitamina encontrada nos alimentos e utilizada como suplemento dietético. Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Retinol\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "Retinol",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Wikipedia (PT)",
+          "fonte_id": "wiki-pele",
+          "titulo_original": "Cosmético",
+          "titulo": "Cosmético",
+          "resumo": "Cosméticos são feitos de misturas de compostos químicos derivados de fontes naturais ou criados sinteticamente. Os cosméticos têm vários propósitos, incluindo cuidados pessoais e da pele. Eles também podem ser usados para esconder manchas e realçar características naturais. A maq",
+          "url": "https://pt.wikipedia.org/wiki/Cosm%C3%A9tico",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Cosmetics.JPG/330px-Cosmetics.JPG?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 59,
+          "status": "rejeitado",
+          "motivos": [
+            "+keyword no título (2)",
+            "+keywords na descrição (1)",
+            "+Wikipedia em português",
+            "+imagem url",
+            "-título curto"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "Wikipedia (PT)",
+          "fonte_id": "wiki-pele",
+          "titulo_original": "Colágeno",
+          "titulo": "Colágeno",
+          "resumo": "O colágeno (português brasileiro) ou colagénio (português europeu) é uma proteína de importância fundamental na constituição da matriz extracelular do tecido conjuntivo, sendo responsável por grande parte de suas propriedades físicas.",
+          "url": "https://pt.wikipedia.org/wiki/Col%C3%A1geno",
+          "imagem": "",
+          "pontuacao": 58,
+          "status": "rejeitado",
+          "motivos": [
+            "+keyword no título (2)",
+            "+keywords na descrição (2)",
+            "+Wikipedia em português",
+            "-título curto"
+          ],
+          "preview_post": null
+        }
+      ]
+    },
+    {
+      "pagina": "Rota das Duas Rodas - Acessórios",
+      "page_id": "1332730186586435",
+      "status": "aprovado_validacao",
+      "melhor": {
+        "titulo": "Motociclismo",
+        "pontuacao": 84,
+        "fonte": "Wikipedia (PT)",
+        "url": "https://pt.wikipedia.org/wiki/Motociclismo",
+        "preview": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? O motociclismo é uma disciplina que implica tudo o que diga respeito a conduzir um motociclo.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Motociclismo\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)"
+      },
+      "candidatos": [
+        {
+          "fonte": "Wikipedia (PT)",
+          "fonte_id": "wiki-moto",
+          "titulo_original": "Motociclismo",
+          "titulo": "Motociclismo",
+          "resumo": "O motociclismo é uma disciplina que implica tudo o que diga respeito a conduzir um motociclo. É também uma modalidade desportiva que envolve o uso de motos em diversas formas competitivas como velocidade, motocross, enduro e outras. O primeiro motociclo data do final do século XI",
+          "url": "https://pt.wikipedia.org/wiki/Motociclismo",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Peti_bardhal.jpg/330px-Peti_bardhal.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 84,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+Wikipedia em português",
+            "+imagem url"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? O motociclismo é uma disciplina que implica tudo o que diga respeito a conduzir um motociclo.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Motociclismo\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "Motociclismo",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Wikipedia (PT)",
+          "fonte_id": "wiki-moto",
+          "titulo_original": "Motocicleta",
+          "titulo": "Motocicleta",
+          "resumo": "Motocicleta ou motociclo, também conhecida pelas formas reduzidas moto e mota (português europeu), informalmente chamada no Brasil de \"motoca\", é um veículo motorizado de duas rodas dirigido por um guidão a partir de um assento tipo assento. Uma motocicleta é amplamente definida ",
+          "url": "https://pt.wikipedia.org/wiki/Motocicleta",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Red_Honda_C50_%281975%3F%29_in_Athens_on_10-13-2023.jpg/330px-Red_Honda_C50_%281975%3F%29_in_Athens_on_10-13-2023.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 82,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (3)",
+            "+Wikipedia em português",
+            "+imagem url",
+            "-título curto"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Motocicleta ou motociclo, também conhecida pelas formas reduzidas moto e mota (português europeu), informalmente chamada no Brasil de \"motoca\", é um veículo motorizado de duas rodas dirigido por um guidão a…\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Motocicleta\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "Motocicleta",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Wikipedia (PT)",
+          "fonte_id": "wiki-moto",
+          "titulo_original": "Capacete",
+          "titulo": "Capacete",
+          "resumo": "Capacete é um objeto que serve para proteger a cabeça de impactos externos. Existem capacetes para várias aplicações, variando quanto à segurança oferecida. No caso dos motociclistas, os capacetes protegem em caso de quedas ou colisões. Capacetes de aplicação militar, por sua vez",
+          "url": "https://pt.wikipedia.org/wiki/Capacete",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Helmet_centurion_end_of_second_century.jpg/330px-Helmet_centurion_end_of_second_century.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 74,
+          "status": "candidato_fraco",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+Wikipedia em português",
+            "+imagem url",
+            "-título curto"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Capacete é um objeto que serve para proteger a cabeça de impactos externos. Existem capacetes para várias aplicações, variando quanto à segurança oferecida.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Capacete\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "Capacete",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Wikipedia (PT)",
+          "fonte_id": "wiki-moto",
+          "titulo_original": "MotoGP",
+          "titulo": "MotoGP",
+          "resumo": "MotoGP ou Moto Grand Prix é a categoria principal do Campeonato Mundial de Motovelocidade e um dos mais antigos campeonatos do mundo de desportos motorizados – o primeiro ano de competição teve lugar em 1949. É disputado simultaneamente às categorias de Moto3, e Moto2.",
+          "url": "https://pt.wikipedia.org/wiki/MotoGP",
+          "imagem": "",
+          "pontuacao": 73,
+          "status": "candidato_fraco",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (2)",
+            "+Wikipedia em português",
+            "-título curto"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? MotoGP ou Moto Grand Prix é a categoria principal do Campeonato Mundial de Motovelocidade e um dos mais antigos campeonatos do mundo de desportos motorizados – o primeiro ano de competição teve lugar em 1949.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/MotoGP\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "MotoGP",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Wikipedia (PT)",
+          "fonte_id": "wiki-moto",
+          "titulo_original": "BMW Motorrad",
+          "titulo": "BMW Motorrad",
+          "resumo": "BMW Motorrad é uma subsidiária do Grupo BMW que se dedica a produção de motos. No início do século 20, era uma fabricante de motores de aeronaves e foi por meio da 1° Guerra Mundial que surgiu a primeira motocicleta BMW, denominada R32, em 1923.",
+          "url": "https://pt.wikipedia.org/wiki/BMW_Motorrad",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/BMW_HP2_Megamoto.jpg/330px-BMW_HP2_Megamoto.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 73,
+          "status": "candidato_fraco",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keywords na descrição (2)",
+            "+Wikipedia em português",
+            "+imagem url"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? BMW Motorrad é uma subsidiária do Grupo BMW que se dedica a produção de motos.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/BMW_Motorrad\n\nFonte: Wikipedia (PT)\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "BMW Motorrad",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Wikipedia (PT)",
+          "fonte_id": "wiki-moto",
+          "titulo_original": "Motoneta",
+          "titulo": "Motoneta",
+          "resumo": "Motoreta, motoneta, \"moto\", motinha, ou o estrangeirismo scooter, também conhecido pelas marca genéricas lambreta e vespa, é um veículo motorizado de duas rodas no qual o condutor condiciona suas pernas para a frente de seu tronco, sobre uma plataforma, em vez de para os lados, c",
+          "url": "https://pt.wikipedia.org/wiki/Motoneta",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Z%C3%BCndapp_Bella_R_154_%282008-05-21%29_Seitenansicht_ret.jpg/330px-Z%C3%BCndapp_Bella_R_154_%282008-05-21%29_Seitenansicht_ret.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 49,
+          "status": "rejeitado",
+          "motivos": [
+            "+keywords na descrição (3)",
+            "+Wikipedia em português",
+            "+imagem url",
+            "-título curto"
+          ],
+          "preview_post": null
+        }
+      ]
+    },
+    {
+      "pagina": "Casa & Conforto Utilidades",
+      "page_id": "1402223216297975",
+      "status": "sem_conteudo_qualificado",
+      "melhor": null,
+      "candidatos": [
+        {
+          "fonte": "Open-Meteo",
+          "fonte_id": "open-meteo",
+          "titulo_original": "Clima em São Paulo: 13.9°C, nublado",
+          "titulo": "Clima em São Paulo: 13.9°C, nublado",
+          "resumo": "Umidade: 92%. Temperatura em torno de 14°C (nublado). Bom momento para organizar armários, checar cobertores e evitar mofo em cantos úmidos da casa.",
+          "url": "https://open-meteo.com/",
+          "imagem": "",
+          "pontuacao": 71,
+          "status": "candidato_fraco",
+          "motivos": [
+            "+keywords na descrição (2)",
+            "+dica climática útil",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "🏠 DICA PARA CASA\n\nTemperatura em torno de 14°C (nublado). Bom momento para organizar armários, checar cobertores e evitar mofo em cantos úmidos da casa.\n\n🔎 Saiba mais:\nhttps://open-meteo.com/\n\nFonte: Open-Meteo",
+            "titulo": "Clima em São Paulo: 13.9°C, nublado",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "TheMealDB",
+          "fonte_id": "themealdb",
+          "titulo_original": "Rocky Road Fudge",
+          "titulo": "Rocky Road Fudge",
+          "resumo": "Categoria: Sobremesa · Culinária United States",
+          "url": "http://tiphero.com/rocky-road-fudge/",
+          "imagem": "https://www.themealdb.com/images/media/meals/vtxyxv1483567157.jpg",
+          "pontuacao": 43,
+          "status": "rejeitado",
+          "motivos": [
+            "+imagem",
+            "+imagem url"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "TheMealDB",
+          "fonte_id": "themealdb",
+          "titulo_original": "Creamy Corn Soup Recipe",
+          "titulo": "Creamy Corn Soup Recipe",
+          "resumo": "Categoria: Vegetariano",
+          "url": "https://www.mycolombianrecipes.com/corn-soup-crema-de-mazorca/#recipe",
+          "imagem": "https://www.themealdb.com/images/media/meals/yf5eyw1783804464.jpg",
+          "pontuacao": 43,
+          "status": "rejeitado",
+          "motivos": [
+            "+imagem",
+            "+imagem url"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "TheMealDB",
+          "fonte_id": "themealdb",
+          "titulo_original": "Salmon Avocado Salad",
+          "titulo": "Salmon Avocado Salad",
+          "resumo": "Categoria: Frutos do mar · Culinária britânica",
+          "url": "https://www.bbcgoodfood.com/recipes/4521/salmon-avocado-and-cucumber-salad",
+          "imagem": "https://www.themealdb.com/images/media/meals/1549542994.jpg",
+          "pontuacao": 43,
+          "status": "rejeitado",
+          "motivos": [
+            "+imagem",
+            "+imagem url"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "TheMealDB",
+          "fonte_id": "themealdb",
+          "titulo_original": "Hot Chocolate Fudge",
+          "titulo": "Hot Chocolate Fudge",
+          "resumo": "Categoria: Sobremesa · Culinária United States",
+          "url": "https://www.youtube.com/watch?v=oJvbsVSblfk",
+          "imagem": "https://www.themealdb.com/images/media/meals/xrysxr1483568462.jpg",
+          "pontuacao": 43,
+          "status": "rejeitado",
+          "motivos": [
+            "+imagem",
+            "+imagem url"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "TheMealDB",
+          "fonte_id": "themealdb",
+          "titulo_original": "Creamy Tomato Soup",
+          "titulo": "Creamy Tomato Soup",
+          "resumo": "Categoria: Entrada · Culinária britânica",
+          "url": "https://www.bbcgoodfood.com/recipes/2604646/creamy-tomato-soup",
+          "imagem": "https://www.themealdb.com/images/media/meals/stpuws1511191310.jpg",
+          "pontuacao": 43,
+          "status": "rejeitado",
+          "motivos": [
+            "+imagem",
+            "+imagem url"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "TheMealDB",
+          "fonte_id": "themealdb",
+          "titulo_original": "Singapore Noodles with Shrimp",
+          "titulo": "Singapore Noodles with Shrimp",
+          "resumo": "Categoria: Frutos do mar · Culinária chinesa",
+          "url": "https://www.simplyrecipes.com/recipes/singapore_noodles_with_shrimp/",
+          "imagem": "https://www.themealdb.com/images/media/meals/f3cxnc1765656994.jpg",
+          "pontuacao": 43,
+          "status": "rejeitado",
+          "motivos": [
+            "+imagem",
+            "+imagem url"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "TheMealDB",
+          "fonte_id": "themealdb",
+          "titulo_original": "Stir-fried chicken with chillies & basil",
+          "titulo": "Stir-fried chicken with chillies & basil",
+          "resumo": "Categoria: Frango · Culinária tailandesa",
+          "url": "https://www.bbcgoodfood.com/recipes/ken-homs-stir-fried-chicken-chillies-basil",
+          "imagem": "https://www.themealdb.com/images/media/meals/el64dy1763483009.jpg",
+          "pontuacao": 43,
+          "status": "rejeitado",
+          "motivos": [
+            "+imagem",
+            "+imagem url"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "TheMealDB",
+          "fonte_id": "themealdb",
+          "titulo_original": "Flan",
+          "titulo": "Flan",
+          "resumo": "Categoria: Sobremesa · Culinária Uruguayan",
+          "url": "https://jennyisbaking.com/2019/12/20/uruguayan-flan-and-merry-christmas/",
+          "imagem": "https://www.themealdb.com/images/media/meals/0s80wo1764374393.jpg",
+          "pontuacao": 33,
+          "status": "rejeitado",
+          "motivos": [
+            "+imagem",
+            "+imagem url",
+            "-título curto"
+          ],
+          "preview_post": null
+        }
+      ]
+    }
+  ]
+}

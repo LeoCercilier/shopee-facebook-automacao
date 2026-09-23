@@ -1,52 +1,30 @@
 {
-  "gerado_em": "2026-09-23T07:32:02.716Z",
-  "publicados": 4,
-  "sem_conteudo": 0,
-  "erros": 0,
-  "resultados": [
+  "gerado_em": "2026-09-23T07:52:40.408Z",
+  "modo": "validacao",
+  "resumo": [
     {
-      "page_id": "369805844018354",
-      "pagina_nome": "Marketing Tips",
-      "status": "publicado",
-      "post_id": "369805844018354_1484443000369506",
-      "tipo": "feed",
-      "titulo": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
-      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-      "fonte": "Hacker News",
-      "fonte_id": "hacker-news"
+      "pagina": "Marketing Tips",
+      "status": "aprovado_validacao",
+      "pontuacao": 79,
+      "titulo": "GPT-6 Sol and Luna"
     },
     {
-      "page_id": "1247772158429331",
-      "pagina_nome": "Studio Marine Cuidados Pessoais",
-      "status": "publicado",
-      "post_id": "1247772158429331_122100448239485849",
-      "tipo": "photo",
-      "titulo": "Psoríase",
-      "url": "https://pt.wikipedia.org/wiki/Psor%C3%ADase",
-      "fonte": "Wikipedia (PT)",
-      "fonte_id": "wiki-pele"
+      "pagina": "Studio Marine Cuidados Pessoais",
+      "status": "aprovado_validacao",
+      "pontuacao": 100,
+      "titulo": "Filtro solar"
     },
     {
-      "page_id": "1332730186586435",
-      "pagina_nome": "Rota das Duas Rodas - Acessórios",
-      "status": "publicado",
-      "post_id": "1332730186586435_122099581281486415",
-      "tipo": "photo",
-      "titulo": "Motor de combustão interna",
-      "url": "https://pt.wikipedia.org/wiki/Motor_de_combust%C3%A3o_interna",
-      "fonte": "Wikipedia (PT)",
-      "fonte_id": "wiki-moto"
+      "pagina": "Rota das Duas Rodas - Acessórios",
+      "status": "aprovado_validacao",
+      "pontuacao": 84,
+      "titulo": "Motociclismo"
     },
     {
-      "page_id": "1402223216297975",
-      "pagina_nome": "Casa & Conforto Utilidades",
-      "status": "publicado",
-      "post_id": "1402223216297975_122109379617476480",
-      "tipo": "photo",
-      "titulo": "Pork rib bortsch",
-      "url": "https://www.bbcgoodfood.com/recipes/pork-rib-bortsch",
-      "fonte": "TheMealDB",
-      "fonte_id": "themealdb"
+      "pagina": "Casa & Conforto Utilidades",
+      "status": "sem_conteudo_qualificado",
+      "pontuacao": null,
+      "titulo": null
     }
   ]
 }
