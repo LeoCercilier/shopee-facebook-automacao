@@ -42,6 +42,7 @@ function avaliarCandidatoCompleto(item, paginaCfg, cfgGlobal) {
       motivo: `Score da fonte ${scoreFonte} < ${minFonte}. ${(item.motivos_pontuacao || []).slice(0, 2).join('; ')}`,
       texto_final: null,
       url_fonte_interna: item.url || '',
+      graph_extras: null,
     };
   }
 
@@ -62,6 +63,7 @@ function avaliarCandidatoCompleto(item, paginaCfg, cfgGlobal) {
       motivo: `Falha ao gerar texto: ${err.message}`,
       texto_final: null,
       url_fonte_interna: item.url || '',
+      graph_extras: null,
     };
   }
 
@@ -80,6 +82,7 @@ function avaliarCandidatoCompleto(item, paginaCfg, cfgGlobal) {
       motivo: `Validação estrutural: ${val.motivo}`,
       texto_final: post.texto,
       url_fonte_interna: item.url || '',
+      graph_extras: post.graph_extras || null,
     };
   }
 
@@ -112,8 +115,8 @@ function avaliarCandidatoCompleto(item, paginaCfg, cfgGlobal) {
     motivos_texto: avTexto.motivos || [],
     texto_final: post.texto,
     url_fonte_interna: item.url || '',
-    // nunca publicar link externo
     link_no_post: false,
+    graph_extras: post.graph_extras || null,
   };
 }
 
@@ -167,8 +170,6 @@ async function processarPagina(paginaCfg, cfgGlobal) {
   console.log(`  Aprovados pela fonte: ${aprovadosFonte}`);
   console.log(`  Aprovados no texto final: ${aprovadosTexto.length}`);
   console.log(`  Rejeitados: ${rejeitados}`);
-  console.log(`  Publicados: 0`);
-  console.log(`  Motivo de não publicação: modo validação / política sem link externo`);
 
   const melhor = aprovadosTexto.sort(
     (a, b) => b.score_texto + b.score_fonte - (a.score_texto + a.score_fonte)
@@ -176,6 +177,7 @@ async function processarPagina(paginaCfg, cfgGlobal) {
 
   if (!melhor) {
     console.log('  ℹ️ Nenhum conteúdo passou nas duas etapas de curadoria.');
+    console.log('  Publicados: 0');
     return {
       page_id: paginaCfg.pageId,
       pagina_nome: paginaCfg.nome,
@@ -195,6 +197,7 @@ async function processarPagina(paginaCfg, cfgGlobal) {
   if (!publicarAgora) {
     console.log('  🔒 Modo validação: NÃO publicará no Facebook.');
     console.log('  🔒 Posts de API NÃO levam link (só Shopee pode ter link).');
+    console.log('  Publicados: 0');
     return {
       page_id: paginaCfg.pageId,
       pagina_nome: paginaCfg.nome,
@@ -211,7 +214,6 @@ async function processarPagina(paginaCfg, cfgGlobal) {
     };
   }
 
-  // Publicação futura: texto SEM link externo
   const { publicarNaPagina } = require('./publicador');
   try {
     const api = await publicarNaPagina({
@@ -219,6 +221,7 @@ async function processarPagina(paginaCfg, cfgGlobal) {
       texto: melhor.texto_final,
       link: null,
       imagem: '',
+      graphExtras: melhor.graph_extras || {},
     });
     historico.registrarSucesso({
       page_id: paginaCfg.pageId,
@@ -234,6 +237,7 @@ async function processarPagina(paginaCfg, cfgGlobal) {
       post_id: api.post_id,
     });
     console.log('  ✅ PUBLICADO', api.post_id);
+    console.log('  Publicados: 1');
     return {
       page_id: paginaCfg.pageId,
       pagina_nome: paginaCfg.nome,
@@ -251,6 +255,7 @@ async function processarPagina(paginaCfg, cfgGlobal) {
     };
   } catch (err) {
     console.error('  ❌ Erro:', err.message);
+    console.log('  Publicados: 0');
     return {
       page_id: paginaCfg.pageId,
       pagina_nome: paginaCfg.nome,
