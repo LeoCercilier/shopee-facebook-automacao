@@ -33,8 +33,8 @@ jobs:
       - name: Curadoria de conteúdo (validação / publicação conforme config)
         env:
           FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
-          # Força não publicar enquanto modo_validacao=true no config
-          PUBLICAR_API: "false"
+          # Libera publicação quando o config estiver em modo de publicação
+          PUBLICAR_API: "true"
         run: node api-conteudo/pipeline.js
 
       - name: Persistir candidatos
