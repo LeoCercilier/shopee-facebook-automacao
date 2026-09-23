@@ -4,8 +4,8 @@
   "max_posts_por_pagina": 1,
   "pontuacao_minima_publicacao": 75,
   "pontuacao_minima_texto": 80,
-  "modo_validacao": true,
-  "publicar": false,
+  "modo_validacao": false,
+  "publicar": true,
   "politica_links": "somente_shopee_pode_ter_link",
   "paginas": [
     {
