@@ -23,6 +23,21 @@ function primeiraFraseUtil(texto, max = 220) {
   return encurtar(out || t, max);
 }
 
+/** Rótulo em frase natural — evita MAIÚSCULAS de impacto. */
+function rotuloNatural(paginaCfg) {
+  const custom = paginaCfg.rotulo_natural || paginaCfg.rotulo;
+  if (custom && custom !== String(custom).toUpperCase()) {
+    return String(custom).trim();
+  }
+  const map = {
+    marketing: 'Insight de tecnologia',
+    beleza: 'Cuidado com a pele',
+    motociclismo: 'Curiosidade das duas rodas',
+    casa: 'Dica para casa',
+  };
+  return map[paginaCfg.nicho] || 'Curiosidade';
+}
+
 function tituloAdaptado(item, nicho) {
   const orig = String(item.titulo_pt || item.titulo || '').trim();
   if (!orig) return '';
@@ -31,46 +46,98 @@ function tituloAdaptado(item, nicho) {
   const low = orig.toLowerCase();
   if (nicho === 'marketing') {
     if (/\b(ai|artificial intelligence|llm|gpt|openai)\b/i.test(low)) {
-      return 'IA e produtividade no dia a dia digital';
+      return 'Como a IA pode ajudar no dia a dia do negócio';
     }
     if (/\bstartup|funding|raise[sd]?\b/i.test(low)) {
-      return 'Movimento no ecossistema de startups';
+      return 'O que o mercado de startups está mostrando agora';
     }
     if (/\bmarketing|ecommerce|e-commerce|affiliate\b/i.test(low)) {
-      return 'Tendência em marketing e vendas digitais';
+      return 'Uma ideia prática de marketing digital';
     }
     if (/\bproductivity|tool|automat/i.test(low)) {
-      return 'Ferramentas e automação para trabalhar melhor';
+      return 'Produtividade: menos esforço, mais foco';
     }
-    return 'Ideia de tecnologia aplicada a negócios';
+    return 'Tecnologia aplicada a negócios de forma simples';
   }
   if (nicho === 'motociclismo') {
     if (/\belectric|el[eé]tric/i.test(low)) {
-      return 'Novidade em moto elétrica';
+      return 'Motos elétricas e mobilidade urbana';
     }
     if (/\bhelmet|capacete\b/i.test(low)) {
-      return 'Segurança: o que observar no capacete';
+      return 'Capacete: o detalhe que protege de verdade';
     }
     if (/\bmotogp\b/i.test(low)) {
-      return 'Atualização no mundo do MotoGP';
+      return 'O que está em alta no MotoGP';
     }
-    return 'Novidade no universo das duas rodas';
+    return 'No universo das duas rodas';
   }
   if (nicho === 'beleza') {
     if (/\bfps|solar|sunscreen|protetor\b/i.test(low)) {
-      return 'Proteção solar no dia a dia';
+      return 'Proteção solar sem complicação';
     }
     if (/\bhidrat|moistur/i.test(low)) {
-      return 'Hidratação e cuidados com a pele';
+      return 'Hidratação que faz sentido na rotina';
     }
-    return 'Cuidados com a pele';
+    return 'Cuidados com a pele no dia a dia';
   }
   return encurtar(orig, 80);
 }
 
+/** Um detalhe extra útil, sem encher linguiça. */
+function detalheUtil(nicho, item) {
+  const t = `${item.titulo || ''} ${item.descricao || ''}`;
+  if (nicho === 'marketing') {
+    if (/\b(ai|llm|gpt)\b/i.test(t)) {
+      return 'Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.';
+    }
+    if (/\bmarketing|ecommerce|e-commerce\b/i.test(t)) {
+      return 'Medir uma métrica simples (clique, resposta ou venda) costuma valer mais do que várias campanhas soltas.';
+    }
+    return 'Guardar uma ideia por vez e aplicar na prática costuma render mais do que acumular tendências.';
+  }
+  if (nicho === 'beleza') {
+    if (/solar|fps|sunscreen|protetor/i.test(t)) {
+      return 'Reaplicar ao longo do dia, principalmente após suor ou água, faz diferença no resultado.';
+    }
+    if (/hidrat|moistur/i.test(t)) {
+      return 'Aplicar com a pele ainda levemente úmida ajuda a selar a hidratação.';
+    }
+    return 'Mudanças na pele pedem paciência: resultados costumam aparecer com consistência, não da noite para o dia.';
+  }
+  if (nicho === 'motociclismo') {
+    if (/helmet|capacete/i.test(t)) {
+      return 'Troque o capacete após impacto forte ou quando a espuma interna começar a ceder.';
+    }
+    if (/electric|el[eé]tric/i.test(t)) {
+      return 'Antes de comprar, confira autonomia real no seu trajeto e tempo de recarga disponível.';
+    }
+    return 'Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.';
+  }
+  if (nicho === 'casa') {
+    if (item.fonte_id === 'taco') {
+      return 'Comparar rótulos e porções ajuda a montar refeições mais equilibradas em casa.';
+    }
+    return 'Uma mudança pequena e constante na organização costuma ser mais fácil de manter.';
+  }
+  return '';
+}
+
+/** Convite leve a seguir — só texto; a API não cria botão de seguir no post. */
+function conviteSeguir(paginaCfg) {
+  if (paginaCfg.convite_seguir === false) return '';
+  const nome = paginaCfg.nome_curto || paginaCfg.nome || 'a Página';
+  const opcoes = [
+    `Se esse tipo de conteúdo ajuda você, siga ${nome} para receber mais dicas no feed.`,
+    `Curtiu? Siga ${nome} e acompanhe próximos conteúdos no seu feed.`,
+  ];
+  // Alterna de forma estável pelo id da página (sem parecer aleatório demais)
+  const idx = String(paginaCfg.pageId || '').length % opcoes.length;
+  return opcoes[idx];
+}
+
 function gerarPost({ item, paginaCfg }) {
   const emoji = paginaCfg.emoji || '💡';
-  const rotulo = paginaCfg.rotulo || 'CURIOSIDADE';
+  const rotulo = rotuloNatural(paginaCfg);
   const fonte = item.fonte_nome || 'Fonte';
   const tituloExibicao = tituloAdaptado(item, paginaCfg.nicho);
   let corpo;
@@ -80,13 +147,13 @@ function gerarPost({ item, paginaCfg }) {
       const ref = String(item.titulo || '');
       if (/solar|sunscreen|fps|protetor/i.test(ref)) {
         corpo =
-          'O protetor solar é um dos passos mais importantes da rotina de pele. ' +
-          'Na hora de escolher, observe o FPS e o tipo de pele — e, em caso de dúvida, ' +
-          'peça orientação a um profissional de saúde.';
+          'O protetor solar continua sendo um dos passos mais importantes da rotina de pele. ' +
+          'Na hora de escolher, observe o FPS e o que funciona melhor para o seu tipo de pele — ' +
+          'e, em caso de dúvida, peça orientação a um profissional de saúde.';
       } else if (/hidrat|moistur/i.test(ref)) {
         corpo =
           'Manter a pele hidratada ajuda na barreira cutânea e no conforto do dia a dia. ' +
-          'Prefira texturas adequadas ao seu tipo de pele e evite promessas milagrosas.';
+          'Prefira texturas adequadas ao seu tipo de pele e desconfie de promessas milagrosas.';
       } else {
         corpo =
           'Na hora de escolher cosméticos, ler o rótulo e conhecer ingredientes básicos ' +
@@ -109,15 +176,15 @@ function gerarPost({ item, paginaCfg }) {
       corpo = `Você sabia? ${fato}`;
     } else if (/electric|el[eé]tric/i.test(item.titulo || '')) {
       corpo =
-        'As motos elétricas seguem ganhando espaço como opção de mobilidade urbana. ' +
-        'Vale acompanhar autonomia, recarga e equipamentos de segurança.';
+        'As motos elétricas seguem ganhando espaço na mobilidade urbana. ' +
+        'Vale olhar autonomia, recarga e equipamentos de segurança antes de qualquer decisão.';
     } else if (/helmet|capacete/i.test(`${item.titulo} ${item.descricao}`)) {
       corpo =
         'O capacete é o item de segurança mais importante para quem anda de moto. ' +
-        'Ajuste, certificação e conservação fazem diferença em cada trajeto.';
+        'Ajuste correto, certificação e conservação fazem diferença em cada trajeto.';
     } else {
       corpo =
-        `${tituloExibicao}. Para quem anda de moto, equipamento e atenção no trânsito ` +
+        `${tituloExibicao}. Para quem anda de moto, equipamento em ordem e atenção no trânsito ` +
         'continuam sendo a base da segurança.';
     }
   } else if (paginaCfg.nicho === 'casa') {
@@ -132,19 +199,19 @@ function gerarPost({ item, paginaCfg }) {
       corpo =
         fato && parecePortugues(fato) && !pareceIngles(fato)
           ? fato
-          : `${tituloExibicao}: ideia prática para organização, limpeza ou rotina em casa.`;
+          : `${tituloExibicao}: uma ideia prática para organização, limpeza ou rotina em casa.`;
     }
   } else {
     const t = `${item.titulo || ''} ${item.descricao || ''}`;
     if (/\b(ai|artificial intelligence|llm|gpt)\b/i.test(t)) {
       corpo =
-        'A inteligência artificial continua mudando a forma como empresas organizam tarefas, ' +
-        'atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa ' +
+        'A inteligência artificial está mudando a forma como empresas organizam tarefas, ' +
+        'atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta ' +
         'pode economizar tempo no dia a dia.';
     } else if (/\bstartup|funding\b/i.test(t)) {
       corpo =
-        'O ecossistema de startups segue movimentado. Para quem empreende ou vende online, ' +
-        'acompanhar essas tendências ajuda a enxergar oportunidades de produto e marketing.';
+        'O ecossistema de startups segue em movimento. Para quem empreende ou vende online, ' +
+        'acompanhar essas mudanças ajuda a enxergar oportunidades de produto e marketing.';
     } else if (/\bmarketing|ecommerce|e-commerce|affiliate\b/i.test(t)) {
       corpo =
         'No marketing digital e no e-commerce, pequenas melhorias de processo e comunicação ' +
@@ -160,18 +227,22 @@ function gerarPost({ item, paginaCfg }) {
     }
   }
 
-  corpo = encurtar(corpo.replace(/\s+/g, ' ').trim(), 420);
+  const detalhe = detalheUtil(paginaCfg.nicho, item);
+  if (detalhe) {
+    corpo = `${corpo} ${detalhe}`;
+  }
+  corpo = encurtar(corpo.replace(/\s+/g, ' ').trim(), 480);
 
-  // SEM link externo — apenas a automação Shopee pode publicar com link de produto
-  const linhas = [
-    `${emoji} ${rotulo}`,
-    '',
-    corpo,
-    '',
-    `Fonte de inspiração: ${fonte}`,
-  ];
+  const convite = conviteSeguir(paginaCfg);
+
+  // SEM link externo — apenas Shopee pode publicar com link de produto
+  // Estrutura: emoji + rótulo natural (não gritado) → corpo → detalhe já no corpo → fonte → convite
+  const linhas = [`${emoji} ${rotulo}`, '', corpo, '', `Fonte de inspiração: ${fonte}`];
   if (item.licenca) {
     linhas.push(`Atribuição: ${item.licenca}`);
+  }
+  if (convite) {
+    linhas.push('', convite);
   }
 
   return {
@@ -186,6 +257,15 @@ function gerarPost({ item, paginaCfg }) {
     fonte_nome: fonte,
     id_unico: item.id_unico,
     tem_link: false,
+    // Metadados opcionais para a Graph API (quando suportados)
+    graph_extras: {
+      // Plano de fundo colorido exige texto curto (~130 chars); nossos posts são maiores → não usar
+      text_format_preset_id: null,
+      // Localização: só se a Página tiver place_id configurado (não inventar)
+      place: paginaCfg.place_id || null,
+      // Feeling/activity: opcional e desligado por padrão (pode falhar se o objeto não for aceito)
+      feeling: paginaCfg.feeling || null,
+    },
   };
 }
 
@@ -199,6 +279,10 @@ function validarPost(post) {
   if (/saiba mais/i.test(post.texto)) {
     return { ok: false, motivo: 'bloco_saiba_mais_proibido' };
   }
+  // Evitar rótulos gritados no texto final
+  if (/INSIGHT DE TECNOLOGIA|CUIDADO COM A PELE|CURIOSIDADE DAS DUAS RODAS|DICA PARA CASA/.test(post.texto)) {
+    return { ok: false, motivo: 'rotulo_em_maiusculas' };
+  }
   return { ok: true };
 }
 
@@ -208,4 +292,6 @@ module.exports = {
   avaliarTextoFinal,
   primeiraFraseUtil,
   tituloAdaptado,
+  rotuloNatural,
+  detalheUtil,
 };
