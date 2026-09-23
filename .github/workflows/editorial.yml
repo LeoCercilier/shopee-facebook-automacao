@@ -1,21 +1,62 @@
-# DESATIVADO — substituído por .github/workflows/apis-conteudo.yml
-# Mantido apenas como referência histórica. Não dispara mais.
-name: "[DESATIVADO] Editorial RSS"
+name: Editorial RSS – conteúdo útil nas Páginas
 
 on:
   workflow_dispatch:
-    inputs:
-      confirmar_legado:
-        description: "Este workflow está desativado. Use apis-conteudo.yml"
-        required: true
-        default: "nao"
+
+  schedule:
+    - cron: "47 12 * * *"
+
+concurrency:
+  group: editorial-facebook
+  cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
-  desativado:
+  editorial:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+
     steps:
-      - name: Aviso
+      - name: Baixar projeto
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Instalar dependências
+        run: npm ci || npm install
+
+      - name: Executar editorial
+        env:
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+        run: node editorial/pipeline.js
+
+      - name: Persistir resultados
+        if: always()
         run: |
-          echo "O módulo editorial RSS foi substituído por api-conteudo/."
-          echo "Use o workflow: APIs – conteúdo útil nas Páginas"
-          exit 1
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add resultado-editorial.json historico-editorial.json 2>/dev/null || true
+
+          if git diff --staged --quiet; then
+            echo "Sem alterações para salvar."
+          else
+            git commit -m "chore: atualiza editorial"
+            git push
+          fi
+
+      - name: Artefato do editorial
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: editorial-${{ github.run_id }}
+          path: |
+            resultado-editorial.json
+            historico-editorial.json
+          retention-days: 14
+          if-no-files-found: ignore
