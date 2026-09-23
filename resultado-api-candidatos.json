@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-23T15:37:18.430Z",
+  "gerado_em": "2026-09-23T15:49:42.149Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "pontuacao_minima_fonte": 75,
@@ -11,7 +11,7 @@
       "status": "publicado",
       "stats": {
         "coletados": 67,
-        "aprovados_fonte": 21,
+        "aprovados_fonte": 20,
         "aprovados_texto": 20,
         "rejeitados": 0,
         "publicados": 1
@@ -21,7 +21,7 @@
         "page_id": "369805844018354",
         "fonte": "FreeNewsAPI (negócios/IA)",
         "fonte_id": "freenews-biz",
-        "titulo_original": "Ema’s $77M Bet: Outcome-Based AI Pricing to Replace SaaS",
+        "titulo_original": "Ema raises $77M in funding to deploy AI employees across enterprise HR, IT and finance departments",
         "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
         "score_fonte": 93,
         "score_texto": 94,
@@ -30,7 +30,7 @@
         "motivos_fonte": [
           "+keyword no título (2)",
           "+keyword forte no título",
-          "+keywords na descrição (4)",
+          "+keywords na descrição (3)",
           "+FreeNews negócios",
           "+recente"
         ],
@@ -41,7 +41,8 @@
           "+tamanho adequado"
         ],
         "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-        "url_fonte_interna": "https://cvj.ai/briefing/crypto-news/emas-77m-bet-outcome-based-ai-pricing-to-replace-saas/",
+        "url_fonte_interna": "https://siliconangle.com/2026/09/23/ema-raises-77m-in-funding-to-deploy-ai-employees-across-enterprise-hr-it-and-finance-departments/",
+        "imagem": "",
         "link_no_post": false,
         "graph_extras": {
           "text_format_preset_id": null,
@@ -50,39 +51,6 @@
         }
       },
       "candidatos": [
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "FreeNewsAPI (negócios/IA)",
-          "fonte_id": "freenews-biz",
-          "titulo_original": "Ema’s $77M Bet: Outcome-Based AI Pricing to Replace SaaS",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 93,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 93, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+keywords na descrição (4)",
-            "+FreeNews negócios",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://cvj.ai/briefing/crypto-news/emas-77m-bet-outcome-based-ai-pricing-to-replace-saas/",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
         {
           "pagina": "Marketing Tips",
           "page_id": "369805844018354",
@@ -109,6 +77,7 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://siliconangle.com/2026/09/23/ema-raises-77m-in-funding-to-deploy-ai-employees-across-enterprise-hr-it-and-finance-departments/",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -142,6 +111,7 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://dev.to/sylwia-lask/what-if-your-ai-agent-never-had-to-leave-the-browser-demo--5g",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyv8119jpkpgyckuk1v1c.png",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -175,6 +145,7 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://dev.to/dj29/we-all-have-a-serious-work-ai-and-a-just-vibing-ai-when-did-that-happen-5fl2",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjjz2shn3dk7a87if7yt3.png",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -187,7 +158,7 @@
           "page_id": "369805844018354",
           "fonte": "FreeNewsAPI (negócios/IA)",
           "fonte_id": "freenews-biz",
-          "titulo_original": "Salesforce missed OpenAI. Its $50 million Anthropic bet is now worth $5 billion | Company Business News",
+          "titulo_original": "Multiples Leads $150 Mn Funding Round In Brahma AI",
           "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
           "score_fonte": 89,
           "score_texto": 94,
@@ -207,7 +178,8 @@
             "+tamanho adequado"
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://www.livemint.com/companies/news/salesforce-missed-openai-its-50-million-anthropic-bet-is-now-worth-5-billion-11790164533797.html",
+          "url_fonte_interna": "https://inc42.com/buzz/multiples-leads-150-mn-funding-round-in-brahma-ai/",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -241,6 +213,7 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nO ecossistema de startups segue em movimento. Para quem empreende ou vende online, acompanhar essas mudanças ajuda a enxergar oportunidades de produto e marketing. Medir uma métrica simples (clique, resposta ou venda) costuma valer mais do que várias campanhas soltas.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://yourstory.com/2026/09/nuvr-bootstrapped-startup-managing-rs-1200-cr-ecommerce-sales-brands",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -274,6 +247,7 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://www.manilatimes.net/2026/09/23/tmt-newswire/pr-newswire/global-ai-visionary-and-expert-mo-gawdat-to-headline-bahrain-fintech-forward-2026/2431037",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -286,16 +260,16 @@
           "page_id": "369805844018354",
           "fonte": "FreeNewsAPI (negócios/IA)",
           "fonte_id": "freenews-biz",
-          "titulo_original": "AI predicts Micron stock price for October 1, 2026",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 89,
+          "titulo_original": "Ema recauda US$77M para reemplazar SaaS con agentes de IA",
+          "titulo_adaptado": "Ema recauda US$77M para reemplazar SaaS con agentes de IA",
+          "score_fonte": 85,
           "score_texto": 94,
           "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 89, texto 94)",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 85, texto 94)",
           "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
-            "+keywords na descrição (2)",
+            "+keywords na descrição (1)",
             "+FreeNews negócios",
             "+recente"
           ],
@@ -305,8 +279,9 @@
             "+fonte alinhada ao nicho",
             "+tamanho adequado"
           ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://finbold.com/ai-predicts-micron-stock-price-for-october-1-2026/",
+          "texto_final": "💡 Insight de tecnologia\n\nO ecossistema de startups segue em movimento. Para quem empreende ou vende online, acompanhar essas mudanças ajuda a enxergar oportunidades de produto e marketing. Guardar uma ideia por vez e aplicar na prática costuma render mais do que acumular tendências.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://ecosistemastartup.com/ema-recauda-us77m-para-reemplazar-saas-con-agentes-de-ia/",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -340,6 +315,7 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://www.tribuneindia.com/news/business/techmagnate-study-finds-ai-platforms-drop-39-of-cited-brands-every-week-signals-shift-in-how-ai-visibility-should-be-measured/",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -373,6 +349,7 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nNo marketing digital e no e-commerce, pequenas melhorias de processo e comunicação costumam gerar mais resultado do que grandes mudanças de uma só vez. Medir uma métrica simples (clique, resposta ou venda) costuma valer mais do que várias campanhas soltas.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://insiderone.com/whatsapp-marketing-platform-enterprise/",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -406,6 +383,7 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nNo marketing digital e no e-commerce, pequenas melhorias de processo e comunicação costumam gerar mais resultado do que grandes mudanças de uma só vez. Medir uma métrica simples (clique, resposta ou venda) costuma valer mais do que várias campanhas soltas.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://southeastagnet.com/2026/09/22/florida-beef-council-ecommerce-campaign-beef-sales/",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -438,6 +416,7 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://dev.to/aws/how-ai-actually-calls-an-api-tool-calling-explained-from-scratch-4lf8",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmhtvo6zedugelnfp6o2v.png",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -470,6 +449,7 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://dev.to/infoinlet1/i-got-rejected-for-using-ai-in-an-interview-then-i-watched-the-interviewer-do-it-31d0",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmgcw6dq8hs4oxnhkhfjh.png",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -502,6 +482,7 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nTecnologia aplicada a negócios de forma simples. Uma provocação útil para quem acompanha negócios digitais e quer aplicar tecnologia de forma prática. Guardar uma ideia por vez e aplicar na prática costuma render mais do que acumular tendências.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://dev.to/wolfnom/i-built-a-pretty-cool-saas-now-what-3ibd",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2a3lrdx8f6vwbqgjir23.png",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -534,6 +515,7 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nTecnologia aplicada a negócios de forma simples. Uma provocação útil para quem acompanha negócios digitais e quer aplicar tecnologia de forma prática. Guardar uma ideia por vez e aplicar na prática costuma render mais do que acumular tendências.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://dev.to/heynikhila/i-replaced-our-647month-saas-stack-with-open-source-we-saved-8-4lpc",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdj625fo9s9g2ovurd9dw.png",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -566,6 +548,7 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://dev.to/gde/why-ai-coding-agents-crash-at-3-am-the-happy-path-mirage-the-forced-continuity-defect-46pd",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqwed3lsgbikup1qr2wt5.png",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -598,6 +581,7 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nNo marketing digital e no e-commerce, pequenas melhorias de processo e comunicação costumam gerar mais resultado do que grandes mudanças de uma só vez. Medir uma métrica simples (clique, resposta ou venda) costuma valer mais do que várias campanhas soltas.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://www.europapress.es/comunicados/empresas-00908/noticia-comunicado-ecommerce-awards-espana-2026-reconocen-referentes-estan-transformando-comercio-electronico-20260922155920.html",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -630,6 +614,7 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://www.manilatimes.net/2026/09/23/tmt-newswire/globenewswire/3-e-network-advances-european-ai-data-center-project-through-nordic-subsidiary-aurora-core-technology-oy/2431243",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -662,6 +647,7 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://www.newsbytesapp.com/news/business/multiples-invests-100-million-in-brahma-ai-without-fixed-equity-stake/tldr",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -694,6 +680,40 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: Hacker News\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
+          "imagem": "",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
+          "score_fonte": 75,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (2)",
+            "+keyword forte no título",
+            "+HN secundário",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: Hacker News\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -741,6 +761,41 @@
           ],
           "texto_final": "✨ Cuidado com a pele\n\nO filtro solar ou protetor solar é uma loção, spray ou produto tópico que ajuda a proteger a pele da radiação ultravioleta do sol, o que reduz as queimaduras solares e outros danos à pele,… Informação educativa — não substitui orientação de um profissional de saúde. Reaplicar ao longo do dia, principalmente após suor ou água, faz diferença no resultado.\n\nFonte de inspiração: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)\n\nSe esse tipo de conteúdo ajuda você, siga Studio Marine Cuidados Pessoais para receber mais dicas no feed.",
           "url_fonte_interna": "https://pt.wikipedia.org/wiki/Filtro_solar",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/UV_and_Vis_Sunscreen.jpg/330px-UV_and_Vis_Sunscreen.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
+          "fonte": "Wikipedia (PT) skincare",
+          "fonte_id": "wiki-pele",
+          "titulo_original": "Melasma",
+          "titulo_adaptado": "Cuidados com a pele no dia a dia",
+          "score_fonte": 88,
+          "score_texto": 78,
+          "status": "rejeitado",
+          "motivo": "Texto insuficiente (78/80). +português detectado; +fonte alinhada ao nicho",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (2)",
+            "+Wikipedia PT",
+            "+imagem",
+            "-título curto",
+            "+skincare prático"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho"
+          ],
+          "texto_final": "✨ Cuidado com a pele\n\nMelasma é uma distúrbio pigmentar da pele caracterizada por manchas escuras na pele. Ocorre principalmente no rosto, mas pode ocorrer em outros segmentos do corpo. Informação educativa — não substitui orientação de um profissional de saúde. Mudanças na pele pedem paciência: resultados costumam aparecer com consistência, não da noite para o dia.\n\nFonte de inspiração: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)\n\nSe esse tipo de conteúdo ajuda você, siga Studio Marine Cuidados Pessoais para receber mais dicas no feed.",
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Melasma",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Melasmablemish.jpg/330px-Melasmablemish.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -774,38 +829,7 @@
           ],
           "texto_final": "✨ Cuidado com a pele\n\nAcne é uma condição cutânea de longa duração caracterizada por áreas de pontos negros, pontos brancos, pústulas, pele oleosa e possibilidade de aparecimento de cicatrizes. Informação educativa — não substitui orientação de um profissional de saúde. Mudanças na pele pedem paciência: resultados costumam aparecer com consistência, não da noite para o dia.\n\nFonte de inspiração: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)\n\nSe esse tipo de conteúdo ajuda você, siga Studio Marine Cuidados Pessoais para receber mais dicas no feed.",
           "url_fonte_interna": "https://pt.wikipedia.org/wiki/Acne",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Studio Marine Cuidados Pessoais",
-          "page_id": "1247772158429331",
-          "fonte": "Wikipedia (PT) skincare",
-          "fonte_id": "wiki-pele",
-          "titulo_original": "Retinol",
-          "titulo_adaptado": "Cuidados com a pele no dia a dia",
-          "score_fonte": 79,
-          "score_texto": 78,
-          "status": "rejeitado",
-          "motivo": "Texto insuficiente (78/80). +português detectado; +fonte alinhada ao nicho",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+Wikipedia PT",
-            "-título curto",
-            "+skincare prático"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+fonte alinhada ao nicho"
-          ],
-          "texto_final": "✨ Cuidado com a pele\n\nO retinol, também conhecido como vitamina A1, é uma vitamina encontrada nos alimentos e utilizada como suplemento dietético. Informação educativa — não substitui orientação de um profissional de saúde. Mudanças na pele pedem paciência: resultados costumam aparecer com consistência, não da noite para o dia.\n\nFonte de inspiração: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)\n\nSe esse tipo de conteúdo ajuda você, siga Studio Marine Cuidados Pessoais para receber mais dicas no feed.",
-          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Retinol",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Acne_vulgaris_on_a_very_oily_skin.jpg/330px-Acne_vulgaris_on_a_very_oily_skin.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -826,6 +850,7 @@
           "motivo": "Score da fonte 73 < 75. +keywords na descrição (1); +Open Beauty Facts",
           "texto_final": null,
           "url_fonte_interna": "https://world.openbeautyfacts.org/product/3662361002146/svr-spray-sun-secure-spf-50",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -841,6 +866,7 @@
           "motivo": "Score da fonte 72 < 75. +keywords na descrição (2); +Open Beauty Facts",
           "texto_final": null,
           "url_fonte_interna": "https://world.openbeautyfacts.org/product/3614226743916/wella-invigo-sun-uv-hair-color-protection-spray-leave-in-150ml",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -856,21 +882,7 @@
           "motivo": "Score da fonte 72 < 75. +keywords na descrição (2); +Open Beauty Facts",
           "texto_final": null,
           "url_fonte_interna": "https://world.openbeautyfacts.org/product/0074590516876/vitamins-keratin-protein-hair-serum",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Studio Marine Cuidados Pessoais",
-          "page_id": "1247772158429331",
-          "fonte": "Wikipedia (PT) skincare",
-          "fonte_id": "wiki-pele",
-          "titulo_original": "Ácido hialurônico",
-          "titulo_adaptado": null,
-          "score_fonte": 69,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 69 < 75. +keyword no título (1); +keywords na descrição (1)",
-          "texto_final": null,
-          "url_fonte_interna": "https://pt.wikipedia.org/wiki/%C3%81cido_hialur%C3%B4nico",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -886,6 +898,7 @@
           "motivo": "Score da fonte 61 < 75. +keywords na descrição (1); +Wikipedia PT",
           "texto_final": null,
           "url_fonte_interna": "https://pt.wikipedia.org/wiki/Nicotinamida",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -901,6 +914,7 @@
           "motivo": "Score da fonte 51 < 75. +Open Beauty Facts; +imagem",
           "texto_final": null,
           "url_fonte_interna": "https://world.openbeautyfacts.org/product/3600551125305/dermo-protect-spf-50-mixa",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -916,6 +930,7 @@
           "motivo": "Score da fonte 51 < 75. +Open Beauty Facts; +imagem",
           "texto_final": null,
           "url_fonte_interna": "https://world.openbeautyfacts.org/product/3504105036751/high-protection-sun-spray-mustela",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -931,6 +946,7 @@
           "motivo": "Score da fonte 51 < 75. +Open Beauty Facts; +imagem",
           "texto_final": null,
           "url_fonte_interna": "https://world.openbeautyfacts.org/product/8480000503756/crema-facial-fluida-hidratante-deliplus",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -946,6 +962,7 @@
           "motivo": "Score da fonte 51 < 75. +Open Beauty Facts; +imagem",
           "texto_final": null,
           "url_fonte_interna": "https://world.openbeautyfacts.org/product/8431876282207/mascarilla-facial-hidratacion-sos-booster-plan-les-cosmetiques",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -961,6 +978,7 @@
           "motivo": "Score da fonte 46 < 75. +Open Beauty Facts",
           "texto_final": null,
           "url_fonte_interna": "https://world.openbeautyfacts.org/product/7909189261888/crema-facial-hidratante-care",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -976,6 +994,7 @@
           "motivo": "Score da fonte 41 < 75. +Open Beauty Facts; +imagem",
           "texto_final": null,
           "url_fonte_interna": "https://world.openbeautyfacts.org/product/3600551125282/mixa",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -991,6 +1010,7 @@
           "motivo": "Score da fonte 41 < 75. +Open Beauty Facts; +imagem",
           "texto_final": null,
           "url_fonte_interna": "https://world.openbeautyfacts.org/product/4005800137556/nivea-creme",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1006,6 +1026,23 @@
           "motivo": "Score da fonte 41 < 75. +Open Beauty Facts; +imagem",
           "texto_final": null,
           "url_fonte_interna": "https://world.openbeautyfacts.org/product/4005800137662/nivea-creme",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
+          "fonte": "Wikipedia (PT) skincare",
+          "fonte_id": "wiki-pele",
+          "titulo_original": "Colágeno",
+          "titulo_adaptado": null,
+          "score_fonte": 32,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 32 < 75. +Wikipedia PT; -título curto",
+          "texto_final": null,
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Col%C3%A1geno",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1021,6 +1058,7 @@
           "motivo": "Score da fonte 0 < 75. já publicado nesta Página",
           "texto_final": null,
           "url_fonte_interna": "https://world.openbeautyfacts.org/product/4005900201126/protetor-solar-facial-nivea-sun-toque-seco-antissinais-fps-60-50ml",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1036,6 +1074,7 @@
           "motivo": "Score da fonte 0 < 75. já publicado nesta Página",
           "texto_final": null,
           "url_fonte_interna": "https://world.openbeautyfacts.org/product/7891010250980/protetor-solar-facial-neutrogena-sun-fresh-fps30-40g",
+          "imagem": "",
           "graph_extras": null
         }
       ]
@@ -1045,37 +1084,38 @@
       "page_id": "1332730186586435",
       "status": "publicado",
       "stats": {
-        "coletados": 38,
-        "aprovados_fonte": 10,
-        "aprovados_texto": 10,
-        "rejeitados": 10,
+        "coletados": 37,
+        "aprovados_fonte": 9,
+        "aprovados_texto": 9,
+        "rejeitados": 11,
         "publicados": 1
       },
       "melhor": {
         "pagina": "Rota das Duas Rodas - Acessórios",
         "page_id": "1332730186586435",
-        "fonte": "FreeNewsAPI (motos)",
-        "fonte_id": "freenews-moto",
-        "titulo_original": "Gigi Dall’Igna: 2026 MotoGP Şampiyonluk Mücadelesi Son Ana Kadar Sürecek",
-        "titulo_adaptado": "O que está em alta no MotoGP",
-        "score_fonte": 87,
+        "fonte": "Wikipedia (PT) motos",
+        "fonte_id": "wiki-moto",
+        "titulo_original": "Motociclismo",
+        "titulo_adaptado": "No universo das duas rodas",
+        "score_fonte": 84,
         "score_texto": 86,
         "status": "aprovado",
-        "motivo": "Conteúdo relevante e texto adequado (fonte 87, texto 86)",
+        "motivo": "Conteúdo relevante e texto adequado (fonte 84, texto 86)",
         "motivos_fonte": [
           "+keyword no título (1)",
           "+keyword forte no título",
           "+keywords na descrição (1)",
-          "+FreeNews motos",
-          "+recente"
+          "+Wikipedia PT",
+          "+imagem"
         ],
         "motivos_texto": [
           "+português detectado",
           "+fonte alinhada ao nicho",
           "+tamanho adequado"
         ],
-        "texto_final": "🏍️ Curiosidade das duas rodas\n\nO que está em alta no MotoGP. Para quem anda de moto, equipamento em ordem e atenção no trânsito continuam sendo a base da segurança. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
-        "url_fonte_interna": "https://trf1.net/motor-sporlari/motogp/gigi-dalligna-2026-motogp-sampiyonluk-mucadelesi-son-ana-kadar-surecek/115631/",
+        "texto_final": "🏍️ Curiosidade das duas rodas\n\nVocê sabia? O motociclismo é uma disciplina que implica tudo o que diga respeito a conduzir um motociclo. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: Wikipedia (PT) motos\nAtribuição: CC BY-SA (Wikipedia)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
+        "url_fonte_interna": "https://pt.wikipedia.org/wiki/Motociclismo",
+        "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Peti_bardhal.jpg/330px-Peti_bardhal.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "link_no_post": false,
         "graph_extras": {
           "text_format_preset_id": null,
@@ -1084,38 +1124,6 @@
         }
       },
       "candidatos": [
-        {
-          "pagina": "Rota das Duas Rodas - Acessórios",
-          "page_id": "1332730186586435",
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "Gigi Dall’Igna: 2026 MotoGP Şampiyonluk Mücadelesi Son Ana Kadar Sürecek",
-          "titulo_adaptado": "O que está em alta no MotoGP",
-          "score_fonte": 87,
-          "score_texto": 86,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 87, texto 86)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+FreeNews motos",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "🏍️ Curiosidade das duas rodas\n\nO que está em alta no MotoGP. Para quem anda de moto, equipamento em ordem e atenção no trânsito continuam sendo a base da segurança. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
-          "url_fonte_interna": "https://trf1.net/motor-sporlari/motogp/gigi-dalligna-2026-motogp-sampiyonluk-mucadelesi-son-ana-kadar-surecek/115631/",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
         {
           "pagina": "Rota das Duas Rodas - Acessórios",
           "page_id": "1332730186586435",
@@ -1141,6 +1149,7 @@
           ],
           "texto_final": "🏍️ Curiosidade das duas rodas\n\nVocê sabia? O motociclismo é uma disciplina que implica tudo o que diga respeito a conduzir um motociclo. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: Wikipedia (PT) motos\nAtribuição: CC BY-SA (Wikipedia)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
           "url_fonte_interna": "https://pt.wikipedia.org/wiki/Motociclismo",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Peti_bardhal.jpg/330px-Peti_bardhal.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -1172,6 +1181,7 @@
           ],
           "texto_final": "🏍️ Curiosidade das duas rodas\n\n&lt;![CDATA[Ducati señala cuál es la \"clave\" para que Marc Márquez gane el Mundial de…. Para quem anda de moto, equipamento em ordem e atenção no trânsito continuam sendo a base da segurança. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
           "url_fonte_interna": "https://www.lasexta.com/noticias/deportes/motor/ducati-senala-cual-clave-que-marc-marquez-gane-mundial-motogp_202609236ab3d169ca2f3f0cd1a2fd85.html",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -1203,6 +1213,7 @@
           ],
           "texto_final": "🏍️ Curiosidade das duas rodas\n\nNem lesz jövőre magyar MotoGP verseny – a Hungaroring érdemben nem tud nyilatkozni. Para quem anda de moto, equipamento em ordem e atenção no trânsito continuam sendo a base da segurança. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
           "url_fonte_interna": "https://motorsportol.hu/moto/nem-lesz-jovore-magyar-motogp-verseny-a-hungaroring-erdemben-nem-tud-nyilatkozni",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -1234,6 +1245,7 @@
           ],
           "texto_final": "🏍️ Curiosidade das duas rodas\n\nO capacete é o item de segurança mais importante para quem anda de moto. Ajuste correto, certificação e conservação fazem diferença em cada trajeto. Troque o capacete após impacto forte ou quando a espuma interna começar a ceder.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
           "url_fonte_interna": "https://www.newsbytesapp.com/news/auto/agv-debuts-pista-gp-r3-helmet-using-microscopic-protective-spheres/tldr",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -1265,6 +1277,7 @@
           ],
           "texto_final": "🏍️ Curiosidade das duas rodas\n\nO que está em alta no MotoGP. Para quem anda de moto, equipamento em ordem e atenção no trânsito continuam sendo a base da segurança. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
           "url_fonte_interna": "https://ekonomi.republika.co.id/berita/tltlw2370/nonton-motogp-mandalika-tiket-via-wondr-bni-dapat-diskon-rp300-ribu",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -1298,6 +1311,7 @@
           ],
           "texto_final": "🏍️ Curiosidade das duas rodas\n\nVocê sabia? Motocicleta ou motociclo, também conhecida pelas formas reduzidas moto e mota (português europeu), informalmente chamada no Brasil de \"motoca\", é um veículo motorizado de duas… Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: Wikipedia (PT) motos\nAtribuição: CC BY-SA (Wikipedia)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
           "url_fonte_interna": "https://pt.wikipedia.org/wiki/Motocicleta",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Red_Honda_C50_%281975%3F%29_in_Athens_on_10-13-2023.jpg/330px-Red_Honda_C50_%281975%3F%29_in_Athens_on_10-13-2023.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -1328,6 +1342,7 @@
           ],
           "texto_final": "🏍️ Curiosidade das duas rodas\n\nO que está em alta no MotoGP. Para quem anda de moto, equipamento em ordem e atenção no trânsito continuam sendo a base da segurança. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
           "url_fonte_interna": "https://koran-jakarta.com/2026-09-23/jelang-motogp-penjualan-tiket-mandalika-baru-capai-70-persen",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -1358,6 +1373,7 @@
           ],
           "texto_final": "🏍️ Curiosidade das duas rodas\n\nO que está em alta no MotoGP. Para quem anda de moto, equipamento em ordem e atenção no trânsito continuam sendo a base da segurança. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
           "url_fonte_interna": "https://koran-jakarta.com/2026-09-23/tiket-motogp-mandalika-penjualannya-tembus-70-persen-dari-target-140-ribu-lebih-penonton",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -1388,6 +1404,7 @@
           ],
           "texto_final": "🏍️ Curiosidade das duas rodas\n\nO que está em alta no MotoGP. Para quem anda de moto, equipamento em ordem e atenção no trânsito continuam sendo a base da segurança. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
           "url_fonte_interna": "https://koran-jakarta.com/2026-09-23/beli-tiket-motogp-pertamina-grand-prix-of-indonesia-2026-via-wondr-by-bni-dapat-diskon-hingga-rp300-ribu",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -1408,6 +1425,7 @@
           "motivo": "Score da fonte 74 < 75. +keyword no título (1); +keyword forte no título",
           "texto_final": null,
           "url_fonte_interna": "https://pt.wikipedia.org/wiki/Capacete",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1423,36 +1441,7 @@
           "motivo": "Score da fonte 73 < 75. +keyword no título (1); +keyword forte no título",
           "texto_final": null,
           "url_fonte_interna": "https://pt.wikipedia.org/wiki/MotoGP",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Rota das Duas Rodas - Acessórios",
-          "page_id": "1332730186586435",
-          "fonte": "Wikipedia (PT) motos",
-          "fonte_id": "wiki-moto",
-          "titulo_original": "Yamaha Corporation",
-          "titulo_adaptado": null,
-          "score_fonte": 69,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 69 < 75. +keyword no título (1); +keywords na descrição (1)",
-          "texto_final": null,
-          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Yamaha_Corporation",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Rota das Duas Rodas - Acessórios",
-          "page_id": "1332730186586435",
-          "fonte": "Wikipedia (PT) motos",
-          "fonte_id": "wiki-moto",
-          "titulo_original": "Honda",
-          "titulo_adaptado": null,
-          "score_fonte": 59,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 59 < 75. +keyword no título (1); +keywords na descrição (1)",
-          "texto_final": null,
-          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Honda",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1468,6 +1457,7 @@
           "motivo": "Score da fonte 58 < 75. +keywords na descrição (2); +FreeNews motos",
           "texto_final": null,
           "url_fonte_interna": "https://www.etvbharat.com/kn/technology/honda-qc3-electric-scooter-launched-145km-range-3kwh-battery-tft-price-features-kas26092303375",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1483,21 +1473,7 @@
           "motivo": "Score da fonte 54 < 75. +keywords na descrição (1); +FreeNews motos",
           "texto_final": null,
           "url_fonte_interna": "https://en.prothomalo.com/bangladesh/rkycz0u6vw",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Rota das Duas Rodas - Acessórios",
-          "page_id": "1332730186586435",
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "Mahindra XEV 9e Ends Up On Railway Tracks After Crashing Through Barricade: Video",
-          "titulo_adaptado": null,
-          "score_fonte": 54,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 54 < 75. +keywords na descrição (1); +FreeNews motos",
-          "texto_final": null,
-          "url_fonte_interna": "https://www.ndtv.com/auto/mahindra-xev-9e-ends-up-on-railway-tracks-after-crashing-through-barricade-viral-video-12084749",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1513,6 +1489,23 @@
           "motivo": "Score da fonte 46 < 75. +keywords na descrição (1); +FreeNews motos",
           "texto_final": null,
           "url_fonte_interna": "https://aldergrovestar.com/2026/09/18/letter-langley-school-district-right-to-put-the-brakes-on-e-rides/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "Wikipedia (PT) motos",
+          "fonte_id": "wiki-moto",
+          "titulo_original": "Motoneta",
+          "titulo_adaptado": null,
+          "score_fonte": 45,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 45 < 75. +keywords na descrição (2); +Wikipedia PT",
+          "texto_final": null,
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Motoneta",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1528,6 +1521,7 @@
           "motivo": "Score da fonte 20 < 75. +FreeNews motos; +recente",
           "texto_final": null,
           "url_fonte_interna": "https://vintageaviationnews.com/warbird-articles/adams-profile-reports-pearson-air-museum.html",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1543,6 +1537,55 @@
           "motivo": "Score da fonte 20 < 75. +FreeNews motos; +recente",
           "texto_final": null,
           "url_fonte_interna": "https://contentmediasolution.com/news/bharat-taxi-launched-in-uttar-pradesh-with-zero-commission-model-rs-5-lakh-security-cover/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Royal Enfield Classic 350 Signature White Edition Launched",
+          "titulo_adaptado": null,
+          "score_fonte": 20,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 20 < 75. +FreeNews motos; +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.newsbricks.com/automotive/royal-enfield-classic-350-signature-white-edition",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "‘Is this the new iPhone?’: Thieves ask Noida woman about phone model before snatching it",
+          "titulo_adaptado": null,
+          "score_fonte": 20,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 20 < 75. +FreeNews motos; +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://indianexpress.com/article/trending/trending-in-india/greater-noida-iphone-18-pro-theft-10890238/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Ultraviolette Automotive raises $85 million led by Yali Capital, TDK Ventures | Company Business News",
+          "titulo_adaptado": null,
+          "score_fonte": 20,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 20 < 75. +FreeNews motos; +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.livemint.com/companies/start-ups/ultraviolette-automotive-raises-85-million-funding-yali-capital-tdk-ventures-11790129549151.html",
+          "imagem": "",
           "graph_extras": null
         }
       ]
@@ -1573,6 +1616,7 @@
           "motivo": "Score da fonte 74 < 75. +keyword no título (1); +keyword forte no título",
           "texto_final": null,
           "url_fonte_interna": "https://pt.wikipedia.org/wiki/Jardinagem",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1580,7 +1624,7 @@
           "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Feijão tropeiro mineiro",
+          "titulo_original": "Lingüiça, frango, frita",
           "titulo_adaptado": null,
           "score_fonte": 62,
           "score_texto": null,
@@ -1588,6 +1632,7 @@
           "motivo": "Score da fonte 62 < 75. +TACO em português; +título PT",
           "texto_final": null,
           "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1595,7 +1640,7 @@
           "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Bebida láctea, pêssego",
+          "titulo_original": "Hambúrguer, bovino, frito",
           "titulo_adaptado": null,
           "score_fonte": 62,
           "score_texto": null,
@@ -1603,6 +1648,7 @@
           "motivo": "Score da fonte 62 < 75. +TACO em português; +título PT",
           "texto_final": null,
           "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1610,7 +1656,7 @@
           "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Lingüiça, frango, crua",
+          "titulo_original": "Carne, bovina, capa de contra-filé, sem gordura, crua",
           "titulo_adaptado": null,
           "score_fonte": 62,
           "score_texto": null,
@@ -1618,6 +1664,39 @@
           "motivo": "Score da fonte 62 < 75. +TACO em português; +título PT",
           "texto_final": null,
           "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Presunto, com capa de gordura",
+          "titulo_adaptado": null,
+          "score_fonte": 62,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 62 < 75. +TACO em português; +título PT",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Hambúrguer, bovino, grelhado",
+          "titulo_adaptado": null,
+          "score_fonte": 62,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 62 < 75. +TACO em português; +título PT",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1633,6 +1712,23 @@
           "motivo": "Score da fonte 59 < 75. +keyword no título (1); +keyword forte no título",
           "texto_final": null,
           "url_fonte_interna": "https://pt.wikipedia.org/wiki/Limpeza",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Iogurte, sabor abacaxi",
+          "titulo_adaptado": null,
+          "score_fonte": 56,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 56 < 75. +keywords na descrição (1); +TACO em português",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1648,6 +1744,7 @@
           "motivo": "Score da fonte 54 < 75. +keyword no título (1); +keyword forte no título",
           "texto_final": null,
           "url_fonte_interna": "https://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1655,7 +1752,7 @@
           "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Presunto, sem capa de gordura",
+          "titulo_original": "Carne, bovina, costela, crua",
           "titulo_adaptado": null,
           "score_fonte": 52,
           "score_texto": null,
@@ -1663,6 +1760,7 @@
           "motivo": "Score da fonte 52 < 75. +TACO em português",
           "texto_final": null,
           "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1670,7 +1768,7 @@
           "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Frango, coxa, sem pele, cozida",
+          "titulo_original": "Iogurte, natural",
           "titulo_adaptado": null,
           "score_fonte": 52,
           "score_texto": null,
@@ -1678,51 +1776,7 @@
           "motivo": "Score da fonte 52 < 75. +TACO em português",
           "texto_final": null,
           "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Casa & Conforto Utilidades",
-          "page_id": "1402223216297975",
-          "fonte": "TACO (alimentos BR)",
-          "fonte_id": "taco",
-          "titulo_original": "Frango, caipira, inteiro, com pele, cozido",
-          "titulo_adaptado": null,
-          "score_fonte": 52,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 52 < 75. +TACO em português",
-          "texto_final": null,
-          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Casa & Conforto Utilidades",
-          "page_id": "1402223216297975",
-          "fonte": "TACO (alimentos BR)",
-          "fonte_id": "taco",
-          "titulo_original": "Pescadinha, crua",
-          "titulo_adaptado": null,
-          "score_fonte": 52,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 52 < 75. +TACO em português",
-          "texto_final": null,
-          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Casa & Conforto Utilidades",
-          "page_id": "1402223216297975",
-          "fonte": "TACO (alimentos BR)",
-          "fonte_id": "taco",
-          "titulo_original": "Porco, bisteca, frita",
-          "titulo_adaptado": null,
-          "score_fonte": 52,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 52 < 75. +TACO em português",
-          "texto_final": null,
-          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1738,6 +1792,7 @@
           "motivo": "Score da fonte 51 < 75. +keywords na descrição (1); +Wikipedia PT",
           "texto_final": null,
           "url_fonte_interna": "https://pt.wikipedia.org/wiki/Design_de_interiores",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1745,7 +1800,7 @@
           "page_id": "1402223216297975",
           "fonte": "Open-Meteo",
           "fonte_id": "open-meteo",
-          "titulo_original": "Clima em São Paulo: 16°C, garoa",
+          "titulo_original": "Clima em São Paulo: 16.9°C, garoa",
           "titulo_adaptado": null,
           "score_fonte": 8,
           "score_texto": null,
@@ -1753,6 +1808,7 @@
           "motivo": "Score da fonte 8 < 75. -clima sem dica; +recente",
           "texto_final": null,
           "url_fonte_interna": "https://open-meteo.com/",
+          "imagem": "",
           "graph_extras": null
         },
         {
@@ -1768,6 +1824,7 @@
           "motivo": "Score da fonte 0 < 75. já publicado nesta Página",
           "texto_final": null,
           "url_fonte_interna": "https://pt.wikipedia.org/wiki/Culin%C3%A1ria",
+          "imagem": "",
           "graph_extras": null
         }
       ]

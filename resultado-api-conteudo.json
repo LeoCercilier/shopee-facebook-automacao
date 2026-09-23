@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-23T15:37:18.430Z",
+  "gerado_em": "2026-09-23T15:49:42.149Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -8,14 +8,15 @@
       "status": "publicado",
       "stats": {
         "coletados": 67,
-        "aprovados_fonte": 21,
+        "aprovados_fonte": 20,
         "aprovados_texto": 20,
         "rejeitados": 0,
         "publicados": 1
       },
       "melhor_titulo": "Como a IA pode ajudar no dia a dia do negócio",
       "score_fonte": 93,
-      "score_texto": 94
+      "score_texto": 94,
+      "tem_imagem": false
     },
     {
       "pagina": "Studio Marine Cuidados Pessoais",
@@ -29,21 +30,23 @@
       },
       "melhor_titulo": null,
       "score_fonte": null,
-      "score_texto": null
+      "score_texto": null,
+      "tem_imagem": false
     },
     {
       "pagina": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
       "stats": {
-        "coletados": 38,
-        "aprovados_fonte": 10,
-        "aprovados_texto": 10,
-        "rejeitados": 10,
+        "coletados": 37,
+        "aprovados_fonte": 9,
+        "aprovados_texto": 9,
+        "rejeitados": 11,
         "publicados": 1
       },
-      "melhor_titulo": "O que está em alta no MotoGP",
-      "score_fonte": 87,
-      "score_texto": 86
+      "melhor_titulo": "No universo das duas rodas",
+      "score_fonte": 84,
+      "score_texto": 86,
+      "tem_imagem": true
     },
     {
       "pagina": "Casa & Conforto Utilidades",
@@ -57,7 +60,8 @@
       },
       "melhor_titulo": null,
       "score_fonte": null,
-      "score_texto": null
+      "score_texto": null,
+      "tem_imagem": false
     }
   ]
 }
