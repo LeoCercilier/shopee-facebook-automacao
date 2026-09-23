@@ -19,10 +19,58 @@ function normalizar(s) {
     .replace(/[\u0300-\u036f]/g, '');
 }
 
+const CATEGORIA_PT = {
+  Beef: 'Carne bovina',
+  Chicken: 'Frango',
+  Dessert: 'Sobremesa',
+  Lamb: 'Cordeiro',
+  Miscellaneous: 'Diversos',
+  Pasta: 'Massas',
+  Pork: 'Porco',
+  Seafood: 'Frutos do mar',
+  Side: 'Acompanhamento',
+  Starter: 'Entrada',
+  Vegan: 'Vegano',
+  Vegetarian: 'Vegetariano',
+  Breakfast: 'Café da manhã',
+  Goat: 'Caprino',
+};
+
+const AREA_PT = {
+  American: 'americana',
+  British: 'britânica',
+  Canadian: 'canadense',
+  Chinese: 'chinesa',
+  Croatian: 'croata',
+  Dutch: 'holandesa',
+  Egyptian: 'egípcia',
+  Filipino: 'filipina',
+  French: 'francesa',
+  Greek: 'grega',
+  Indian: 'indiana',
+  Irish: 'irlandesa',
+  Italian: 'italiana',
+  Jamaican: 'jamaicana',
+  Japanese: 'japonesa',
+  Kenyan: 'queniana',
+  Malaysian: 'malaia',
+  Mexican: 'mexicana',
+  Moroccan: 'marroquina',
+  Polish: 'polonesa',
+  Portuguese: 'portuguesa',
+  Russian: 'russa',
+  Spanish: 'espanhola',
+  Thai: 'tailandesa',
+  Tunisian: 'tunisiana',
+  Turkish: 'turca',
+  Vietnamese: 'vietnamita',
+  Unknown: 'variada',
+};
+
 async function coletarHackerNews(fonte) {
   const base = fonte.url.replace(/\/$/, '');
   const ids = await getJson(`${base}/topstories.json`);
-  const slice = (ids || []).slice(0, 25);
+  const slice = (ids || []).slice(0, 30);
   const itens = [];
   for (const id of slice) {
     try {
@@ -36,15 +84,13 @@ async function coletarHackerNews(fonte) {
         descricao: '',
         url,
         imagem: '',
-        data: item.time
-          ? new Date(item.time * 1000).toISOString()
-          : null,
+        data: item.time ? new Date(item.time * 1000).toISOString() : null,
         fonte_id: fonte.id,
         fonte_nome: fonte.nome,
         fonte_prioridade: fonte.prioridade || 99,
       });
     } catch (_) {
-      /* ignora item */
+      /* ignora */
     }
   }
   return itens;
@@ -53,24 +99,25 @@ async function coletarHackerNews(fonte) {
 async function coletarSpaceflight(fonte) {
   const data = await getJson(fonte.url);
   const results = data.results || data || [];
-  return results.map((a) => ({
-    id_unico: `sfn-${a.id}`,
-    titulo: a.title || '',
-    descricao: (a.summary || '').slice(0, 280),
-    url: a.url || '',
-    imagem: a.image_url || '',
-    data: a.published_at || null,
-    fonte_id: fonte.id,
-    fonte_nome: fonte.nome,
-    fonte_prioridade: fonte.prioridade || 99,
-  })).filter((i) => i.titulo && i.url);
+  return results
+    .map((a) => ({
+      id_unico: `sfn-${a.id}`,
+      titulo: a.title || '',
+      descricao: (a.summary || '').slice(0, 280),
+      url: a.url || '',
+      imagem: a.image_url || '',
+      data: a.published_at || null,
+      fonte_id: fonte.id,
+      fonte_nome: fonte.nome,
+      fonte_prioridade: fonte.prioridade || 99,
+    }))
+    .filter((i) => i.titulo && i.url);
 }
 
 async function coletarWikipediaTopics(fonte) {
   const topics = fonte.topics || [];
   if (!topics.length) return [];
-  // escolhe até 5 tópicos aleatórios por execução
-  const shuffled = [...topics].sort(() => Math.random() - 0.5).slice(0, 5);
+  const shuffled = [...topics].sort(() => Math.random() - 0.5).slice(0, 6);
   const base = fonte.url.endsWith('/') ? fonte.url : fonte.url + '/';
   const itens = [];
   for (const topic of shuffled) {
@@ -80,10 +127,12 @@ async function coletarWikipediaTopics(fonte) {
         continue;
       }
       const titulo = data.title || topic.replace(/_/g, ' ');
-      const extract = (data.extract || '').slice(0, 320);
-      const url = (data.content_urls && data.content_urls.desktop
-        ? data.content_urls.desktop.page
-        : null) || `https://pt.wikipedia.org/wiki/${encodeURIComponent(topic)}`;
+      const extract = (data.extract || '').slice(0, 360);
+      const url =
+        (data.content_urls && data.content_urls.desktop
+          ? data.content_urls.desktop.page
+          : null) ||
+        `https://pt.wikipedia.org/wiki/${encodeURIComponent(topic)}`;
       const imagem =
         (data.thumbnail && data.thumbnail.source) ||
         (data.originalimage && data.originalimage.source) ||
@@ -107,23 +156,44 @@ async function coletarWikipediaTopics(fonte) {
   return itens;
 }
 
+function mealParaItem(meal, fonte) {
+  const cat = CATEGORIA_PT[meal.strCategory] || meal.strCategory || '';
+  const area = AREA_PT[meal.strArea] || meal.strArea || '';
+  const tituloPt = meal.strMeal; // gerador aplica tradução lexical
+  return {
+    id_unico: `meal-${meal.idMeal}`,
+    titulo: meal.strMeal || 'Receita',
+    titulo_pt: null, // preenchido no gerador/filtro se traduzível
+    descricao: `Categoria: ${cat}${area ? ` · Culinária ${area}` : ''}`,
+    categoria_pt: cat,
+    url:
+      meal.strSource ||
+      meal.strYoutube ||
+      `https://www.themealdb.com/meal/${meal.idMeal}`,
+    imagem: meal.strMealThumb || '',
+    data: null,
+    fonte_id: fonte.id,
+    fonte_nome: fonte.nome,
+    fonte_prioridade: fonte.prioridade || 99,
+  };
+}
+
 async function coletarMealDB(fonte) {
-  const data = await getJson(fonte.url);
-  const meal = (data.meals && data.meals[0]) || null;
-  if (!meal) return [];
-  return [
-    {
-      id_unico: `meal-${meal.idMeal}`,
-      titulo: meal.strMeal || 'Receita',
-      descricao: `Categoria: ${meal.strCategory || '—'} · Origem: ${meal.strArea || '—'}`,
-      url: meal.strSource || meal.strYoutube || `https://www.themealdb.com/meal/${meal.idMeal}`,
-      imagem: meal.strMealThumb || '',
-      data: null,
-      fonte_id: fonte.id,
-      fonte_nome: fonte.nome,
-      fonte_prioridade: fonte.prioridade || 99,
-    },
-  ];
+  const tentativas = Math.min(fonte.tentativas || 5, 10);
+  const itens = [];
+  const vistos = new Set();
+  for (let i = 0; i < tentativas; i++) {
+    try {
+      const data = await getJson(fonte.url);
+      const meal = (data.meals && data.meals[0]) || null;
+      if (!meal || vistos.has(meal.idMeal)) continue;
+      vistos.add(meal.idMeal);
+      itens.push(mealParaItem(meal, fonte));
+    } catch (_) {
+      /* continua */
+    }
+  }
+  return itens;
 }
 
 async function coletarDogCeo(fonte) {
@@ -131,9 +201,7 @@ async function coletarDogCeo(fonte) {
   if (!data || data.status !== 'success' || !data.message) return [];
   const img = data.message;
   const breedMatch = img.match(/breeds\/([^/]+)\//);
-  const breed = breedMatch
-    ? breedMatch[1].replace(/-/g, ' ')
-    : 'cão';
+  const breed = breedMatch ? breedMatch[1].replace(/-/g, ' ') : 'cão';
   return [
     {
       id_unico: `dog-${img}`,
@@ -155,8 +223,8 @@ const WMO = {
   2: 'parcialmente nublado',
   3: 'nublado',
   45: 'neblina',
-  48: 'neblina com geada',
-  51: 'garoa leve',
+  48: 'neblina',
+  51: 'garoa',
   61: 'chuva leve',
   63: 'chuva moderada',
   65: 'chuva forte',
@@ -164,25 +232,63 @@ const WMO = {
   95: 'trovoada',
 };
 
+function montarDicaClima(temp, hum, code) {
+  const cond = WMO[code] || 'condição variável';
+  if (typeof temp === 'number' && temp >= 30) {
+    return (
+      `Com cerca de ${Math.round(temp)}°C em São Paulo (${cond}), vale priorizar ventilação, ` +
+      `hidratação e evitar deixar produtos de limpeza ou cosméticos no sol forte.`
+    );
+  }
+  if (typeof temp === 'number' && temp <= 14) {
+    return (
+      `Temperatura em torno de ${Math.round(temp)}°C (${cond}). Bom momento para organizar armários, ` +
+      `checar cobertores e evitar mofo em cantos úmidos da casa.`
+    );
+  }
+  if (typeof hum === 'number' && hum >= 80) {
+    return (
+      `Umidade alta (~${Math.round(hum)}%) e tempo ${cond}. Abra janelas em horários mais secos, ` +
+      `use desumidificador se tiver e fique atento a mofo em banheiros e armários.`
+    );
+  }
+  if ([61, 63, 65, 80, 95].includes(code)) {
+    return (
+      `Previsão de ${cond} em São Paulo. Bom dia para tarefas internas: organização, ` +
+      `limpeza leve ou uma receita caseira — e cheque calhas se puder.`
+    );
+  }
+  if (typeof temp === 'number' && temp >= 25 && typeof hum === 'number' && hum <= 50) {
+    return (
+      `Dia agradável (~${Math.round(temp)}°C, umidade ${Math.round(hum)}%). ` +
+      `Ótimo para secar roupas, arejar colchões e cuidar de plantas na varanda.`
+    );
+  }
+  // sem dica realmente útil → não forçar publicação de clima genérico
+  return null;
+}
+
 async function coletarOpenMeteo(fonte) {
   const data = await getJson(fonte.url);
   const cur = data.current || {};
   const temp = cur.temperature_2m;
   const hum = cur.relative_humidity_2m;
   const code = cur.weather_code;
-  const cond = WMO[code] || `código climático ${code}`;
-  const titulo = `Tempo em São Paulo: ${temp}°C, ${cond}`;
+  const cond = WMO[code] || `código ${code}`;
+  const dica = montarDicaClima(temp, hum, code);
+  const titulo = `Clima em São Paulo: ${temp}°C, ${cond}`;
   return [
     {
       id_unico: `meteo-sp-${cur.time || Date.now()}`,
       titulo,
-      descricao: `Umidade relativa: ${hum}%. Dados Open-Meteo (São Paulo).`,
+      descricao: `Umidade: ${hum}%. ${dica || 'Sem dica doméstica específica no momento.'}`,
       url: 'https://open-meteo.com/',
       imagem: '',
       data: cur.time || null,
       fonte_id: fonte.id,
       fonte_nome: fonte.nome,
       fonte_prioridade: fonte.prioridade || 99,
+      dica_casa: dica,
     },
   ];
 }
@@ -209,6 +315,10 @@ async function coletarFonte(fonte) {
 async function coletarFontes(fontes) {
   const out = [];
   for (const fonte of fontes || []) {
+    if (fonte.ativo === false) {
+      console.log(`  API ${fonte.nome}: desativada`);
+      continue;
+    }
     try {
       const itens = await coletarFonte(fonte);
       console.log(`  API ${fonte.nome}: ${itens.length} itens`);
@@ -226,4 +336,4 @@ async function coletarFontes(fontes) {
   return out;
 }
 
-module.exports = { coletarFontes, coletarFonte, normalizar };
+module.exports = { coletarFontes, coletarFonte, normalizar, montarDicaClima };
