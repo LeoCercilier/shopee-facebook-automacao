@@ -3,7 +3,7 @@ name: APIs – conteúdo útil nas Páginas
 on:
   workflow_dispatch:
   schedule:
-    # 13:27 UTC ≈ 10:27 BRT — evita colisão com Shopee (:07) e antigo editorial (:17)
+    # 13:27 UTC ≈ 10:27 BRT
     - cron: "27 13 * * *"
 
 concurrency:
@@ -25,38 +25,38 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Instalar dependências
         run: npm ci || npm install
 
-      - name: Executar pipeline de APIs (publicação real)
+      - name: Curadoria de conteúdo (validação / publicação conforme config)
         env:
           FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
-          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          # Força não publicar enquanto modo_validacao=true no config
+          PUBLICAR_API: "false"
         run: node api-conteudo/pipeline.js
 
-      - name: Persistir histórico API
+      - name: Persistir candidatos
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add historico-api.json resultado-api-conteudo.json 2>/dev/null || true
+          git add resultado-api-candidatos.json resultado-api-conteudo.json historico-api.json 2>/dev/null || true
           if git diff --staged --quiet; then
-            echo "Sem alterações no histórico."
+            echo "Sem alterações."
           else
-            git commit -m "chore: atualiza historico-api.json"
+            git commit -m "chore: atualiza candidatos api-conteudo"
             git push
-            echo "Histórico API commitado."
           fi
 
       - name: Artefatos
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: apis-conteudo-${{ github.run_id }}
+          name: apis-candidatos-${{ github.run_id }}
           path: |
-            historico-api.json
+            resultado-api-candidatos.json
             resultado-api-conteudo.json
             config/apis-conteudo.json
           retention-days: 14
