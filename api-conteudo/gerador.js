@@ -1,6 +1,6 @@
 'use strict';
 
-const { pareceIngles, parecePortugues } = require('./filtro');
+const { pareceIngles, parecePortugues, pareceEspanhol } = require('./filtro');
 const { avaliarTextoFinal } = require('./avaliador-texto');
 const { urlImagemValida } = require('./publicador');
 
@@ -41,7 +41,15 @@ function rotuloNatural(paginaCfg) {
 function tituloAdaptado(item, nicho) {
   const orig = String(item.titulo_pt || item.titulo || '').trim();
   if (!orig) return '';
-  if (parecePortugues(orig) && !pareceIngles(orig)) return encurtar(orig, 90);
+
+  // Nunca reutilizar título cru em idioma estrangeiro ou com lixo de markup
+  const podeReutilizarPt =
+    parecePortugues(orig) &&
+    !pareceIngles(orig) &&
+    !pareceEspanhol(orig) &&
+    !/CDATA|<!\[|\]\]>/i.test(orig);
+
+  if (podeReutilizarPt) return encurtar(orig, 90);
 
   const low = orig.toLowerCase();
   if (nicho === 'marketing') {
@@ -66,7 +74,7 @@ function tituloAdaptado(item, nicho) {
     if (/\bhelmet|capacete\b/i.test(low)) {
       return 'Capacete: o detalhe que protege de verdade';
     }
-    if (/\bmotogp\b/i.test(low)) {
+    if (/\bmotogp|marquez|márquez|ducati\b/i.test(low)) {
       return 'O que está em alta no MotoGP';
     }
     return 'No universo das duas rodas';
@@ -80,7 +88,8 @@ function tituloAdaptado(item, nicho) {
     }
     return 'Cuidados com a pele no dia a dia';
   }
-  return encurtar(orig, 80);
+  // fallback genérico em PT — nunca devolver título estrangeiro cru
+  return 'Curiosidade do dia';
 }
 
 function detalheUtil(nicho, item) {
@@ -137,7 +146,6 @@ function gerarPost({ item, paginaCfg }) {
   const rotulo = rotuloNatural(paginaCfg);
   const fonte = item.fonte_nome || 'Fonte';
   const tituloExibicao = tituloAdaptado(item, paginaCfg.nicho);
-  // Imagem só da fonte/coleta — nunca inventar; nunca colocar URL no texto
   const imagem = urlImagemValida(item.imagem);
   let corpo;
 
@@ -160,7 +168,12 @@ function gerarPost({ item, paginaCfg }) {
       }
     } else {
       const fato = primeiraFraseUtil(item.descricao, 200);
-      if (fato && parecePortugues(fato) && !pareceIngles(fato)) {
+      if (
+        fato &&
+        parecePortugues(fato) &&
+        !pareceIngles(fato) &&
+        !pareceEspanhol(fato)
+      ) {
         corpo =
           `${fato} Informação educativa — não substitui orientação de um profissional de saúde.`;
       } else {
@@ -171,7 +184,12 @@ function gerarPost({ item, paginaCfg }) {
     }
   } else if (paginaCfg.nicho === 'motociclismo') {
     const fato = primeiraFraseUtil(item.descricao, 180);
-    if (fato && parecePortugues(fato) && !pareceIngles(fato)) {
+    if (
+      fato &&
+      parecePortugues(fato) &&
+      !pareceIngles(fato) &&
+      !pareceEspanhol(fato)
+    ) {
       corpo = `Você sabia? ${fato}`;
     } else if (/electric|el[eé]tric/i.test(item.titulo || '')) {
       corpo =
@@ -181,9 +199,14 @@ function gerarPost({ item, paginaCfg }) {
       corpo =
         'O capacete é o item de segurança mais importante para quem anda de moto. ' +
         'Ajuste correto, certificação e conservação fazem diferença em cada trajeto.';
-    } else {
+    } else if (/motogp|marquez|márquez|ducati/i.test(`${item.titulo} ${item.descricao}`)) {
       corpo =
-        `${tituloExibicao}. Para quem anda de moto, equipamento em ordem e atenção no trânsito ` +
+        'O MotoGP continua movimentando o mundo das duas rodas. ' +
+        'Acompanhar o campeonato é uma forma de ver tecnologia, estratégia e segurança em alta performance.';
+    } else {
+      // corpo 100% PT — não colar título estrangeiro
+      corpo =
+        'Para quem anda de moto, equipamento em ordem e atenção no trânsito ' +
         'continuam sendo a base da segurança.';
     }
   } else if (paginaCfg.nicho === 'casa') {
@@ -196,7 +219,10 @@ function gerarPost({ item, paginaCfg }) {
     } else {
       const fato = primeiraFraseUtil(item.descricao, 180);
       corpo =
-        fato && parecePortugues(fato) && !pareceIngles(fato)
+        fato &&
+        parecePortugues(fato) &&
+        !pareceIngles(fato) &&
+        !pareceEspanhol(fato)
           ? fato
           : `${tituloExibicao}: uma ideia prática para organização, limpeza ou rotina em casa.`;
     }
@@ -274,6 +300,12 @@ function validarPost(post) {
   }
   if (/INSIGHT DE TECNOLOGIA|CUIDADO COM A PELE|CURIOSIDADE DAS DUAS RODAS|DICA PARA CASA/.test(post.texto)) {
     return { ok: false, motivo: 'rotulo_em_maiusculas' };
+  }
+  if (/CDATA|<!\[|\]\]>|<!/i.test(post.texto)) {
+    return { ok: false, motivo: 'markup_cdata_residual' };
+  }
+  if (pareceEspanhol(post.texto)) {
+    return { ok: false, motivo: 'texto_em_espanhol' };
   }
   return { ok: true };
 }
