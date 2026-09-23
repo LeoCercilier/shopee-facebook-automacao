@@ -23,16 +23,19 @@ function normalizar(s) {
 function sanitizarTexto(s) {
   let t = String(s || '');
   if (!t) return '';
-  t = t
-    .replace(/</gi, '<')
-    .replace(/>/gi, '>')
-    .replace(/&/gi, '&')
-    .replace(/"/gi, '"')
-    .replace(/&#0*39;/g, "'")
-    .replace(/&#x27;/gi, "'")
-    .replace(/&nbsp;/gi, ' ');
-  t = t.replace(/<!\[CDATA\[/gi, '').replace(/\]\]>/g, '');
-  t = t.replace(/<[^>]+>/g, ' ');
+  // entidades (concatenacao evita corrupcao de < no transporte)
+  t = t.split('&' + 'lt;').join('<');
+  t = t.split('&' + 'gt;').join('>');
+  t = t.split('&' + 'quot;').join('"');
+  t = t.split('&' + 'nbsp;').join(' ');
+  t = t.split('&' + 'amp;').join('&');
+  t = t.replace(/&#0*39;/g, "'");
+  t = t.replace(/&#x27;/gi, "'");
+  t = t.replace(/<!\[CDATA\[/gi, ' ');
+  t = t.replace(/\]\]>/g, ' ');
+  t = t.replace(/\[CDATA\[/gi, ' ');
+  t = t.replace(/\bCDATA\b/gi, ' ');
+  t = t.replace(/<[^>]*>/g, ' ');
   t = t.replace(/&[a-zA-Z]+;/g, ' ');
   t = t.replace(/&#\d+;/g, ' ');
   t = t.replace(/\s+/g, ' ').trim();
@@ -150,7 +153,6 @@ async function coletarFreenews(fonte) {
           fonte_prioridade: fonte.prioridade || 99,
           idioma: r.lang || '',
         });
-        // descarta lixo residual de feed malformado
         if (!limpo.titulo || /CDATA|<!\[|\]\]>/i.test(limpo.titulo)) continue;
         itens.push(limpo);
       }
@@ -190,7 +192,7 @@ async function coletarOpenBeauty(fonte) {
           itemLimpo({
             id_unico: `obf-${code}`,
             titulo: nome.slice(0, 120),
-            descricao: `Categoria: ${cats}. Dados Open Beauty Facts (base aberta de cosméticos).`.slice(
+            descricao: `Categoria: ${cats}. Dados Open Beauty Facts (base aberta de cosmeticos).`.slice(
               0,
               280
             ),
@@ -235,12 +237,12 @@ async function coletarTaco(fonte) {
         det.dietary_fiber_g != null ? Number(det.dietary_fiber_g).toFixed(1) : null;
       const partes = [];
       if (kcal != null) partes.push(`cerca de ${kcal} kcal/100g`);
-      if (prot != null) partes.push(`${prot}g de proteína`);
+      if (prot != null) partes.push(`${prot}g de proteina`);
       if (fibra != null) partes.push(`${fibra}g de fibra`);
       const desc =
         partes.length > 0
           ? `${f.description} (${f.category}): ${partes.join(', ')}. Fonte: tabela TACO/UNICAMP.`
-          : `${f.description} — alimento da tabela TACO (composição brasileira).`;
+          : `${f.description} — alimento da tabela TACO (composicao brasileira).`;
       itens.push(
         itemLimpo({
           id_unico: `taco-${f.id}`,
@@ -252,7 +254,7 @@ async function coletarTaco(fonte) {
           fonte_id: fonte.id,
           fonte_nome: fonte.nome,
           fonte_prioridade: fonte.prioridade || 99,
-          licenca: 'Dados TACO/NEPA-UNICAMP (API estática comunitária)',
+          licenca: 'Dados TACO/NEPA-UNICAMP (API estatica comunitaria)',
         })
       );
     } catch (err) {
@@ -307,7 +309,7 @@ async function coletarWikipediaTopics(fonte) {
 }
 
 const WMO = {
-  0: 'céu limpo',
+  0: 'ceu limpo',
   1: 'principalmente limpo',
   2: 'parcialmente nublado',
   3: 'nublado',
@@ -321,18 +323,18 @@ const WMO = {
 };
 
 function montarDicaClima(temp, hum, code) {
-  const cond = WMO[code] || 'condição variável';
+  const cond = WMO[code] || 'condicao variavel';
   if (typeof temp === 'number' && temp >= 30) {
-    return `Com cerca de ${Math.round(temp)}°C em São Paulo (${cond}), priorize ventilação e não deixe produtos de limpeza ou cosméticos ao sol.`;
+    return `Com cerca de ${Math.round(temp)}C em Sao Paulo (${cond}), priorize ventilacao e nao deixe produtos de limpeza ou cosmeticos ao sol.`;
   }
   if (typeof temp === 'number' && temp <= 14) {
-    return `Temperatura em torno de ${Math.round(temp)}°C (${cond}). Bom momento para organizar armários e checar umidade em cantos da casa.`;
+    return `Temperatura em torno de ${Math.round(temp)}C (${cond}). Bom momento para organizar armarios e checar umidade em cantos da casa.`;
   }
   if (typeof hum === 'number' && hum >= 80) {
-    return `Umidade alta (~${Math.round(hum)}%). Areje ambientes e fique atento a mofo em banheiros e armários.`;
+    return `Umidade alta (~${Math.round(hum)}%). Areje ambientes e fique atento a mofo em banheiros e armarios.`;
   }
   if ([61, 63, 65, 80, 95].includes(code)) {
-    return `Previsão de ${cond}. Bom dia para organização interna, limpeza leve ou uma receita caseira.`;
+    return `Previsao de ${cond}. Bom dia para organizacao interna, limpeza leve ou uma receita caseira.`;
   }
   return null;
 }
@@ -343,13 +345,13 @@ async function coletarOpenMeteo(fonte) {
   const temp = cur.temperature_2m;
   const hum = cur.relative_humidity_2m;
   const code = cur.weather_code;
-  const cond = WMO[code] || `código ${code}`;
+  const cond = WMO[code] || `codigo ${code}`;
   const dica = montarDicaClima(temp, hum, code);
   return [
     itemLimpo({
       id_unico: `meteo-sp-${cur.time || Date.now()}`,
-      titulo: `Clima em São Paulo: ${temp}°C, ${cond}`,
-      descricao: `Umidade: ${hum}%. ${dica || 'Sem dica doméstica específica.'}`,
+      titulo: `Clima em Sao Paulo: ${temp}C, ${cond}`,
+      descricao: `Umidade: ${hum}%. ${dica || 'Sem dica domestica especifica.'}`,
       url: 'https://open-meteo.com/',
       imagem: '',
       data: cur.time || null,
@@ -399,7 +401,7 @@ async function coletarFontes(fontes) {
       console.log(`  API ${fonte.nome}: ${itens.length} itens`);
       out.push(...itens);
     } catch (err) {
-      console.warn(`  ⚠ API ${fonte.nome}: ${err.message}`);
+      console.warn(`  \u26a0 API ${fonte.nome}: ${err.message}`);
       out.push({
         _erro_fonte: true,
         fonte_id: fonte.id,
