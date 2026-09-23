@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-23T08:36:39.619Z",
+  "gerado_em": "2026-09-23T09:01:53.319Z",
   "modo": "validacao",
   "pontuacao_minima": 75,
   "paginas": [
@@ -436,6 +436,33 @@
         {
           "fonte": "Wikipedia (PT) skincare",
           "fonte_id": "wiki-pele",
+          "titulo_original": "Melasma",
+          "titulo": "Melasma",
+          "resumo": "Melasma é uma distúrbio pigmentar da pele caracterizada por manchas escuras na pele. Ocorre principalmente no rosto, mas pode ocorrer em outros segmentos do corpo. Ocorre mais frequentemente em mulheres. Acontece em cerca de dez por cento nos homens. Quando as manchas aparecem na",
+          "url": "https://pt.wikipedia.org/wiki/Melasma",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Melasmablemish.jpg/330px-Melasmablemish.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 88,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (2)",
+            "+Wikipedia PT",
+            "+imagem",
+            "-título curto",
+            "+skincare prático"
+          ],
+          "preview_post": {
+            "texto": "✨ CUIDADO COM A PELE\n\nMelasma é uma distúrbio pigmentar da pele caracterizada por manchas escuras na pele. Ocorre principalmente no rosto, mas pode ocorrer em outros segmentos do corpo. Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Melasma\n\nFonte: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "Melasma",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "Wikipedia (PT) skincare",
+          "fonte_id": "wiki-pele",
           "titulo_original": "Retinol",
           "titulo": "Retinol",
           "resumo": "O retinol, também conhecido como vitamina A1, é uma vitamina encontrada nos alimentos e utilizada como suplemento dietético. Como suplemento é usado para tratar e prevenir a deficiência de vitamina A, especialmente aquela que causa xeroftalmia. Em regiões onde a deficiência é com",
@@ -557,30 +584,6 @@
           }
         },
         {
-          "fonte": "Wikipedia (PT) skincare",
-          "fonte_id": "wiki-pele",
-          "titulo_original": "Nicotinamida",
-          "titulo": "Nicotinamida",
-          "resumo": "Nicotinamida ou niacinamida é a amida correspondente ao ácido carboxílico niacina (ácido nicotínico). Nicotinamida, niacina e hexanicotinato de inositol são formas da Vitamina B3, com efeitos diferentes. Nicotinamida, também conhecida como vitamina B3 ou vitamina PP, desempenha u",
-          "url": "https://pt.wikipedia.org/wiki/Nicotinamida",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Nicotinamide_structure.svg/langpt-330px-Nicotinamide_structure.svg.png?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 61,
-          "status": "candidato_fraco",
-          "motivos": [
-            "+keywords na descrição (1)",
-            "+Wikipedia PT",
-            "+imagem",
-            "+skincare prático"
-          ],
-          "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nNicotinamida ou niacinamida é a amida correspondente ao ácido carboxílico niacina (ácido nicotínico). Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Nicotinamida\n\nFonte: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "Nicotinamida",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
           "fonte": "Open Beauty Facts",
           "fonte_id": "open-beauty",
           "titulo_original": "Dermo protect spf 50+",
@@ -654,6 +657,56 @@
         {
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
+          "titulo_original": "MotoGP-�berraschung: Somkiat Chantra gibt Comeback in Motegi!",
+          "titulo": "MotoGP-�berraschung: Somkiat Chantra gibt Comeback in Motegi!",
+          "resumo": "Somkiat Chantra kehrt am MotoGP-Wochenende von Motegi in die K�nigsklasse zur�ck. Honda bietet ihn als Ersatz f�r den erkrankten Joan Mir auf.",
+          "url": "https://www.motorsport-magazin.com/motogp/news-300380-motogp-ueberraschung-somkiat-chantra-gibt-comeback-in-motegi/",
+          "imagem": "",
+          "pontuacao": 91,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (2)",
+            "+FreeNews motos",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Somkiat Chantra kehrt am MotoGP-Wochenende von Motegi in die K�nigsklasse zur�ck. Honda bietet ihn als Ersatz f�r den erkrankten Joan Mir auf.\n\n🔎 Saiba mais:\nhttps://www.motorsport-magazin.com/motogp/news-300380-motogp-ueberraschung-somkiat-chantra-gibt-comeback-in-motegi/\n\nFonte: FreeNewsAPI (motos)",
+            "titulo": "MotoGP-�berraschung: Somkiat Chantra gibt Comeback in Motegi!",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "MotoGP | UFFICIALE: Honda HRC annuncia il sostituto di Mir per il Giappone",
+          "titulo": "MotoGP | UFFICIALE: Honda HRC annuncia il sostituto di Mir per il Giappone",
+          "resumo": "Somkiat Chantra sostituirà Mir, Honda punta sul thailandese il GP del Giappone della MotoGP Honda HRC ha annunciato che Somkiat Chantra a sostituire Joan Mir ... Leggi tutto L'articolo MotoGP | UFFICIALE: Honda HRC annuncia il sostituto di Mir per il Giappone proviene da Paddock ",
+          "url": "https://paddocknews24.com/moto/motogp/sostituto-mir-honda-motegi-giappone-motogp/",
+          "imagem": "",
+          "pontuacao": 91,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (2)",
+            "+keyword forte no título",
+            "+keywords na descrição (2)",
+            "+FreeNews motos",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Somkiat Chantra sostituirà Mir, Honda punta sul thailandese il GP del Giappone della MotoGP Honda HRC ha annunciato che Somkiat Chantra a sostituire Joan Mir ...\n\n🔎 Saiba mais:\nhttps://paddocknews24.com/moto/motogp/sostituto-mir-honda-motegi-giappone-motogp/\n\nFonte: FreeNewsAPI (motos)",
+            "titulo": "MotoGP | UFFICIALE: Honda HRC annuncia il sostituto di Mir per il Giappone",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
           "titulo_original": "AGV debuts Pista GP R3 helmet using microscopic protective spheres",
           "titulo": "AGV debuts Pista GP R3 helmet using microscopic protective spheres",
           "resumo": "AGV's new Pista GP R3 helmet features an external layer of over 1,600 micro-spheres, enhancing safety by limiting rotational forces during oblique impacts.",
@@ -696,56 +749,6 @@
           "preview_post": {
             "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? The grid for the 2027 MotoGP season is taking definitive shape as teams finalize multi-year contracts ahead of sweeping new technical regulations, leaving only two seats vacant on the premier class roster…\n\n🔎 Saiba mais:\nhttps://www.archysport.com/2026/09/motogp-2027-rider-lineup-senna-agius-joins-tech3-as-grid-takes-shape/\n\nFonte: FreeNewsAPI (motos)",
             "titulo": "MotoGP 2027 Rider Lineup: Senna Agius Joins Tech3 as Grid Takes Shape",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "Joan Mir escluso dal double-header di MotoGP per problemi di salute non confermati",
-          "titulo": "Joan Mir escluso dal double-header di MotoGP per problemi di salute non confermati",
-          "resumo": "Joan Mir non parteciperà ai prossimi Gran Premi di Giappone e Indonesia a causa di problemi di salute non confermati. The post Joan Mir escluso dal double-header di MotoGP per problemi di salute non confermati appeared first on solomotori.it .",
-          "url": "https://www.solomotori.it/2026/09/23/joan-mir-escluso-dal-double-header-motogp-problemi-salute-confermati/",
-          "imagem": "",
-          "pontuacao": 87,
-          "status": "aprovado",
-          "motivos": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+FreeNews motos",
-            "+recente"
-          ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Joan Mir non parteciperà ai prossimi Gran Premi di Giappone e Indonesia a causa di problemi di salute non confermati.\n\n🔎 Saiba mais:\nhttps://www.solomotori.it/2026/09/23/joan-mir-escluso-dal-double-header-motogp-problemi-salute-confermati/\n\nFonte: FreeNewsAPI (motos)",
-            "titulo": "Joan Mir escluso dal double-header di MotoGP per problemi di salute non confermati",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "Spielberg-Test: Bestzeit für Moreira (Honda) – Senna Agius überraschte - MotoGP - SPEEDWEEK.com",
-          "titulo": "Spielberg-Test: Bestzeit für Moreira (Honda) – Senna Agius überraschte - MotoGP - SPEEDWEEK.com",
-          "resumo": "Obwohl der MotoGP-Test in Spielberg mit den 850er-Motorrädern und den Pirelli-Reifen unter Ausschluss der Öffentlichkeit stattfand, sind die Rundenzeiten der Protagonisten durchgesickert.",
-          "url": "https://www.speedweek.com/a/motogp/spielberg-motogp-test-bestzeit-moreira-agius-ueberrascht",
-          "imagem": "",
-          "pontuacao": 87,
-          "status": "aprovado",
-          "motivos": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+FreeNews motos",
-            "+recente"
-          ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Obwohl der MotoGP-Test in Spielberg mit den 850er-Motorrädern und den Pirelli-Reifen unter Ausschluss der Öffentlichkeit stattfand, sind die Rundenzeiten der Protagonisten durchgesickert.\n\n🔎 Saiba mais:\nhttps://www.speedweek.com/a/motogp/spielberg-motogp-test-bestzeit-moreira-agius-ueberrascht\n\nFonte: FreeNewsAPI (motos)",
-            "titulo": "Spielberg-Test: Bestzeit für Moreira (Honda) – Senna Agius überraschte - MotoGP - SPEEDWEEK.com",
             "validacao": {
               "ok": true
             }
@@ -795,6 +798,54 @@
           "preview_post": {
             "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nSilent Cry to host fundraiser in collaboration with Jokers Motorcycle Club: assunto que interessa quem anda de moto, cuida do equipamento ou acompanha o esporte.\n\n🔎 Saiba mais:\nhttps://winchestersun.com/2026/09/22/silent-cry-to-host-fundraiser-in-collaboration-with-jokers-motorcycle-club/\n\nFonte: FreeNewsAPI (motos)",
             "titulo": "Silent Cry to host fundraiser in collaboration with Jokers Motorcycle Club",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "New Western Cape Circuit Aims to Host F1 and MotoGP by 2031",
+          "titulo": "New Western Cape Circuit Aims to Host F1 and MotoGP by 2031",
+          "resumo": "",
+          "url": "https://africandigest.com/article/new-western-cape-circuit-aims-to-host-f1-and-motogp-by-2031",
+          "imagem": "",
+          "pontuacao": 83,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+FreeNews motos",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nNew Western Cape Circuit Aims to Host F1 and MotoGP by 2031: assunto que interessa quem anda de moto, cuida do equipamento ou acompanha o esporte.\n\n🔎 Saiba mais:\nhttps://africandigest.com/article/new-western-cape-circuit-aims-to-host-f1-and-motogp-by-2031\n\nFonte: FreeNewsAPI (motos)",
+            "titulo": "New Western Cape Circuit Aims to Host F1 and MotoGP by 2031",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Újabb lehetőséget kap a MotoGP-ben a tavaly harmatgyenge teljesítményt nyújtó versenyző",
+          "titulo": "Újabb lehetőséget kap a MotoGP-ben a tavaly harmatgyenge teljesítményt nyújtó versenyző",
+          "resumo": "",
+          "url": "https://racingline.hu/motor/ujabb-lehetoseget-kap-a-motogp-ben-a-tavaly-harmatgyenge-teljesitmenyt-nyujto-versenyzo-somkiat-chantra/",
+          "imagem": "",
+          "pontuacao": 83,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+FreeNews motos",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nÚjabb lehetőséget kap a MotoGP-ben a tavaly harmatgyenge teljesítményt nyújtó versenyző: assunto que interessa quem anda de moto, cuida do equipamento ou acompanha o esporte.\n\n🔎 Saiba mais:\nhttps://racingline.hu/motor/ujabb-lehetoseget-kap-a-motogp-ben-a-tavaly-harmatgyenge-teljesitmenyt-nyujto-versenyzo-somkiat-chantra/\n\nFonte: FreeNewsAPI (motos)",
+            "titulo": "Újabb lehetőséget kap a MotoGP-ben a tavaly harmatgyenge teljesítményt nyújtó versenyző",
             "validacao": {
               "ok": true
             }
@@ -873,54 +924,6 @@
               "ok": true
             }
           }
-        },
-        {
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
-          "titulo": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
-          "resumo": "Honda QC3 electric scooter has been launched in India at ₹1.35 lakh. It gets a 3 kWh battery, claimed 145 km range, 32-litre storage and connected features. Here’s how it compares with the Honda QC1 and the Activa e.",
-          "url": "https://www.livemint.com/auto-news/honda-qc3-electric-scooter-launched-price-145-km-range-battery-features-rivals-and-more/amp-11790076661909.html",
-          "imagem": "",
-          "pontuacao": 76,
-          "status": "aprovado",
-          "motivos": [
-            "+keyword no título (2)",
-            "+keywords na descrição (2)",
-            "+FreeNews motos",
-            "+recente"
-          ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Honda QC3 electric scooter has been launched in India at ₹1.35 lakh. It gets a 3 kWh battery, claimed 145 km range, 32-litre storage and connected features.\n\n🔎 Saiba mais:\nhttps://www.livemint.com/auto-news/honda-qc3-electric-scooter-launched-price-145-km-range-battery-features-rivals-and-more/amp-11790076661909.html\n\nFonte: FreeNewsAPI (motos)",
-            "titulo": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "Honda moet wereldkampioen meerdere Grands Prix missen door vreemde klachten",
-          "titulo": "Honda moet wereldkampioen meerdere Grands Prix missen door vreemde klachten",
-          "resumo": "Honda moet het de komende twee MotoGP-weekenden zonder Joan Mir stellen. De wereldkampioen van 2020 ontbreekt tijdens de Grands Prix van Japan en Indonesië nadat bloedonderzoek afwijkende waarden aan het licht heeft gebracht. MotoGP-arts Dr. Angel Charte laat bovendien weten dat ",
-          "url": "https://www.f1head.nl/gpblog/honda-moet-wereldkampioen-meerdere-grands-prix-missen-door-vreemde-klachten/",
-          "imagem": "",
-          "pontuacao": 76,
-          "status": "aprovado",
-          "motivos": [
-            "+keyword no título (1)",
-            "+keywords na descrição (2)",
-            "+FreeNews motos",
-            "+recente"
-          ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Honda moet het de komende twee MotoGP-weekenden zonder Joan Mir stellen.\n\n🔎 Saiba mais:\nhttps://www.f1head.nl/gpblog/honda-moet-wereldkampioen-meerdere-grands-prix-missen-door-vreemde-klachten/\n\nFonte: FreeNewsAPI (motos)",
-            "titulo": "Honda moet wereldkampioen meerdere Grands Prix missen door vreemde klachten",
-            "validacao": {
-              "ok": true
-            }
-          }
         }
       ]
     },
@@ -991,8 +994,8 @@
         {
           "fonte": "Open-Meteo",
           "fonte_id": "open-meteo",
-          "titulo_original": "Clima em São Paulo: 13.7°C, nublado",
-          "titulo": "Clima em São Paulo: 13.7°C, nublado",
+          "titulo_original": "Clima em São Paulo: 13.5°C, nublado",
+          "titulo": "Clima em São Paulo: 13.5°C, nublado",
           "resumo": "Umidade: 92%. Temperatura em torno de 14°C (nublado). Bom momento para organizar armários e checar umidade em cantos da casa.",
           "url": "https://open-meteo.com/",
           "imagem": "",
@@ -1005,7 +1008,7 @@
           ],
           "preview_post": {
             "texto": "🏠 DICA PARA CASA\n\nTemperatura em torno de 14°C (nublado). Bom momento para organizar armários e checar umidade em cantos da casa.\n\n🔎 Saiba mais:\nhttps://open-meteo.com/\n\nFonte: Open-Meteo",
-            "titulo": "Clima em São Paulo: 13.7°C, nublado",
+            "titulo": "Clima em São Paulo: 13.5°C, nublado",
             "validacao": {
               "ok": true
             }
@@ -1014,9 +1017,9 @@
         {
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Pamonha, barra para cozimento, pré-cozida",
-          "titulo": "Pamonha, barra para cozimento, pré-cozida",
-          "resumo": "Pamonha, barra para cozimento, pré-cozida (Cereais e derivados): cerca de 171 kcal/100g, 2.6g de proteína, 2.4g de fibra. Fonte: tabela TACO/UNICAMP.",
+          "titulo_original": "Pipoca, com óleo de soja, sem sal",
+          "titulo": "Pipoca, com óleo de soja, sem sal",
+          "resumo": "Pipoca, com óleo de soja, sem sal (Cereais e derivados): cerca de 448 kcal/100g, 9.9g de proteína, 14.3g de fibra. Fonte: tabela TACO/UNICAMP.",
           "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
           "imagem": "",
           "pontuacao": 62,
@@ -1026,8 +1029,8 @@
             "+título PT"
           ],
           "preview_post": {
-            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Pamonha, barra para cozimento, pré-cozida (Cereais e derivados): cerca de 171 kcal/100g, 2.6g de proteína, 2.4g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
-            "titulo": "Pamonha, barra para cozimento, pré-cozida",
+            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Pipoca, com óleo de soja, sem sal (Cereais e derivados): cerca de 448 kcal/100g, 9.9g de proteína, 14.3g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
+            "titulo": "Pipoca, com óleo de soja, sem sal",
             "validacao": {
               "ok": true
             }
@@ -1036,9 +1039,9 @@
         {
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Fécula, de mandioca",
-          "titulo": "Fécula, de mandioca",
-          "resumo": "Fécula, de mandioca (Verduras, hortaliças e derivados): cerca de 331 kcal/100g, 0.5g de proteína, 0.6g de fibra. Fonte: tabela TACO/UNICAMP.",
+          "titulo_original": "Laranja, pêra, suco",
+          "titulo": "Laranja, pêra, suco",
+          "resumo": "Laranja, pêra, suco (Frutas e derivados): cerca de 33 kcal/100g, 0.7g de proteína, 0.0g de fibra. Fonte: tabela TACO/UNICAMP.",
           "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
           "imagem": "",
           "pontuacao": 62,
@@ -1048,8 +1051,8 @@
             "+título PT"
           ],
           "preview_post": {
-            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Fécula, de mandioca (Verduras, hortaliças e derivados): cerca de 331 kcal/100g, 0.5g de proteína, 0.6g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
-            "titulo": "Fécula, de mandioca",
+            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Laranja, pêra, suco (Frutas e derivados): cerca de 33 kcal/100g, 0.7g de proteína, 0.0g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
+            "titulo": "Laranja, pêra, suco",
             "validacao": {
               "ok": true
             }
@@ -1058,9 +1061,9 @@
         {
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Espinafre, Nova Zelândia, refogado",
-          "titulo": "Espinafre, Nova Zelândia, refogado",
-          "resumo": "Espinafre, Nova Zelândia, refogado (Verduras, hortaliças e derivados): cerca de 67 kcal/100g, 2.7g de proteína, 2.5g de fibra. Fonte: tabela TACO/UNICAMP.",
+          "titulo_original": "Pescada, filé, com farinha de trigo, frito",
+          "titulo": "Pescada, filé, com farinha de trigo, frito",
+          "resumo": "Pescada, filé, com farinha de trigo, frito (Pescados e frutos do mar): cerca de 283 kcal/100g, 21.4g de proteína, 0.0g de fibra. Fonte: tabela TACO/UNICAMP.",
           "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
           "imagem": "",
           "pontuacao": 62,
@@ -1070,8 +1073,30 @@
             "+título PT"
           ],
           "preview_post": {
-            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Espinafre, Nova Zelândia, refogado (Verduras, hortaliças e derivados): cerca de 67 kcal/100g, 2.7g de proteína, 2.5g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
-            "titulo": "Espinafre, Nova Zelândia, refogado",
+            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Pescada, filé, com farinha de trigo, frito (Pescados e frutos do mar): cerca de 283 kcal/100g, 21.4g de proteína, 0.0g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
+            "titulo": "Pescada, filé, com farinha de trigo, frito",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Carne, bovina, contra-filé, sem gordura, grelhado",
+          "titulo": "Carne, bovina, contra-filé, sem gordura, grelhado",
+          "resumo": "Carne, bovina, contra-filé, sem gordura, grelhado (Carnes e derivados): cerca de 194 kcal/100g, 35.9g de proteína. Fonte: tabela TACO/UNICAMP.",
+          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
+          "pontuacao": 62,
+          "status": "candidato_fraco",
+          "motivos": [
+            "+TACO em português",
+            "+título PT"
+          ],
+          "preview_post": {
+            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Carne, bovina, contra-filé, sem gordura, grelhado (Carnes e derivados): cerca de 194 kcal/100g, 35.9g de proteína. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
+            "titulo": "Carne, bovina, contra-filé, sem gordura, grelhado",
             "validacao": {
               "ok": true
             }
@@ -1121,9 +1146,9 @@
         {
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Glicose de milho",
-          "titulo": "Glicose de milho",
-          "resumo": "Glicose de milho (Produtos açucarados): cerca de 292 kcal/100g, 0.0g de proteína. Fonte: tabela TACO/UNICAMP.",
+          "titulo_original": "Banana, ouro, crua",
+          "titulo": "Banana, ouro, crua",
+          "resumo": "Banana, ouro, crua (Frutas e derivados): cerca de 112 kcal/100g, 1.5g de proteína, 2.0g de fibra. Fonte: tabela TACO/UNICAMP.",
           "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
           "imagem": "",
           "pontuacao": 52,
@@ -1136,9 +1161,9 @@
         {
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Abobrinha, italiana, crua",
-          "titulo": "Abobrinha, italiana, crua",
-          "resumo": "Abobrinha, italiana, crua (Verduras, hortaliças e derivados): cerca de 19 kcal/100g, 1.1g de proteína, 1.4g de fibra. Fonte: tabela TACO/UNICAMP.",
+          "titulo_original": "Caldo de galinha, tablete",
+          "titulo": "Caldo de galinha, tablete",
+          "resumo": "Caldo de galinha, tablete (Carnes e derivados): cerca de 251 kcal/100g, 6.3g de proteína, 11.8g de fibra. Fonte: tabela TACO/UNICAMP.",
           "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
           "imagem": "",
           "pontuacao": 52,
@@ -1151,24 +1176,9 @@
         {
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Alface, crespa, crua",
-          "titulo": "Alface, crespa, crua",
-          "resumo": "Alface, crespa, crua (Verduras, hortaliças e derivados): cerca de 11 kcal/100g, 1.3g de proteína, 1.8g de fibra. Fonte: tabela TACO/UNICAMP.",
-          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
-          "imagem": "",
-          "pontuacao": 52,
-          "status": "rejeitado",
-          "motivos": [
-            "+TACO em português"
-          ],
-          "preview_post": null
-        },
-        {
-          "fonte": "TACO (alimentos BR)",
-          "fonte_id": "taco",
-          "titulo_original": "Cenoura, crua",
-          "titulo": "Cenoura, crua",
-          "resumo": "Cenoura, crua (Verduras, hortaliças e derivados): cerca de 34 kcal/100g, 1.3g de proteína, 3.2g de fibra. Fonte: tabela TACO/UNICAMP.",
+          "titulo_original": "Pintado, grelhado",
+          "titulo": "Pintado, grelhado",
+          "resumo": "Pintado, grelhado (Pescados e frutos do mar): cerca de 152 kcal/100g, 30.8g de proteína. Fonte: tabela TACO/UNICAMP.",
           "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
           "imagem": "",
           "pontuacao": 52,
