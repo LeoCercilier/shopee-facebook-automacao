@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-23T09:12:29.924Z",
+  "atualizado_em": "2026-09-23T15:24:59.569Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -97,6 +97,42 @@
       "titulo": "Culinária",
       "post_id": "1402223216297975_122109449055476480",
       "publicado_em": "2026-09-23T09:12:29.924Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/infoinlet1/how-to-stop-ai-from-confidently-shipping-broken-code-a-pattern-that-actually-works-2gn7",
+      "chave": "https://dev.to/infoinlet1/how-to-stop-ai-from-confidently-shipping-broken-code-a-pattern-that-actually-works-2gn7",
+      "titulo": "IA e produtividade no dia a dia digital",
+      "post_id": "369805844018354_1484765840337222",
+      "publicado_em": "2026-09-23T15:24:51.445Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "open-beauty",
+      "fonte_nome": "Open Beauty Facts",
+      "url": "https://world.openbeautyfacts.org/product/7891010250980/protetor-solar-facial-neutrogena-sun-fresh-fps30-40g",
+      "chave": "https://world.openbeautyfacts.org/product/7891010250980/protetor-solar-facial-neutrogena-sun-fresh-fps30-40g",
+      "titulo": "Proteção solar no dia a dia",
+      "post_id": "1247772158429331_122100742041485849",
+      "publicado_em": "2026-09-23T15:24:55.647Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://trf1.net/motor-sporlari/motogp/motogp-yonetim-ekibine-tottenham-formula-1-ve-ufcden-ust-duzey-isimler-katildi/115618/",
+      "chave": "https://trf1.net/motor-sporlari/motogp/motogp-yonetim-ekibine-tottenham-formula-1-ve-ufcden-ust-duzey-isimler-katildi/115618",
+      "titulo": "Atualização no mundo do MotoGP",
+      "post_id": "1332730186586435_122099879799486415",
+      "publicado_em": "2026-09-23T15:24:59.569Z"
     }
   ]
 }

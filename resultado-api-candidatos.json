@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-09-23T15:16:44.495Z",
-  "modo": "validacao",
+  "gerado_em": "2026-09-23T15:25:00.242Z",
+  "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "pontuacao_minima_fonte": 75,
   "pontuacao_minima_texto": 80,
@@ -8,13 +8,13 @@
     {
       "pagina": "Marketing Tips",
       "page_id": "369805844018354",
-      "status": "aprovado_validacao",
+      "status": "publicado",
       "stats": {
         "coletados": 67,
-        "aprovados_fonte": 25,
+        "aprovados_fonte": 22,
         "aprovados_texto": 20,
         "rejeitados": 0,
-        "publicados": 0
+        "publicados": 1
       },
       "melhor": {
         "pagina": "Marketing Tips",
@@ -101,34 +101,6 @@
           ],
           "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
           "url_fonte_interna": "https://siliconangle.com/2026/09/23/ema-raises-77m-in-funding-to-deploy-ai-employees-across-enterprise-hr-it-and-finance-departments/",
-          "link_no_post": false
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "FreeNewsAPI (negócios/IA)",
-          "fonte_id": "freenews-biz",
-          "titulo_original": "Sela Raises $21M for Voice AI Agents That Originate $1B+ in Mortgage Loans Monthly",
-          "titulo_adaptado": "IA e produtividade no dia a dia digital",
-          "score_fonte": 93,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 93, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (3)",
-            "+FreeNews negócios",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
-          "url_fonte_interna": "https://forkast.news/sela-raises-21m-for-voice-ai-agents-that-originate-1b-in-mortgage-loans-monthly/",
           "link_no_post": false
         },
         {
@@ -304,34 +276,6 @@
           "page_id": "369805844018354",
           "fonte": "FreeNewsAPI (negócios/IA)",
           "fonte_id": "freenews-biz",
-          "titulo_original": "As Part of the Chief AI Officers’ Visit to the United States and During Dreamforce 2026",
-          "titulo_adaptado": "IA e produtividade no dia a dia digital",
-          "score_fonte": 89,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 89, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+FreeNews negócios",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
-          "url_fonte_interna": "https://mid-east.info/as-part-of-the-chief-ai-officers-visit-to-the-united-states-and-during-dreamforce-2026/",
-          "link_no_post": false
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "FreeNewsAPI (negócios/IA)",
-          "fonte_id": "freenews-biz",
           "titulo_original": "Techmagnate Study Finds AI Platforms Drop 39% of Cited Brands Every Week, Signals Shift in How AI Visibility Should Be Measured - The Tribune",
           "titulo_adaptado": "IA e produtividade no dia a dia digital",
           "score_fonte": 85,
@@ -409,34 +353,6 @@
           ],
           "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nNo marketing digital e no e-commerce, pequenas melhorias de processo e comunicação costumam gerar mais resultado do que grandes mudanças de uma só vez.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
           "url_fonte_interna": "https://southeastagnet.com/2026/09/22/florida-beef-council-ecommerce-campaign-beef-sales/",
-          "link_no_post": false
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "FreeNewsAPI (negócios/IA)",
-          "fonte_id": "freenews-biz",
-          "titulo_original": "OECD: AI aids global economy amid West Asia energy spike",
-          "titulo_adaptado": "IA e produtividade no dia a dia digital",
-          "score_fonte": 85,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 85, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+FreeNews negócios",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
-          "url_fonte_interna": "https://www.newsbytesapp.com/news/business/oecd-ai-aids-global-economy-amid-west-asia-energy-spike/tldr",
           "link_no_post": false
         },
         {
@@ -600,19 +516,100 @@
           "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nNo marketing digital e no e-commerce, pequenas melhorias de processo e comunicação costumam gerar mais resultado do que grandes mudanças de uma só vez.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
           "url_fonte_interna": "https://www.europapress.es/comunicados/empresas-00908/noticia-comunicado-ecommerce-awards-espana-2026-reconocen-referentes-estan-transformando-comercio-electronico-20260922155920.html",
           "link_no_post": false
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "Global AI Visionary and Expert Mo Gawdat to Headline Bahrain Fintech Forward 2026",
+          "titulo_adaptado": "IA e produtividade no dia a dia digital",
+          "score_fonte": 81,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 81, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (2)",
+            "+FreeNews negócios"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
+          "url_fonte_interna": "https://www.manilatimes.net/2026/09/23/tmt-newswire/pr-newswire/global-ai-visionary-and-expert-mo-gawdat-to-headline-bahrain-fintech-forward-2026/2431037",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "3 E Network Advances European AI Data Center Project Through Nordic Subsidiary Aurora Core Technology Oy",
+          "titulo_adaptado": "IA e produtividade no dia a dia digital",
+          "score_fonte": 77,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 77, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+FreeNews negócios"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
+          "url_fonte_interna": "https://www.manilatimes.net/2026/09/23/tmt-newswire/globenewswire/3-e-network-advances-european-ai-data-center-project-through-nordic-subsidiary-aurora-core-technology-oy/2431243",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "FreeNewsAPI (negócios/IA)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "Multiples invests $100 million in Brahma AI without fixed equity stake",
+          "titulo_adaptado": "IA e produtividade no dia a dia digital",
+          "score_fonte": 77,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 77, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+FreeNews negócios"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 INSIGHT DE TECNOLOGIA\n\nA inteligência artificial continua mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. O ponto prático: usar a ferramenta certa pode economizar tempo no dia a dia.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA)",
+          "url_fonte_interna": "https://www.newsbytesapp.com/news/business/multiples-invests-100-million-in-brahma-ai-without-fixed-equity-stake/tldr",
+          "link_no_post": false
         }
       ]
     },
     {
       "pagina": "Studio Marine Cuidados Pessoais",
       "page_id": "1247772158429331",
-      "status": "aprovado_validacao",
+      "status": "publicado",
       "stats": {
         "coletados": 18,
         "aprovados_fonte": 4,
         "aprovados_texto": 4,
         "rejeitados": 14,
-        "publicados": 0
+        "publicados": 1
       },
       "melhor": {
         "pagina": "Studio Marine Cuidados Pessoais",
@@ -678,18 +675,19 @@
           "page_id": "1247772158429331",
           "fonte": "Wikipedia (PT) skincare",
           "fonte_id": "wiki-pele",
-          "titulo_original": "Filtro solar",
-          "titulo_adaptado": "Proteção solar no dia a dia",
-          "score_fonte": 100,
+          "titulo_original": "Melasma",
+          "titulo_adaptado": "Cuidados com a pele",
+          "score_fonte": 88,
           "score_texto": 86,
           "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 100, texto 86)",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 88, texto 86)",
           "motivos_fonte": [
-            "+keyword no título (2)",
+            "+keyword no título (1)",
             "+keyword forte no título",
-            "+keywords na descrição (4)",
+            "+keywords na descrição (2)",
             "+Wikipedia PT",
             "+imagem",
+            "-título curto",
             "+skincare prático"
           ],
           "motivos_texto": [
@@ -697,8 +695,8 @@
             "+fonte alinhada ao nicho",
             "+tamanho adequado"
           ],
-          "texto_final": "✨ CUIDADO COM A PELE\n\nO filtro solar ou protetor solar é uma loção, spray ou produto tópico que ajuda a proteger a pele da radiação ultravioleta do sol, o que reduz as queimaduras solares e outros danos à pele,… Informação educativa — não substitui orientação de um profissional de saúde.\n\nFonte de inspiração: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
-          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Filtro_solar",
+          "texto_final": "✨ CUIDADO COM A PELE\n\nMelasma é uma distúrbio pigmentar da pele caracterizada por manchas escuras na pele. Ocorre principalmente no rosto, mas pode ocorrer em outros segmentos do corpo. Informação educativa — não substitui orientação de um profissional de saúde.\n\nFonte de inspiração: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Melasma",
           "link_no_post": false
         },
         {
@@ -817,6 +815,20 @@
         {
           "pagina": "Studio Marine Cuidados Pessoais",
           "page_id": "1247772158429331",
+          "fonte": "Wikipedia (PT) skincare",
+          "fonte_id": "wiki-pele",
+          "titulo_original": "Nicotinamida",
+          "titulo_adaptado": null,
+          "score_fonte": 61,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 61 < 75. +keywords na descrição (1); +Wikipedia PT",
+          "texto_final": null,
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Nicotinamida"
+        },
+        {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
           "fonte": "Open Beauty Facts",
           "fonte_id": "open-beauty",
           "titulo_original": "Dermo protect spf 50+",
@@ -929,20 +941,6 @@
         {
           "pagina": "Studio Marine Cuidados Pessoais",
           "page_id": "1247772158429331",
-          "fonte": "Wikipedia (PT) skincare",
-          "fonte_id": "wiki-pele",
-          "titulo_original": "Colágeno",
-          "titulo_adaptado": null,
-          "score_fonte": 32,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 32 < 75. +Wikipedia PT; -título curto",
-          "texto_final": null,
-          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Col%C3%A1geno"
-        },
-        {
-          "pagina": "Studio Marine Cuidados Pessoais",
-          "page_id": "1247772158429331",
           "fonte": "Open Beauty Facts",
           "fonte_id": "open-beauty",
           "titulo_original": "Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml",
@@ -959,13 +957,13 @@
     {
       "pagina": "Rota das Duas Rodas - Acessórios",
       "page_id": "1332730186586435",
-      "status": "aprovado_validacao",
+      "status": "publicado",
       "stats": {
         "coletados": 37,
-        "aprovados_fonte": 10,
-        "aprovados_texto": 10,
-        "rejeitados": 10,
-        "publicados": 0
+        "aprovados_fonte": 9,
+        "aprovados_texto": 9,
+        "rejeitados": 11,
+        "publicados": 1
       },
       "melhor": {
         "pagina": "Rota das Duas Rodas - Acessórios",
@@ -1054,6 +1052,58 @@
           "page_id": "1332730186586435",
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
+          "titulo_original": "&lt;![CDATA[Ducati señala cuál es la \"clave\" para que Marc Márquez gane el Mundial de MotoGP]]&gt;",
+          "titulo_adaptado": "&lt;![CDATA[Ducati señala cuál es la \"clave\" para que Marc Márquez gane el Mundial de…",
+          "score_fonte": 83,
+          "score_texto": 86,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 83, texto 86)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+FreeNews motos",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\n&lt;![CDATA[Ducati señala cuál es la \"clave\" para que Marc Márquez gane el Mundial de…. Para quem anda de moto, equipamento e atenção no trânsito continuam sendo a base da segurança.\n\nFonte de inspiração: FreeNewsAPI (motos)",
+          "url_fonte_interna": "https://www.lasexta.com/noticias/deportes/motor/ducati-senala-cual-clave-que-marc-marquez-gane-mundial-motogp_202609236ab3d169ca2f3f0cd1a2fd85.html",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Nem lesz jövőre magyar MotoGP verseny – a Hungaroring érdemben nem tud nyilatkozni",
+          "titulo_adaptado": "Nem lesz jövőre magyar MotoGP verseny – a Hungaroring érdemben nem tud nyilatkozni",
+          "score_fonte": 83,
+          "score_texto": 86,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 83, texto 86)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+FreeNews motos",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nNem lesz jövőre magyar MotoGP verseny – a Hungaroring érdemben nem tud nyilatkozni. Para quem anda de moto, equipamento e atenção no trânsito continuam sendo a base da segurança.\n\nFonte de inspiração: FreeNewsAPI (motos)",
+          "url_fonte_interna": "https://motorsportol.hu/moto/nem-lesz-jovore-magyar-motogp-verseny-a-hungaroring-erdemben-nem-tud-nyilatkozni",
+          "link_no_post": false
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
           "titulo_original": "Beli Tiket MotoGP Pertamina Grand Prix of Indonesia 2026 via wondr by BNI, Diskon hingga Rp300 Ribu",
           "titulo_adaptado": "Atualização no mundo do MotoGP",
           "score_fonte": 83,
@@ -1073,32 +1123,6 @@
           ],
           "texto_final": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nAtualização no mundo do MotoGP. Para quem anda de moto, equipamento e atenção no trânsito continuam sendo a base da segurança.\n\nFonte de inspiração: FreeNewsAPI (motos)",
           "url_fonte_interna": "https://dutaindonesia.com/beli-tiket-motogp-pertamina-grand-prix-of-indonesia-2026-via-wondr-by-bni-diskon-hingga-rp300-ribu/",
-          "link_no_post": false
-        },
-        {
-          "pagina": "Rota das Duas Rodas - Acessórios",
-          "page_id": "1332730186586435",
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "אקוסטה חוגג ניצחון ראשון ב-MotoGP, מארקז: הוא כבר בקרב על התואר",
-          "titulo_adaptado": "Atualização no mundo do MotoGP",
-          "score_fonte": 83,
-          "score_texto": 86,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 83, texto 86)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+FreeNews motos",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nAtualização no mundo do MotoGP. Para quem anda de moto, equipamento e atenção no trânsito continuam sendo a base da segurança.\n\nFonte de inspiração: FreeNewsAPI (motos)",
-          "url_fonte_interna": "https://kruvi.net/2026/09/23/%d7%90%d7%a7%d7%95%d7%a1%d7%98%d7%94-%d7%97%d7%95%d7%92%d7%92-%d7%a0%d7%99%d7%a6%d7%97%d7%95%d7%9f-%d7%a8%d7%90%d7%a9%d7%95%d7%9f-%d7%91-motogp-%d7%9e%d7%90%d7%a8%d7%a7%d7%96-%d7%94%d7%95%d7%90/",
           "link_no_post": false
         },
         {
@@ -1156,34 +1180,6 @@
         {
           "pagina": "Rota das Duas Rodas - Acessórios",
           "page_id": "1332730186586435",
-          "fonte": "Wikipedia (PT) motos",
-          "fonte_id": "wiki-moto",
-          "titulo_original": "Motocicleta",
-          "titulo_adaptado": "Novidade no universo das duas rodas",
-          "score_fonte": 78,
-          "score_texto": 86,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 78, texto 86)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+Wikipedia PT",
-            "+imagem",
-            "-título curto"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Motocicleta ou motociclo, também conhecida pelas formas reduzidas moto e mota (português europeu), informalmente chamada no Brasil de \"motoca\", é um veículo motorizado de duas…\n\nFonte de inspiração: Wikipedia (PT) motos\nAtribuição: CC BY-SA (Wikipedia)",
-          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Motocicleta",
-          "link_no_post": false
-        },
-        {
-          "pagina": "Rota das Duas Rodas - Acessórios",
-          "page_id": "1332730186586435",
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
           "titulo_original": "Tiket MotoGP Mandalika Penjualannya Tembus 70 Persen dari Target 140 Ribu Lebih Penonton",
@@ -1234,27 +1230,16 @@
         {
           "pagina": "Rota das Duas Rodas - Acessórios",
           "page_id": "1332730186586435",
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "&lt;![CDATA[Ducati señala cuál es la \"clave\" para que Marc Márquez gane el Mundial de MotoGP]]&gt;",
-          "titulo_adaptado": "&lt;![CDATA[Ducati señala cuál es la \"clave\" para que Marc Márquez gane el Mundial de…",
-          "score_fonte": 75,
-          "score_texto": 86,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 86)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+FreeNews motos"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\n&lt;![CDATA[Ducati señala cuál es la \"clave\" para que Marc Márquez gane el Mundial de…. Para quem anda de moto, equipamento e atenção no trânsito continuam sendo a base da segurança.\n\nFonte de inspiração: FreeNewsAPI (motos)",
-          "url_fonte_interna": "https://www.lasexta.com/noticias/deportes/motor/ducati-senala-cual-clave-que-marc-marquez-gane-mundial-motogp_202609236ab3d169ca2f3f0cd1a2fd85.html",
-          "link_no_post": false
+          "fonte": "Wikipedia (PT) motos",
+          "fonte_id": "wiki-moto",
+          "titulo_original": "Capacete",
+          "titulo_adaptado": null,
+          "score_fonte": 74,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 74 < 75. +keyword no título (1); +keyword forte no título",
+          "texto_final": null,
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Capacete"
         },
         {
           "pagina": "Rota das Duas Rodas - Acessórios",
@@ -1275,14 +1260,14 @@
           "page_id": "1332730186586435",
           "fonte": "Wikipedia (PT) motos",
           "fonte_id": "wiki-moto",
-          "titulo_original": "Honda",
+          "titulo_original": "Yamaha Corporation",
           "titulo_adaptado": null,
-          "score_fonte": 59,
+          "score_fonte": 69,
           "score_texto": null,
           "status": "rejeitado",
-          "motivo": "Score da fonte 59 < 75. +keyword no título (1); +keywords na descrição (1)",
+          "motivo": "Score da fonte 69 < 75. +keyword no título (1); +keywords na descrição (1)",
           "texto_final": null,
-          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Honda"
+          "url_fonte_interna": "https://pt.wikipedia.org/wiki/Yamaha_Corporation"
         },
         {
           "pagina": "Rota das Duas Rodas - Acessórios",
@@ -1444,7 +1429,7 @@
           "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Feijão tropeiro mineiro",
+          "titulo_original": "Cuscuz, de milho, cozido com sal",
           "titulo_adaptado": null,
           "score_fonte": 62,
           "score_texto": null,
@@ -1458,7 +1443,7 @@
           "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Tomate, purê",
+          "titulo_original": "Margarina, com óleo interesterificado, sem sal (65% de lipídeos)",
           "titulo_adaptado": null,
           "score_fonte": 62,
           "score_texto": null,
@@ -1472,7 +1457,35 @@
           "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Manjuba, com farinha de trigo, frita",
+          "titulo_original": "Almeirão, refogado",
+          "titulo_adaptado": null,
+          "score_fonte": 62,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 62 < 75. +TACO em português; +título PT",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/"
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Açaí, polpa, com xarope de guaraná e glucose",
+          "titulo_adaptado": null,
+          "score_fonte": 62,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 62 < 75. +TACO em português; +título PT",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/"
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Atum, conserva em óleo",
           "titulo_adaptado": null,
           "score_fonte": 62,
           "score_texto": null,
@@ -1514,7 +1527,7 @@
           "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Farinha, de centeio, integral",
+          "titulo_original": "Biscoito, salgado, cream cracker",
           "titulo_adaptado": null,
           "score_fonte": 52,
           "score_texto": null,
@@ -1528,7 +1541,7 @@
           "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Catalonha, refogada",
+          "titulo_original": "Aveia, flocos, crua",
           "titulo_adaptado": null,
           "score_fonte": 52,
           "score_texto": null,
@@ -1542,35 +1555,7 @@
           "page_id": "1402223216297975",
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Farinha, de mandioca, crua",
-          "titulo_adaptado": null,
-          "score_fonte": 52,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 52 < 75. +TACO em português",
-          "texto_final": null,
-          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/"
-        },
-        {
-          "pagina": "Casa & Conforto Utilidades",
-          "page_id": "1402223216297975",
-          "fonte": "TACO (alimentos BR)",
-          "fonte_id": "taco",
-          "titulo_original": "Farinha, de puba",
-          "titulo_adaptado": null,
-          "score_fonte": 52,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 52 < 75. +TACO em português",
-          "texto_final": null,
-          "url_fonte_interna": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/"
-        },
-        {
-          "pagina": "Casa & Conforto Utilidades",
-          "page_id": "1402223216297975",
-          "fonte": "TACO (alimentos BR)",
-          "fonte_id": "taco",
-          "titulo_original": "Batata, baroa, cozida",
+          "titulo_original": "Canjica, branca, crua",
           "titulo_adaptado": null,
           "score_fonte": 52,
           "score_texto": null,
