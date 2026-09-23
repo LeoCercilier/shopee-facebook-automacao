@@ -1,5 +1,5 @@
 {
-  "versao": 1,
+  "versao": 2,
   "graph_version": "v21.0",
   "max_posts_por_pagina_por_execucao": 1,
   "cooldown_horas_mesmo_assunto": 48,
@@ -17,26 +17,29 @@
           "id": "nuvemshop",
           "nome": "Nuvemshop",
           "rss": "https://www.nuvemshop.com.br/blog/feed/",
-          "prioridade": 1
+          "prioridade": 1,
+          "sempre_relevante": true
         },
         {
           "id": "brazil-journal",
           "nome": "Brazil Journal",
           "rss": "https://braziljournal.com/rss",
-          "prioridade": 2
+          "prioridade": 2,
+          "sempre_relevante": true
         },
         {
           "id": "sebrae-pr",
           "nome": "Sebrae/PR",
           "rss": "https://sebraepr.com.br/feed/",
-          "prioridade": 3
+          "prioridade": 3,
+          "sempre_relevante": true
         }
       ],
       "keywords_positivas": [
         "marketing", "vendas", "venda", "e-commerce", "ecommerce", "loja",
         "empreendedor", "negócio", "negocio", "cliente", "conversão", "conversao",
         "campanha", "anúncio", "anuncio", "tráfego", "trafego", "conteúdo", "conteudo",
-        "digital", "startup", "faturamento", "produto", "IA", "inteligência artificial"
+        "digital", "startup", "faturamento", "produto", "inteligência artificial"
       ],
       "keywords_negativas": []
     },
@@ -61,18 +64,21 @@
           "nome": "Folha Equilíbrio e Saúde",
           "rss": "https://feeds.folha.uol.com.br/equilibrioesaude/rss091.xml",
           "prioridade": 2,
-          "sempre_relevante": false
+          "sempre_relevante": false,
+          "exigir_keyword_no_titulo": true
         }
       ],
       "keywords_positivas": [
         "pele", "skincare", "skin care", "beleza", "autocuidado", "auto-cuidado",
-        "dermatolog", "dermatite", "acne", "protetor solar", "fps", "hidrat", "ruga",
-        "envelhecimento", "cosmético", "cosmetico", "cabelo", "unha", "rosto",
-        "cremes", "sérum", "serum", "cuidados pessoais", "barreira cutânea"
+        "dermatolog", "dermatite", "acne", "protetor solar", "filtro solar",
+        "hidratação", "hidratante", "ruga", "envelhecimento da pele",
+        "cosmético", "cosmetico", "rosto", "sérum", "serum",
+        "cuidados com a pele", "barreira cutânea", "melasma", "psoríase", "psoriase"
       ],
       "keywords_negativas": [
         "câncer de mama", "covid", "vacina", "cirurgia cardíaca", "infarto",
-        "hospital fecha", "eutanásia", "eutanasia", "transição de gênero"
+        "hospital fecha", "eutanásia", "eutanasia", "transição de gênero",
+        "auditiva", "barulho", "perda auditiva", "surdez", "ebola", "alzheimer"
       ]
     },
     {
@@ -96,7 +102,8 @@
           "nome": "Agência Brasil",
           "rss": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml",
           "prioridade": 2,
-          "sempre_relevante": false
+          "sempre_relevante": false,
+          "exigir_keyword_no_titulo": true
         }
       ],
       "keywords_positivas": [
