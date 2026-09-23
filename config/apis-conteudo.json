@@ -1,5 +1,5 @@
 {
-  "versao": 2,
+  "versao": 3,
   "graph_version": "v21.0",
   "max_posts_por_pagina": 1,
   "pontuacao_minima_publicacao": 75,
@@ -16,41 +16,65 @@
       "rotulo": "INSIGHT DE TECNOLOGIA",
       "fontes": [
         {
+          "id": "devto",
+          "nome": "DEV.to",
+          "tipo": "devto",
+          "url": "https://dev.to/api/articles",
+          "tags": ["ai", "startup", "productivity"],
+          "exige_key": false,
+          "idioma": "en",
+          "prioridade": 1,
+          "ativo": true,
+          "observacoes": "Artigos práticos de tech/produtividade"
+        },
+        {
+          "id": "freenews-biz",
+          "nome": "FreeNewsAPI (negócios/IA)",
+          "tipo": "freenewsapi",
+          "url": "https://freenewsapi.ai/v1/search",
+          "queries": ["startup funding", "ecommerce marketing", "artificial intelligence business"],
+          "exige_key": false,
+          "idioma": "en",
+          "prioridade": 2,
+          "ativo": true,
+          "observacoes": "Notícias sem key; filtro anti política/crime"
+        },
+        {
           "id": "hacker-news",
           "nome": "Hacker News",
           "tipo": "hacker_news",
           "url": "https://hacker-news.firebaseio.com/v0",
           "exige_key": false,
-          "prioridade": 1,
-          "ativo": true
+          "idioma": "en",
+          "prioridade": 3,
+          "ativo": true,
+          "observacoes": "Secundária; só keyword forte"
         },
         {
           "id": "spaceflight-news",
           "nome": "Spaceflight News",
           "tipo": "spaceflight_news",
-          "url": "https://api.spaceflightnewsapi.net/v4/articles/?limit=20",
+          "url": "https://api.spaceflightnewsapi.net/v4/articles/?limit=10",
           "exige_key": false,
-          "prioridade": 2,
-          "ativo": true
+          "prioridade": 9,
+          "ativo": false,
+          "observacoes": "Desativada: baixa utilidade editorial"
         }
       ],
       "keywords_positivas": [
         "ai", "artificial intelligence", "machine learning", "llm", "gpt",
-        "openai", "claude", "startup", "saas", "ecommerce", "e-commerce",
-        "marketing", "productivity", "empreendedor", "business model",
-        "funding", "venture", "produto digital", "ferramenta",
-        "automação", "automation", "no-code", "low-code",
-        "growth", "crm", "analytics", "software as a service"
+        "openai", "startup", "saas", "ecommerce", "e-commerce",
+        "marketing", "productivity", "funding", "venture", "growth",
+        "automation", "business", "founder", "revenue", "tool"
       ],
       "keywords_fortes": [
-        "ai", "artificial intelligence", "llm", "gpt", "openai",
-        "startup", "saas", "ecommerce", "marketing", "productivity"
+        "ai", "artificial intelligence", "startup", "saas", "ecommerce",
+        "marketing", "productivity", "funding", "openai", "llm"
       ],
       "keywords_negativas": [
         "war", "missile", "military", "pentagon", "iran", "israel",
-        "ukraine", "russia", "killed", "murder", "crime", "hacked the fbi",
-        "nsfw", "porn", "election", "trump", "biden", "politics",
-        "school attack", "strike on", "bomb", "weapon"
+        "killed", "murder", "crime", "burglar", "election", "trump",
+        "biden", "politics", "attack", "nfl", "nba"
       ]
     },
     {
@@ -63,47 +87,45 @@
       "rotulo": "CUIDADO COM A PELE",
       "fontes": [
         {
+          "id": "open-beauty",
+          "nome": "Open Beauty Facts",
+          "tipo": "open_beauty_facts",
+          "url": "https://world.openbeautyfacts.org/cgi/search.pl",
+          "termos": ["protetor solar", "sunscreen", "hidratante facial"],
+          "exige_key": false,
+          "idioma": "multi",
+          "prioridade": 1,
+          "ativo": true,
+          "observacoes": "Cosméticos open data; curiosidades sobre FPS"
+        },
+        {
           "id": "wiki-pele",
-          "nome": "Wikipedia (PT)",
+          "nome": "Wikipedia (PT) skincare",
           "tipo": "wikipedia_topics",
           "url": "https://pt.wikipedia.org/api/rest_v1/page/summary/",
           "exige_key": false,
-          "prioridade": 1,
+          "idioma": "pt",
+          "prioridade": 2,
           "ativo": true,
           "topics": [
-            "Filtro_solar",
-            "Acne",
-            "Melasma",
-            "Hidratação",
-            "Vitamina_C",
-            "Ácido_hialurônico",
-            "Retinol",
-            "Colágeno",
-            "Rosácea",
-            "Cosmético",
-            "Cuidado_pessoal",
-            "Protetor_solar",
-            "Ácido_salicílico",
-            "Niacinamida",
-            "Barreira_cutânea"
-          ]
+            "Filtro_solar", "Acne", "Melasma", "Retinol",
+            "Ácido_hialurônico", "Niacinamida", "Rosácea", "Colágeno"
+          ],
+          "observacoes": "Complementar em português"
         }
       ],
       "keywords_positivas": [
         "pele", "solar", "filtro", "protetor", "acne", "melasma",
-        "hidrat", "vitamina c", "colágeno", "colageno", "retinol",
-        "cosmético", "cosmetico", "rosácea", "rosacea", "hialurônico",
-        "hialuronico", "niacinamida", "skincare", "autocuidado",
-        "barreira cutânea", "sérum", "serum", "beleza"
+        "hidrat", "retinol", "sunscreen", "skincare", "fps",
+        "moisturizer", "hialurônico", "niacinamida", "cosmético"
       ],
       "keywords_fortes": [
-        "filtro solar", "protetor solar", "acne", "melasma", "retinol",
-        "ácido hialurônico", "skincare", "hidratação", "niacinamida"
+        "filtro solar", "protetor solar", "sunscreen", "acne",
+        "melasma", "retinol", "fps", "skincare"
       ],
       "keywords_negativas": [
         "câncer de mama", "covid", "vacina", "hospital", "cirurgia",
-        "infarto", "eutanásia", "diagnóstico grave", "metástase",
-        "psoríase", "psoriase"
+        "infarto", "metástase", "eutanásia"
       ],
       "topicos_evitar": ["Psoríase", "Dermatite", "Seborreia"]
     },
@@ -117,48 +139,52 @@
       "rotulo": "CURIOSIDADE DAS DUAS RODAS",
       "fontes": [
         {
+          "id": "freenews-moto",
+          "nome": "FreeNewsAPI (motos)",
+          "tipo": "freenewsapi",
+          "url": "https://freenewsapi.ai/v1/search",
+          "queries": [
+            "motorcycle launch",
+            "electric motorcycle",
+            "motorcycle helmet safety",
+            "MotoGP"
+          ],
+          "exige_key": false,
+          "idioma": "en",
+          "prioridade": 1,
+          "ativo": true,
+          "observacoes": "Notícias de moto; rejeitar crime/acidente"
+        },
+        {
           "id": "wiki-moto",
-          "nome": "Wikipedia (PT)",
+          "nome": "Wikipedia (PT) motos",
           "tipo": "wikipedia_topics",
           "url": "https://pt.wikipedia.org/api/rest_v1/page/summary/",
           "exige_key": false,
-          "prioridade": 1,
+          "idioma": "pt",
+          "prioridade": 2,
           "ativo": true,
           "topics": [
-            "Motocicleta",
-            "Motociclismo",
-            "Capacete",
-            "Scooter",
-            "Motocicleta_trail",
-            "MotoGP",
-            "Honda",
-            "Yamaha",
-            "BMW_Motorrad",
-            "Pneu",
-            "ABS_(sistema_de_freios)",
-            "Jaquetas_de_motociclismo"
-          ]
+            "Motocicleta", "Motociclismo", "Capacete", "MotoGP",
+            "Scooter", "Honda", "Yamaha", "Kawasaki"
+          ],
+          "observacoes": "Complementar em PT"
         }
       ],
       "keywords_positivas": [
-        "moto", "motocicleta", "motociclismo", "capacete", "scooter",
-        "motogp", "honda", "yamaha", "bmw", "trail", "duas rodas",
-        "jaqueta", "luva", "botas", "abs"
+        "moto", "motocicleta", "motociclismo", "motorcycle", "motorbike",
+        "capacete", "helmet", "scooter", "motogp", "honda", "yamaha",
+        "kawasaki", "electric motorcycle"
       ],
       "keywords_fortes": [
-        "motocicleta", "motociclismo", "capacete", "motogp", "scooter"
+        "motocicleta", "motorcycle", "motorbike", "capacete",
+        "helmet", "motogp", "motociclismo"
       ],
       "keywords_negativas": [
-        "acidente fatal", "morreu", "homicídio", "assalto",
-        "motor de combustão interna"
+        "killed", "fatal", "crash victim", "homicídio", "assalto",
+        "burglar", "crime", "war"
       ],
-      "topicos_evitar": [
-        "Motor_de_combustão_interna",
-        "Trânsito",
-        "Código_de_Trânsito_Brasileiro",
-        "Freio",
-        "Pneu"
-      ]
+      "topicos_evitar": ["Motor_de_combustão_interna", "Trânsito", "Pneu"]
     },
     {
       "id": "casa-conforto",
@@ -170,23 +196,31 @@
       "rotulo": "DICA PARA CASA",
       "fontes": [
         {
-          "id": "themealdb",
-          "nome": "TheMealDB",
-          "tipo": "themealdb",
-          "url": "https://www.themealdb.com/api/json/v1/1/random.php",
+          "id": "taco",
+          "nome": "TACO (alimentos BR)",
+          "tipo": "taco",
+          "url": "https://brolesi.github.io/taco/foods.json",
+          "detail_base": "https://brolesi.github.io/taco/foods/",
           "exige_key": false,
+          "idioma": "pt",
           "prioridade": 1,
           "ativo": true,
-          "tentativas": 8
+          "observacoes": "Composição de alimentos em português"
         },
         {
-          "id": "dog-ceo",
-          "nome": "Dog CEO",
-          "tipo": "dog_ceo",
-          "url": "https://dog.ceo/api/breeds/image/random",
+          "id": "wiki-casa",
+          "nome": "Wikipedia (PT) casa",
+          "tipo": "wikipedia_topics",
+          "url": "https://pt.wikipedia.org/api/rest_v1/page/summary/",
           "exige_key": false,
+          "idioma": "pt",
           "prioridade": 2,
-          "ativo": false
+          "ativo": true,
+          "topics": [
+            "Limpeza", "Decoração", "Jardinagem",
+            "Organização", "Culinária"
+          ],
+          "observacoes": "Conceitos úteis em português"
         },
         {
           "id": "open-meteo",
@@ -194,15 +228,39 @@
           "tipo": "open_meteo",
           "url": "https://api.open-meteo.com/v1/forecast?latitude=-23.55&longitude=-46.63&current=temperature_2m,relative_humidity_2m,weather_code&timezone=America%2FSao_Paulo",
           "exige_key": false,
+          "idioma": "pt",
           "prioridade": 3,
-          "ativo": true
+          "ativo": true,
+          "observacoes": "Só com dica prática de casa"
+        },
+        {
+          "id": "themealdb",
+          "nome": "TheMealDB",
+          "tipo": "themealdb",
+          "url": "https://www.themealdb.com/api/json/v1/1/random.php",
+          "exige_key": false,
+          "prioridade": 9,
+          "ativo": false,
+          "observacoes": "Desativada: títulos em inglês"
+        },
+        {
+          "id": "dog-ceo",
+          "nome": "Dog CEO",
+          "tipo": "dog_ceo",
+          "url": "https://dog.ceo/api/breeds/image/random",
+          "exige_key": false,
+          "prioridade": 9,
+          "ativo": false,
+          "observacoes": "Desativada"
         }
       ],
       "keywords_positivas": [
-        "receita", "cozinha", "casa", "organização", "limpeza",
-        "decoração", "pet", "umidade", "calor", "chuva"
+        "casa", "limpeza", "decoração", "jardinagem", "organização",
+        "culinária", "alimento", "cozinha", "economia"
       ],
-      "keywords_fortes": ["receita", "organização", "limpeza", "decoração"],
+      "keywords_fortes": [
+        "limpeza", "decoração", "jardinagem", "organização", "culinária"
+      ],
       "keywords_negativas": ["crime", "política", "guerra"]
     }
   ]
