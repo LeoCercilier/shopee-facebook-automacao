@@ -56,6 +56,33 @@ function pareceIngles(texto) {
   return hits >= 2 && !parecePortugues(t);
 }
 
+/** Marcadores típicos de espanhol (não confundir com PT). */
+function pareceEspanhol(texto) {
+  const low = ` ${normalizar(texto)} `;
+  const marcadores = [
+    ' el ', ' los ', ' las ', ' del ',
+    ' cual ', ' cuales ', ' senala ', ' senalan ',
+    ' gane ', ' gano ', ' mundial de ',
+    ' segun ', ' tambien ', ' despues ',
+    ' motocicletas ', ' novedad ',
+  ];
+  let hits = 0;
+  for (const m of marcadores) {
+    if (low.includes(m)) hits += 1;
+  }
+  // ñ sozinho não basta (pode aparecer em nomes), mas com artigo ES sim
+  if (/\bñ|ñ/.test(String(texto || '')) && hits >= 1) hits += 1;
+  return hits >= 2;
+}
+
+function temLixoMarkup(texto) {
+  const t = String(texto || '');
+  if (/<!\[CDATA\[|\]\]>|<!\[CDATA/i.test(t)) return true;
+  if (/<\/?[a-z][^>]*>/i.test(t)) return true;
+  if (/<|>|&nbsp;/i.test(t)) return true;
+  return false;
+}
+
 function pontuar(item, paginaCfg, cfgGlobal = {}) {
   const motivos = [];
   let score = 30;
@@ -69,6 +96,15 @@ function pontuar(item, paginaCfg, cfgGlobal = {}) {
   const blob = `${titulo} ${desc}`;
   const nicho = paginaCfg.nicho;
   const fid = item.fonte_id || '';
+
+  if (temLixoMarkup(titulo) || temLixoMarkup(desc)) {
+    return { score: 3, motivos: ['título/descrição com CDATA ou HTML residual'], status: 'rejeitado' };
+  }
+
+  // Notícias em espanhol não devem ir direto ao feed em PT-BR
+  if (pareceEspanhol(titulo) || pareceEspanhol(desc)) {
+    return { score: 12, motivos: ['conteúdo em espanhol (não adaptável automaticamente)'], status: 'rejeitado' };
+  }
 
   if (contemKeyword(blob, paginaCfg.keywords_negativas)) {
     return { score: 5, motivos: ['keyword negativa / tema proibido'], status: 'rejeitado' };
@@ -112,7 +148,6 @@ function pontuar(item, paginaCfg, cfgGlobal = {}) {
     motivos.push(`+keywords na descrição (${kwDesc})`);
   }
 
-  // Fontes preferidas
   if (fid === 'devto' && nicho === 'marketing') {
     score += 14;
     motivos.push('+DEV.to (fonte prioritária)');
@@ -222,7 +257,7 @@ function pontuar(item, paginaCfg, cfgGlobal = {}) {
   }
 
   if (nicho === 'casa' && fid === 'taco') {
-    // já bem pontuado; não exigir keyword forte de "limpeza" no nome do alimento
+    // ok
   } else if (nicho === 'casa' && fid !== 'open-meteo' && fid !== 'taco') {
     if (!contemKeyword(blob, paginaCfg.keywords_positivas) && !parecePortugues(titulo)) {
       score -= 15;
@@ -290,4 +325,6 @@ module.exports = {
   normalizar,
   parecePortugues,
   pareceIngles,
+  pareceEspanhol,
+  temLixoMarkup,
 };
