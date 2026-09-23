@@ -7,44 +7,15 @@
 
 function limparTitulo(titulo) {
   return String(titulo || '')
+    .replace(/\uFFFD/g, '')
     .replace(/\s+/g, ' ')
-    .replace(/[|–—].*$/, (m) => (m.length > 40 ? '' : m))
     .trim();
 }
 
 function primeiroTema(titulo) {
   const t = limparTitulo(titulo);
-  if (t.length <= 120) return t;
-  return t.slice(0, 117).replace(/\s+\S*$/, '') + '…';
-}
-
-const ABERTURAS = {
-  marketing: [
-    'Vale a pena prestar atenção neste ponto do mercado digital:',
-    'Uma leitura útil para quem vende online ou gerencia um negócio:',
-    'Para quem acompanha marketing e e-commerce, este tema está em evidência:',
-  ],
-  beleza: [
-    'Informação educativa sobre cuidados com a pele e bem-estar:',
-    'Um tema relevante para quem se interessa por autocuidado (sem substituir orientação profissional):',
-    'Conteúdo de referência sobre saúde da pele e cuidados pessoais:',
-  ],
-  motociclismo: [
-    'Atualização do universo das duas rodas:',
-    'Para quem acompanha motos, segurança e acessórios:',
-    'Destaque do dia no motociclismo:',
-  ],
-  casa: [
-    'Ideia prática para deixar a casa mais funcional:',
-    'Sugestão útil de organização e utilidades domésticas:',
-    'Para quem gosta de casa, decoração e praticidade no dia a dia:',
-  ],
-};
-
-function escolherAbertura(nicho, seed) {
-  const lista = ABERTURAS[nicho] || ABERTURAS.marketing;
-  const idx = Math.abs(Number(seed) || 0) % lista.length;
-  return lista[idx];
+  if (t.length <= 110) return t;
+  return t.slice(0, 107).replace(/\s+\S*$/, '') + '…';
 }
 
 function hashSimples(s) {
@@ -54,40 +25,50 @@ function hashSimples(s) {
   return h;
 }
 
-/**
- * Monta o post final. description só influencia o tom internamente
- * (não é colada no texto publicado).
- */
 function gerarPost({ item, paginaCfg }) {
   const tituloRef = primeiroTema(item.titulo);
-  const abertura = escolherAbertura(paginaCfg.nicho, hashSimples(item.url));
   const fonteNome = item.fonte_nome || 'Fonte';
   const emoji = paginaCfg.emoji || '📌';
   const rotulo = paginaCfg.rotulo || 'CONTEÚDO';
+  const url = item.url;
 
   let corpo;
+  const seed = Math.abs(hashSimples(item.url)) % 3;
+
   if (paginaCfg.nicho === 'beleza') {
+    const aberturas = [
+      `A matéria "${tituloRef}" traz um ponto importante sobre saúde da pele e autocuidado.`,
+      `Vale conferir: "${tituloRef}" — conteúdo educativo sobre cuidados pessoais e bem-estar da pele.`,
+      `Sobre pele e autocuidado: "${tituloRef}". Informação para reflexão, sem substituir orientação profissional.`,
+    ];
     corpo =
-      `${abertura}\n\n` +
-      `O material "${tituloRef}" traz informações para reflexão sobre cuidados pessoais. ` +
-      `Não substitui consulta com profissional de saúde.`;
+      aberturas[seed] +
+      (seed === 2 ? '' : ' Não substitui consulta com dermatologista ou outro profissional de saúde.');
   } else if (paginaCfg.nicho === 'motociclismo') {
-    corpo =
-      `${abertura}\n\n` +
-      `O destaque "${tituloRef}" pode interessar quem acompanha motos, manutenção ou segurança no trânsito.`;
+    const aberturas = [
+      `No universo das duas rodas: "${tituloRef}".`,
+      `Destaque para quem acompanha motos e acessórios: "${tituloRef}".`,
+      `Atualização do motociclismo: "${tituloRef}".`,
+    ];
+    corpo = aberturas[seed];
   } else if (paginaCfg.nicho === 'casa') {
-    corpo =
-      `${abertura}\n\n` +
-      `O tema "${tituloRef}" reúne ideias ligadas à organização, decoração ou utilidades para o dia a dia.`;
+    const aberturas = [
+      `Para a casa ficar mais prática: "${tituloRef}".`,
+      `Ideia de organização e utilidades: "${tituloRef}".`,
+      `Sugestão para o lar: "${tituloRef}".`,
+    ];
+    corpo = aberturas[seed];
   } else {
-    corpo =
-      `${abertura}\n\n` +
-      `O conteúdo "${tituloRef}" aborda pontos que podem ajudar na gestão de vendas, marketing ou negócios digitais.`;
+    const aberturas = [
+      `Para quem acompanha negócios e marketing digital: "${tituloRef}".`,
+      `Leitura útil sobre o mercado: "${tituloRef}".`,
+      `Tema em evidência no empreendedorismo digital: "${tituloRef}".`,
+    ];
+    corpo = aberturas[seed];
   }
 
-  // Garantir tamanho ~300–600 caracteres no bloco principal (sem URL)
-  if (corpo.length > 520) {
-    corpo = corpo.slice(0, 500).replace(/\s+\S*$/, '') + '.';
+  if (corpo.length > 480) {
+    corpo = corpo.slice(0, 460).replace(/\s+\S*$/, '') + '.';
   }
 
   const texto = [
@@ -96,7 +77,7 @@ function gerarPost({ item, paginaCfg }) {
     corpo,
     '',
     'Confira a matéria completa:',
-    item.url,
+    url,
     '',
     `Fonte: ${fonteNome}`,
   ].join('\n');
@@ -104,7 +85,7 @@ function gerarPost({ item, paginaCfg }) {
   return {
     texto,
     titulo_referencia: tituloRef,
-    url: item.url,
+    url,
     imagem: item.imagem || '',
     fonte_id: item.fonte_id,
     fonte_nome: fonteNome,
@@ -115,7 +96,7 @@ function validarPost(post) {
   if (!post || !post.texto || !post.url) {
     return { ok: false, motivo: 'texto_ou_url_ausente' };
   }
-  if (post.texto.length < 80) {
+  if (post.texto.length < 60) {
     return { ok: false, motivo: 'texto_muito_curto' };
   }
   if (!post.texto.includes(post.url)) {
@@ -124,7 +105,12 @@ function validarPost(post) {
   if (!/fonte:/i.test(post.texto)) {
     return { ok: false, motivo: 'sem_atribuicao' };
   }
-  // Recusar se colou description longa (>120 chars iguais)
+  if (/\uFFFD|��/.test(post.texto)) {
+    return { ok: false, motivo: 'encoding_quebrado' };
+  }
+  if (/redir\.folha\.com\.br/i.test(post.url)) {
+    return { ok: false, motivo: 'url_redirect_folha' };
+  }
   return { ok: true };
 }
 
