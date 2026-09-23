@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-23T02:59:54.228Z",
+  "atualizado_em": "2026-09-23T09:28:51.412Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -89,6 +89,50 @@
       "titulo": "Cobertura linear mistura minimalismo e biofilia para criar refúgio urbano",
       "post_id": "1402223216297975_122109194061476480",
       "publicado_em": "2026-09-23T02:59:54.228Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "brazil-journal",
+      "fonte_nome": "Brazil Journal",
+      "url": "https://braziljournal.com/brazil-journal-reune-especialistas-em-nyc-para-discutir-clima-e-competitividade/",
+      "titulo": "Brazil Journal reúne especialistas em NYC para discutir clima e competitividade",
+      "post_id": "369805844018354_1484515753695564",
+      "publicado_em": "2026-09-23T09:28:23.293Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "sbd",
+      "fonte_nome": "Sociedade Brasileira de Dermatologia",
+      "url": "https://www.sbd.org.br/20727-2/",
+      "titulo": "NOVA MATRIZ DE COMPETÊNCIAS: UM PASSO HISTÓRICO PARA A DERMATOLOGIA BRASILEIRA",
+      "post_id": "1247772158429331_122100523353485849",
+      "publicado_em": "2026-09-23T09:28:34.814Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/moto-morini-garagem-motul-pontos-atendimento-brasil/",
+      "titulo": "Moto Morini oficializa parceria com Motul e começa atendimento no Brasil",
+      "post_id": "1332730186586435_122099646519486415",
+      "publicado_em": "2026-09-23T09:28:42.582Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "precolandia",
+      "fonte_nome": "Blog Preçolandia",
+      "url": "https://blog.precolandia.com.br/cristaleira-black-friday-tacas-fim-de-ano/",
+      "titulo": "Cristaleira e taças: o que comprar na Black Friday",
+      "post_id": "1402223216297975_122109460665476480",
+      "publicado_em": "2026-09-23T09:28:51.412Z"
     }
   ]
 }

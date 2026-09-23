@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-23T02:59:54.229Z",
+  "gerado_em": "2026-09-23T09:28:51.412Z",
   "publicados": 4,
   "sem_conteudo": 0,
   "erros": 0,
@@ -8,21 +8,21 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1484288780384928",
+      "post_id": "369805844018354_1484515753695564",
       "tipo": "photo",
-      "titulo": "Como a IA pode ajudar o lojista a vender mais?",
-      "url": "https://www.nuvemshop.com.br/blog/como-a-ia-pode-ajudar-o-lojista-a-vender-mais/",
-      "fonte": "Nuvemshop",
-      "fonte_id": "nuvemshop"
+      "titulo": "Brazil Journal reúne especialistas em NYC para discutir clima e competitividade",
+      "url": "https://braziljournal.com/brazil-journal-reune-especialistas-em-nyc-para-discutir-clima-e-competitividade/",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
       "status": "publicado",
-      "post_id": "1247772158429331_122100292107485849",
+      "post_id": "1247772158429331_122100523353485849",
       "tipo": "feed",
-      "titulo": "Dia da Dermatite Atópica: Doença inflamatória crônica da pele impacta na qualidade de vida dos pacientes e convívio social",
-      "url": "https://www.sbd.org.br/dia-da-dermatite-atopica-doenca-inflamatoria-cronica-da-pele-impacta-na-qualidade-de-vida-dos-pacientes-e-convivio-social/",
+      "titulo": "NOVA MATRIZ DE COMPETÊNCIAS: UM PASSO HISTÓRICO PARA A DERMATOLOGIA BRASILEIRA",
+      "url": "https://www.sbd.org.br/20727-2/",
       "fonte": "Sociedade Brasileira de Dermatologia",
       "fonte_id": "sbd"
     },
@@ -30,10 +30,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122099446833486415",
+      "post_id": "1332730186586435_122099646519486415",
       "tipo": "photo",
-      "titulo": "Honda Racing chega ao RS para sexta etapa do MOTO1000GP",
-      "url": "https://motociclismoonline.com.br/competicoes/honda-racing-sexta-etapa-moto1000gp-rs/",
+      "titulo": "Moto Morini oficializa parceria com Motul e começa atendimento no Brasil",
+      "url": "https://motociclismoonline.com.br/noticias/moto-morini-garagem-motul-pontos-atendimento-brasil/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122109194061476480",
-      "tipo": "photo",
-      "titulo": "Cobertura linear mistura minimalismo e biofilia para criar refúgio urbano",
-      "url": "https://casa.abril.com.br/casas-apartamentos/cobertura-linear-mistura-minimalismo-e-biofilia-para-criar-refugio-urbano/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "post_id": "1402223216297975_122109460665476480",
+      "tipo": "feed",
+      "titulo": "Cristaleira e taças: o que comprar na Black Friday",
+      "url": "https://blog.precolandia.com.br/cristaleira-black-friday-tacas-fim-de-ano/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }
