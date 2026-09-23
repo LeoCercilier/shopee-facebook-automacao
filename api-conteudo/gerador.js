@@ -2,6 +2,7 @@
 
 const { pareceIngles, parecePortugues } = require('./filtro');
 const { avaliarTextoFinal } = require('./avaliador-texto');
+const { urlImagemValida } = require('./publicador');
 
 function encurtar(s, max) {
   const t = String(s || '').replace(/\s+/g, ' ').trim();
@@ -23,7 +24,6 @@ function primeiraFraseUtil(texto, max = 220) {
   return encurtar(out || t, max);
 }
 
-/** Rótulo em frase natural — evita MAIÚSCULAS de impacto. */
 function rotuloNatural(paginaCfg) {
   const custom = paginaCfg.rotulo_natural || paginaCfg.rotulo;
   if (custom && custom !== String(custom).toUpperCase()) {
@@ -83,7 +83,6 @@ function tituloAdaptado(item, nicho) {
   return encurtar(orig, 80);
 }
 
-/** Um detalhe extra útil, sem encher linguiça. */
 function detalheUtil(nicho, item) {
   const t = `${item.titulo || ''} ${item.descricao || ''}`;
   if (nicho === 'marketing') {
@@ -122,7 +121,6 @@ function detalheUtil(nicho, item) {
   return '';
 }
 
-/** Convite leve a seguir — só texto; a API não cria botão de seguir no post. */
 function conviteSeguir(paginaCfg) {
   if (paginaCfg.convite_seguir === false) return '';
   const nome = paginaCfg.nome_curto || paginaCfg.nome || 'a Página';
@@ -130,7 +128,6 @@ function conviteSeguir(paginaCfg) {
     `Se esse tipo de conteúdo ajuda você, siga ${nome} para receber mais dicas no feed.`,
     `Curtiu? Siga ${nome} e acompanhe próximos conteúdos no seu feed.`,
   ];
-  // Alterna de forma estável pelo id da página (sem parecer aleatório demais)
   const idx = String(paginaCfg.pageId || '').length % opcoes.length;
   return opcoes[idx];
 }
@@ -140,6 +137,8 @@ function gerarPost({ item, paginaCfg }) {
   const rotulo = rotuloNatural(paginaCfg);
   const fonte = item.fonte_nome || 'Fonte';
   const tituloExibicao = tituloAdaptado(item, paginaCfg.nicho);
+  // Imagem só da fonte/coleta — nunca inventar; nunca colocar URL no texto
+  const imagem = urlImagemValida(item.imagem);
   let corpo;
 
   if (paginaCfg.nicho === 'beleza') {
@@ -235,8 +234,6 @@ function gerarPost({ item, paginaCfg }) {
 
   const convite = conviteSeguir(paginaCfg);
 
-  // SEM link externo — apenas Shopee pode publicar com link de produto
-  // Estrutura: emoji + rótulo natural (não gritado) → corpo → detalhe já no corpo → fonte → convite
   const linhas = [`${emoji} ${rotulo}`, '', corpo, '', `Fonte de inspiração: ${fonte}`];
   if (item.licenca) {
     linhas.push(`Atribuição: ${item.licenca}`);
@@ -252,18 +249,14 @@ function gerarPost({ item, paginaCfg }) {
     titulo_adaptado: tituloExibicao,
     url_fonte_interna: item.url || '',
     url: '',
-    imagem: '',
+    imagem,
     fonte_id: item.fonte_id,
     fonte_nome: fonte,
     id_unico: item.id_unico,
     tem_link: false,
-    // Metadados opcionais para a Graph API (quando suportados)
     graph_extras: {
-      // Plano de fundo colorido exige texto curto (~130 chars); nossos posts são maiores → não usar
       text_format_preset_id: null,
-      // Localização: só se a Página tiver place_id configurado (não inventar)
       place: paginaCfg.place_id || null,
-      // Feeling/activity: opcional e desligado por padrão (pode falhar se o objeto não for aceito)
       feeling: paginaCfg.feeling || null,
     },
   };
@@ -279,7 +272,6 @@ function validarPost(post) {
   if (/saiba mais/i.test(post.texto)) {
     return { ok: false, motivo: 'bloco_saiba_mais_proibido' };
   }
-  // Evitar rótulos gritados no texto final
   if (/INSIGHT DE TECNOLOGIA|CUIDADO COM A PELE|CURIOSIDADE DAS DUAS RODAS|DICA PARA CASA/.test(post.texto)) {
     return { ok: false, motivo: 'rotulo_em_maiusculas' };
   }
