@@ -42,6 +42,7 @@ function avaliarCandidatoCompleto(item, paginaCfg, cfgGlobal) {
       motivo: `Score da fonte ${scoreFonte} < ${minFonte}. ${(item.motivos_pontuacao || []).slice(0, 2).join('; ')}`,
       texto_final: null,
       url_fonte_interna: item.url || '',
+      imagem: '',
       graph_extras: null,
     };
   }
@@ -63,6 +64,7 @@ function avaliarCandidatoCompleto(item, paginaCfg, cfgGlobal) {
       motivo: `Falha ao gerar texto: ${err.message}`,
       texto_final: null,
       url_fonte_interna: item.url || '',
+      imagem: '',
       graph_extras: null,
     };
   }
@@ -82,6 +84,7 @@ function avaliarCandidatoCompleto(item, paginaCfg, cfgGlobal) {
       motivo: `Validação estrutural: ${val.motivo}`,
       texto_final: post.texto,
       url_fonte_interna: item.url || '',
+      imagem: post.imagem || '',
       graph_extras: post.graph_extras || null,
     };
   }
@@ -115,6 +118,7 @@ function avaliarCandidatoCompleto(item, paginaCfg, cfgGlobal) {
     motivos_texto: avTexto.motivos || [],
     texto_final: post.texto,
     url_fonte_interna: item.url || '',
+    imagem: post.imagem || '',
     link_no_post: false,
     graph_extras: post.graph_extras || null,
   };
@@ -150,6 +154,7 @@ async function processarPagina(paginaCfg, cfgGlobal) {
       console.log(`  Fonte: ${c.fonte}`);
       console.log(`  Score fonte: ${c.score_fonte}`);
       console.log(`  Score texto: ${c.score_texto}`);
+      console.log(`  Imagem: ${c.imagem ? 'sim' : 'não'}`);
       console.log(`  Motivo: ${c.motivo}`);
     } else if (c.score_fonte >= (cfgGlobal.pontuacao_minima_publicacao ?? 75)) {
       console.log(`[REJEITADO]`);
@@ -197,6 +202,9 @@ async function processarPagina(paginaCfg, cfgGlobal) {
   if (!publicarAgora) {
     console.log('  🔒 Modo validação: NÃO publicará no Facebook.');
     console.log('  🔒 Posts de API NÃO levam link (só Shopee pode ter link).');
+    console.log(
+      `  Melhor candidato com imagem: ${melhor.imagem ? 'sim' : 'não'}`
+    );
     console.log('  Publicados: 0');
     return {
       page_id: paginaCfg.pageId,
@@ -220,7 +228,7 @@ async function processarPagina(paginaCfg, cfgGlobal) {
       pageId: paginaCfg.pageId,
       texto: melhor.texto_final,
       link: null,
-      imagem: '',
+      imagem: melhor.imagem || '',
       graphExtras: melhor.graph_extras || {},
     });
     historico.registrarSucesso({
@@ -236,13 +244,14 @@ async function processarPagina(paginaCfg, cfgGlobal) {
       titulo: melhor.titulo_adaptado,
       post_id: api.post_id,
     });
-    console.log('  ✅ PUBLICADO', api.post_id);
+    console.log('  ✅ PUBLICADO', api.post_id, `(${api.tipo})`);
     console.log('  Publicados: 1');
     return {
       page_id: paginaCfg.pageId,
       pagina_nome: paginaCfg.nome,
       status: 'publicado',
       post_id: api.post_id,
+      tipo_publicacao: api.tipo,
       melhor,
       candidatos,
       stats: {
@@ -338,6 +347,7 @@ async function main() {
           melhor_titulo: r.melhor ? r.melhor.titulo_adaptado : null,
           score_fonte: r.melhor ? r.melhor.score_fonte : null,
           score_texto: r.melhor ? r.melhor.score_texto : null,
+          tem_imagem: r.melhor ? Boolean(r.melhor.imagem) : false,
         })),
       },
       null,
@@ -350,8 +360,9 @@ async function main() {
   console.log('========== RESUMO ==========');
   for (const r of resultados) {
     const s = r.stats || {};
+    const img = r.melhor && r.melhor.imagem ? 'img=sim' : 'img=não';
     console.log(
-      `  ${r.pagina_nome}: ${r.status} | coletados=${s.coletados ?? 0} fonte_ok=${s.aprovados_fonte ?? 0} texto_ok=${s.aprovados_texto ?? 0} rej=${s.rejeitados ?? 0} pub=${s.publicados ?? 0}`
+      `  ${r.pagina_nome}: ${r.status} | coletados=${s.coletados ?? 0} fonte_ok=${s.aprovados_fonte ?? 0} texto_ok=${s.aprovados_texto ?? 0} rej=${s.rejeitados ?? 0} pub=${s.publicados ?? 0} ${img}`
     );
   }
   console.log('Arquivo:', CANDIDATOS);
