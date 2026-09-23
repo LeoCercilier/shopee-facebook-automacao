@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-23T09:28:51.412Z",
+  "atualizado_em": "2026-09-23T17:28:17.955Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -133,6 +133,50 @@
       "titulo": "Cristaleira e taças: o que comprar na Black Friday",
       "post_id": "1402223216297975_122109460665476480",
       "publicado_em": "2026-09-23T09:28:51.412Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/ia-agentica/",
+      "titulo": "O que é IA agêntica? Guia para implementar, vantagens e riscos",
+      "post_id": "369805844018354_1484855570328249",
+      "publicado_em": "2026-09-23T17:27:43.334Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "sbd",
+      "fonte_nome": "Sociedade Brasileira de Dermatologia",
+      "url": "https://www.sbd.org.br/dia-nacional-de-combate-ao-fumo-sbd-alerta-para-impactos-do-cigarro-e-dos-vapes-na-saude-da-pele/",
+      "titulo": "Dia Nacional de Combate ao Fumo: SBD alerta para impactos do cigarro e dos vapes na saúde da pele",
+      "post_id": "1247772158429331_122100816483485849",
+      "publicado_em": "2026-09-23T17:27:56.992Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/royal-enfield-classic-350-novas-versoes-india/",
+      "titulo": "Royal Enfield Classic 350 tem novas versões na Índia",
+      "post_id": "1332730186586435_122099938977486415",
+      "publicado_em": "2026-09-23T17:28:04.635Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/minha-casa/o-que-voce-deve-saber-na-hora-de-comprar-uma-lava-loucas/",
+      "titulo": "O que você deve saber na hora de comprar uma lava-louças",
+      "post_id": "1402223216297975_122109713829476480",
+      "publicado_em": "2026-09-23T17:28:17.955Z"
     }
   ]
 }

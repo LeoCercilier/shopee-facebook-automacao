@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-23T09:28:51.412Z",
+  "gerado_em": "2026-09-23T17:28:17.956Z",
   "publicados": 4,
   "sem_conteudo": 0,
   "erros": 0,
@@ -8,21 +8,21 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1484515753695564",
+      "post_id": "369805844018354_1484855570328249",
       "tipo": "photo",
-      "titulo": "Brazil Journal reúne especialistas em NYC para discutir clima e competitividade",
-      "url": "https://braziljournal.com/brazil-journal-reune-especialistas-em-nyc-para-discutir-clima-e-competitividade/",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "titulo": "O que é IA agêntica? Guia para implementar, vantagens e riscos",
+      "url": "https://www.nuvemshop.com.br/blog/ia-agentica/",
+      "fonte": "Nuvemshop",
+      "fonte_id": "nuvemshop"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
       "status": "publicado",
-      "post_id": "1247772158429331_122100523353485849",
+      "post_id": "1247772158429331_122100816483485849",
       "tipo": "feed",
-      "titulo": "NOVA MATRIZ DE COMPETÊNCIAS: UM PASSO HISTÓRICO PARA A DERMATOLOGIA BRASILEIRA",
-      "url": "https://www.sbd.org.br/20727-2/",
+      "titulo": "Dia Nacional de Combate ao Fumo: SBD alerta para impactos do cigarro e dos vapes na saúde da pele",
+      "url": "https://www.sbd.org.br/dia-nacional-de-combate-ao-fumo-sbd-alerta-para-impactos-do-cigarro-e-dos-vapes-na-saude-da-pele/",
       "fonte": "Sociedade Brasileira de Dermatologia",
       "fonte_id": "sbd"
     },
@@ -30,10 +30,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122099646519486415",
+      "post_id": "1332730186586435_122099938977486415",
       "tipo": "photo",
-      "titulo": "Moto Morini oficializa parceria com Motul e começa atendimento no Brasil",
-      "url": "https://motociclismoonline.com.br/noticias/moto-morini-garagem-motul-pontos-atendimento-brasil/",
+      "titulo": "Royal Enfield Classic 350 tem novas versões na Índia",
+      "url": "https://motociclismoonline.com.br/noticias/royal-enfield-classic-350-novas-versoes-india/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122109460665476480",
+      "post_id": "1402223216297975_122109713829476480",
       "tipo": "feed",
-      "titulo": "Cristaleira e taças: o que comprar na Black Friday",
-      "url": "https://blog.precolandia.com.br/cristaleira-black-friday-tacas-fim-de-ano/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "titulo": "O que você deve saber na hora de comprar uma lava-louças",
+      "url": "https://casa.abril.com.br/minha-casa/o-que-voce-deve-saber-na-hora-de-comprar-uma-lava-loucas/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }
