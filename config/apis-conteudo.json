@@ -3,7 +3,7 @@
   "graph_version": "v21.0",
   "max_posts_por_pagina": 1,
   "pontuacao_minima_publicacao": 75,
-  "modo_validacao": true,
+  "modo_validacao": false,
   "publicar": true,
   "paginas": [
     {
