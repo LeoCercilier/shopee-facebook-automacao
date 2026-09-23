@@ -1,28 +1,28 @@
 {
-  "gerado_em": "2026-09-23T09:01:53.319Z",
-  "modo": "validacao",
+  "gerado_em": "2026-09-23T09:12:29.924Z",
+  "modo": "publicacao",
   "resumo": [
     {
       "pagina": "Marketing Tips",
-      "status": "aprovado_validacao",
+      "status": "publicado",
       "pontuacao": 94,
       "titulo": "Architecting a Resilient DevSecOps Pipeline for Enterprise AI Agents"
     },
     {
       "pagina": "Studio Marine Cuidados Pessoais",
-      "status": "aprovado_validacao",
+      "status": "publicado",
       "pontuacao": 100,
       "titulo": "Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml"
     },
     {
       "pagina": "Rota das Duas Rodas - Acessórios",
-      "status": "aprovado_validacao",
+      "status": "publicado",
       "pontuacao": 91,
       "titulo": "The Flying Flea C6 is already in Europe: an electric motorcycle for 5,900 euros and 104 km of autonomy"
     },
     {
       "pagina": "Casa & Conforto Utilidades",
-      "status": "aprovado_validacao",
+      "status": "publicado",
       "pontuacao": 78,
       "titulo": "Culinária"
     }

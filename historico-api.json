@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-23T07:32:02.715Z",
+  "atualizado_em": "2026-09-23T09:12:29.924Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -49,6 +49,54 @@
       "titulo": "Pork rib bortsch",
       "post_id": "1402223216297975_122109379617476480",
       "publicado_em": "2026-09-23T07:32:02.715Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/gde/architecting-a-resilient-devsecops-pipeline-for-enterprise-ai-agents-on4",
+      "chave": "https://dev.to/gde/architecting-a-resilient-devsecops-pipeline-for-enterprise-ai-agents-on4",
+      "titulo": "Architecting a Resilient DevSecOps Pipeline for Enterprise AI Agents",
+      "post_id": "369805844018354_1484504397030033",
+      "publicado_em": "2026-09-23T09:12:02.762Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "open-beauty",
+      "fonte_nome": "Open Beauty Facts",
+      "url": "https://world.openbeautyfacts.org/product/4005900201126/protetor-solar-facial-nivea-sun-toque-seco-antissinais-fps-60-50ml",
+      "chave": "https://world.openbeautyfacts.org/product/4005900201126/protetor-solar-facial-nivea-sun-toque-seco-antissinais-fps-60-50ml",
+      "titulo": "Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml",
+      "post_id": "1247772158429331_122100512775485849",
+      "publicado_em": "2026-09-23T09:12:14.732Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.theuth.co/the-flying-flea-c6-is-already-in-europe-an-electric-motorcycle-for-5900-euros-and-104-km-of-autonomy/21979/",
+      "chave": "https://www.theuth.co/the-flying-flea-c6-is-already-in-europe-an-electric-motorcycle-for-5900-euros-and-104-km-of-autonomy/21979",
+      "titulo": "The Flying Flea C6 is already in Europe: an electric motorcycle for 5,900 euros and 104 km of autonomy",
+      "post_id": "1332730186586435_122099634489486415",
+      "publicado_em": "2026-09-23T09:12:22.625Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "wiki-casa",
+      "fonte_nome": "Wikipedia (PT) casa",
+      "url": "https://pt.wikipedia.org/wiki/Culin%C3%A1ria",
+      "chave": "https://pt.wikipedia.org/wiki/culin%c3%a1ria",
+      "titulo": "Culinária",
+      "post_id": "1402223216297975_122109449055476480",
+      "publicado_em": "2026-09-23T09:12:29.924Z"
     }
   ]
 }

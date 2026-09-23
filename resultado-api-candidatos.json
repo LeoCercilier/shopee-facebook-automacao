@@ -1,18 +1,16 @@
 {
-  "gerado_em": "2026-09-23T09:01:53.319Z",
-  "modo": "validacao",
+  "gerado_em": "2026-09-23T09:12:29.924Z",
+  "modo": "publicacao",
   "pontuacao_minima": 75,
   "paginas": [
     {
       "pagina": "Marketing Tips",
       "page_id": "369805844018354",
-      "status": "aprovado_validacao",
+      "status": "publicado",
       "melhor": {
         "titulo": "Architecting a Resilient DevSecOps Pipeline for Enterprise AI Agents",
         "pontuacao": 94,
-        "fonte": "DEV.to",
-        "url": "https://dev.to/gde/architecting-a-resilient-devsecops-pipeline-for-enterprise-ai-agents-on4",
-        "preview": "💡 INSIGHT DE TECNOLOGIA\n\nArchitecting a Resilient DevSecOps Pipeline for Enterprise AI Agents. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://dev.to/gde/architecting-a-resilient-devsecops-pipeline-for-enterprise-ai-agents-on4\n\nFonte: DEV.to"
+        "preview": null
       },
       "candidatos": [
         {
@@ -36,31 +34,6 @@
           "preview_post": {
             "texto": "💡 INSIGHT DE TECNOLOGIA\n\nArchitecting a Resilient DevSecOps Pipeline for Enterprise AI Agents. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://dev.to/gde/architecting-a-resilient-devsecops-pipeline-for-enterprise-ai-agents-on4\n\nFonte: DEV.to",
             "titulo": "Architecting a Resilient DevSecOps Pipeline for Enterprise AI Agents",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "FreeNewsAPI (negócios/IA)",
-          "fonte_id": "freenews-biz",
-          "titulo_original": "Christian Konopatzki: Winner of the 2021 Best Affiliate Marketing Manager (UAE) Award from International Business Magazine (Dubai)",
-          "titulo": "Christian Konopatzki: Winner of the 2021 Best Affiliate Marketing Manager (UAE) Award from International Business Magazine (Dubai)",
-          "resumo": "As an influencer and marketing expert, Christian Konopatzki has created a lucrative business using his eCommerce platform to drive business through affiliate marketing, achieving a level of success people only dream of. Because of his talent and drive, Christian Konopatzki has at",
-          "url": "https://entrepreneurialmag.com/christian-konopatzki-winner-of-the-2021-best-affiliate-marketing-manager/",
-          "imagem": "",
-          "pontuacao": 93,
-          "status": "aprovado",
-          "motivos": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+keywords na descrição (3)",
-            "+FreeNews negócios",
-            "+recente"
-          ],
-          "preview_post": {
-            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nChristian Konopatzki: Winner of the 2021 Best Affiliate Marketing Manager (UAE) Award from International Business Magazine (Dubai). As an influencer and marketing expert, Christian Konopatzki has created a lucrative business using his eCommerce platform to drive business through affiliate marketing, achieving…\n\n🔎 Saiba mais:\nhttps://entrepreneurialmag.com/christian-konopatzki-winner-of-the-2021-best-affiliate-marketing-manager/\n\nFonte: FreeNewsAPI (negócios/IA)",
-            "titulo": "Christian Konopatzki: Winner of the 2021 Best Affiliate Marketing Manager (UAE) Award from International Business Magazine (Dubai)",
             "validacao": {
               "ok": true
             }
@@ -313,19 +286,41 @@
               "ok": true
             }
           }
+        },
+        {
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "I got rejected for using AI in an interview. Then I watched the interviewer do it.",
+          "titulo": "I got rejected for using AI in an interview. Then I watched the interviewer do it.",
+          "resumo": "I got the rejection email on a Tuesday. I've been rejected before — everyone has. This one broke...",
+          "url": "https://dev.to/infoinlet1/i-got-rejected-for-using-ai-in-an-interview-then-i-watched-the-interviewer-do-it-31d0",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmgcw6dq8hs4oxnhkhfjh.png",
+          "pontuacao": 82,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem"
+          ],
+          "preview_post": {
+            "texto": "💡 INSIGHT DE TECNOLOGIA\n\nI got rejected for using AI in an interview. Then I watched the interviewer do it.. Leitura útil para quem acompanha tecnologia, produtividade ou negócios digitais.\n\n🔎 Saiba mais:\nhttps://dev.to/infoinlet1/i-got-rejected-for-using-ai-in-an-interview-then-i-watched-the-interviewer-do-it-31d0\n\nFonte: DEV.to",
+            "titulo": "I got rejected for using AI in an interview. Then I watched the interviewer do it.",
+            "validacao": {
+              "ok": true
+            }
+          }
         }
       ]
     },
     {
       "pagina": "Studio Marine Cuidados Pessoais",
       "page_id": "1247772158429331",
-      "status": "aprovado_validacao",
+      "status": "publicado",
       "melhor": {
         "titulo": "Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml",
         "pontuacao": 100,
-        "fonte": "Open Beauty Facts",
-        "url": "https://world.openbeautyfacts.org/product/4005900201126/protetor-solar-facial-nivea-sun-toque-seco-antissinais-fps-60-50ml",
-        "preview": "✨ CUIDADO COM A PELE\n\nProduto em destaque na base aberta de cosméticos: Protetor Solar Facial Nivea Sun Toque Seco Antissinais FPS 60 50ml. Use como referência para comparar rótulos e FPS — sempre de acordo com a sua pele e orientação profissional.\n\n🔎 Saiba mais:\nhttps://world.openbeautyfacts.org/product/4005900201126/protetor-solar-facial-nivea-sun-toque-seco-antissinais-fps-60-50ml\n\nFonte: Open Beauty Facts"
+        "preview": null
       },
       "candidatos": [
         {
@@ -383,24 +378,25 @@
         {
           "fonte": "Wikipedia (PT) skincare",
           "fonte_id": "wiki-pele",
-          "titulo_original": "Filtro solar",
-          "titulo": "Filtro solar",
-          "resumo": "O filtro solar ou protetor solar é uma loção, spray ou produto tópico que ajuda a proteger a pele da radiação ultravioleta do sol, o que reduz as queimaduras solares e outros danos à pele, intimamente ligado a um menor risco de câncer de pele. Entretanto, a loção de bronzeamento ",
-          "url": "https://pt.wikipedia.org/wiki/Filtro_solar",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/UV_and_Vis_Sunscreen.jpg/330px-UV_and_Vis_Sunscreen.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 100,
+          "titulo_original": "Melasma",
+          "titulo": "Melasma",
+          "resumo": "Melasma é uma distúrbio pigmentar da pele caracterizada por manchas escuras na pele. Ocorre principalmente no rosto, mas pode ocorrer em outros segmentos do corpo. Ocorre mais frequentemente em mulheres. Acontece em cerca de dez por cento nos homens. Quando as manchas aparecem na",
+          "url": "https://pt.wikipedia.org/wiki/Melasma",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Melasmablemish.jpg/330px-Melasmablemish.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 88,
           "status": "aprovado",
           "motivos": [
-            "+keyword no título (2)",
+            "+keyword no título (1)",
             "+keyword forte no título",
-            "+keywords na descrição (4)",
+            "+keywords na descrição (2)",
             "+Wikipedia PT",
             "+imagem",
+            "-título curto",
             "+skincare prático"
           ],
           "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nO filtro solar ou protetor solar é uma loção, spray ou produto tópico que ajuda a proteger a pele da radiação ultravioleta do sol, o que reduz as queimaduras solares e outros danos à pele,… Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Filtro_solar\n\nFonte: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "Filtro solar",
+            "texto": "✨ CUIDADO COM A PELE\n\nMelasma é uma distúrbio pigmentar da pele caracterizada por manchas escuras na pele. Ocorre principalmente no rosto, mas pode ocorrer em outros segmentos do corpo. Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Melasma\n\nFonte: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "Melasma",
             "validacao": {
               "ok": true
             }
@@ -428,33 +424,6 @@
           "preview_post": {
             "texto": "✨ CUIDADO COM A PELE\n\nAcne é uma condição cutânea de longa duração caracterizada por áreas de pontos negros, pontos brancos, pústulas, pele oleosa e possibilidade de aparecimento de cicatrizes. Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Acne\n\nFonte: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
             "titulo": "Acne",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "Wikipedia (PT) skincare",
-          "fonte_id": "wiki-pele",
-          "titulo_original": "Melasma",
-          "titulo": "Melasma",
-          "resumo": "Melasma é uma distúrbio pigmentar da pele caracterizada por manchas escuras na pele. Ocorre principalmente no rosto, mas pode ocorrer em outros segmentos do corpo. Ocorre mais frequentemente em mulheres. Acontece em cerca de dez por cento nos homens. Quando as manchas aparecem na",
-          "url": "https://pt.wikipedia.org/wiki/Melasma",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Melasmablemish.jpg/330px-Melasmablemish.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 88,
-          "status": "aprovado",
-          "motivos": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+Wikipedia PT",
-            "+imagem",
-            "-título curto",
-            "+skincare prático"
-          ],
-          "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nMelasma é uma distúrbio pigmentar da pele caracterizada por manchas escuras na pele. Ocorre principalmente no rosto, mas pode ocorrer em outros segmentos do corpo. Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Melasma\n\nFonte: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "Melasma",
             "validacao": {
               "ok": true
             }
@@ -562,22 +531,22 @@
         {
           "fonte": "Wikipedia (PT) skincare",
           "fonte_id": "wiki-pele",
-          "titulo_original": "Ácido hialurônico",
-          "titulo": "Ácido hialurônico",
-          "resumo": "Ácido hialurônico (português brasileiro) ou ácido hialurónico (português europeu) é um biopolímero formado pelo ácido glucurônico e a N-acetilglicosamina. De textura viscosa, existe no líquido sinovial, humor vítreo e no tecido conjuntivo colágeno de numerosos organismos, sendo u",
-          "url": "https://pt.wikipedia.org/wiki/%C3%81cido_hialur%C3%B4nico",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Hyaluronan.png/330px-Hyaluronan.png?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 69,
+          "titulo_original": "Nicotinamida",
+          "titulo": "Nicotinamida",
+          "resumo": "Nicotinamida ou niacinamida é a amida correspondente ao ácido carboxílico niacina (ácido nicotínico). Nicotinamida, niacina e hexanicotinato de inositol são formas da Vitamina B3, com efeitos diferentes. Nicotinamida, também conhecida como vitamina B3 ou vitamina PP, desempenha u",
+          "url": "https://pt.wikipedia.org/wiki/Nicotinamida",
+          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Nicotinamide_structure.svg/langpt-330px-Nicotinamide_structure.svg.png?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "pontuacao": 61,
           "status": "candidato_fraco",
           "motivos": [
-            "+keyword no título (1)",
             "+keywords na descrição (1)",
             "+Wikipedia PT",
-            "+imagem"
+            "+imagem",
+            "+skincare prático"
           ],
           "preview_post": {
-            "texto": "✨ CUIDADO COM A PELE\n\nÁcido hialurônico (português brasileiro) ou ácido hialurónico (português europeu) é um biopolímero formado pelo ácido glucurônico e a N-acetilglicosamina. Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/%C3%81cido_hialur%C3%B4nico\n\nFonte: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "Ácido hialurônico",
+            "texto": "✨ CUIDADO COM A PELE\n\nNicotinamida ou niacinamida é a amida correspondente ao ácido carboxílico niacina (ácido nicotínico). Informação educativa — não substitui orientação de um profissional de saúde.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Nicotinamida\n\nFonte: Wikipedia (PT) skincare\nAtribuição: CC BY-SA (Wikipedia)",
+            "titulo": "Nicotinamida",
             "validacao": {
               "ok": true
             }
@@ -614,19 +583,33 @@
             "+imagem"
           ],
           "preview_post": null
+        },
+        {
+          "fonte": "Open Beauty Facts",
+          "fonte_id": "open-beauty",
+          "titulo_original": "Crema facial fluida hidratante",
+          "titulo": "Crema facial fluida hidratante",
+          "resumo": "Categoria: . Dados Open Beauty Facts (base aberta de cosméticos).",
+          "url": "https://world.openbeautyfacts.org/product/8480000503756/crema-facial-fluida-hidratante-deliplus",
+          "imagem": "https://images.openbeautyfacts.org/images/products/848/000/050/3756/front_en.7.200.jpg",
+          "pontuacao": 51,
+          "status": "rejeitado",
+          "motivos": [
+            "+Open Beauty Facts",
+            "+imagem"
+          ],
+          "preview_post": null
         }
       ]
     },
     {
       "pagina": "Rota das Duas Rodas - Acessórios",
       "page_id": "1332730186586435",
-      "status": "aprovado_validacao",
+      "status": "publicado",
       "melhor": {
         "titulo": "The Flying Flea C6 is already in Europe: an electric motorcycle for 5,900 euros and 104 km of autonomy",
         "pontuacao": 91,
-        "fonte": "FreeNewsAPI (motos)",
-        "url": "https://www.theuth.co/the-flying-flea-c6-is-already-in-europe-an-electric-motorcycle-for-5900-euros-and-104-km-of-autonomy/21979/",
-        "preview": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? It is already a fact: Flying Fleathe electric motorcycle brand Royal Enfieldbegins its commercial journey internationally.\n\n🔎 Saiba mais:\nhttps://www.theuth.co/the-flying-flea-c6-is-already-in-europe-an-electric-motorcycle-for-5900-euros-and-104-km-of-autonomy/21979/\n\nFonte: FreeNewsAPI (motos)"
+        "preview": null
       },
       "candidatos": [
         {
@@ -854,56 +837,6 @@
         {
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
-          "titulo_original": "MotoGp: Honda, Chantra al posto di Mir in Giappone",
-          "titulo": "MotoGp: Honda, Chantra al posto di Mir in Giappone",
-          "resumo": "",
-          "url": "https://www.mattinopadova.it/italia/motogp-honda-chantra-al-posto-di-mir-in-giappone-p44ce8qt",
-          "imagem": "",
-          "pontuacao": 83,
-          "status": "aprovado",
-          "motivos": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+FreeNews motos",
-            "+recente"
-          ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nMotoGp: Honda, Chantra al posto di Mir in Giappone: assunto que interessa quem anda de moto, cuida do equipamento ou acompanha o esporte.\n\n🔎 Saiba mais:\nhttps://www.mattinopadova.it/italia/motogp-honda-chantra-al-posto-di-mir-in-giappone-p44ce8qt\n\nFonte: FreeNewsAPI (motos)",
-            "titulo": "MotoGp: Honda, Chantra al posto di Mir in Giappone",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "Wikipedia (PT) motos",
-          "fonte_id": "wiki-moto",
-          "titulo_original": "Motocicleta",
-          "titulo": "Motocicleta",
-          "resumo": "Motocicleta ou motociclo, também conhecida pelas formas reduzidas moto e mota (português europeu), informalmente chamada no Brasil de \"motoca\", é um veículo motorizado de duas rodas dirigido por um guidão a partir de um assento tipo assento. Uma motocicleta é amplamente definida ",
-          "url": "https://pt.wikipedia.org/wiki/Motocicleta",
-          "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Red_Honda_C50_%281975%3F%29_in_Athens_on_10-13-2023.jpg/330px-Red_Honda_C50_%281975%3F%29_in_Athens_on_10-13-2023.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-          "pontuacao": 78,
-          "status": "aprovado",
-          "motivos": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+Wikipedia PT",
-            "+imagem",
-            "-título curto"
-          ],
-          "preview_post": {
-            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Motocicleta ou motociclo, também conhecida pelas formas reduzidas moto e mota (português europeu), informalmente chamada no Brasil de \"motoca\", é um veículo motorizado de duas rodas dirigido por um guidão a…\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Motocicleta\n\nFonte: Wikipedia (PT) motos\nAtribuição: CC BY-SA (Wikipedia)",
-            "titulo": "Motocicleta",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
           "titulo_original": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
           "titulo": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
           "resumo": "Honda QC3 electric scooter has been launched in India at ₹1.35 lakh. It gets a 3 kWh battery, claimed 145 km range, 32-litre storage and connected features. Here’s how it compares with the Honda QC1 and the Activa e.",
@@ -924,19 +857,64 @@
               "ok": true
             }
           }
+        },
+        {
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
+          "titulo": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
+          "resumo": "Honda QC3 electric scooter has been launched in India at ₹1.35 lakh. It gets a 3 kWh battery, claimed 145 km range, 32-litre storage and connected features. Here’s how it compares with the Honda QC1 and the Activa e.",
+          "url": "https://www.livemint.com/auto-news/honda-qc3-electric-scooter-launched-price-145-km-range-battery-features-rivals-and-more/amp-11790076661909.html",
+          "imagem": "",
+          "pontuacao": 76,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (2)",
+            "+keywords na descrição (2)",
+            "+FreeNews motos",
+            "+recente"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nVocê sabia? Honda QC3 electric scooter has been launched in India at ₹1.35 lakh. It gets a 3 kWh battery, claimed 145 km range, 32-litre storage and connected features.\n\n🔎 Saiba mais:\nhttps://www.livemint.com/auto-news/honda-qc3-electric-scooter-launched-price-145-km-range-battery-features-rivals-and-more/amp-11790076661909.html\n\nFonte: FreeNewsAPI (motos)",
+            "titulo": "Honda QC3 electric scooter launched: Price, 145 km range, battery, features, rivals and more | Mint",
+            "validacao": {
+              "ok": true
+            }
+          }
+        },
+        {
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "MotoGP Giappone 2026: Chantra sostituisce Mir a Motegi",
+          "titulo": "MotoGP Giappone 2026: Chantra sostituisce Mir a Motegi",
+          "resumo": "",
+          "url": "https://infogioco.it/sport/motori/motogp-clamoroso-ritorno-di-somkiat-chantra-sostituira-joan-mir-a-motegi",
+          "imagem": "",
+          "pontuacao": 75,
+          "status": "aprovado",
+          "motivos": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+FreeNews motos"
+          ],
+          "preview_post": {
+            "texto": "🏍️ CURIOSIDADE DAS DUAS RODAS\n\nMotoGP Giappone 2026: Chantra sostituisce Mir a Motegi: assunto que interessa quem anda de moto, cuida do equipamento ou acompanha o esporte.\n\n🔎 Saiba mais:\nhttps://infogioco.it/sport/motori/motogp-clamoroso-ritorno-di-somkiat-chantra-sostituira-joan-mir-a-motegi\n\nFonte: FreeNewsAPI (motos)",
+            "titulo": "MotoGP Giappone 2026: Chantra sostituisce Mir a Motegi",
+            "validacao": {
+              "ok": true
+            }
+          }
         }
       ]
     },
     {
       "pagina": "Casa & Conforto Utilidades",
       "page_id": "1402223216297975",
-      "status": "aprovado_validacao",
+      "status": "publicado",
       "melhor": {
         "titulo": "Culinária",
         "pontuacao": 78,
-        "fonte": "Wikipedia (PT) casa",
-        "url": "https://pt.wikipedia.org/wiki/Culin%C3%A1ria",
-        "preview": "🏠 DICA PARA CASA\n\nA culinária é a arte de cozinhar, ou seja, o acto de confeccionar alimentos. Ela evoluiu ao longo da história dos povos para tornar-se parte da cultura de cada povo.\n\n🔎 Saiba mais:\nhttps://pt.wikipedia.org/wiki/Culin%C3%A1ria\n\nFonte: Wikipedia (PT) casa\nAtribuição: CC BY-SA (Wikipedia)"
+        "preview": null
       },
       "candidatos": [
         {
@@ -1017,9 +995,9 @@
         {
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Pipoca, com óleo de soja, sem sal",
-          "titulo": "Pipoca, com óleo de soja, sem sal",
-          "resumo": "Pipoca, com óleo de soja, sem sal (Cereais e derivados): cerca de 448 kcal/100g, 9.9g de proteína, 14.3g de fibra. Fonte: tabela TACO/UNICAMP.",
+          "titulo_original": "Almeirão, refogado",
+          "titulo": "Almeirão, refogado",
+          "resumo": "Almeirão, refogado (Verduras, hortaliças e derivados): cerca de 65 kcal/100g, 1.7g de proteína, 3.4g de fibra. Fonte: tabela TACO/UNICAMP.",
           "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
           "imagem": "",
           "pontuacao": 62,
@@ -1029,8 +1007,8 @@
             "+título PT"
           ],
           "preview_post": {
-            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Pipoca, com óleo de soja, sem sal (Cereais e derivados): cerca de 448 kcal/100g, 9.9g de proteína, 14.3g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
-            "titulo": "Pipoca, com óleo de soja, sem sal",
+            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Almeirão, refogado (Verduras, hortaliças e derivados): cerca de 65 kcal/100g, 1.7g de proteína, 3.4g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
+            "titulo": "Almeirão, refogado",
             "validacao": {
               "ok": true
             }
@@ -1039,9 +1017,9 @@
         {
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Laranja, pêra, suco",
-          "titulo": "Laranja, pêra, suco",
-          "resumo": "Laranja, pêra, suco (Frutas e derivados): cerca de 33 kcal/100g, 0.7g de proteína, 0.0g de fibra. Fonte: tabela TACO/UNICAMP.",
+          "titulo_original": "Chicória, crua",
+          "titulo": "Chicória, crua",
+          "resumo": "Chicória, crua (Verduras, hortaliças e derivados): cerca de 14 kcal/100g, 1.1g de proteína, 2.2g de fibra. Fonte: tabela TACO/UNICAMP.",
           "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
           "imagem": "",
           "pontuacao": 62,
@@ -1051,8 +1029,8 @@
             "+título PT"
           ],
           "preview_post": {
-            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Laranja, pêra, suco (Frutas e derivados): cerca de 33 kcal/100g, 0.7g de proteína, 0.0g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
-            "titulo": "Laranja, pêra, suco",
+            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Chicória, crua (Verduras, hortaliças e derivados): cerca de 14 kcal/100g, 1.1g de proteína, 2.2g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
+            "titulo": "Chicória, crua",
             "validacao": {
               "ok": true
             }
@@ -1061,9 +1039,9 @@
         {
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Pescada, filé, com farinha de trigo, frito",
-          "titulo": "Pescada, filé, com farinha de trigo, frito",
-          "resumo": "Pescada, filé, com farinha de trigo, frito (Pescados e frutos do mar): cerca de 283 kcal/100g, 21.4g de proteína, 0.0g de fibra. Fonte: tabela TACO/UNICAMP.",
+          "titulo_original": "Abóbora, moranga, refogada",
+          "titulo": "Abóbora, moranga, refogada",
+          "resumo": "Abóbora, moranga, refogada (Verduras, hortaliças e derivados): cerca de 29 kcal/100g, 0.4g de proteína, 1.5g de fibra. Fonte: tabela TACO/UNICAMP.",
           "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
           "imagem": "",
           "pontuacao": 62,
@@ -1073,30 +1051,8 @@
             "+título PT"
           ],
           "preview_post": {
-            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Pescada, filé, com farinha de trigo, frito (Pescados e frutos do mar): cerca de 283 kcal/100g, 21.4g de proteína, 0.0g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
-            "titulo": "Pescada, filé, com farinha de trigo, frito",
-            "validacao": {
-              "ok": true
-            }
-          }
-        },
-        {
-          "fonte": "TACO (alimentos BR)",
-          "fonte_id": "taco",
-          "titulo_original": "Carne, bovina, contra-filé, sem gordura, grelhado",
-          "titulo": "Carne, bovina, contra-filé, sem gordura, grelhado",
-          "resumo": "Carne, bovina, contra-filé, sem gordura, grelhado (Carnes e derivados): cerca de 194 kcal/100g, 35.9g de proteína. Fonte: tabela TACO/UNICAMP.",
-          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
-          "imagem": "",
-          "pontuacao": 62,
-          "status": "candidato_fraco",
-          "motivos": [
-            "+TACO em português",
-            "+título PT"
-          ],
-          "preview_post": {
-            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Carne, bovina, contra-filé, sem gordura, grelhado (Carnes e derivados): cerca de 194 kcal/100g, 35.9g de proteína. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
-            "titulo": "Carne, bovina, contra-filé, sem gordura, grelhado",
+            "texto": "🏠 DICA PARA CASA\n\nVocê sabia? Abóbora, moranga, refogada (Verduras, hortaliças e derivados): cerca de 29 kcal/100g, 0.4g de proteína, 1.5g de fibra. Fonte: tabela TACO/UNICAMP. Útil para quem quer escolher melhor os alimentos no dia a dia em casa.\n\n🔎 Saiba mais:\nhttps://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/\n\nFonte: TACO (alimentos BR)\nAtribuição: Dados TACO/NEPA-UNICAMP (API estática comunitária)",
+            "titulo": "Abóbora, moranga, refogada",
             "validacao": {
               "ok": true
             }
@@ -1146,9 +1102,9 @@
         {
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Banana, ouro, crua",
-          "titulo": "Banana, ouro, crua",
-          "resumo": "Banana, ouro, crua (Frutas e derivados): cerca de 112 kcal/100g, 1.5g de proteína, 2.0g de fibra. Fonte: tabela TACO/UNICAMP.",
+          "titulo_original": "Manga, Haden, crua",
+          "titulo": "Manga, Haden, crua",
+          "resumo": "Manga, Haden, crua (Frutas e derivados): cerca de 64 kcal/100g, 0.4g de proteína, 1.6g de fibra. Fonte: tabela TACO/UNICAMP.",
           "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
           "imagem": "",
           "pontuacao": 52,
@@ -1161,9 +1117,9 @@
         {
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Caldo de galinha, tablete",
-          "titulo": "Caldo de galinha, tablete",
-          "resumo": "Caldo de galinha, tablete (Carnes e derivados): cerca de 251 kcal/100g, 6.3g de proteína, 11.8g de fibra. Fonte: tabela TACO/UNICAMP.",
+          "titulo_original": "Queijo, petit suisse, morango",
+          "titulo": "Queijo, petit suisse, morango",
+          "resumo": "Queijo, petit suisse, morango (Leite e derivados): cerca de 121 kcal/100g, 5.8g de proteína. Fonte: tabela TACO/UNICAMP.",
           "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
           "imagem": "",
           "pontuacao": 52,
@@ -1176,9 +1132,24 @@
         {
           "fonte": "TACO (alimentos BR)",
           "fonte_id": "taco",
-          "titulo_original": "Pintado, grelhado",
-          "titulo": "Pintado, grelhado",
-          "resumo": "Pintado, grelhado (Pescados e frutos do mar): cerca de 152 kcal/100g, 30.8g de proteína. Fonte: tabela TACO/UNICAMP.",
+          "titulo_original": "Palmito, pupunha, em conserva",
+          "titulo": "Palmito, pupunha, em conserva",
+          "resumo": "Palmito, pupunha, em conserva (Verduras, hortaliças e derivados): cerca de 29 kcal/100g, 2.5g de proteína, 2.5g de fibra. Fonte: tabela TACO/UNICAMP.",
+          "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
+          "imagem": "",
+          "pontuacao": 52,
+          "status": "rejeitado",
+          "motivos": [
+            "+TACO em português"
+          ],
+          "preview_post": null
+        },
+        {
+          "fonte": "TACO (alimentos BR)",
+          "fonte_id": "taco",
+          "titulo_original": "Cereais, mistura para vitamina, trigo, cevada e aveia",
+          "titulo": "Cereais, mistura para vitamina, trigo, cevada e aveia",
+          "resumo": "Cereais, mistura para vitamina, trigo, cevada e aveia (Cereais e derivados): cerca de 381 kcal/100g, 8.9g de proteína, 5.0g de fibra. Fonte: tabela TACO/UNICAMP.",
           "url": "https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/",
           "imagem": "",
           "pontuacao": 52,
