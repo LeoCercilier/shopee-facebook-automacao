@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-23T17:37:21.798Z",
+  "atualizado_em": "2026-09-23T17:53:10.173Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -229,6 +229,30 @@
       "titulo": "Capacete: o detalhe que protege de verdade",
       "post_id": "1332730186586435_122099944605486415",
       "publicado_em": "2026-09-23T17:37:21.798Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/dj29/we-all-have-a-serious-work-ai-and-a-just-vibing-ai-when-did-that-happen-5fl2",
+      "chave": "https://dev.to/dj29/we-all-have-a-serious-work-ai-and-a-just-vibing-ai-when-did-that-happen-5fl2",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1484872366993236",
+      "publicado_em": "2026-09-23T17:53:01.096Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.cbsnews.com/sacramento/news/roseville-galleria-e-motorcycle-incident/",
+      "chave": "https://www.cbsnews.com/sacramento/news/roseville-galleria-e-motorcycle-incident",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122099955561486415",
+      "publicado_em": "2026-09-23T17:53:10.173Z"
     }
   ]
 }
