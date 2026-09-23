@@ -35,6 +35,20 @@ function decodeXmlEntities(s) {
     .trim();
 }
 
+function limparUrl(url) {
+  let u = String(url || '').trim();
+  // Folha: https://redir.folha.../*https://www1.folha...
+  const star = u.indexOf('*http');
+  if (star !== -1) {
+    u = u.slice(star + 1);
+  }
+  return u;
+}
+
+function textoPareceQuebrado(s) {
+  return /\uFFFD|��/.test(String(s || ''));
+}
+
 function extrairCampo(bloco, tag) {
   const re = new RegExp(
     `<${tag}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${tag}>`,
@@ -46,19 +60,16 @@ function extrairCampo(bloco, tag) {
 }
 
 function extrairLink(bloco) {
-  // <link>url</link>
   const simple = extrairCampo(bloco, 'link');
-  if (simple && /^https?:\/\//i.test(simple)) return simple.trim();
+  if (simple && /^https?:\/\//i.test(simple)) return limparUrl(simple);
 
-  // <link href="..." />
   const href = bloco.match(/<link[^>]+href=["']([^"']+)["'][^>]*>/i);
-  if (href && href[1]) return href[1].trim();
+  if (href && href[1]) return limparUrl(href[1]);
 
-  // guid isPermalink
   const guid = extrairCampo(bloco, 'guid');
-  if (guid && /^https?:\/\//i.test(guid)) return guid.trim();
+  if (guid && /^https?:\/\//i.test(guid)) return limparUrl(guid);
 
-  return simple || guid || '';
+  return limparUrl(simple || guid || '');
 }
 
 function extrairImagem(bloco) {
@@ -68,9 +79,7 @@ function extrairImagem(bloco) {
   if (enc && enc[1] && /\.(jpe?g|png|webp|gif)(\?|$)/i.test(enc[1])) {
     return enc[1];
   }
-  const media = bloco.match(
-    /<media:content[^>]+url=["']([^"']+)["']/i
-  );
+  const media = bloco.match(/<media:content[^>]+url=["']([^"']+)["']/i);
   if (media && media[1]) return media[1];
   const img = bloco.match(/<img[^>]+src=["']([^"']+)["']/i);
   if (img && img[1] && /^https?:\/\//i.test(img[1])) return img[1];
@@ -98,18 +107,16 @@ function parseItens(xml) {
   while ((m = itemRe.exec(xml))) chunks.push(m[0]);
   while ((m = entryRe.exec(xml))) chunks.push(m[0]);
 
-  // RSS 0.91 Folha: às vezes estrutura diferente — fallback por <title> em canal
   if (chunks.length === 0 && /rss version="0\.91"/i.test(xml)) {
-    // Folha lista itens como sequências title/link/description sem <item> em alguns exports;
-    // tentar pares link+title no channel
-    const parts = xml.split(/<title>/i).slice(2); // skip channel titles
+    const parts = xml.split(/<title>/i).slice(2);
     for (const part of parts) {
       const titleMatch = part.match(/^([\s\S]*?)<\/title>/i);
       if (!titleMatch) continue;
-      const titulo = decodeXmlEntities(titleMatch[1]);
+      const titulo = stripTags(decodeXmlEntities(titleMatch[1]));
       const linkMatch = part.match(/<link>([\s\S]*?)<\/link>/i);
-      const link = linkMatch ? decodeXmlEntities(linkMatch[1]) : '';
+      const link = linkMatch ? limparUrl(decodeXmlEntities(linkMatch[1])) : '';
       if (!link || !titulo) continue;
+      if (/folha de s\.?paulo/i.test(titulo)) continue;
       const descMatch = part.match(/<description>([\s\S]*?)<\/description>/i);
       const desc = descMatch ? stripTags(descMatch[1]) : '';
       const dateMatch = part.match(
@@ -121,8 +128,8 @@ function parseItens(xml) {
         data = Number.isFinite(t) ? new Date(t).toISOString() : dateMatch[1];
       }
       itens.push({
-        titulo: stripTags(titulo),
-        url: link.trim(),
+        titulo,
+        url: link,
         data,
         descricao: desc.slice(0, 400),
         imagem: '',
@@ -141,13 +148,12 @@ function parseItens(xml) {
         extrairCampo(bloco, 'summary') ||
         ''
     ).slice(0, 400);
-    // NÃO usar content:encoded no post — só contexto interno curto se description vazia
     const autor = stripTags(
       extrairCampo(bloco, 'dc:creator') || extrairCampo(bloco, 'author') || ''
     );
     itens.push({
       titulo,
-      url: url.trim(),
+      url,
       data: extrairData(bloco),
       descricao,
       imagem: extrairImagem(bloco),
@@ -157,21 +163,43 @@ function parseItens(xml) {
   return itens;
 }
 
+function decodificarCorpo(buffer, contentType, xmlHint) {
+  const ct = String(contentType || '').toLowerCase();
+  const head = buffer.slice(0, 400).toString('latin1');
+  const decl = (xmlHint || head).toLowerCase();
+  const latin =
+    /charset\s*=\s*["']?(iso-8859-1|latin-?1|windows-1252)/i.test(ct) ||
+    /encoding\s*=\s*["']?(iso-8859-1|latin-?1|windows-1252)/i.test(decl);
+
+  if (latin) {
+    return buffer.toString('latin1');
+  }
+  // tenta UTF-8; se houver muitos �, refaz em latin1
+  const asUtf8 = buffer.toString('utf8');
+  if ((asUtf8.match(/\uFFFD/g) || []).length >= 2) {
+    return buffer.toString('latin1');
+  }
+  return asUtf8;
+}
+
 async function buscarFeed(rssUrl) {
   const res = await fetch(rssUrl, {
     method: 'GET',
-    headers: { 'User-Agent': UA, Accept: 'application/rss+xml, application/xml, text/xml, */*' },
+    headers: {
+      'User-Agent': UA,
+      Accept: 'application/rss+xml, application/xml, text/xml, */*',
+    },
     redirect: 'follow',
   });
   if (!res.ok) {
     throw new Error(`HTTP ${res.status} ao buscar ${rssUrl}`);
   }
-  const xml = await res.text();
+  const buf = Buffer.from(await res.arrayBuffer());
+  const xml = decodificarCorpo(buf, res.headers.get('content-type'), '');
   if (!xml || xml.length < 50) {
     throw new Error(`Feed vazio ou inválido: ${rssUrl}`);
   }
-  const itens = parseItens(xml);
-  return itens;
+  return parseItens(xml);
 }
 
 async function coletarFontes(fontes) {
@@ -179,16 +207,21 @@ async function coletarFontes(fontes) {
   for (const fonte of fontes || []) {
     try {
       const itens = await buscarFeed(fonte.rss);
-      console.log(
-        `  RSS ${fonte.nome}: ${itens.length} itens (${fonte.rss})`
-      );
+      console.log(`  RSS ${fonte.nome}: ${itens.length} itens (${fonte.rss})`);
       for (const item of itens) {
+        if (textoPareceQuebrado(item.titulo)) {
+          console.log(
+            `    ✗ encoding inválido no título — ${(item.titulo || '').slice(0, 40)}`
+          );
+          continue;
+        }
         resultados.push({
           ...item,
           fonte_id: fonte.id,
           fonte_nome: fonte.nome,
           fonte_prioridade: fonte.prioridade || 99,
           sempre_relevante: Boolean(fonte.sempre_relevante),
+          exigir_keyword_no_titulo: Boolean(fonte.exigir_keyword_no_titulo),
         });
       }
     } catch (err) {
@@ -204,4 +237,10 @@ async function coletarFontes(fontes) {
   return resultados;
 }
 
-module.exports = { buscarFeed, coletarFontes, parseItens, stripTags };
+module.exports = {
+  buscarFeed,
+  coletarFontes,
+  parseItens,
+  stripTags,
+  limparUrl,
+};
