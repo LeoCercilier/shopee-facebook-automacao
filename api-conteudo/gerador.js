@@ -23,7 +23,6 @@ function primeiraFraseUtil(texto, max = 220) {
   return encurtar(out || t, max);
 }
 
-/** Simplifica título EN em gancho PT (sem tradução literal). */
 function tituloAdaptado(item, nicho) {
   const orig = String(item.titulo_pt || item.titulo || '').trim();
   if (!orig) return '';
@@ -78,8 +77,7 @@ function gerarPost({ item, paginaCfg }) {
 
   if (paginaCfg.nicho === 'beleza') {
     if (item.fonte_id === 'open-beauty') {
-      // educativo, sem propaganda e sem link de produto
-      const ref = String(item.titulo || '').slice(0, 60);
+      const ref = String(item.titulo || '');
       if (/solar|sunscreen|fps|protetor/i.test(ref)) {
         corpo =
           'O protetor solar é um dos passos mais importantes da rotina de pele. ' +
@@ -119,8 +117,8 @@ function gerarPost({ item, paginaCfg }) {
         'Ajuste, certificação e conservação fazem diferença em cada trajeto.';
     } else {
       corpo =
-        `${tituloExibicao}. Para quem anda de moto, equipamento e atenção no trânsito ' +
-        'continuam sendo a base da segurança.`;
+        `${tituloExibicao}. Para quem anda de moto, equipamento e atenção no trânsito ` +
+        'continuam sendo a base da segurança.';
     }
   } else if (paginaCfg.nicho === 'casa') {
     if (item.fonte_id === 'taco') {
@@ -137,7 +135,6 @@ function gerarPost({ item, paginaCfg }) {
           : `${tituloExibicao}: ideia prática para organização, limpeza ou rotina em casa.`;
     }
   } else {
-    // marketing — explicar de forma simples, sem jargão
     const t = `${item.titulo || ''} ${item.descricao || ''}`;
     if (/\b(ai|artificial intelligence|llm|gpt)\b/i.test(t)) {
       corpo =
@@ -165,7 +162,7 @@ function gerarPost({ item, paginaCfg }) {
 
   corpo = encurtar(corpo.replace(/\s+/g, ' ').trim(), 420);
 
-  // SEM link externo — apenas Shopee pode publicar com link de produto
+  // SEM link externo — apenas a automação Shopee pode publicar com link de produto
   const linhas = [
     `${emoji} ${rotulo}`,
     '',
@@ -182,10 +179,9 @@ function gerarPost({ item, paginaCfg }) {
     titulo: tituloExibicao,
     titulo_original: item.titulo,
     titulo_adaptado: tituloExibicao,
-    // url da fonte fica só para histórico interno — NÃO vai no post
     url_fonte_interna: item.url || '',
-    url: '', // não publicar link
-    imagem: '', // evita anexar imagem de terceiros sem necessidade
+    url: '',
+    imagem: '',
     fonte_id: item.fonte_id,
     fonte_nome: fonte,
     id_unico: item.id_unico,
@@ -197,15 +193,12 @@ function validarPost(post) {
   if (!post || !post.texto) return { ok: false, motivo: 'sem_texto' };
   if (post.texto.length < 50) return { ok: false, motivo: 'muito_curto' };
   if (!/fonte/i.test(post.texto)) return { ok: false, motivo: 'sem_fonte' };
-
-  // Proibir qualquer URL no texto final
   if (/https?:\/\//i.test(post.texto)) {
     return { ok: false, motivo: 'contem_link_externo' };
   }
   if (/saiba mais/i.test(post.texto)) {
     return { ok: false, motivo: 'bloco_saiba_mais_proibido' };
   }
-
   return { ok: true };
 }
 
