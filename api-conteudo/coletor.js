@@ -19,6 +19,34 @@ function normalizar(s) {
     .replace(/[\u0300-\u036f]/g, '');
 }
 
+/** Remove CDATA, tags HTML e entidades que vazam no texto do post. */
+function sanitizarTexto(s) {
+  let t = String(s || '');
+  if (!t) return '';
+  t = t
+    .replace(/</gi, '<')
+    .replace(/>/gi, '>')
+    .replace(/&/gi, '&')
+    .replace(/"/gi, '"')
+    .replace(/&#0*39;/g, "'")
+    .replace(/&#x27;/gi, "'")
+    .replace(/&nbsp;/gi, ' ');
+  t = t.replace(/<!\[CDATA\[/gi, '').replace(/\]\]>/g, '');
+  t = t.replace(/<[^>]+>/g, ' ');
+  t = t.replace(/&[a-zA-Z]+;/g, ' ');
+  t = t.replace(/&#\d+;/g, ' ');
+  t = t.replace(/\s+/g, ' ').trim();
+  return t;
+}
+
+function itemLimpo(base) {
+  return {
+    ...base,
+    titulo: sanitizarTexto(base.titulo),
+    descricao: sanitizarTexto(base.descricao),
+  };
+}
+
 async function coletarHackerNews(fonte) {
   const base = fonte.url.replace(/\/$/, '');
   const ids = await getJson(`${base}/topstories.json`);
@@ -30,37 +58,41 @@ async function coletarHackerNews(fonte) {
       if (!item || item.type !== 'story' || !item.title) continue;
       if (item.dead || item.deleted) continue;
       const url = item.url || `https://news.ycombinator.com/item?id=${item.id}`;
-      itens.push({
-        id_unico: `hn-${item.id}`,
-        titulo: item.title,
-        descricao: '',
-        url,
-        imagem: '',
-        data: item.time ? new Date(item.time * 1000).toISOString() : null,
-        fonte_id: fonte.id,
-        fonte_nome: fonte.nome,
-        fonte_prioridade: fonte.prioridade || 99,
-      });
+      itens.push(
+        itemLimpo({
+          id_unico: `hn-${item.id}`,
+          titulo: item.title,
+          descricao: '',
+          url,
+          imagem: '',
+          data: item.time ? new Date(item.time * 1000).toISOString() : null,
+          fonte_id: fonte.id,
+          fonte_nome: fonte.nome,
+          fonte_prioridade: fonte.prioridade || 99,
+        })
+      );
     } catch (_) {}
   }
-  return itens;
+  return itens.filter((i) => i.titulo);
 }
 
 async function coletarSpaceflight(fonte) {
   const data = await getJson(fonte.url);
   const results = data.results || data || [];
   return results
-    .map((a) => ({
-      id_unico: `sfn-${a.id}`,
-      titulo: a.title || '',
-      descricao: (a.summary || '').slice(0, 280),
-      url: a.url || '',
-      imagem: a.image_url || '',
-      data: a.published_at || null,
-      fonte_id: fonte.id,
-      fonte_nome: fonte.nome,
-      fonte_prioridade: fonte.prioridade || 99,
-    }))
+    .map((a) =>
+      itemLimpo({
+        id_unico: `sfn-${a.id}`,
+        titulo: a.title || '',
+        descricao: (a.summary || '').slice(0, 280),
+        url: a.url || '',
+        imagem: a.image_url || '',
+        data: a.published_at || null,
+        fonte_id: fonte.id,
+        fonte_nome: fonte.nome,
+        fonte_prioridade: fonte.prioridade || 99,
+      })
+    )
     .filter((i) => i.titulo && i.url);
 }
 
@@ -75,23 +107,25 @@ async function coletarDevto(fonte) {
       );
       for (const a of data || []) {
         if (!a.title || !a.url) continue;
-        itens.push({
-          id_unico: `devto-${a.id}`,
-          titulo: a.title,
-          descricao: (a.description || '').slice(0, 280),
-          url: a.url,
-          imagem: a.cover_image || a.social_image || '',
-          data: a.published_at || a.created_at || null,
-          fonte_id: fonte.id,
-          fonte_nome: fonte.nome,
-          fonte_prioridade: fonte.prioridade || 99,
-        });
+        itens.push(
+          itemLimpo({
+            id_unico: `devto-${a.id}`,
+            titulo: a.title,
+            descricao: (a.description || '').slice(0, 280),
+            url: a.url,
+            imagem: a.cover_image || a.social_image || '',
+            data: a.published_at || a.created_at || null,
+            fonte_id: fonte.id,
+            fonte_nome: fonte.nome,
+            fonte_prioridade: fonte.prioridade || 99,
+          })
+        );
       }
     } catch (err) {
       console.warn(`    devto tag ${tag}: ${err.message}`);
     }
   }
-  return itens;
+  return itens.filter((i) => i.titulo);
 }
 
 async function coletarFreenews(fonte) {
@@ -104,7 +138,7 @@ async function coletarFreenews(fonte) {
       const data = await getJson(url);
       for (const r of data.results || []) {
         if (!r.title || !r.url) continue;
-        itens.push({
+        const limpo = itemLimpo({
           id_unico: `fn-${r.id || r.url}`,
           titulo: r.title,
           descricao: (r.description || '').slice(0, 280),
@@ -116,6 +150,9 @@ async function coletarFreenews(fonte) {
           fonte_prioridade: fonte.prioridade || 99,
           idioma: r.lang || '',
         });
+        // descarta lixo residual de feed malformado
+        if (!limpo.titulo || /CDATA|<!\[|\]\]>/i.test(limpo.titulo)) continue;
+        itens.push(limpo);
       }
     } catch (err) {
       console.warn(`    freenews "${q}": ${err.message}`);
@@ -149,33 +186,34 @@ async function coletarOpenBeauty(fonte) {
             '') ||
           '';
         const code = p.code || p._id || nome;
-        itens.push({
-          id_unico: `obf-${code}`,
-          titulo: nome.slice(0, 120),
-          descricao: `Categoria: ${cats}. Dados Open Beauty Facts (base aberta de cosméticos).`.slice(
-            0,
-            280
-          ),
-          url: p.url || `https://world.openbeautyfacts.org/product/${code}`,
-          imagem: img,
-          data: null,
-          fonte_id: fonte.id,
-          fonte_nome: fonte.nome,
-          fonte_prioridade: fonte.prioridade || 99,
-        });
+        itens.push(
+          itemLimpo({
+            id_unico: `obf-${code}`,
+            titulo: nome.slice(0, 120),
+            descricao: `Categoria: ${cats}. Dados Open Beauty Facts (base aberta de cosméticos).`.slice(
+              0,
+              280
+            ),
+            url: p.url || `https://world.openbeautyfacts.org/product/${code}`,
+            imagem: img,
+            data: null,
+            fonte_id: fonte.id,
+            fonte_nome: fonte.nome,
+            fonte_prioridade: fonte.prioridade || 99,
+          })
+        );
       }
     } catch (err) {
       console.warn(`    open beauty "${termo}": ${err.message}`);
     }
   }
-  return itens;
+  return itens.filter((i) => i.titulo);
 }
 
 async function coletarTaco(fonte) {
   const data = await getJson(fonte.url);
   const foods = data.foods || [];
   if (!foods.length) return [];
-  // amostra aleatória de alimentos com nomes interessantes (não "cru" genérico)
   const candidatos = foods.filter((f) => {
     const d = String(f.description || '');
     if (d.length < 8) return false;
@@ -203,23 +241,25 @@ async function coletarTaco(fonte) {
         partes.length > 0
           ? `${f.description} (${f.category}): ${partes.join(', ')}. Fonte: tabela TACO/UNICAMP.`
           : `${f.description} — alimento da tabela TACO (composição brasileira).`;
-      itens.push({
-        id_unico: `taco-${f.id}`,
-        titulo: f.description,
-        descricao: desc.slice(0, 320),
-        url: 'https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/',
-        imagem: '',
-        data: null,
-        fonte_id: fonte.id,
-        fonte_nome: fonte.nome,
-        fonte_prioridade: fonte.prioridade || 99,
-        licenca: 'Dados TACO/NEPA-UNICAMP (API estática comunitária)',
-      });
+      itens.push(
+        itemLimpo({
+          id_unico: `taco-${f.id}`,
+          titulo: f.description,
+          descricao: desc.slice(0, 320),
+          url: 'https://www.nepa.unicamp.br/taco-tabela-brasileira-de-composicao-de-alimentos/',
+          imagem: '',
+          data: null,
+          fonte_id: fonte.id,
+          fonte_nome: fonte.nome,
+          fonte_prioridade: fonte.prioridade || 99,
+          licenca: 'Dados TACO/NEPA-UNICAMP (API estática comunitária)',
+        })
+      );
     } catch (err) {
       console.warn(`    taco ${f.id}: ${err.message}`);
     }
   }
-  return itens;
+  return itens.filter((i) => i.titulo);
 }
 
 async function coletarWikipediaTopics(fonte) {
@@ -245,23 +285,25 @@ async function coletarWikipediaTopics(fonte) {
         (data.thumbnail && data.thumbnail.source) ||
         (data.originalimage && data.originalimage.source) ||
         '';
-      itens.push({
-        id_unico: `wiki-${topic}`,
-        titulo,
-        descricao: extract,
-        url,
-        imagem,
-        data: null,
-        fonte_id: fonte.id,
-        fonte_nome: fonte.nome,
-        fonte_prioridade: fonte.prioridade || 99,
-        licenca: 'CC BY-SA (Wikipedia)',
-      });
+      itens.push(
+        itemLimpo({
+          id_unico: `wiki-${topic}`,
+          titulo,
+          descricao: extract,
+          url,
+          imagem,
+          data: null,
+          fonte_id: fonte.id,
+          fonte_nome: fonte.nome,
+          fonte_prioridade: fonte.prioridade || 99,
+          licenca: 'CC BY-SA (Wikipedia)',
+        })
+      );
     } catch (err) {
       console.warn(`    wiki ${topic}: ${err.message}`);
     }
   }
-  return itens;
+  return itens.filter((i) => i.titulo);
 }
 
 const WMO = {
@@ -304,7 +346,7 @@ async function coletarOpenMeteo(fonte) {
   const cond = WMO[code] || `código ${code}`;
   const dica = montarDicaClima(temp, hum, code);
   return [
-    {
+    itemLimpo({
       id_unico: `meteo-sp-${cur.time || Date.now()}`,
       titulo: `Clima em São Paulo: ${temp}°C, ${cond}`,
       descricao: `Umidade: ${hum}%. ${dica || 'Sem dica doméstica específica.'}`,
@@ -315,7 +357,7 @@ async function coletarOpenMeteo(fonte) {
       fonte_nome: fonte.nome,
       fonte_prioridade: fonte.prioridade || 99,
       dica_casa: dica,
-    },
+    }),
   ];
 }
 
@@ -339,7 +381,7 @@ async function coletarFonte(fonte) {
       return coletarOpenMeteo(fonte);
     case 'themealdb':
     case 'dog_ceo':
-      return []; // desativados via config
+      return [];
     default:
       throw new Error(`Tipo de fonte desconhecido: ${fonte.tipo}`);
   }
@@ -369,4 +411,10 @@ async function coletarFontes(fontes) {
   return out;
 }
 
-module.exports = { coletarFontes, coletarFonte, normalizar, montarDicaClima };
+module.exports = {
+  coletarFontes,
+  coletarFonte,
+  normalizar,
+  montarDicaClima,
+  sanitizarTexto,
+};
