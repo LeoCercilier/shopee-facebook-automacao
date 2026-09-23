@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-23T02:23:41.817Z",
+  "atualizado_em": "2026-09-23T02:59:54.228Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -45,6 +45,50 @@
       "titulo": "Varal para apartamento: escolha o modelo ideal para seu lar",
       "post_id": "1402223216297975_122109171159476480",
       "publicado_em": "2026-09-23T02:23:41.817Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/como-a-ia-pode-ajudar-o-lojista-a-vender-mais/",
+      "titulo": "Como a IA pode ajudar o lojista a vender mais?",
+      "post_id": "369805844018354_1484288780384928",
+      "publicado_em": "2026-09-23T02:59:24.020Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "sbd",
+      "fonte_nome": "Sociedade Brasileira de Dermatologia",
+      "url": "https://www.sbd.org.br/dia-da-dermatite-atopica-doenca-inflamatoria-cronica-da-pele-impacta-na-qualidade-de-vida-dos-pacientes-e-convivio-social/",
+      "titulo": "Dia da Dermatite Atópica: Doença inflamatória crônica da pele impacta na qualidade de vida dos pacientes e convívio social",
+      "post_id": "1247772158429331_122100292107485849",
+      "publicado_em": "2026-09-23T02:59:34.598Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/competicoes/honda-racing-sexta-etapa-moto1000gp-rs/",
+      "titulo": "Honda Racing chega ao RS para sexta etapa do MOTO1000GP",
+      "post_id": "1332730186586435_122099446833486415",
+      "publicado_em": "2026-09-23T02:59:44.298Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/casas-apartamentos/cobertura-linear-mistura-minimalismo-e-biofilia-para-criar-refugio-urbano/",
+      "titulo": "Cobertura linear mistura minimalismo e biofilia para criar refúgio urbano",
+      "post_id": "1402223216297975_122109194061476480",
+      "publicado_em": "2026-09-23T02:59:54.228Z"
     }
   ]
 }
