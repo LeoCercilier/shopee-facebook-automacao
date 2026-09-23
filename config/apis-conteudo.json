@@ -1,10 +1,12 @@
 {
-  "versao": 3,
+  "versao": 4,
   "graph_version": "v21.0",
   "max_posts_por_pagina": 1,
   "pontuacao_minima_publicacao": 75,
-  "modo_validacao": false,
-  "publicar": true,
+  "pontuacao_minima_texto": 80,
+  "modo_validacao": true,
+  "publicar": false,
+  "politica_links": "somente_shopee_pode_ter_link",
   "paginas": [
     {
       "id": "marketing-tips",
@@ -25,7 +27,7 @@
           "idioma": "en",
           "prioridade": 1,
           "ativo": true,
-          "observacoes": "Artigos práticos de tech/produtividade"
+          "observacoes": "Artigos práticos; texto final deve ser simples"
         },
         {
           "id": "freenews-biz",
@@ -58,7 +60,7 @@
           "exige_key": false,
           "prioridade": 9,
           "ativo": false,
-          "observacoes": "Desativada: baixa utilidade editorial"
+          "observacoes": "Desativada"
         }
       ],
       "keywords_positivas": [
@@ -74,7 +76,8 @@
       "keywords_negativas": [
         "war", "missile", "military", "pentagon", "iran", "israel",
         "killed", "murder", "crime", "burglar", "election", "trump",
-        "biden", "politics", "attack", "nfl", "nba"
+        "biden", "politics", "attack", "nfl", "nba", "devsecops",
+        "kubernetes", "spacecraft", "asteroid"
       ]
     },
     {
@@ -96,7 +99,7 @@
           "idioma": "multi",
           "prioridade": 1,
           "ativo": true,
-          "observacoes": "Cosméticos open data; curiosidades sobre FPS"
+          "observacoes": "Inspiração educativa; NÃO propaganda; SEM link de produto"
         },
         {
           "id": "wiki-pele",
@@ -125,7 +128,7 @@
       ],
       "keywords_negativas": [
         "câncer de mama", "covid", "vacina", "hospital", "cirurgia",
-        "infarto", "metástase", "eutanásia"
+        "infarto", "metástase", "eutanásia", "compre agora", "oferta"
       ],
       "topicos_evitar": ["Psoríase", "Dermatite", "Seborreia"]
     },
@@ -153,7 +156,7 @@
           "idioma": "en",
           "prioridade": 1,
           "ativo": true,
-          "observacoes": "Notícias de moto; rejeitar crime/acidente"
+          "observacoes": "Notícias de moto; texto final em PT-BR sem link"
         },
         {
           "id": "wiki-moto",
@@ -182,7 +185,7 @@
       ],
       "keywords_negativas": [
         "killed", "fatal", "crash victim", "homicídio", "assalto",
-        "burglar", "crime", "war"
+        "burglar", "crime", "war", "fundraiser", "silent cry"
       ],
       "topicos_evitar": ["Motor_de_combustão_interna", "Trânsito", "Pneu"]
     },
@@ -205,7 +208,7 @@
           "idioma": "pt",
           "prioridade": 1,
           "ativo": true,
-          "observacoes": "Composição de alimentos em português"
+          "observacoes": "Curiosidades alimentares em PT; sem link"
         },
         {
           "id": "wiki-casa",
@@ -220,7 +223,7 @@
             "Limpeza", "Decoração", "Jardinagem",
             "Organização", "Culinária"
           ],
-          "observacoes": "Conceitos úteis em português"
+          "observacoes": "Só se o texto final for realmente útil"
         },
         {
           "id": "open-meteo",
@@ -241,7 +244,7 @@
           "exige_key": false,
           "prioridade": 9,
           "ativo": false,
-          "observacoes": "Desativada: títulos em inglês"
+          "observacoes": "Desativada"
         },
         {
           "id": "dog-ceo",
