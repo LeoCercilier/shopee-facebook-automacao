@@ -10,6 +10,21 @@ function exigirToken() {
   return String(v).trim();
 }
 
+/** Aceita apenas URL http(s) utilizável para /photos. */
+function urlImagemValida(url) {
+  const u = String(url || '').trim();
+  if (!u || u === 'null' || u === 'undefined') return '';
+  if (!/^https?:\/\//i.test(u)) return '';
+  try {
+    const parsed = new URL(u);
+    if (!parsed.hostname || parsed.hostname.length < 3) return '';
+    // evita data: ou esquemas estranhos já filtrados pelo regex
+    return u;
+  } catch (_) {
+    return '';
+  }
+}
+
 async function obterTokenDaPagina(pageId, tokenSecret) {
   try {
     const url = new URL(
@@ -34,14 +49,6 @@ async function obterTokenDaPagina(pageId, tokenSecret) {
   return tokenSecret;
 }
 
-/**
- * Publica no feed da Página.
- * Extras oficiais da Graph API (quando fornecidos):
- * - place: ID de um Place/Page de localização real (não inventar)
- * - feeling: { og_action_type_id, og_object_id, og_icon_id? }
- * - text_format_preset_id: só faz sentido com texto curto (~130 chars); posts longos ignoram
- * Stories NÃO são publicados aqui (exigem mídia e endpoints photo_stories/video_stories).
- */
 async function postarFeed({ pageId, accessToken, message, link, extras = {} }) {
   const url = `https://graph.facebook.com/${GRAPH_VERSION}/${pageId}/feed`;
   const params = { message, published: 'true' };
@@ -57,7 +64,6 @@ async function postarFeed({ pageId, accessToken, message, link, extras = {} }) {
       params.og_icon_id = String(extras.feeling.og_icon_id);
     }
   }
-  // Plano de fundo: só com texto curto; caso contrário a API pode rejeitar
   if (
     extras.text_format_preset_id &&
     String(message || '').length <= 130
@@ -90,7 +96,7 @@ async function postarFoto({ pageId, accessToken, imageUrl, caption }) {
     },
     body: new URLSearchParams({
       url: imageUrl,
-      caption,
+      caption: caption || '',
       published: 'true',
     }),
   });
@@ -101,25 +107,33 @@ async function postarFoto({ pageId, accessToken, imageUrl, caption }) {
   return { tipo: 'photo', post_id: data.post_id || data.id || null };
 }
 
+/**
+ * Publica na Página.
+ * - Com imagem http(s) válida → tenta /photos (caption = texto), SEM exigir link.
+ * - Sem imagem ou se /photos falhar → /feed só com texto (link só se passado explicitamente).
+ * Posts de API devem chamar com link: null.
+ */
 async function publicarNaPagina({ pageId, texto, link, imagem, graphExtras }) {
   const secret = exigirToken();
   const accessToken = await obterTokenDaPagina(pageId, secret);
   const extras = graphExtras || {};
+  const img = urlImagemValida(imagem);
 
-  // API de conteúdo: sem imagem de terceiros e sem link externo
-  if (imagem && /^https?:\/\//i.test(imagem) && link) {
+  if (img) {
     try {
-      console.log('  Tentando /photos...');
+      console.log('  Tentando /photos (imagem + legenda)...');
       return await postarFoto({
         pageId,
         accessToken,
-        imageUrl: imagem,
+        imageUrl: img,
         caption: texto,
       });
     } catch (err) {
       console.log('  /photos falhou:', err.message);
-      console.log('  Fallback /feed...');
+      console.log('  Fallback /feed (somente texto)...');
     }
+  } else {
+    console.log('  Sem imagem válida — publicando /feed (texto).');
   }
 
   try {
@@ -131,7 +145,6 @@ async function publicarNaPagina({ pageId, texto, link, imagem, graphExtras }) {
       extras,
     });
   } catch (err) {
-    // Se feeling/place/preset falhar, tenta post limpo (só mensagem)
     if (extras.place || extras.feeling || extras.text_format_preset_id) {
       console.log('  Aviso extras Graph API:', err.message);
       console.log('  Publicando só com mensagem...');
@@ -147,4 +160,4 @@ async function publicarNaPagina({ pageId, texto, link, imagem, graphExtras }) {
   }
 }
 
-module.exports = { publicarNaPagina };
+module.exports = { publicarNaPagina, urlImagemValida };
