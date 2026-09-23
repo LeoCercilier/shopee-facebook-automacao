@@ -1,7 +1,10 @@
 {
-  "versao": 1,
+  "versao": 2,
   "graph_version": "v21.0",
   "max_posts_por_pagina": 1,
+  "pontuacao_minima_publicacao": 75,
+  "modo_validacao": true,
+  "publicar": false,
   "paginas": [
     {
       "id": "marketing-tips",
@@ -10,7 +13,7 @@
       "nicho": "marketing",
       "ativo": true,
       "emoji": "💡",
-      "rotulo": "CURIOSIDADE DO DIA",
+      "rotulo": "INSIGHT DE TECNOLOGIA",
       "fontes": [
         {
           "id": "hacker-news",
@@ -18,24 +21,37 @@
           "tipo": "hacker_news",
           "url": "https://hacker-news.firebaseio.com/v0",
           "exige_key": false,
-          "prioridade": 1
+          "prioridade": 1,
+          "ativo": true
         },
         {
           "id": "spaceflight-news",
           "nome": "Spaceflight News",
           "tipo": "spaceflight_news",
-          "url": "https://api.spaceflightnewsapi.net/v4/articles/?limit=15",
+          "url": "https://api.spaceflightnewsapi.net/v4/articles/?limit=20",
           "exige_key": false,
-          "prioridade": 2
+          "prioridade": 2,
+          "ativo": true
         }
       ],
       "keywords_positivas": [
-        "ai", "artificial intelligence", "startup", "saas", "ecommerce",
-        "e-commerce", "marketing", "business", "finance", "funding",
-        "openai", "llm", "software", "tech", "technology", "product",
-        "launch", "space", "nasa", "satellite", "rocket"
+        "ai", "artificial intelligence", "machine learning", "llm", "gpt",
+        "openai", "claude", "startup", "saas", "ecommerce", "e-commerce",
+        "marketing", "productivity", "empreendedor", "business model",
+        "funding", "venture", "produto digital", "ferramenta",
+        "automação", "automation", "no-code", "low-code",
+        "growth", "crm", "analytics", "software as a service"
       ],
-      "keywords_negativas": ["nsfw", "porn", "hacked password"]
+      "keywords_fortes": [
+        "ai", "artificial intelligence", "llm", "gpt", "openai",
+        "startup", "saas", "ecommerce", "marketing", "productivity"
+      ],
+      "keywords_negativas": [
+        "war", "missile", "military", "pentagon", "iran", "israel",
+        "ukraine", "russia", "killed", "murder", "crime", "hacked the fbi",
+        "nsfw", "porn", "election", "trump", "biden", "politics",
+        "school attack", "strike on", "bomb", "weapon"
+      ]
     },
     {
       "id": "studio-marine",
@@ -44,7 +60,7 @@
       "nicho": "beleza",
       "ativo": true,
       "emoji": "✨",
-      "rotulo": "CUIDADOS COM A PELE",
+      "rotulo": "CUIDADO COM A PELE",
       "fontes": [
         {
           "id": "wiki-pele",
@@ -53,34 +69,43 @@
           "url": "https://pt.wikipedia.org/api/rest_v1/page/summary/",
           "exige_key": false,
           "prioridade": 1,
+          "ativo": true,
           "topics": [
             "Filtro_solar",
-            "Dermatite",
             "Acne",
             "Melasma",
-            "Pele",
             "Hidratação",
             "Vitamina_C",
             "Ácido_hialurônico",
             "Retinol",
             "Colágeno",
-            "Psoríase",
             "Rosácea",
-            "Seborreia",
             "Cosmético",
-            "Cuidado_pessoal"
+            "Cuidado_pessoal",
+            "Protetor_solar",
+            "Ácido_salicílico",
+            "Niacinamida",
+            "Barreira_cutânea"
           ]
         }
       ],
       "keywords_positivas": [
-        "pele", "solar", "dermat", "acne", "melasma", "hidrat",
-        "vitamina", "colágeno", "colageno", "retinol", "cosmético",
-        "cosmetico", "psoríase", "psoriase", "rosácea", "rosacea",
-        "cuidado", "hialurônico", "hialuronico"
+        "pele", "solar", "filtro", "protetor", "acne", "melasma",
+        "hidrat", "vitamina c", "colágeno", "colageno", "retinol",
+        "cosmético", "cosmetico", "rosácea", "rosacea", "hialurônico",
+        "hialuronico", "niacinamida", "skincare", "autocuidado",
+        "barreira cutânea", "sérum", "serum", "beleza"
+      ],
+      "keywords_fortes": [
+        "filtro solar", "protetor solar", "acne", "melasma", "retinol",
+        "ácido hialurônico", "skincare", "hidratação", "niacinamida"
       ],
       "keywords_negativas": [
-        "diagnóstico", "receita médica", "cura garantida"
-      ]
+        "câncer de mama", "covid", "vacina", "hospital", "cirurgia",
+        "infarto", "eutanásia", "diagnóstico grave", "metástase",
+        "psoríase", "psoriase"
+      ],
+      "topicos_evitar": ["Psoríase", "Dermatite", "Seborreia"]
     },
     {
       "id": "rota-duas-rodas",
@@ -89,7 +114,7 @@
       "nicho": "motociclismo",
       "ativo": true,
       "emoji": "🏍️",
-      "rotulo": "MUNDO DAS DUAS RODAS",
+      "rotulo": "CURIOSIDADE DAS DUAS RODAS",
       "fontes": [
         {
           "id": "wiki-moto",
@@ -98,31 +123,42 @@
           "url": "https://pt.wikipedia.org/api/rest_v1/page/summary/",
           "exige_key": false,
           "prioridade": 1,
+          "ativo": true,
           "topics": [
             "Motocicleta",
             "Motociclismo",
             "Capacete",
             "Scooter",
-            "Motocicleta_de_trabalho",
             "Motocicleta_trail",
-            "Código_de_Trânsito_Brasileiro",
-            "Trânsito",
-            "Pneu",
-            "Freio",
-            "Motor_de_combustão_interna",
+            "MotoGP",
             "Honda",
             "Yamaha",
             "BMW_Motorrad",
-            "MotoGP"
+            "Pneu",
+            "ABS_(sistema_de_freios)",
+            "Jaquetas_de_motociclismo"
           ]
         }
       ],
       "keywords_positivas": [
         "moto", "motocicleta", "motociclismo", "capacete", "scooter",
-        "trânsito", "transito", "pneu", "freio", "honda", "yamaha",
-        "bmw", "motogp", "duas rodas"
+        "motogp", "honda", "yamaha", "bmw", "trail", "duas rodas",
+        "jaqueta", "luva", "botas", "abs"
       ],
-      "keywords_negativas": []
+      "keywords_fortes": [
+        "motocicleta", "motociclismo", "capacete", "motogp", "scooter"
+      ],
+      "keywords_negativas": [
+        "acidente fatal", "morreu", "homicídio", "assalto",
+        "motor de combustão interna"
+      ],
+      "topicos_evitar": [
+        "Motor_de_combustão_interna",
+        "Trânsito",
+        "Código_de_Trânsito_Brasileiro",
+        "Freio",
+        "Pneu"
+      ]
     },
     {
       "id": "casa-conforto",
@@ -131,7 +167,7 @@
       "nicho": "casa",
       "ativo": true,
       "emoji": "🏠",
-      "rotulo": "CASA E DIA A DIA",
+      "rotulo": "DICA PARA CASA",
       "fontes": [
         {
           "id": "themealdb",
@@ -139,7 +175,9 @@
           "tipo": "themealdb",
           "url": "https://www.themealdb.com/api/json/v1/1/random.php",
           "exige_key": false,
-          "prioridade": 1
+          "prioridade": 1,
+          "ativo": true,
+          "tentativas": 8
         },
         {
           "id": "dog-ceo",
@@ -147,7 +185,8 @@
           "tipo": "dog_ceo",
           "url": "https://dog.ceo/api/breeds/image/random",
           "exige_key": false,
-          "prioridade": 2
+          "prioridade": 2,
+          "ativo": false
         },
         {
           "id": "open-meteo",
@@ -155,11 +194,16 @@
           "tipo": "open_meteo",
           "url": "https://api.open-meteo.com/v1/forecast?latitude=-23.55&longitude=-46.63&current=temperature_2m,relative_humidity_2m,weather_code&timezone=America%2FSao_Paulo",
           "exige_key": false,
-          "prioridade": 3
+          "prioridade": 3,
+          "ativo": true
         }
       ],
-      "keywords_positivas": [],
-      "keywords_negativas": []
+      "keywords_positivas": [
+        "receita", "cozinha", "casa", "organização", "limpeza",
+        "decoração", "pet", "umidade", "calor", "chuva"
+      ],
+      "keywords_fortes": ["receita", "organização", "limpeza", "decoração"],
+      "keywords_negativas": ["crime", "política", "guerra"]
     }
   ]
 }
