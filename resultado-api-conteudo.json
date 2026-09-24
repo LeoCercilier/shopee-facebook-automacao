@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-23T17:53:12.822Z",
+  "gerado_em": "2026-09-24T17:53:18.893Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -7,14 +7,14 @@
       "pagina": "Marketing Tips",
       "status": "publicado",
       "stats": {
-        "coletados": 67,
-        "aprovados_fonte": 17,
-        "aprovados_texto": 17,
-        "rejeitados": 3,
+        "coletados": 68,
+        "aprovados_fonte": 18,
+        "aprovados_texto": 18,
+        "rejeitados": 2,
         "publicados": 1
       },
       "melhor_titulo": "Como a IA pode ajudar no dia a dia do negócio",
-      "score_fonte": 90,
+      "score_fonte": 94,
       "score_texto": 94,
       "tem_imagem": true
     },
@@ -22,10 +22,10 @@
       "pagina": "Studio Marine Cuidados Pessoais",
       "status": "sem_conteudo_qualificado",
       "stats": {
-        "coletados": 15,
-        "aprovados_fonte": 2,
+        "coletados": 19,
+        "aprovados_fonte": 4,
         "aprovados_texto": 0,
-        "rejeitados": 15,
+        "rejeitados": 19,
         "publicados": 0
       },
       "melhor_titulo": null,
@@ -37,10 +37,10 @@
       "pagina": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
       "stats": {
-        "coletados": 33,
-        "aprovados_fonte": 6,
-        "aprovados_texto": 6,
-        "rejeitados": 14,
+        "coletados": 37,
+        "aprovados_fonte": 11,
+        "aprovados_texto": 11,
+        "rejeitados": 9,
         "publicados": 1
       },
       "melhor_titulo": "No universo das duas rodas",
@@ -52,10 +52,10 @@
       "pagina": "Casa & Conforto Utilidades",
       "status": "sem_conteudo_qualificado",
       "stats": {
-        "coletados": 10,
+        "coletados": 14,
         "aprovados_fonte": 0,
         "aprovados_texto": 0,
-        "rejeitados": 10,
+        "rejeitados": 14,
         "publicados": 0
       },
       "melhor_titulo": null,
