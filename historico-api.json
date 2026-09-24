@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-24T17:53:16.839Z",
+  "atualizado_em": "2026-09-24T18:40:33.132Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -277,6 +277,54 @@
       "titulo": "No universo das duas rodas",
       "post_id": "1332730186586435_122100864459486415",
       "publicado_em": "2026-09-24T17:53:16.839Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/unit_500_c36d1b1011fdf39c/100-vuln-detection-wasnt-enough-measuring-whether-ai-respects-the-patch-dg4",
+      "chave": "https://dev.to/unit_500_c36d1b1011fdf39c/100-vuln-detection-wasnt-enough-measuring-whether-ai-respects-the-patch-dg4",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1485845563562583",
+      "publicado_em": "2026-09-24T18:40:15.872Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.womansworld.com/wellness/best-invisible-pimple-patches-for-perimenopausal-acne",
+      "chave": "https://www.womansworld.com/wellness/best-invisible-pimple-patches-for-perimenopausal-acne",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122101901115485849",
+      "publicado_em": "2026-09-24T18:40:20.768Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.latestly.com/auto/bmw-teases-new-450cc-roadster-motorcycle-ahead-of-october-launch-know-what-to-expect-7618630.html",
+      "chave": "https://www.latestly.com/auto/bmw-teases-new-450cc-roadster-motorcycle-ahead-of-october-launch-know-what-to-expect-7618630.html",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122100891861486415",
+      "publicado_em": "2026-09-24T18:40:27.373Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "freenews-casa",
+      "fonte_nome": "FreeNewsAPI (casa/DIY/culinária)",
+      "url": "https://www.tribuneindia.com/news/schools/spice-girls-time-to-change-the-recipe/",
+      "chave": "https://www.tribuneindia.com/news/schools/spice-girls-time-to-change-the-recipe",
+      "titulo": "Curiosidade do dia",
+      "post_id": "1402223216297975_122110339731476480",
+      "publicado_em": "2026-09-24T18:40:33.132Z"
     }
   ]
 }

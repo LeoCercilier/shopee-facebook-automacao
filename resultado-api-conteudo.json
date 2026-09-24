@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-24T17:53:18.893Z",
+  "gerado_em": "2026-09-24T18:40:33.133Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -7,10 +7,10 @@
       "pagina": "Marketing Tips",
       "status": "publicado",
       "stats": {
-        "coletados": 68,
-        "aprovados_fonte": 18,
-        "aprovados_texto": 18,
-        "rejeitados": 2,
+        "coletados": 139,
+        "aprovados_fonte": 34,
+        "aprovados_texto": 20,
+        "rejeitados": 0,
         "publicados": 1
       },
       "melhor_titulo": "Como a IA pode ajudar no dia a dia do negócio",
@@ -20,47 +20,47 @@
     },
     {
       "pagina": "Studio Marine Cuidados Pessoais",
-      "status": "sem_conteudo_qualificado",
+      "status": "publicado",
       "stats": {
-        "coletados": 19,
-        "aprovados_fonte": 4,
-        "aprovados_texto": 0,
-        "rejeitados": 19,
-        "publicados": 0
+        "coletados": 40,
+        "aprovados_fonte": 3,
+        "aprovados_texto": 3,
+        "rejeitados": 17,
+        "publicados": 1
       },
-      "melhor_titulo": null,
-      "score_fonte": null,
-      "score_texto": null,
+      "melhor_titulo": "Cuidados com a pele no dia a dia",
+      "score_fonte": 89,
+      "score_texto": 86,
       "tem_imagem": false
     },
     {
       "pagina": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
       "stats": {
-        "coletados": 37,
-        "aprovados_fonte": 11,
-        "aprovados_texto": 11,
-        "rejeitados": 9,
+        "coletados": 64,
+        "aprovados_fonte": 18,
+        "aprovados_texto": 18,
+        "rejeitados": 2,
         "publicados": 1
       },
       "melhor_titulo": "No universo das duas rodas",
-      "score_fonte": 87,
+      "score_fonte": 91,
       "score_texto": 86,
       "tem_imagem": false
     },
     {
       "pagina": "Casa & Conforto Utilidades",
-      "status": "sem_conteudo_qualificado",
+      "status": "publicado",
       "stats": {
-        "coletados": 14,
-        "aprovados_fonte": 0,
-        "aprovados_texto": 0,
-        "rejeitados": 14,
-        "publicados": 0
+        "coletados": 57,
+        "aprovados_fonte": 2,
+        "aprovados_texto": 2,
+        "rejeitados": 18,
+        "publicados": 1
       },
-      "melhor_titulo": null,
-      "score_fonte": null,
-      "score_texto": null,
+      "melhor_titulo": "Curiosidade do dia",
+      "score_fonte": 75,
+      "score_texto": 86,
       "tem_imagem": false
     }
   ]
