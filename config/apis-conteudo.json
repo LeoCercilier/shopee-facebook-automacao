@@ -1,5 +1,5 @@
 {
-  "versao": 4,
+  "versao": 5,
   "graph_version": "v21.0",
   "max_posts_por_pagina": 1,
   "pontuacao_minima_publicacao": 75,
@@ -22,19 +22,36 @@
           "nome": "DEV.to",
           "tipo": "devto",
           "url": "https://dev.to/api/articles",
-          "tags": ["ai", "startup", "productivity"],
+          "tags": [
+            "ai",
+            "machinelearning",
+            "productivity",
+            "startup",
+            "marketing",
+            "saas",
+            "automation",
+            "opensource"
+          ],
           "exige_key": false,
           "idioma": "en",
           "prioridade": 1,
           "ativo": true,
-          "observacoes": "Artigos práticos; texto final deve ser simples"
+          "observacoes": "IA, ferramentas, startups, produtividade e automação; texto final simples"
         },
         {
           "id": "freenews-biz",
-          "nome": "FreeNewsAPI (negócios/IA)",
+          "nome": "FreeNewsAPI (negócios/IA/marketing)",
           "tipo": "freenewsapi",
           "url": "https://freenewsapi.ai/v1/search",
-          "queries": ["startup funding", "ecommerce marketing", "artificial intelligence business"],
+          "queries": [
+            "artificial intelligence tools",
+            "AI startup",
+            "ecommerce marketing",
+            "digital marketing productivity",
+            "business automation",
+            "small business technology",
+            "SaaS growth"
+          ],
           "exige_key": false,
           "idioma": "en",
           "prioridade": 2,
@@ -50,7 +67,7 @@
           "idioma": "en",
           "prioridade": 3,
           "ativo": true,
-          "observacoes": "Secundária; só keyword forte"
+          "observacoes": "Secundária; só com keyword forte de tech/negócios"
         },
         {
           "id": "spaceflight-news",
@@ -67,11 +84,13 @@
         "ai", "artificial intelligence", "machine learning", "llm", "gpt",
         "openai", "startup", "saas", "ecommerce", "e-commerce",
         "marketing", "productivity", "funding", "venture", "growth",
-        "automation", "business", "founder", "revenue", "tool"
+        "automation", "business", "founder", "revenue", "tool",
+        "small business", "automation tool", "workflow"
       ],
       "keywords_fortes": [
         "ai", "artificial intelligence", "startup", "saas", "ecommerce",
-        "marketing", "productivity", "funding", "openai", "llm"
+        "marketing", "productivity", "funding", "openai", "llm",
+        "automation", "small business"
       ],
       "keywords_negativas": [
         "war", "missile", "military", "pentagon", "iran", "israel",
@@ -90,47 +109,42 @@
       "rotulo": "CUIDADO COM A PELE",
       "fontes": [
         {
-          "id": "open-beauty",
-          "nome": "Open Beauty Facts",
-          "tipo": "open_beauty_facts",
-          "url": "https://world.openbeautyfacts.org/cgi/search.pl",
-          "termos": ["protetor solar", "sunscreen", "hidratante facial"],
+          "id": "freenews-beleza",
+          "nome": "FreeNewsAPI (skincare/beleza)",
+          "tipo": "freenewsapi",
+          "url": "https://freenewsapi.ai/v1/search",
+          "queries": [
+            "skincare routine tips",
+            "beauty trends cosmetics",
+            "self care skincare",
+            "moisturizer sunscreen tips",
+            "cosmetic ingredient education"
+          ],
           "exige_key": false,
-          "idioma": "multi",
+          "idioma": "en",
           "prioridade": 1,
           "ativo": true,
-          "observacoes": "Inspiração educativa; NÃO propaganda; SEM link de produto"
-        },
-        {
-          "id": "wiki-pele",
-          "nome": "Wikipedia (PT) skincare",
-          "tipo": "wikipedia_topics",
-          "url": "https://pt.wikipedia.org/api/rest_v1/page/summary/",
-          "exige_key": false,
-          "idioma": "pt",
-          "prioridade": 2,
-          "ativo": true,
-          "topics": [
-            "Filtro_solar", "Acne", "Melasma", "Retinol",
-            "Ácido_hialurônico", "Niacinamida", "Rosácea", "Colágeno"
-          ],
-          "observacoes": "Complementar em português"
+          "observacoes": "Educativo e tendências; SEM conteúdo médico/diagnóstico; SEM propaganda agressiva"
         }
       ],
       "keywords_positivas": [
         "pele", "solar", "filtro", "protetor", "acne", "melasma",
         "hidrat", "retinol", "sunscreen", "skincare", "fps",
-        "moisturizer", "hialurônico", "niacinamida", "cosmético"
+        "moisturizer", "hialurônico", "niacinamida", "cosmético",
+        "beauty", "self care", "self-care", "cosmetics", "routine"
       ],
       "keywords_fortes": [
         "filtro solar", "protetor solar", "sunscreen", "acne",
-        "melasma", "retinol", "fps", "skincare"
+        "melasma", "retinol", "fps", "skincare", "beauty", "cosmetics"
       ],
       "keywords_negativas": [
         "câncer de mama", "covid", "vacina", "hospital", "cirurgia",
-        "infarto", "metástase", "eutanásia", "compre agora", "oferta"
+        "infarto", "metástase", "eutanásia", "compre agora", "oferta",
+        "diagnóstico", "prescrição", "receita médica", "doença",
+        "tratamento médico", "dermatologista prescreve", "câncer de pele",
+        "buy now", "limited offer", "miracle cure"
       ],
-      "topicos_evitar": ["Psoríase", "Dermatite", "Seborreia"]
+      "topicos_evitar": ["Psoríase", "Dermatite", "Seborreia", "diagnóstico", "prescrição"]
     },
     {
       "id": "rota-duas-rodas",
@@ -149,45 +163,36 @@
           "queries": [
             "motorcycle launch",
             "electric motorcycle",
-            "motorcycle helmet safety",
-            "MotoGP"
+            "motorcycle accessories helmet",
+            "motorcycle technology",
+            "MotoGP",
+            "Honda motorcycle",
+            "Yamaha motorcycle",
+            "Kawasaki motorcycle"
           ],
           "exige_key": false,
           "idioma": "en",
           "prioridade": 1,
           "ativo": true,
-          "observacoes": "Notícias de moto; texto final em PT-BR sem link"
-        },
-        {
-          "id": "wiki-moto",
-          "nome": "Wikipedia (PT) motos",
-          "tipo": "wikipedia_topics",
-          "url": "https://pt.wikipedia.org/api/rest_v1/page/summary/",
-          "exige_key": false,
-          "idioma": "pt",
-          "prioridade": 2,
-          "ativo": true,
-          "topics": [
-            "Motocicleta", "Motociclismo", "Capacete", "MotoGP",
-            "Scooter", "Honda", "Yamaha", "Kawasaki"
-          ],
-          "observacoes": "Complementar em PT"
+          "observacoes": "Lançamentos, elétricas, acessórios, tecnologia e MotoGP; sem acidentes/crimes"
         }
       ],
       "keywords_positivas": [
         "moto", "motocicleta", "motociclismo", "motorcycle", "motorbike",
         "capacete", "helmet", "scooter", "motogp", "honda", "yamaha",
-        "kawasaki", "electric motorcycle"
+        "kawasaki", "electric motorcycle", "accessories", "launch"
       ],
       "keywords_fortes": [
         "motocicleta", "motorcycle", "motorbike", "capacete",
-        "helmet", "motogp", "motociclismo"
+        "helmet", "motogp", "motociclismo", "electric motorcycle"
       ],
       "keywords_negativas": [
         "killed", "fatal", "crash victim", "homicídio", "assalto",
-        "burglar", "crime", "war", "fundraiser", "silent cry"
+        "burglar", "crime", "war", "fundraiser", "silent cry",
+        "accident death", "died in crash", "deadly crash", "violence",
+        "shooting", "assault"
       ],
-      "topicos_evitar": ["Motor_de_combustão_interna", "Trânsito", "Pneu"]
+      "topicos_evitar": ["acidente fatal", "morte no trânsito", "crime"]
     },
     {
       "id": "casa-conforto",
@@ -199,31 +204,24 @@
       "rotulo": "DICA PARA CASA",
       "fontes": [
         {
-          "id": "taco",
-          "nome": "TACO (alimentos BR)",
-          "tipo": "taco",
-          "url": "https://brolesi.github.io/taco/foods.json",
-          "detail_base": "https://brolesi.github.io/taco/foods/",
+          "id": "freenews-casa",
+          "nome": "FreeNewsAPI (casa/DIY/culinária)",
+          "tipo": "freenewsapi",
+          "url": "https://freenewsapi.ai/v1/search",
+          "queries": [
+            "home decoration ideas",
+            "home organization tips",
+            "cleaning tips home",
+            "gardening DIY",
+            "home improvement",
+            "cooking recipes kitchen",
+            "interior design tips"
+          ],
           "exige_key": false,
-          "idioma": "pt",
+          "idioma": "en",
           "prioridade": 1,
           "ativo": true,
-          "observacoes": "Curiosidades alimentares em PT; sem link"
-        },
-        {
-          "id": "wiki-casa",
-          "nome": "Wikipedia (PT) casa",
-          "tipo": "wikipedia_topics",
-          "url": "https://pt.wikipedia.org/api/rest_v1/page/summary/",
-          "exige_key": false,
-          "idioma": "pt",
-          "prioridade": 2,
-          "ativo": true,
-          "topics": [
-            "Limpeza", "Decoração", "Jardinagem",
-            "Organização", "Culinária"
-          ],
-          "observacoes": "Só se o texto final for realmente útil"
+          "observacoes": "Decoração, organização, limpeza, jardinagem, DIY, culinária"
         },
         {
           "id": "open-meteo",
@@ -234,7 +232,7 @@
           "idioma": "pt",
           "prioridade": 3,
           "ativo": true,
-          "observacoes": "Só com dica prática de casa"
+          "observacoes": "Complementar: só com dica prática de casa"
         },
         {
           "id": "themealdb",
@@ -259,12 +257,14 @@
       ],
       "keywords_positivas": [
         "casa", "limpeza", "decoração", "jardinagem", "organização",
-        "culinária", "alimento", "cozinha", "economia"
+        "culinária", "alimento", "cozinha", "economia", "diy",
+        "home", "decoration", "cleaning", "gardening", "recipe", "kitchen"
       ],
       "keywords_fortes": [
-        "limpeza", "decoração", "jardinagem", "organização", "culinária"
+        "limpeza", "decoração", "jardinagem", "organização", "culinária",
+        "diy", "home organization", "recipe"
       ],
-      "keywords_negativas": ["crime", "política", "guerra"]
+      "keywords_negativas": ["crime", "política", "guerra", "accident", "killed"]
     }
   ]
 }
