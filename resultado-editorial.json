@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-23T17:28:17.956Z",
+  "gerado_em": "2026-09-24T17:33:28.742Z",
   "publicados": 4,
   "sem_conteudo": 0,
   "erros": 0,
@@ -8,21 +8,21 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1484855570328249",
+      "post_id": "369805844018354_1485797936900679",
       "tipo": "photo",
-      "titulo": "O que é IA agêntica? Guia para implementar, vantagens e riscos",
-      "url": "https://www.nuvemshop.com.br/blog/ia-agentica/",
-      "fonte": "Nuvemshop",
-      "fonte_id": "nuvemshop"
+      "titulo": "Climate Journal: Há dinheiro para a transição energética. Falta alocar",
+      "url": "https://braziljournal.com/climate-journal-ha-dinheiro-para-a-transicao-energetica-falta-alocar/",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
       "status": "publicado",
-      "post_id": "1247772158429331_122100816483485849",
+      "post_id": "1247772158429331_122101858245485849",
       "tipo": "feed",
-      "titulo": "Dia Nacional de Combate ao Fumo: SBD alerta para impactos do cigarro e dos vapes na saúde da pele",
-      "url": "https://www.sbd.org.br/dia-nacional-de-combate-ao-fumo-sbd-alerta-para-impactos-do-cigarro-e-dos-vapes-na-saude-da-pele/",
+      "titulo": "SBD convoca associados para Assembleia Geral Ordinária em setembro",
+      "url": "https://www.sbd.org.br/sbd-convoca-associados-para-assembleia-geral-ordinaria-em-setembro/",
       "fonte": "Sociedade Brasileira de Dermatologia",
       "fonte_id": "sbd"
     },
@@ -30,10 +30,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122099938977486415",
+      "post_id": "1332730186586435_122100845067486415",
       "tipo": "photo",
-      "titulo": "Royal Enfield Classic 350 tem novas versões na Índia",
-      "url": "https://motociclismoonline.com.br/noticias/royal-enfield-classic-350-novas-versoes-india/",
+      "titulo": "Diogo Moreira lidera teste da Pirelli com MotoGP de 850 cc para 2027",
+      "url": "https://motociclismoonline.com.br/competicoes/diogo-moreira-lidera-teste-pirelli-motogp-850-2027/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122109713829476480",
+      "post_id": "1402223216297975_122110305519476480",
       "tipo": "feed",
-      "titulo": "O que você deve saber na hora de comprar uma lava-louças",
-      "url": "https://casa.abril.com.br/minha-casa/o-que-voce-deve-saber-na-hora-de-comprar-uma-lava-loucas/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "titulo": "Eletroportáteis na Black Friday: quais valem a pena",
+      "url": "https://blog.precolandia.com.br/eletroportateis-black-friday-como-escolher/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }
