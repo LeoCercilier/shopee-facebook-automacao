@@ -1,10 +1,6 @@
 const fs = require('fs');
 const { classificarOferta } = require('./classificar');
-const {
-  gerarOpcoesCopy,
-  selecionarCopy,
-  copyFallback,
-} = require('./copy-content-creator');
+const { gerarOpcoesCopy } = require('./copy-content-creator');
 const {
   validarEntradaProduto,
   validarCopy,
@@ -21,13 +17,18 @@ const ARQUIVO_SAIDA = 'postagem-final.json';
  * Fluxo:
  *   resultado-oferta.json
  *   → valida dados críticos (título, preço, link)
- *   → Content Creator gera até 3 opções de copy (só texto de gancho)
- *   → valida cada copy (sem URL/preço/reivindicações)
- *   → monta anúncio com PREÇO e LINK originais do JSON
- *   → valida anúncio final
+ *   → monta anúncio com TÍTULO, PREÇO e LINK originais do JSON
+ *   → valida anúncio final (título/preço/link obrigatórios no texto)
  *   → postagem-final.json
  *
- * A camada de copy NUNCA define preço nem link.
+ * Formato do texto:
+ *   🔥 OFERTA DO DIA
+ *   [título real]
+ *   💰 [preço]
+ *   🛍️ Confira na Shopee:
+ *   [link]
+ *
+ * A camada de copy NÃO substitui o título nem define preço/link.
  */
 function gerarPostagem() {
   if (!fs.existsSync(ARQUIVO_ENTRADA)) {
@@ -75,70 +76,29 @@ function gerarPostagem() {
 
   const nicho = classificarOferta({ titulo });
 
-  // --- Content Creator: até 3 opções (custo zero, sem API) ---
-  let opcoesBrutas = [];
+  // Content Creator permanece disponível só como metadado opcional.
+  // NÃO entra no corpo principal da postagem (título real vem do JSON).
+  let opcoesValidas = [];
   try {
-    opcoesBrutas = gerarOpcoesCopy({ titulo, nicho });
+    const opcoesBrutas = gerarOpcoesCopy({ titulo, nicho });
+    for (const op of opcoesBrutas) {
+      const v = validarCopy(op.texto, { preco, link });
+      if (v.ok) opcoesValidas.push({ ...op, validacao: v });
+    }
   } catch (err) {
-    console.log('Aviso Content Creator:', err.message);
-    opcoesBrutas = [];
+    console.log('Aviso Content Creator (metadado):', err.message);
+    opcoesValidas = [];
   }
 
-  const opcoesValidas = [];
-  for (const op of opcoesBrutas) {
-    const v = validarCopy(op.texto, { preco, link });
-    if (v.ok) {
-      opcoesValidas.push({ ...op, validacao: v });
-    } else {
-      console.log(`  Copy #${op.id} descartada: ${v.motivo}`);
-    }
-  }
+  // Montagem determinística: TÍTULO + PREÇO + LINK só do JSON original
+  const texto = montarAnuncioFinal({ titulo, preco, link });
 
-  const preferida = process.env.COPY_OPCAO;
-  let escolhida = selecionarCopy(opcoesValidas, preferida);
-  if (!escolhida || !escolhida.texto) {
-    escolhida = { id: 0, estilo: 'fallback', texto: copyFallback() };
-  }
-
-  // Revalida a escolhida; se falhar, fallback duro
-  const vCopy = validarCopy(escolhida.texto, { preco, link });
-  const copyFinal = vCopy.ok ? escolhida.texto : copyFallback();
-
-  // Montagem determinística: preço e link só do JSON original
-  const texto = montarAnuncioFinal({
-    copySelecionada: copyFinal,
-    titulo,
-    preco,
-    link,
-  });
-
-  const vFinal = validarAnuncioFinal(texto, { preco, link });
+  const vFinal = validarAnuncioFinal(texto, { titulo, preco, link });
   if (!vFinal.ok) {
-    // Última proteção: reconstrói com fallback e valida de novo
-    const textoSeguro = montarAnuncioFinal({
-      copySelecionada: copyFallback(),
-      titulo,
-      preco,
-      link,
-    });
-    const v2 = validarAnuncioFinal(textoSeguro, { preco, link });
-    if (!v2.ok) {
-      throw new Error(
-        'Validação final falhou: preço/link não conferem com o original.'
-      );
-    }
-    return gravarPostagem({
-      titulo,
-      preco,
-      link,
-      imagem,
-      imagens,
-      nicho,
-      texto: textoSeguro,
-      opcoesValidas,
-      copy_selecionada: { id: 0, estilo: 'fallback', texto: copyFallback() },
-      validacao_final: v2,
-    });
+    throw new Error(
+      'Validação final falhou: título/preço/link não conferem com o original. ' +
+        JSON.stringify(vFinal.checks)
+    );
   }
 
   return gravarPostagem({
@@ -150,7 +110,11 @@ function gerarPostagem() {
     nicho,
     texto,
     opcoesValidas,
-    copy_selecionada: { ...escolhida, texto: copyFinal },
+    copy_selecionada: {
+      id: 0,
+      estilo: 'titulo_original',
+      texto: titulo,
+    },
     validacao_final: vFinal,
   });
 }
@@ -186,7 +150,7 @@ function gravarPostagem({
       imagem,
     },
 
-    // Content Creator
+    // Content Creator (metadado opcional — não usado no corpo da postagem)
     copy_opcoes: opcoesValidas.map((o) => ({
       id: o.id,
       estilo: o.estilo,
@@ -199,8 +163,10 @@ function gravarPostagem({
     },
 
     validacao: {
+      titulo_origem: 'resultado-oferta.json',
       preco_origem: 'resultado-oferta.json',
       link_origem: 'resultado-oferta.json',
+      titulo_preservado: validacao_final.checks.titulo_exato,
       preco_preservado: validacao_final.checks.preco_exato,
       link_preservado: validacao_final.checks.link_exato,
       checks: validacao_final.checks,
@@ -220,14 +186,9 @@ function gravarPostagem({
   console.log('Link   :', link, '(origem: resultado-oferta.json)');
   console.log('Imagem :', imagem || '(não disponível)');
   console.log('Nicho  :', nicho);
-  console.log('Copy   :', copy_selecionada.estilo, `(#${copy_selecionada.id})`);
-  console.log('Opções :', opcoesValidas.length);
-  console.log('Validação preço/link:', validacao_final.ok ? 'OK' : 'FALHA');
+  console.log('Corpo  : título real do produto (resultado-oferta.json)');
+  console.log('Validação título/preço/link:', validacao_final.ok ? 'OK' : 'FALHA');
   console.log('');
-  console.log('--- Opções de copy ---');
-  for (const o of opcoesValidas) {
-    console.log(`  [${o.id}] ${o.texto}`);
-  }
   console.log('--- Texto da postagem ---');
   console.log(texto);
   console.log('-------------------------');

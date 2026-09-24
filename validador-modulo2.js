@@ -2,7 +2,7 @@
 
 /**
  * Validador do Módulo 2.
- * Garante que preço e link do anúncio final são EXATAMENTE os do resultado-oferta.json.
+ * Garante que título, preço e link do anúncio final são EXATAMENTE os do resultado-oferta.json.
  * A copy nunca pode sobrescrever dados críticos.
  */
 
@@ -81,17 +81,23 @@ function validarCopy(copyTexto, { preco, link }) {
 }
 
 /**
- * Monta o anúncio final SEMPRE com preço/link originais do JSON.
- * Ignora qualquer preço/link vindo da camada de copy.
+ * Monta o anúncio final SEMPRE com título/preço/link originais do JSON.
+ * A copy genérica NÃO entra no corpo principal da oferta.
+ * Formato obrigatório:
+ *   🔥 OFERTA DO DIA
+ *   [TÍTULO REAL]
+ *   💰 [PREÇO]
+ *   🛍️ Confira na Shopee:
+ *   [LINK]
  */
-function montarAnuncioFinal({ copySelecionada, titulo, preco, link }) {
-  const copy = String(copySelecionada || '').trim();
+function montarAnuncioFinal({ titulo, preco, link }) {
+  const tituloOrig = String(titulo || '').trim();
   const precoOrig = String(preco).trim();
   const linkOrig = String(link).trim();
 
   const texto = `🔥 OFERTA DO DIA
 
-${copy}
+${tituloOrig}
 
 💰 ${precoOrig}
 
@@ -102,25 +108,31 @@ ${linkOrig}`;
 }
 
 /**
- * Verifica se o texto final preserva preço e link originais.
+ * Verifica se o texto final preserva título, preço e link originais.
  */
-function validarAnuncioFinal(textoFinal, { preco, link }) {
+function validarAnuncioFinal(textoFinal, { titulo, preco, link }) {
   const checks = {
     existe_produto_contexto: true,
+    existe_titulo: temValor(titulo),
     existe_preco: temValor(preco),
     existe_link: temValor(link),
+    titulo_no_texto: false,
     preco_no_texto: false,
     link_no_texto: false,
     preco_exato: false,
     link_exato: false,
+    titulo_exato: false,
     ia_tentou_preco_extra: false,
     ia_tentou_outro_link: false,
   };
 
   const texto = String(textoFinal || '');
+  const tituloOrig = String(titulo || '').trim();
   const precoOrig = String(preco || '').trim();
   const linkOrig = String(link || '').trim();
 
+  checks.titulo_no_texto = Boolean(tituloOrig) && texto.includes(tituloOrig);
+  checks.titulo_exato = checks.titulo_no_texto;
   checks.preco_no_texto = texto.includes(precoOrig);
   checks.link_no_texto = texto.includes(linkOrig);
   checks.preco_exato = checks.preco_no_texto;
@@ -147,8 +159,10 @@ function validarAnuncioFinal(textoFinal, { preco, link }) {
   if (urls.length === 0) checks.link_exato = false;
 
   const ok =
+    checks.existe_titulo &&
     checks.existe_preco &&
     checks.existe_link &&
+    checks.titulo_exato &&
     checks.preco_exato &&
     checks.link_exato &&
     !checks.ia_tentou_outro_link;
