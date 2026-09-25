@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-24T18:40:33.132Z",
+  "atualizado_em": "2026-09-25T17:59:37.220Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -325,6 +325,42 @@
       "titulo": "Curiosidade do dia",
       "post_id": "1402223216297975_122110339731476480",
       "publicado_em": "2026-09-24T18:40:33.132Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/rajan_mishra_a9f78ad216b4/does-an-ai-trust-itself-more-than-it-trusts-you-a-benchmark-for-belief-attribution-1k90",
+      "chave": "https://dev.to/rajan_mishra_a9f78ad216b4/does-an-ai-trust-itself-more-than-it-trusts-you-a-benchmark-for-belief-attribution-1k90",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1486823196798153",
+      "publicado_em": "2026-09-25T17:59:28.987Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://beautybeyondaesthetics.com/blog/top-10-tips-for-managing-skincare-costs/",
+      "chave": "https://beautybeyondaesthetics.com/blog/top-10-tips-for-managing-skincare-costs",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122102836413485849",
+      "publicado_em": "2026-09-25T17:59:33.014Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.ndtv.com/auto/sias-motorcycle-returns-home-after-repairs-emotional-insta-post-reveals-road-rage-can-change-how-you-ride-12095565",
+      "chave": "https://www.ndtv.com/auto/sias-motorcycle-returns-home-after-repairs-emotional-insta-post-reveals-road-rage-can-change-how-you-ride-12095565",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122101799373486415",
+      "publicado_em": "2026-09-25T17:59:37.220Z"
     }
   ]
 }
