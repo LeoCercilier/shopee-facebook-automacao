@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-24T17:33:28.742Z",
+  "gerado_em": "2026-09-25T17:32:48.326Z",
   "publicados": 4,
   "sem_conteudo": 0,
   "erros": 0,
@@ -8,21 +8,21 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1485797936900679",
+      "post_id": "369805844018354_1486804213466718",
       "tipo": "photo",
-      "titulo": "Climate Journal: Há dinheiro para a transição energética. Falta alocar",
-      "url": "https://braziljournal.com/climate-journal-ha-dinheiro-para-a-transicao-energetica-falta-alocar/",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "titulo": "Como criar materiais visuais para campanhas de e-commerce?",
+      "url": "https://www.nuvemshop.com.br/blog/materiais-visuais-para-ecommerce/",
+      "fonte": "Nuvemshop",
+      "fonte_id": "nuvemshop"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
       "status": "publicado",
-      "post_id": "1247772158429331_122101858245485849",
+      "post_id": "1247772158429331_122102817651485849",
       "tipo": "feed",
-      "titulo": "SBD convoca associados para Assembleia Geral Ordinária em setembro",
-      "url": "https://www.sbd.org.br/sbd-convoca-associados-para-assembleia-geral-ordinaria-em-setembro/",
+      "titulo": "Olhar cansado nem sempre é falta de sono, alerta Sociedade Brasileira de Dermatologia",
+      "url": "https://www.sbd.org.br/olhar-cansado-nem-sempre-e-falta-de-sono-alerta-sociedade-brasileira-de-dermatologia/",
       "fonte": "Sociedade Brasileira de Dermatologia",
       "fonte_id": "sbd"
     },
@@ -30,10 +30,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122100845067486415",
+      "post_id": "1332730186586435_122101782135486415",
       "tipo": "photo",
-      "titulo": "Diogo Moreira lidera teste da Pirelli com MotoGP de 850 cc para 2027",
-      "url": "https://motociclismoonline.com.br/competicoes/diogo-moreira-lidera-teste-pirelli-motogp-850-2027/",
+      "titulo": "CFMOTO abre novo lote com 700 motos no Brasil em 30 de setembro",
+      "url": "https://motociclismoonline.com.br/noticias/cfmoto-novo-lote-700-motos-30-setembro/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122110305519476480",
-      "tipo": "feed",
-      "titulo": "Eletroportáteis na Black Friday: quais valem a pena",
-      "url": "https://blog.precolandia.com.br/eletroportateis-black-friday-como-escolher/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "post_id": "1402223216297975_122110803213476480",
+      "tipo": "photo",
+      "titulo": "Primavera em casa: 5 flores para apostar na decoração nesta estação",
+      "url": "https://casa.abril.com.br/jardins-e-hortas/primavera-em-casa-5-flores-para-apostar-na-decoracao-nesta-estacao/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }

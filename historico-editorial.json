@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-24T17:33:28.742Z",
+  "atualizado_em": "2026-09-25T17:32:48.326Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -221,6 +221,50 @@
       "titulo": "Eletroportáteis na Black Friday: quais valem a pena",
       "post_id": "1402223216297975_122110305519476480",
       "publicado_em": "2026-09-24T17:33:28.742Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/materiais-visuais-para-ecommerce/",
+      "titulo": "Como criar materiais visuais para campanhas de e-commerce?",
+      "post_id": "369805844018354_1486804213466718",
+      "publicado_em": "2026-09-25T17:32:19.979Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "sbd",
+      "fonte_nome": "Sociedade Brasileira de Dermatologia",
+      "url": "https://www.sbd.org.br/olhar-cansado-nem-sempre-e-falta-de-sono-alerta-sociedade-brasileira-de-dermatologia/",
+      "titulo": "Olhar cansado nem sempre é falta de sono, alerta Sociedade Brasileira de Dermatologia",
+      "post_id": "1247772158429331_122102817651485849",
+      "publicado_em": "2026-09-25T17:32:30.087Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/cfmoto-novo-lote-700-motos-30-setembro/",
+      "titulo": "CFMOTO abre novo lote com 700 motos no Brasil em 30 de setembro",
+      "post_id": "1332730186586435_122101782135486415",
+      "publicado_em": "2026-09-25T17:32:38.761Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/jardins-e-hortas/primavera-em-casa-5-flores-para-apostar-na-decoracao-nesta-estacao/",
+      "titulo": "Primavera em casa: 5 flores para apostar na decoração nesta estação",
+      "post_id": "1402223216297975_122110803213476480",
+      "publicado_em": "2026-09-25T17:32:48.326Z"
     }
   ]
 }
