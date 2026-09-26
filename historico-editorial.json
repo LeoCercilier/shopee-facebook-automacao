@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-25T17:32:48.326Z",
+  "atualizado_em": "2026-09-26T16:45:54.426Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -265,6 +265,50 @@
       "titulo": "Primavera em casa: 5 flores para apostar na decoração nesta estação",
       "post_id": "1402223216297975_122110803213476480",
       "publicado_em": "2026-09-25T17:32:48.326Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "brazil-journal",
+      "fonte_nome": "Brazil Journal",
+      "url": "https://braziljournal.com/breaking-nubank-vai-atras-do-nubank-britanico/",
+      "titulo": "BREAKING. Nubank vai atrás do Nubank britânico",
+      "post_id": "369805844018354_1487750770038729",
+      "publicado_em": "2026-09-26T16:45:31.716Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "sbd",
+      "fonte_nome": "Sociedade Brasileira de Dermatologia",
+      "url": "https://www.sbd.org.br/vitoria-historica-da-sbd-trf1-reconhece-ilegalidade-da-resolucao-que-criou-a-harmonizacao-orofacial-como-especialidade-odontologica/",
+      "titulo": "VITÓRIA HISTÓRICA DA SBD: TRF1 reconhece ilegalidade da resolução que criou a Harmonização Orofacial como especialidade odontológica",
+      "post_id": "1247772158429331_122103646905485849",
+      "publicado_em": "2026-09-26T16:45:39.749Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/especiais/battery-swap-motos-eletricas/",
+      "titulo": "Battery swap: como a troca de baterias pode ajudar as motos elétricas a ganhar espaço",
+      "post_id": "1332730186586435_122102705055486415",
+      "publicado_em": "2026-09-26T16:45:47.287Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "precolandia",
+      "fonte_nome": "Blog Preçolandia",
+      "url": "https://blog.precolandia.com.br/mesa-posta-natal-ceia-passo-a-passo/",
+      "titulo": "Ceia de Natal: monte a mesa posta festiva passo a passo",
+      "post_id": "1402223216297975_122111404197476480",
+      "publicado_em": "2026-09-26T16:45:54.426Z"
     }
   ]
 }

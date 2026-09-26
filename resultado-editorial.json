@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-25T17:32:48.326Z",
+  "gerado_em": "2026-09-26T16:45:54.426Z",
   "publicados": 4,
   "sem_conteudo": 0,
   "erros": 0,
@@ -8,21 +8,21 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1486804213466718",
+      "post_id": "369805844018354_1487750770038729",
       "tipo": "photo",
-      "titulo": "Como criar materiais visuais para campanhas de e-commerce?",
-      "url": "https://www.nuvemshop.com.br/blog/materiais-visuais-para-ecommerce/",
-      "fonte": "Nuvemshop",
-      "fonte_id": "nuvemshop"
+      "titulo": "BREAKING. Nubank vai atrás do Nubank britânico",
+      "url": "https://braziljournal.com/breaking-nubank-vai-atras-do-nubank-britanico/",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
       "status": "publicado",
-      "post_id": "1247772158429331_122102817651485849",
+      "post_id": "1247772158429331_122103646905485849",
       "tipo": "feed",
-      "titulo": "Olhar cansado nem sempre é falta de sono, alerta Sociedade Brasileira de Dermatologia",
-      "url": "https://www.sbd.org.br/olhar-cansado-nem-sempre-e-falta-de-sono-alerta-sociedade-brasileira-de-dermatologia/",
+      "titulo": "VITÓRIA HISTÓRICA DA SBD: TRF1 reconhece ilegalidade da resolução que criou a Harmonização Orofacial como especialidade odontológica",
+      "url": "https://www.sbd.org.br/vitoria-historica-da-sbd-trf1-reconhece-ilegalidade-da-resolucao-que-criou-a-harmonizacao-orofacial-como-especialidade-odontologica/",
       "fonte": "Sociedade Brasileira de Dermatologia",
       "fonte_id": "sbd"
     },
@@ -30,10 +30,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122101782135486415",
+      "post_id": "1332730186586435_122102705055486415",
       "tipo": "photo",
-      "titulo": "CFMOTO abre novo lote com 700 motos no Brasil em 30 de setembro",
-      "url": "https://motociclismoonline.com.br/noticias/cfmoto-novo-lote-700-motos-30-setembro/",
+      "titulo": "Battery swap: como a troca de baterias pode ajudar as motos elétricas a ganhar espaço",
+      "url": "https://motociclismoonline.com.br/especiais/battery-swap-motos-eletricas/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122110803213476480",
-      "tipo": "photo",
-      "titulo": "Primavera em casa: 5 flores para apostar na decoração nesta estação",
-      "url": "https://casa.abril.com.br/jardins-e-hortas/primavera-em-casa-5-flores-para-apostar-na-decoracao-nesta-estacao/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "post_id": "1402223216297975_122111404197476480",
+      "tipo": "feed",
+      "titulo": "Ceia de Natal: monte a mesa posta festiva passo a passo",
+      "url": "https://blog.precolandia.com.br/mesa-posta-natal-ceia-passo-a-passo/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }
