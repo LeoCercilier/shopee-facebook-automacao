@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-25T17:59:39.300Z",
+  "gerado_em": "2026-09-26T17:17:41.048Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -8,7 +8,7 @@
       "status": "publicado",
       "stats": {
         "coletados": 140,
-        "aprovados_fonte": 35,
+        "aprovados_fonte": 37,
         "aprovados_texto": 20,
         "rejeitados": 0,
         "publicados": 1
@@ -23,13 +23,13 @@
       "status": "publicado",
       "stats": {
         "coletados": 40,
-        "aprovados_fonte": 2,
-        "aprovados_texto": 2,
-        "rejeitados": 18,
+        "aprovados_fonte": 4,
+        "aprovados_texto": 4,
+        "rejeitados": 16,
         "publicados": 1
       },
       "melhor_titulo": "Cuidados com a pele no dia a dia",
-      "score_fonte": 79,
+      "score_fonte": 83,
       "score_texto": 86,
       "tem_imagem": false
     },
@@ -38,13 +38,13 @@
       "status": "publicado",
       "stats": {
         "coletados": 64,
-        "aprovados_fonte": 23,
+        "aprovados_fonte": 26,
         "aprovados_texto": 20,
         "rejeitados": 0,
         "publicados": 1
       },
       "melhor_titulo": "No universo das duas rodas",
-      "score_fonte": 87,
+      "score_fonte": 91,
       "score_texto": 86,
       "tem_imagem": false
     },

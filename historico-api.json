@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-25T17:59:37.220Z",
+  "atualizado_em": "2026-09-26T17:17:39.319Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -361,6 +361,42 @@
       "titulo": "No universo das duas rodas",
       "post_id": "1332730186586435_122101799373486415",
       "publicado_em": "2026-09-25T17:59:37.220Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/robertadam987_/if-ai-writes-the-code-and-ai-reviews-the-code-what-exactly-is-the-developer-verifying-b5h",
+      "chave": "https://dev.to/robertadam987_/if-ai-writes-the-code-and-ai-reviews-the-code-what-exactly-is-the-developer-verifying-b5h",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1487776736702799",
+      "publicado_em": "2026-09-26T17:17:30.030Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.usmagazine.com/shopping/news/amazon-beauty-must-haves-prime-big-deal-days/",
+      "chave": "https://www.usmagazine.com/shopping/news/amazon-beauty-must-haves-prime-big-deal-days",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122103673569485849",
+      "publicado_em": "2026-09-26T17:17:34.554Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.mondaq.com/uk/patent/1847604/kawasakis-hydrogen-motorcycle-what-the-patents-reveal",
+      "chave": "https://www.mondaq.com/uk/patent/1847604/kawasakis-hydrogen-motorcycle-what-the-patents-reveal",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122102726463486415",
+      "publicado_em": "2026-09-26T17:17:39.319Z"
     }
   ]
 }
