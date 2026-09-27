@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-26T16:45:54.426Z",
+  "gerado_em": "2026-09-27T17:17:31.761Z",
   "publicados": 4,
   "sem_conteudo": 0,
   "erros": 0,
@@ -8,21 +8,21 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1487750770038729",
+      "post_id": "369805844018354_1488748049939001",
       "tipo": "photo",
-      "titulo": "BREAKING. Nubank vai atrás do Nubank britânico",
-      "url": "https://braziljournal.com/breaking-nubank-vai-atras-do-nubank-britanico/",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "titulo": "D2C Summit 2026: tudo sobre o maior evento D2C do Brasil",
+      "url": "https://www.nuvemshop.com.br/blog/d2c-summit/",
+      "fonte": "Nuvemshop",
+      "fonte_id": "nuvemshop"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
       "status": "publicado",
-      "post_id": "1247772158429331_122103646905485849",
+      "post_id": "1247772158429331_122104818771485849",
       "tipo": "feed",
-      "titulo": "VITÓRIA HISTÓRICA DA SBD: TRF1 reconhece ilegalidade da resolução que criou a Harmonização Orofacial como especialidade odontológica",
-      "url": "https://www.sbd.org.br/vitoria-historica-da-sbd-trf1-reconhece-ilegalidade-da-resolucao-que-criou-a-harmonizacao-orofacial-como-especialidade-odontologica/",
+      "titulo": "Uso de canetas emagrecedoras pode provocar alterações na pele, nos cabelos e nas unhas, alerta Sociedade Brasileira de Dermatologia",
+      "url": "https://www.sbd.org.br/uso-de-canetas-emagrecedoras-pode-provocar-alteracoes-na-pele-nos-cabelos-e-nas-unhas-alerta-sociedade-brasileira-de-dermatologia/",
       "fonte": "Sociedade Brasileira de Dermatologia",
       "fonte_id": "sbd"
     },
@@ -30,10 +30,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122102705055486415",
+      "post_id": "1332730186586435_122103851475486415",
       "tipo": "photo",
-      "titulo": "Battery swap: como a troca de baterias pode ajudar as motos elétricas a ganhar espaço",
-      "url": "https://motociclismoonline.com.br/especiais/battery-swap-motos-eletricas/",
+      "titulo": "Bruno Crivilin disputa Rally do Marrocos pelo Mundial de Rally Raid",
+      "url": "https://motociclismoonline.com.br/competicoes/bruno-crivilin-honda-rally-raid/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122111404197476480",
-      "tipo": "feed",
-      "titulo": "Ceia de Natal: monte a mesa posta festiva passo a passo",
-      "url": "https://blog.precolandia.com.br/mesa-posta-natal-ceia-passo-a-passo/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "post_id": "1402223216297975_122111922867476480",
+      "tipo": "photo",
+      "titulo": "Abriu a torneira e o chuveiro mudou de temperatura? Entenda por que isso acontece",
+      "url": "https://casa.abril.com.br/minha-casa/abriu-a-torneira-e-o-chuveiro-mudou-de-temperatura-entenda-por-que-isso-acontece/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }

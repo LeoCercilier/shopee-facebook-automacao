@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-26T16:45:54.426Z",
+  "atualizado_em": "2026-09-27T17:17:31.761Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -309,6 +309,50 @@
       "titulo": "Ceia de Natal: monte a mesa posta festiva passo a passo",
       "post_id": "1402223216297975_122111404197476480",
       "publicado_em": "2026-09-26T16:45:54.426Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/d2c-summit/",
+      "titulo": "D2C Summit 2026: tudo sobre o maior evento D2C do Brasil",
+      "post_id": "369805844018354_1488748049939001",
+      "publicado_em": "2026-09-27T17:17:05.072Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "sbd",
+      "fonte_nome": "Sociedade Brasileira de Dermatologia",
+      "url": "https://www.sbd.org.br/uso-de-canetas-emagrecedoras-pode-provocar-alteracoes-na-pele-nos-cabelos-e-nas-unhas-alerta-sociedade-brasileira-de-dermatologia/",
+      "titulo": "Uso de canetas emagrecedoras pode provocar alterações na pele, nos cabelos e nas unhas, alerta Sociedade Brasileira de Dermatologia",
+      "post_id": "1247772158429331_122104818771485849",
+      "publicado_em": "2026-09-27T17:17:15.134Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/competicoes/bruno-crivilin-honda-rally-raid/",
+      "titulo": "Bruno Crivilin disputa Rally do Marrocos pelo Mundial de Rally Raid",
+      "post_id": "1332730186586435_122103851475486415",
+      "publicado_em": "2026-09-27T17:17:22.494Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/minha-casa/abriu-a-torneira-e-o-chuveiro-mudou-de-temperatura-entenda-por-que-isso-acontece/",
+      "titulo": "Abriu a torneira e o chuveiro mudou de temperatura? Entenda por que isso acontece",
+      "post_id": "1402223216297975_122111922867476480",
+      "publicado_em": "2026-09-27T17:17:31.761Z"
     }
   ]
 }
