@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-27T17:50:39.386Z",
+  "atualizado_em": "2026-09-28T20:10:08.680Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -445,6 +445,54 @@
       "titulo": "Curiosidade do dia",
       "post_id": "1402223216297975_122111933457476480",
       "publicado_em": "2026-09-27T17:50:39.386Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "freenews-biz",
+      "fonte_nome": "FreeNewsAPI (negócios/IA/marketing)",
+      "url": "https://www.myjoyonline.com/seamless-technologies-ceo-calls-for-strategic-ai-adoption-to-transform-ghanas-financial-services-sector/",
+      "chave": "https://www.myjoyonline.com/seamless-technologies-ceo-calls-for-strategic-ai-adoption-to-transform-ghanas-financial-services-sector",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1489824259831380",
+      "publicado_em": "2026-09-28T20:09:53.662Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://menafn.com/1111718310/Beauty-Tourism-Is-Changing-What-Australians-Pack-For-Their-Holidays",
+      "chave": "https://menafn.com/1111718310/beauty-tourism-is-changing-what-australians-pack-for-their-holidays",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122105875569485849",
+      "publicado_em": "2026-09-28T20:09:58.176Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.timesnownews.com/auto/electric-vehicles/oben-electric-hits-10000-motorcycle-production-mark-in-india-article-156240901",
+      "chave": "https://www.timesnownews.com/auto/electric-vehicles/oben-electric-hits-10000-motorcycle-production-mark-in-india-article-156240901",
+      "titulo": "Motos elétricas e mobilidade urbana",
+      "post_id": "1332730186586435_122104883715486415",
+      "publicado_em": "2026-09-28T20:10:03.063Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "freenews-casa",
+      "fonte_nome": "FreeNewsAPI (casa/DIY/culinária)",
+      "url": "https://www.philstar.com/lifestyle/food-and-leisure/2026/09/28/2559509/crispy-air-fried-chicken-cutlets-no-fuss-recipe-busy-working-girl",
+      "chave": "https://www.philstar.com/lifestyle/food-and-leisure/2026/09/28/2559509/crispy-air-fried-chicken-cutlets-no-fuss-recipe-busy-working-girl",
+      "titulo": "Curiosidade do dia",
+      "post_id": "1402223216297975_122112471855476480",
+      "publicado_em": "2026-09-28T20:10:08.679Z"
     }
   ]
 }
