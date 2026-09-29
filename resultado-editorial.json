@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-28T19:50:33.451Z",
+  "gerado_em": "2026-09-29T18:15:56.327Z",
   "publicados": 4,
   "sem_conteudo": 0,
   "erros": 0,
@@ -8,21 +8,21 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1489812396499233",
+      "post_id": "369805844018354_1490712803075859",
       "tipo": "photo",
-      "titulo": "Muitos agentes de AI estão fora da casinha. A Nvidia diz que pode detê-los",
-      "url": "https://braziljournal.com/muitos-agentes-de-ai-estao-fora-da-casinha-a-nvidia-diz-que-pode-dete-los/",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "titulo": "Como usar IA para ambientar produtos? Guia com ferramentas",
+      "url": "https://www.nuvemshop.com.br/blog/ia-para-ambientar-produtos/",
+      "fonte": "Nuvemshop",
+      "fonte_id": "nuvemshop"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
       "status": "publicado",
-      "post_id": "1247772158429331_122105864049485849",
+      "post_id": "1247772158429331_122106767367485849",
       "tipo": "feed",
-      "titulo": "Justiça mantém decisão que anula parcialmente resolução do COFEN sobre procedimentos estéticos invasivos",
-      "url": "https://www.sbd.org.br/justica-mantem-decisao-que-anula-parcialmente-resolucao-do-cofen-sobre-procedimentos-esteticos-invasivos/",
+      "titulo": "Sociedade Brasileira de Dermatologia leva assistência dermatológica a comunidades indígenas e realiza atendimentos no Rio Grande do Sul",
+      "url": "https://www.sbd.org.br/sociedade-brasileira-de-dermatologia-leva-assistencia-dermatologica-a-comunidades-indigenas-e-realiza-atendimentos-no-rio-grande-do-sul/",
       "fonte": "Sociedade Brasileira de Dermatologia",
       "fonte_id": "sbd"
     },
@@ -30,10 +30,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122104868319486415",
+      "post_id": "1332730186586435_122105683299486415",
       "tipo": "photo",
-      "titulo": "Shineray terá scooter aventureiro com motor bicilíndrico central",
-      "url": "https://motociclismoonline.com.br/noticias/shineray-255xt-scooter-aventureiro-motor-bicilindrico-central/",
+      "titulo": "VOGE DS525X: veja preço, motor e equipamentos da aventureira",
+      "url": "https://motociclismoonline.com.br/noticias/voge-ds525x-veja-preco-motor-e-equipamentos-da-aventureira/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122112464607476480",
-      "tipo": "feed",
-      "titulo": "Organização da casa: o que comprar na Black Friday",
-      "url": "https://blog.precolandia.com.br/black-friday-itens-de-organizacao/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "post_id": "1402223216297975_122112915165476480",
+      "tipo": "photo",
+      "titulo": "Lar em harmonia: veja plantas para atrair prosperidade, riqueza, equilíbrio, alegria e proteção para o lar",
+      "url": "https://casa.abril.com.br/jardins-e-hortas/lar-em-harmonia-veja-plantas-para-atrair-prosperidade-riqueza-equilibrio-alegria-e-protecao-para-o-lar/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }

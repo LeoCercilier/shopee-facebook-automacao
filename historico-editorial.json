@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-28T19:50:33.450Z",
+  "atualizado_em": "2026-09-29T18:15:56.327Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -397,6 +397,50 @@
       "titulo": "Organização da casa: o que comprar na Black Friday",
       "post_id": "1402223216297975_122112464607476480",
       "publicado_em": "2026-09-28T19:50:33.450Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/ia-para-ambientar-produtos/",
+      "titulo": "Como usar IA para ambientar produtos? Guia com ferramentas",
+      "post_id": "369805844018354_1490712803075859",
+      "publicado_em": "2026-09-29T18:15:21.239Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "sbd",
+      "fonte_nome": "Sociedade Brasileira de Dermatologia",
+      "url": "https://www.sbd.org.br/sociedade-brasileira-de-dermatologia-leva-assistencia-dermatologica-a-comunidades-indigenas-e-realiza-atendimentos-no-rio-grande-do-sul/",
+      "titulo": "Sociedade Brasileira de Dermatologia leva assistência dermatológica a comunidades indígenas e realiza atendimentos no Rio Grande do Sul",
+      "post_id": "1247772158429331_122106767367485849",
+      "publicado_em": "2026-09-29T18:15:37.210Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/voge-ds525x-veja-preco-motor-e-equipamentos-da-aventureira/",
+      "titulo": "VOGE DS525X: veja preço, motor e equipamentos da aventureira",
+      "post_id": "1332730186586435_122105683299486415",
+      "publicado_em": "2026-09-29T18:15:45.429Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/jardins-e-hortas/lar-em-harmonia-veja-plantas-para-atrair-prosperidade-riqueza-equilibrio-alegria-e-protecao-para-o-lar/",
+      "titulo": "Lar em harmonia: veja plantas para atrair prosperidade, riqueza, equilíbrio, alegria e proteção para o lar",
+      "post_id": "1402223216297975_122112915165476480",
+      "publicado_em": "2026-09-29T18:15:56.327Z"
     }
   ]
 }
