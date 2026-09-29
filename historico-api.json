@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-28T20:10:08.680Z",
+  "atualizado_em": "2026-09-29T18:43:19.826Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -493,6 +493,42 @@
       "titulo": "Curiosidade do dia",
       "post_id": "1402223216297975_122112471855476480",
       "publicado_em": "2026-09-28T20:10:08.679Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "freenews-biz",
+      "fonte_nome": "FreeNewsAPI (negócios/IA/marketing)",
+      "url": "https://www.rediff.com/business/report/ai-market-must-reach-6-trillion-annually-by-2031-report/20260929.htm",
+      "chave": "https://www.rediff.com/business/report/ai-market-must-reach-6-trillion-annually-by-2031-report/20260929.htm",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1490731609740645",
+      "publicado_em": "2026-09-29T18:43:06.629Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.manilatimes.net/2026/09/28/tmt-newswire/globenewswire/herism-relaunches-with-a-new-skin-series-and-an-ai-skin-matchwing-app-building-on-seven-years-in-skincare/2433701",
+      "chave": "https://www.manilatimes.net/2026/09/28/tmt-newswire/globenewswire/herism-relaunches-with-a-new-skin-series-and-an-ai-skin-matchwing-app-building-on-seven-years-in-skincare/2433701",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122106783729485849",
+      "publicado_em": "2026-09-29T18:43:13.517Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.sports.fr/auto-moto/moto/motogp-fabio-quartararo-un-autre-changement-se-profile-1050033.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "chave": "https://www.sports.fr/auto-moto/moto/motogp-fabio-quartararo-un-autre-changement-se-profile-1050033.html",
+      "titulo": "O que está em alta no MotoGP",
+      "post_id": "1332730186586435_122105701671486415",
+      "publicado_em": "2026-09-29T18:43:19.826Z"
     }
   ]
 }
