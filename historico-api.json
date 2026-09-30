@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-29T18:43:19.826Z",
+  "atualizado_em": "2026-09-30T18:29:05.978Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -529,6 +529,54 @@
       "titulo": "O que está em alta no MotoGP",
       "post_id": "1332730186586435_122105701671486415",
       "publicado_em": "2026-09-29T18:43:19.826Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/aws-builders/ai-agent-governance-on-aws-block-agents-prove-eu-ai-act-compliance-1829",
+      "chave": "https://dev.to/aws-builders/ai-agent-governance-on-aws-block-agents-prove-eu-ai-act-compliance-1829",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1491707146309758",
+      "publicado_em": "2026-09-30T18:28:53.517Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://hot1009.com/4489431/black-owned-self-care-brands/",
+      "chave": "https://hot1009.com/4489431/black-owned-self-care-brands",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122107861773485849",
+      "publicado_em": "2026-09-30T18:28:57.957Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.mcnews.com.au/2026-motegi-motogp-moto2-moto3-preview/",
+      "chave": "https://www.mcnews.com.au/2026-motegi-motogp-moto2-moto3-preview",
+      "titulo": "O que está em alta no MotoGP",
+      "post_id": "1332730186586435_122106602505486415",
+      "publicado_em": "2026-09-30T18:29:01.743Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "freenews-casa",
+      "fonte_nome": "FreeNewsAPI (casa/DIY/culinária)",
+      "url": "https://ndtv.in/lifestyle/how-to-make-cement-duck-planter-from-old-clothes-diy-gardening-hacks-12118072",
+      "chave": "https://ndtv.in/lifestyle/how-to-make-cement-duck-planter-from-old-clothes-diy-gardening-hacks-12118072",
+      "titulo": "Curiosidade do dia",
+      "post_id": "1402223216297975_122113456035476480",
+      "publicado_em": "2026-09-30T18:29:05.978Z"
     }
   ]
 }
