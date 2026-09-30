@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-29T18:15:56.327Z",
+  "atualizado_em": "2026-09-30T18:08:20.611Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -441,6 +441,50 @@
       "titulo": "Lar em harmonia: veja plantas para atrair prosperidade, riqueza, equilíbrio, alegria e proteção para o lar",
       "post_id": "1402223216297975_122112915165476480",
       "publicado_em": "2026-09-29T18:15:56.327Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "brazil-journal",
+      "fonte_nome": "Brazil Journal",
+      "url": "https://braziljournal.com/know-your-agent-uma-startup-para-verificar-a-identidade-dos-bots/",
+      "titulo": "‘Know your agent’. Uma startup para verificar a identidade dos bots",
+      "post_id": "369805844018354_1491692442977895",
+      "publicado_em": "2026-09-30T18:07:54.675Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "folha-equilibrio",
+      "fonte_nome": "Folha Equilíbrio e Saúde",
+      "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/09/brodowski-sp-suspende-aulas-apos-casos-de-doenca-de-pele-de-origem-desconhecida.shtml",
+      "titulo": "Brodowski (SP) suspende aulas após casos de problema de pele de origem desconhecida",
+      "post_id": "1247772158429331_122107826247485849",
+      "publicado_em": "2026-09-30T18:08:04.079Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/yamaha-yz250f-2027-novo-motor-preco/",
+      "titulo": "Yamaha YZ250F é renovada para linha 2027; confira preço e detalhes",
+      "post_id": "1332730186586435_122106563175486415",
+      "publicado_em": "2026-09-30T18:08:12.041Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "precolandia",
+      "fonte_nome": "Blog Preçolandia",
+      "url": "https://blog.precolandia.com.br/frigideira-panela-pressao-jogo-panelas/",
+      "titulo": "Panela de pressão, jogo de panelas e frigideira: compare",
+      "post_id": "1402223216297975_122113448157476480",
+      "publicado_em": "2026-09-30T18:08:20.611Z"
     }
   ]
 }
