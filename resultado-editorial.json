@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-30T18:08:20.611Z",
+  "gerado_em": "2026-10-01T18:35:00.129Z",
   "publicados": 4,
   "sem_conteudo": 0,
   "erros": 0,
@@ -8,32 +8,32 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1491692442977895",
+      "post_id": "369805844018354_1492727412874398",
       "tipo": "photo",
-      "titulo": "‘Know your agent’. Uma startup para verificar a identidade dos bots",
-      "url": "https://braziljournal.com/know-your-agent-uma-startup-para-verificar-a-identidade-dos-bots/",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "titulo": "Como criar vídeos de produtos com IA: guia passo a passo",
+      "url": "https://www.nuvemshop.com.br/blog/como-criar-videos-de-produtos-com-ia/",
+      "fonte": "Nuvemshop",
+      "fonte_id": "nuvemshop"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
       "status": "publicado",
-      "post_id": "1247772158429331_122107826247485849",
+      "post_id": "1247772158429331_122108860653485849",
       "tipo": "feed",
-      "titulo": "Brodowski (SP) suspende aulas após casos de problema de pele de origem desconhecida",
-      "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/09/brodowski-sp-suspende-aulas-apos-casos-de-doenca-de-pele-de-origem-desconhecida.shtml",
-      "fonte": "Folha Equilíbrio e Saúde",
-      "fonte_id": "folha-equilibrio"
+      "titulo": "Teraderm reúne quase dois mil médicos dermatologistas de todo o Brasil",
+      "url": "https://www.sbd.org.br/teraderm-reune-quase-dois-mil-medicos-dermatologistas-de-todo-o-brasil/",
+      "fonte": "Sociedade Brasileira de Dermatologia",
+      "fonte_id": "sbd"
     },
     {
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122106563175486415",
+      "post_id": "1332730186586435_122107586091486415",
       "tipo": "photo",
-      "titulo": "Yamaha YZ250F é renovada para linha 2027; confira preço e detalhes",
-      "url": "https://motociclismoonline.com.br/noticias/yamaha-yz250f-2027-novo-motor-preco/",
+      "titulo": "BMW revela preço e inicia vendas da exclusiva R 1300 GS Adventure 10Y Manaus",
+      "url": "https://motociclismoonline.com.br/noticias/bmw-r-1300-gs-adventure-10y-manaus-vendas-preco-detalhes/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122113448157476480",
-      "tipo": "feed",
-      "titulo": "Panela de pressão, jogo de panelas e frigideira: compare",
-      "url": "https://blog.precolandia.com.br/frigideira-panela-pressao-jogo-panelas/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "post_id": "1402223216297975_122113868019476480",
+      "tipo": "photo",
+      "titulo": "Em 700 m², projeto de paisagismo tropical envolve área gourmet, piscina e academia",
+      "url": "https://casa.abril.com.br/jardins-e-hortas/em-700-m-projeto-de-paisagismo-tropical-envolve-area-gourmet-piscina-e-academia/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }

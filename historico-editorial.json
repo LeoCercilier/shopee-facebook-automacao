@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-30T18:08:20.611Z",
+  "atualizado_em": "2026-10-01T18:35:00.128Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -485,6 +485,50 @@
       "titulo": "Panela de pressão, jogo de panelas e frigideira: compare",
       "post_id": "1402223216297975_122113448157476480",
       "publicado_em": "2026-09-30T18:08:20.611Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/como-criar-videos-de-produtos-com-ia/",
+      "titulo": "Como criar vídeos de produtos com IA: guia passo a passo",
+      "post_id": "369805844018354_1492727412874398",
+      "publicado_em": "2026-10-01T18:34:30.185Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "sbd",
+      "fonte_nome": "Sociedade Brasileira de Dermatologia",
+      "url": "https://www.sbd.org.br/teraderm-reune-quase-dois-mil-medicos-dermatologistas-de-todo-o-brasil/",
+      "titulo": "Teraderm reúne quase dois mil médicos dermatologistas de todo o Brasil",
+      "post_id": "1247772158429331_122108860653485849",
+      "publicado_em": "2026-10-01T18:34:42.728Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/bmw-r-1300-gs-adventure-10y-manaus-vendas-preco-detalhes/",
+      "titulo": "BMW revela preço e inicia vendas da exclusiva R 1300 GS Adventure 10Y Manaus",
+      "post_id": "1332730186586435_122107586091486415",
+      "publicado_em": "2026-10-01T18:34:50.217Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/jardins-e-hortas/em-700-m-projeto-de-paisagismo-tropical-envolve-area-gourmet-piscina-e-academia/",
+      "titulo": "Em 700 m², projeto de paisagismo tropical envolve área gourmet, piscina e academia",
+      "post_id": "1402223216297975_122113868019476480",
+      "publicado_em": "2026-10-01T18:35:00.128Z"
     }
   ]
 }
