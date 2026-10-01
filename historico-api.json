@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-30T18:29:05.978Z",
+  "atualizado_em": "2026-10-01T18:57:07.470Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -577,6 +577,54 @@
       "titulo": "Curiosidade do dia",
       "post_id": "1402223216297975_122113456035476480",
       "publicado_em": "2026-09-30T18:29:05.978Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/alifar/typesafe-ais-jev-brings-confidence-based-workflow-routing-to-n8n-5g3c",
+      "chave": "https://dev.to/alifar/typesafe-ais-jev-brings-confidence-based-workflow-routing-to-n8n-5g3c",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1492742716206201",
+      "publicado_em": "2026-10-01T18:56:48.695Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.glossy.co/podcasts/veteran-exec-jamiee-holmes-unpacks-eye-patch-gate-and-why-innovation-spurred-fel-beautys-quick-sephora-sell-out/",
+      "chave": "https://www.glossy.co/podcasts/veteran-exec-jamiee-holmes-unpacks-eye-patch-gate-and-why-innovation-spurred-fel-beautys-quick-sephora-sell-out",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122108867595485849",
+      "publicado_em": "2026-10-01T18:56:54.857Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.newsbytesapp.com/news/auto/honda-motorcycle-scooter-india-posts-september-sales-up-24/tldr",
+      "chave": "https://www.newsbytesapp.com/news/auto/honda-motorcycle-scooter-india-posts-september-sales-up-24/tldr",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122107600653486415",
+      "publicado_em": "2026-10-01T18:57:00.713Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "freenews-casa",
+      "fonte_nome": "FreeNewsAPI (casa/DIY/culinária)",
+      "url": "https://ndtv.in/lifestyle/diy-broom-jala-jhadu-from-plastic-bottle-for-navratri-home-cleaning-and-plastic-recycling-ideas-hack-12123016",
+      "chave": "https://ndtv.in/lifestyle/diy-broom-jala-jhadu-from-plastic-bottle-for-navratri-home-cleaning-and-plastic-recycling-ideas-hack-12123016",
+      "titulo": "Curiosidade do dia",
+      "post_id": "1402223216297975_122113877535476480",
+      "publicado_em": "2026-10-01T18:57:07.470Z"
     }
   ]
 }
