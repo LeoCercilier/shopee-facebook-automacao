@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-01T18:57:07.470Z",
+  "atualizado_em": "2026-10-02T18:32:58.899Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -625,6 +625,42 @@
       "titulo": "Curiosidade do dia",
       "post_id": "1402223216297975_122113877535476480",
       "publicado_em": "2026-10-01T18:57:07.470Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/soumyadeepdey/i-gave-15-ai-models-proof-their-hacking-target-was-a-real-company-73-of-the-ones-that-noticed-1h81",
+      "chave": "https://dev.to/soumyadeepdey/i-gave-15-ai-models-proof-their-hacking-target-was-a-real-company-73-of-the-ones-that-noticed-1h81",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1493786026101870",
+      "publicado_em": "2026-10-02T18:32:50.161Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.hindustantimes.com/lifestyle/fashion/makeup-is-no-longer-about-following-rules-says-mars-cosmetics-rishabh-sethia-101790666060110-amp.html",
+      "chave": "https://www.hindustantimes.com/lifestyle/fashion/makeup-is-no-longer-about-following-rules-says-mars-cosmetics-rishabh-sethia-101790666060110-amp.html",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122109442017485849",
+      "publicado_em": "2026-10-02T18:32:54.057Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.thehindubusinessline.com/companies/electric-motorcycle-sales-gain-traction-but-capacity-still-far-ahead-of-demand/article71534692.ece",
+      "chave": "https://www.thehindubusinessline.com/companies/electric-motorcycle-sales-gain-traction-but-capacity-still-far-ahead-of-demand/article71534692.ece",
+      "titulo": "Motos elétricas e mobilidade urbana",
+      "post_id": "1332730186586435_122108396763486415",
+      "publicado_em": "2026-10-02T18:32:58.899Z"
     }
   ]
 }

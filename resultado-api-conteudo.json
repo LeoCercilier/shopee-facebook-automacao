@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-01T18:57:07.470Z",
+  "gerado_em": "2026-10-02T18:33:00.999Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -8,13 +8,13 @@
       "status": "publicado",
       "stats": {
         "coletados": 132,
-        "aprovados_fonte": 34,
+        "aprovados_fonte": 22,
         "aprovados_texto": 20,
         "rejeitados": 0,
         "publicados": 1
       },
       "melhor_titulo": "Como a IA pode ajudar no dia a dia do negócio",
-      "score_fonte": 98,
+      "score_fonte": 94,
       "score_texto": 94,
       "tem_imagem": true
     },
@@ -23,13 +23,13 @@
       "status": "publicado",
       "stats": {
         "coletados": 40,
-        "aprovados_fonte": 3,
-        "aprovados_texto": 3,
-        "rejeitados": 17,
+        "aprovados_fonte": 5,
+        "aprovados_texto": 5,
+        "rejeitados": 15,
         "publicados": 1
       },
       "melhor_titulo": "Cuidados com a pele no dia a dia",
-      "score_fonte": 75,
+      "score_fonte": 79,
       "score_texto": 86,
       "tem_imagem": false
     },
@@ -38,29 +38,29 @@
       "status": "publicado",
       "stats": {
         "coletados": 64,
-        "aprovados_fonte": 20,
-        "aprovados_texto": 19,
-        "rejeitados": 1,
+        "aprovados_fonte": 15,
+        "aprovados_texto": 15,
+        "rejeitados": 5,
         "publicados": 1
       },
-      "melhor_titulo": "No universo das duas rodas",
-      "score_fonte": 95,
+      "melhor_titulo": "Motos elétricas e mobilidade urbana",
+      "score_fonte": 91,
       "score_texto": 86,
       "tem_imagem": false
     },
     {
       "pagina": "Casa & Conforto Utilidades",
-      "status": "publicado",
+      "status": "sem_conteudo_qualificado",
       "stats": {
         "coletados": 57,
-        "aprovados_fonte": 1,
-        "aprovados_texto": 1,
-        "rejeitados": 19,
-        "publicados": 1
+        "aprovados_fonte": 0,
+        "aprovados_texto": 0,
+        "rejeitados": 20,
+        "publicados": 0
       },
-      "melhor_titulo": "Curiosidade do dia",
-      "score_fonte": 83,
-      "score_texto": 86,
+      "melhor_titulo": null,
+      "score_fonte": null,
+      "score_texto": null,
       "tem_imagem": false
     }
   ]
