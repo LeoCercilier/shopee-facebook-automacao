@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-02T18:02:31.310Z",
+  "atualizado_em": "2026-10-03T16:43:24.013Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -573,6 +573,50 @@
       "titulo": "Cozinha do casal: organize o espaço compartilhado",
       "post_id": "1402223216297975_122114384475476480",
       "publicado_em": "2026-10-02T18:02:31.310Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/ia-para-atendimento-automatico-de-ecommerce/",
+      "titulo": "Guia de IA para atendimento automático de e-commerce",
+      "post_id": "369805844018354_1494637709350035",
+      "publicado_em": "2026-10-03T16:42:55.565Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "sbd",
+      "fonte_nome": "Sociedade Brasileira de Dermatologia",
+      "url": "https://www.sbd.org.br/trf1-mantem-nulidade-de-resolucao-que-autorizava-biomedicos-a-realizar-procedimentos-esteticos-invasivos/",
+      "titulo": "TRF1 mantém nulidade de resolução que autorizava biomédicos a realizar procedimentos estéticos invasivos",
+      "post_id": "1247772158429331_122110005951485849",
+      "publicado_em": "2026-10-03T16:43:06.474Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/testes/honda-cb300f-twister-2027-testamos-na-cidade-e-na-estrada/",
+      "titulo": "Honda CB300F Twister 2027: testamos na cidade e na estrada",
+      "post_id": "1332730186586435_122108855571486415",
+      "publicado_em": "2026-10-03T16:43:13.632Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/casas-apartamentos/apartamento-de-140-m-em-tons-neutros-tem-pontos-de-cor-na-cozinha-lavabo-e-quartos/",
+      "titulo": "Apartamento de 140 m² em tons neutros tem pontos de cor na cozinha, lavabo e quartos",
+      "post_id": "1402223216297975_122114792151476480",
+      "publicado_em": "2026-10-03T16:43:24.013Z"
     }
   ]
 }
