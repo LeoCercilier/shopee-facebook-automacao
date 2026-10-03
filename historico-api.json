@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-02T18:32:58.899Z",
+  "atualizado_em": "2026-10-03T17:27:11.046Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -661,6 +661,42 @@
       "titulo": "Motos elétricas e mobilidade urbana",
       "post_id": "1332730186586435_122108396763486415",
       "publicado_em": "2026-10-02T18:32:58.899Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/alifar/openai-and-cerebras-confirm-750mw-ai-inference-deployment-through-2028-195i",
+      "chave": "https://dev.to/alifar/openai-and-cerebras-confirm-750mw-ai-inference-deployment-through-2028-195i",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1494670112680128",
+      "publicado_em": "2026-10-03T17:27:00.996Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.whowhatwear.com/beauty/skin/venus-retrograde-beauty-cheat-sheet",
+      "chave": "https://www.whowhatwear.com/beauty/skin/venus-retrograde-beauty-cheat-sheet",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122110019757485849",
+      "publicado_em": "2026-10-03T17:27:06.244Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://f1ingenerale.com/moto/motogp/motogp-gp-giappone-caso-gomme-a-motegi-cambia-il-programma-della-mattina-ecco-gli-orari-sky-e-tv8/",
+      "chave": "https://f1ingenerale.com/moto/motogp/motogp-gp-giappone-caso-gomme-a-motegi-cambia-il-programma-della-mattina-ecco-gli-orari-sky-e-tv8",
+      "titulo": "O que está em alta no MotoGP",
+      "post_id": "1332730186586435_122108868345486415",
+      "publicado_em": "2026-10-03T17:27:11.046Z"
     }
   ]
 }

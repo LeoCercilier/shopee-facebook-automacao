@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-02T18:33:00.999Z",
+  "gerado_em": "2026-10-03T17:27:12.484Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -7,8 +7,8 @@
       "pagina": "Marketing Tips",
       "status": "publicado",
       "stats": {
-        "coletados": 132,
-        "aprovados_fonte": 22,
+        "coletados": 131,
+        "aprovados_fonte": 37,
         "aprovados_texto": 20,
         "rejeitados": 0,
         "publicados": 1
@@ -38,13 +38,13 @@
       "status": "publicado",
       "stats": {
         "coletados": 64,
-        "aprovados_fonte": 15,
-        "aprovados_texto": 15,
-        "rejeitados": 5,
+        "aprovados_fonte": 17,
+        "aprovados_texto": 17,
+        "rejeitados": 3,
         "publicados": 1
       },
-      "melhor_titulo": "Motos elétricas e mobilidade urbana",
-      "score_fonte": 91,
+      "melhor_titulo": "O que está em alta no MotoGP",
+      "score_fonte": 87,
       "score_texto": 86,
       "tem_imagem": false
     },
