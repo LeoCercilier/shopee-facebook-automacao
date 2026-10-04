@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-03T16:43:24.013Z",
+  "gerado_em": "2026-10-04T17:02:21.697Z",
   "publicados": 4,
   "sem_conteudo": 0,
   "erros": 0,
@@ -8,32 +8,32 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1494637709350035",
-      "tipo": "photo",
-      "titulo": "Guia de IA para atendimento automático de e-commerce",
-      "url": "https://www.nuvemshop.com.br/blog/ia-para-atendimento-automatico-de-ecommerce/",
-      "fonte": "Nuvemshop",
-      "fonte_id": "nuvemshop"
+      "post_id": "369805844018354_1495572595923213",
+      "tipo": "feed",
+      "titulo": "OPINIÃO. Flávio ou Lula? O importante é usar a mesma régua",
+      "url": "https://braziljournal.com/opiniao-flavio-ou-lula-o-importante-e-usar-a-mesma-regua/",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
       "status": "publicado",
-      "post_id": "1247772158429331_122110005951485849",
+      "post_id": "1247772158429331_122110561185485849",
       "tipo": "feed",
-      "titulo": "TRF1 mantém nulidade de resolução que autorizava biomédicos a realizar procedimentos estéticos invasivos",
-      "url": "https://www.sbd.org.br/trf1-mantem-nulidade-de-resolucao-que-autorizava-biomedicos-a-realizar-procedimentos-esteticos-invasivos/",
-      "fonte": "Sociedade Brasileira de Dermatologia",
-      "fonte_id": "sbd"
+      "titulo": "Entidades médicas pedem à Anvisa proibição de chips da beleza",
+      "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/10/entidades-medicas-pedem-a-anvisa-proibicao-de-chips-da-beleza.shtml",
+      "fonte": "Folha Equilíbrio e Saúde",
+      "fonte_id": "folha-equilibrio"
     },
     {
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122108855571486415",
+      "post_id": "1332730186586435_122109444687486415",
       "tipo": "photo",
-      "titulo": "Honda CB300F Twister 2027: testamos na cidade e na estrada",
-      "url": "https://motociclismoonline.com.br/testes/honda-cb300f-twister-2027-testamos-na-cidade-e-na-estrada/",
+      "titulo": "Bruno Crivilin fecha Rally do Marrocos em destaque no Mundial",
+      "url": "https://motociclismoonline.com.br/competicoes/bruno-crivilin-rally-marrocos-mundial-raid-2026/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122114792151476480",
+      "post_id": "1402223216297975_122115218211476480",
       "tipo": "feed",
-      "titulo": "Apartamento de 140 m² em tons neutros tem pontos de cor na cozinha, lavabo e quartos",
-      "url": "https://casa.abril.com.br/casas-apartamentos/apartamento-de-140-m-em-tons-neutros-tem-pontos-de-cor-na-cozinha-lavabo-e-quartos/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "titulo": "Black Friday de utilidades domésticas: o que vale a pena",
+      "url": "https://blog.precolandia.com.br/black-friday-o-que-comprar-casa-cozinha/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }
