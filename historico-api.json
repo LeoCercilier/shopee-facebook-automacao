@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-03T17:27:11.046Z",
+  "atualizado_em": "2026-10-04T17:42:42.704Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -697,6 +697,42 @@
       "titulo": "O que está em alta no MotoGP",
       "post_id": "1332730186586435_122108868345486415",
       "publicado_em": "2026-10-03T17:27:11.046Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/aonica_/adaptive-intelligence-why-the-next-generation-of-ai-systems-will-learn-from-change-28ih",
+      "chave": "https://dev.to/aonica_/adaptive-intelligence-why-the-next-generation-of-ai-systems-will-learn-from-change-28ih",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1495600655920407",
+      "publicado_em": "2026-10-04T17:42:32.837Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://timesofindia.indiatimes.com/life-style/beauty/from-celebrity-hype-to-consumer-power-how-beauty-trends-are-being-rewritten-in-2026/articleshow/134634346.cms",
+      "chave": "https://timesofindia.indiatimes.com/life-style/beauty/from-celebrity-hype-to-consumer-power-how-beauty-trends-are-being-rewritten-in-2026/articleshow/134634346.cms",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122110578891485849",
+      "publicado_em": "2026-10-04T17:42:38.372Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.mcnews.com.au/2026-japanese-motogp-rider-team-reactions/",
+      "chave": "https://www.mcnews.com.au/2026-japanese-motogp-rider-team-reactions",
+      "titulo": "O que está em alta no MotoGP",
+      "post_id": "1332730186586435_122109467673486415",
+      "publicado_em": "2026-10-04T17:42:42.704Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-03T17:27:12.484Z",
+  "gerado_em": "2026-10-04T17:42:44.387Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "pontuacao_minima_fonte": 75,
@@ -10,8 +10,8 @@
       "page_id": "369805844018354",
       "status": "publicado",
       "stats": {
-        "coletados": 131,
-        "aprovados_fonte": 37,
+        "coletados": 140,
+        "aprovados_fonte": 35,
         "aprovados_texto": 20,
         "rejeitados": 0,
         "publicados": 1
@@ -21,14 +21,14 @@
         "page_id": "369805844018354",
         "fonte": "DEV.to",
         "fonte_id": "devto",
-        "titulo_original": "OpenAI and Cerebras Confirm 750MW AI Inference Deployment Through 2028",
+        "titulo_original": "Adaptive Intelligence: Why the Next Generation of AI Systems Will Learn From Change",
         "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
         "score_fonte": 94,
         "score_texto": 94,
         "status": "aprovado",
         "motivo": "Conteúdo relevante e texto adequado (fonte 94, texto 94)",
         "motivos_fonte": [
-          "+keyword no título (2)",
+          "+keyword no título (1)",
           "+keyword forte no título",
           "+keywords na descrição (1)",
           "+DEV.to (fonte prioritária)",
@@ -42,8 +42,8 @@
           "+tamanho adequado"
         ],
         "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-        "url_fonte_interna": "https://dev.to/alifar/openai-and-cerebras-confirm-750mw-ai-inference-deployment-through-2028-195i",
-        "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fscalevise.com%2Fresources%2Fcontent%2Fimages%2F2026%2F10%2Fopenai-cerebras-750mw-ai-inference-partnership.webp",
+        "url_fonte_interna": "https://dev.to/aonica_/adaptive-intelligence-why-the-next-generation-of-ai-systems-will-learn-from-change-28ih",
+        "imagem": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsswyix94eid8ywqi3dhc.png",
         "link_no_post": false,
         "graph_extras": {
           "text_format_preset_id": null,
@@ -57,14 +57,14 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "OpenAI and Cerebras Confirm 750MW AI Inference Deployment Through 2028",
+          "titulo_original": "Adaptive Intelligence: Why the Next Generation of AI Systems Will Learn From Change",
           "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
           "score_fonte": 94,
           "score_texto": 94,
           "status": "aprovado",
           "motivo": "Conteúdo relevante e texto adequado (fonte 94, texto 94)",
           "motivos_fonte": [
-            "+keyword no título (2)",
+            "+keyword no título (1)",
             "+keyword forte no título",
             "+keywords na descrição (1)",
             "+DEV.to (fonte prioritária)",
@@ -78,8 +78,8 @@
             "+tamanho adequado"
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/alifar/openai-and-cerebras-confirm-750mw-ai-inference-deployment-through-2028-195i",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fscalevise.com%2Fresources%2Fcontent%2Fimages%2F2026%2F10%2Fopenai-cerebras-750mw-ai-inference-partnership.webp",
+          "url_fonte_interna": "https://dev.to/aonica_/adaptive-intelligence-why-the-next-generation-of-ai-systems-will-learn-from-change-28ih",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsswyix94eid8ywqi3dhc.png",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -90,53 +90,20 @@
         {
           "pagina": "Marketing Tips",
           "page_id": "369805844018354",
-          "fonte": "FreeNewsAPI (negócios/IA/marketing)",
-          "fonte_id": "freenews-biz",
-          "titulo_original": "Visa Foundation U.S. Small Business Growth and Innovation Program: Applications Open for $100,000–$250,000 Grants to Support Small Businesses",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "SaaS Cancellation Flow: Show When Access and Billing End",
           "titulo_adaptado": "Tecnologia aplicada a negócios de forma simples",
-          "score_fonte": 93,
+          "score_fonte": 94,
           "score_texto": 94,
           "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 93, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (3)",
-            "+keyword forte no título",
-            "+keywords na descrição (3)",
-            "+FreeNews negócios",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nTecnologia aplicada a negócios de forma simples. Uma provocação útil para quem acompanha negócios digitais e quer aplicar tecnologia de forma prática. Guardar uma ideia por vez e aplicar na prática costuma render mais do que acumular tendências.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA/marketing)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://opportunitiesforyouth.org/2026/10/03/visa-foundation-u-s-small-business-growth-and-innovation-program-applications-open-for-100000-250000-grants-to-support-small-businesses/",
-          "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "FreeNewsAPI (negócios/IA/marketing)",
-          "fonte_id": "freenews-biz",
-          "titulo_original": "BIASafe AI: Quant Infrastructure for Firms That Cannot Afford a Quant Desk",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 93,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 93, texto 94)",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 94, texto 94)",
           "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
-            "+keywords na descrição (3)",
-            "+FreeNews negócios",
+            "+keywords na descrição (1)",
+            "+DEV.to (fonte prioritária)",
+            "+imagem",
             "+recente"
           ],
           "motivos_texto": [
@@ -145,9 +112,112 @@
             "+fonte alinhada ao nicho",
             "+tamanho adequado"
           ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA/marketing)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://canadiansme.ca/biasafe-ai-quant-infrastructure-for-firms-that-cannot-afford-a-quant-desk/",
-          "imagem": "",
+          "texto_final": "💡 Insight de tecnologia\n\nTecnologia aplicada a negócios de forma simples. Uma provocação útil para quem acompanha negócios digitais e quer aplicar tecnologia de forma prática. Guardar uma ideia por vez e aplicar na prática costuma render mais do que acumular tendências.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://dev.to/urielbitton/saas-cancellation-flow-show-when-access-and-billing-end-3ie7",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fc6987ea29x8jbrcvsaet.png",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "Adaptive Intelligence: Why the Next Generation of AI Systems Will Learn From Change",
+          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
+          "score_fonte": 94,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 94, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+DEV.to (fonte prioritária)",
+            "+imagem",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://dev.to/aonica_/adaptive-intelligence-why-the-next-generation-of-ai-systems-will-learn-from-change-28ih",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsswyix94eid8ywqi3dhc.png",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "I Put a Local LLM in Charge of a Colony and Asked It to Tell the Truth. It Didn't.",
+          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
+          "score_fonte": 90,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://dev.to/mikachu/i-built-a-text-based-survival-game-to-test-ai-morals-the-honest-one-lost-3fan",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F012l72kv7brllxsf1z6e.png",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "Nudging with Questions: Why Telling Your AI What to Fix Triggers an Apology Death Spiral (And How to Advance Juniors)",
+          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
+          "score_fonte": 90,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://dev.to/gde/nudging-with-questions-why-telling-your-ai-what-to-fix-triggers-an-apology-death-spiral-and-how-5gm4",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fq4n1nl9uebtqthv7tj99.png",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -194,109 +264,7 @@
           "page_id": "369805844018354",
           "fonte": "FreeNewsAPI (negócios/IA/marketing)",
           "fonte_id": "freenews-biz",
-          "titulo_original": "Higgsfield AI, eGov.GPT among AI & Digital Bridge Awards 2026 winners",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 89,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 89, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+FreeNews negócios",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA/marketing)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://qazinform.com/news/higgsfield-ai-egovgpt-among-ai-digital-bridge-awards-2026-winners-9b49dd",
-          "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "FreeNewsAPI (negócios/IA/marketing)",
-          "fonte_id": "freenews-biz",
-          "titulo_original": "Artificial Intelligence in Intravascular Ultrasound for Coronary Artery Disease",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 89,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 89, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+FreeNews negócios",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Guardar uma ideia por vez e aplicar na prática costuma render mais do que acumular tendências.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA/marketing)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://www.archynewsy.com/artificial-intelligence-in-intravascular-ultrasound-for-coronary-artery-disease/",
-          "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "FreeNewsAPI (negócios/IA/marketing)",
-          "fonte_id": "freenews-biz",
-          "titulo_original": "Higgsfield AI, eGov.GPT among AI & Digital Bridge Awards 2026 winners",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 89,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 89, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+FreeNews negócios",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA/marketing)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://qazinform.com/news/higgsfield-ai-egovgpt-among-ai-digital-bridge-awards-2026-winners-9b49dd",
-          "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "FreeNewsAPI (negócios/IA/marketing)",
-          "fonte_id": "freenews-biz",
-          "titulo_original": "Skin In The Game: Why Banks Are Taking Stakes In AI Labs",
+          "titulo_original": "Domain expertise seen as key to survival for BPO workers during transition to AI",
           "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
           "score_fonte": 89,
           "score_texto": 94,
@@ -316,110 +284,8 @@
             "+tamanho adequado"
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA/marketing)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://inc42.com/features/skin-in-the-game-why-banks-are-taking-stakes-in-ai-labs/",
+          "url_fonte_interna": "https://bworldonline.com/economy/2026/10/04/784304/domain-expertise-seen-as-key-to-survival-for-bpo-workers-during-transition-to-ai/",
           "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "FreeNewsAPI (negócios/IA/marketing)",
-          "fonte_id": "freenews-biz",
-          "titulo_original": "AI is speeding up exploits. Vulnerability spreadsheets can’t keep up.",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 89,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 89, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+FreeNews negócios",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA/marketing)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://thenewstack.io/cve-vulnerability-risk-management/",
-          "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "FreeNewsAPI (negócios/IA/marketing)",
-          "fonte_id": "freenews-biz",
-          "titulo_original": "The Next Growth Map: West Bengal Puts MSMEs, AI and Data Centres in Focus",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 89,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 89, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+FreeNews negócios",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA/marketing)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://indianmasterminds.com/news/west-bengal-industrial-policy-msme-ai-238927/",
-          "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "What Happens When an AI System Is Built to Challenge Its Own Decisions?",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 86,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 86, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+DEV.to (fonte prioritária)",
-            "+imagem"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/danielecangi/what-happens-when-an-ai-system-is-built-to-challenge-its-own-decisions-4co8",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fo3i3r02madcwwf8s2g1j.png",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -534,7 +400,7 @@
           "page_id": "369805844018354",
           "fonte": "FreeNewsAPI (negócios/IA/marketing)",
           "fonte_id": "freenews-biz",
-          "titulo_original": "African AI Film Festival Launches Inaugural Edition: Live in Hollywood, with a Screening in Kampala",
+          "titulo_original": "Faculty development prog on AI Integration held at SKR & SKR Govt college",
           "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
           "score_fonte": 85,
           "score_texto": 94,
@@ -554,7 +420,7 @@
             "+tamanho adequado"
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA/marketing)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://digitalmarketreports.com/news/93281/african-ai-film-festival-launches-inaugural-edition-live-in-hollywood-with-a-screening-in-kampala/",
+          "url_fonte_interna": "https://www.edexlive.com/news/faculty-development-prog-on-ai-integration-held-at-skr-skr-govt-college",
           "imagem": "",
           "link_no_post": false,
           "graph_extras": {
@@ -568,7 +434,7 @@
           "page_id": "369805844018354",
           "fonte": "FreeNewsAPI (negócios/IA/marketing)",
           "fonte_id": "freenews-biz",
-          "titulo_original": "California Governor Gavin Newsom signed new laws banning AI layoffs",
+          "titulo_original": "Let Students Explain the Edit: A Classroom Method for Learning With AI",
           "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
           "score_fonte": 85,
           "score_texto": 94,
@@ -588,7 +454,7 @@
             "+tamanho adequado"
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA/marketing)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://www.newsy-today.com/california-governor-gavin-newsom-signed-new-laws-banning-ai-layoffs/",
+          "url_fonte_interna": "https://marychuks.com/students-explain-the-edit-ai-learning/",
           "imagem": "",
           "link_no_post": false,
           "graph_extras": {
@@ -602,7 +468,7 @@
           "page_id": "369805844018354",
           "fonte": "FreeNewsAPI (negócios/IA/marketing)",
           "fonte_id": "freenews-biz",
-          "titulo_original": "Bryan Wolfe tests AI tools to build an Android app",
+          "titulo_original": "Let Students Explain the Edit: A Classroom Method for Learning With AI",
           "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
           "score_fonte": 85,
           "score_texto": 94,
@@ -622,7 +488,7 @@
             "+tamanho adequado"
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA/marketing)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://www.archynewsy.com/bryan-wolfe-tests-ai-tools-to-build-an-android-app/",
+          "url_fonte_interna": "https://marychuks.com/students-explain-the-edit-ai-learning/",
           "imagem": "",
           "link_no_post": false,
           "graph_extras": {
@@ -657,6 +523,74 @@
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA/marketing)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
           "url_fonte_interna": "https://infocom.gr/2026/10/02/to-findbar-bainei-sto-agentic-search-me-ton-maverick-ai-growth-agent/109102/",
+          "imagem": "",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "FreeNewsAPI (negócios/IA/marketing)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "Artificial intelligence boom threatens extended wage stagnation for entry-level tech workers across developing markets",
+          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
+          "score_fonte": 85,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 85, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+FreeNews negócios",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA/marketing)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://www.edexlive.com/news/artificial-intelligence-boom-threatens-extended-wage-stagnation-for-entry-level-tech-workers-across-developing-markets",
+          "imagem": "",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "FreeNewsAPI (negócios/IA/marketing)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "Daily AI Roundup: Antigravity Adds Claude Opus 5.5 as Agent Tools Expand",
+          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
+          "score_fonte": 85,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 85, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+keywords na descrição (1)",
+            "+FreeNews negócios",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA/marketing)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://saudishopper.com.sa/en/daily-ai-roundup-antigravity-claude-vercel-agents/",
           "imagem": "",
           "link_no_post": false,
           "graph_extras": {
@@ -703,7 +637,7 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "Building an AI Content Strategy Agent with Hindsight",
+          "titulo_original": "What Happens When an Agency Uses AI to Build Your Backend",
           "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
           "score_fonte": 82,
           "score_texto": 94,
@@ -722,8 +656,74 @@
             "+tamanho adequado"
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/sai_sreeja_8/building-an-ai-content-strategy-agent-with-hindsight-k3a",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fao4xc12fr9g60oewqcar.png",
+          "url_fonte_interna": "https://dev.to/vrunda_chauhan_a52cc23b11/what-happens-when-an-agency-uses-ai-to-build-your-backend-4pg",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkw6824qohs2v0rhd4403.png",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "SaaS Delete Dialogs: Say Exactly What Will Be Lost",
+          "titulo_adaptado": "Tecnologia aplicada a negócios de forma simples",
+          "score_fonte": 82,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 82, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nTecnologia aplicada a negócios de forma simples. Uma provocação útil para quem acompanha negócios digitais e quer aplicar tecnologia de forma prática. Guardar uma ideia por vez e aplicar na prática costuma render mais do que acumular tendências.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://dev.to/urielbitton/saas-delete-dialogs-say-exactly-what-will-be-lost-5h3m",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fj12itrgwalc7i52vup1f.png",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "FreeNewsAPI (negócios/IA/marketing)",
+          "fonte_id": "freenews-biz",
+          "titulo_original": "‘Use images in original form’: Yami Gautam asks media not to alter her photos with AI",
+          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
+          "score_fonte": 81,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 81, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+FreeNews negócios",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: FreeNewsAPI (negócios/IA/marketing)\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://www.fact.net.in/entertainment/use-images-in-original-form-yami-gautam-asks-media-not-to-alter-her-photos-with-ai",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -739,9 +739,9 @@
       "status": "publicado",
       "stats": {
         "coletados": 40,
-        "aprovados_fonte": 5,
-        "aprovados_texto": 5,
-        "rejeitados": 15,
+        "aprovados_fonte": 2,
+        "aprovados_texto": 2,
+        "rejeitados": 18,
         "publicados": 1
       },
       "melhor": {
@@ -749,16 +749,16 @@
         "page_id": "1247772158429331",
         "fonte": "FreeNewsAPI (skincare/beleza)",
         "fonte_id": "freenews-beleza",
-        "titulo_original": "Your Beauty Routine Might Feel a Little “Off” During Venus Retrograde—Here’s Why",
+        "titulo_original": "From celebrity hype to consumer power: How beauty trends are being rewritten in 2026",
         "titulo_adaptado": "Cuidados com a pele no dia a dia",
-        "score_fonte": 79,
+        "score_fonte": 75,
         "score_texto": 86,
         "status": "aprovado",
-        "motivo": "Conteúdo relevante e texto adequado (fonte 79, texto 86)",
+        "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 86)",
         "motivos_fonte": [
-          "+keyword no título (2)",
+          "+keyword no título (1)",
           "+keyword forte no título",
-          "+keywords na descrição (2)",
+          "+keywords na descrição (1)",
           "+recente"
         ],
         "motivos_texto": [
@@ -767,7 +767,7 @@
           "+tamanho adequado"
         ],
         "texto_final": "✨ Cuidado com a pele\n\nCuidados com a pele no dia a dia: um tema útil para quem monta a rotina de skincare com consciência. Sempre confirme com fontes confiáveis. Mudanças na pele pedem paciência: resultados costumam aparecer com consistência, não da noite para o dia.\n\nFonte de inspiração: FreeNewsAPI (skincare/beleza)\n\nSe esse tipo de conteúdo ajuda você, siga Studio Marine Cuidados Pessoais para receber mais dicas no feed.",
-        "url_fonte_interna": "https://www.whowhatwear.com/beauty/skin/venus-retrograde-beauty-cheat-sheet",
+        "url_fonte_interna": "https://timesofindia.indiatimes.com/life-style/beauty/from-celebrity-hype-to-consumer-power-how-beauty-trends-are-being-rewritten-in-2026/articleshow/134634346.cms",
         "imagem": "",
         "link_no_post": false,
         "graph_extras": {
@@ -777,38 +777,6 @@
         }
       },
       "candidatos": [
-        {
-          "pagina": "Studio Marine Cuidados Pessoais",
-          "page_id": "1247772158429331",
-          "fonte": "FreeNewsAPI (skincare/beleza)",
-          "fonte_id": "freenews-beleza",
-          "titulo_original": "Your Beauty Routine Might Feel a Little “Off” During Venus Retrograde—Here’s Why",
-          "titulo_adaptado": "Cuidados com a pele no dia a dia",
-          "score_fonte": 79,
-          "score_texto": 86,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 79, texto 86)",
-          "motivos_fonte": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "✨ Cuidado com a pele\n\nCuidados com a pele no dia a dia: um tema útil para quem monta a rotina de skincare com consciência. Sempre confirme com fontes confiáveis. Mudanças na pele pedem paciência: resultados costumam aparecer com consistência, não da noite para o dia.\n\nFonte de inspiração: FreeNewsAPI (skincare/beleza)\n\nSe esse tipo de conteúdo ajuda você, siga Studio Marine Cuidados Pessoais para receber mais dicas no feed.",
-          "url_fonte_interna": "https://www.whowhatwear.com/beauty/skin/venus-retrograde-beauty-cheat-sheet",
-          "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
         {
           "pagina": "Studio Marine Cuidados Pessoais",
           "page_id": "1247772158429331",
@@ -833,70 +801,6 @@
           ],
           "texto_final": "✨ Cuidado com a pele\n\nCuidados com a pele no dia a dia: um tema útil para quem monta a rotina de skincare com consciência. Sempre confirme com fontes confiáveis. Mudanças na pele pedem paciência: resultados costumam aparecer com consistência, não da noite para o dia.\n\nFonte de inspiração: FreeNewsAPI (skincare/beleza)\n\nSe esse tipo de conteúdo ajuda você, siga Studio Marine Cuidados Pessoais para receber mais dicas no feed.",
           "url_fonte_interna": "https://timesofindia.indiatimes.com/life-style/beauty/from-celebrity-hype-to-consumer-power-how-beauty-trends-are-being-rewritten-in-2026/articleshow/134634346.cms",
-          "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Studio Marine Cuidados Pessoais",
-          "page_id": "1247772158429331",
-          "fonte": "FreeNewsAPI (skincare/beleza)",
-          "fonte_id": "freenews-beleza",
-          "titulo_original": "Why inner wellness is becoming the new beauty essential",
-          "titulo_adaptado": "Cuidados com a pele no dia a dia",
-          "score_fonte": 75,
-          "score_texto": 86,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 86)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "✨ Cuidado com a pele\n\nCuidados com a pele no dia a dia: um tema útil para quem monta a rotina de skincare com consciência. Sempre confirme com fontes confiáveis. Mudanças na pele pedem paciência: resultados costumam aparecer com consistência, não da noite para o dia.\n\nFonte de inspiração: FreeNewsAPI (skincare/beleza)\n\nSe esse tipo de conteúdo ajuda você, siga Studio Marine Cuidados Pessoais para receber mais dicas no feed.",
-          "url_fonte_interna": "https://www.thehansindia.com/featured/women/why-inner-wellness-is-becoming-the-new-beauty-essential-1127914",
-          "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Studio Marine Cuidados Pessoais",
-          "page_id": "1247772158429331",
-          "fonte": "FreeNewsAPI (skincare/beleza)",
-          "fonte_id": "freenews-beleza",
-          "titulo_original": "Beauty Rush New Zealand: The Auckland Oral Beauty Brand Redefining Beauty From Within",
-          "titulo_adaptado": "Cuidados com a pele no dia a dia",
-          "score_fonte": 75,
-          "score_texto": 86,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 86)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "✨ Cuidado com a pele\n\nCuidados com a pele no dia a dia: um tema útil para quem monta a rotina de skincare com consciência. Sempre confirme com fontes confiáveis. Mudanças na pele pedem paciência: resultados costumam aparecer com consistência, não da noite para o dia.\n\nFonte de inspiração: FreeNewsAPI (skincare/beleza)\n\nSe esse tipo de conteúdo ajuda você, siga Studio Marine Cuidados Pessoais para receber mais dicas no feed.",
-          "url_fonte_interna": "https://menafn.com/1111749685/Beauty-Rush-New-Zealand-The-Auckland-Oral-Beauty-Brand-Redefining-Beauty-From-Within",
           "imagem": "",
           "link_no_post": false,
           "graph_extras": {
@@ -1102,6 +1006,38 @@
           "page_id": "1247772158429331",
           "fonte": "FreeNewsAPI (skincare/beleza)",
           "fonte_id": "freenews-beleza",
+          "titulo_original": "The secret to Jerry Hall's gloriously shiny, healthy hair? This £10 household staple you probably already own",
+          "titulo_adaptado": null,
+          "score_fonte": 42,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 42 < 75. +keywords na descrição (1); +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.womanandhome.com/beauty/hair/jerry-hall-olive-oil-hair/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
+          "fonte": "FreeNewsAPI (skincare/beleza)",
+          "fonte_id": "freenews-beleza",
+          "titulo_original": "Is Depression Now a Business In The Consumer ERA?",
+          "titulo_adaptado": null,
+          "score_fonte": 42,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 42 < 75. +keywords na descrição (1); +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.revealedeye.com/p/is-depression-now-a-business-in-the-consumer-era",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
+          "fonte": "FreeNewsAPI (skincare/beleza)",
+          "fonte_id": "freenews-beleza",
           "titulo_original": "DIY Plant-Based Spa Treatments For A Head-To-Toe At-Home Reset",
           "titulo_adaptado": null,
           "score_fonte": 38,
@@ -1126,22 +1062,6 @@
           "motivo": "Score da fonte 38 < 75. +recente",
           "texto_final": null,
           "url_fonte_interna": "https://www.livemint.com/money/personal-finance/cancellation-otps-fake-offers-and-urgent-pleas-how-scammers-are-using-tactics-to-defraud-people-and-how-to-stay-safe-11790994357129.html",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Studio Marine Cuidados Pessoais",
-          "page_id": "1247772158429331",
-          "fonte": "FreeNewsAPI (skincare/beleza)",
-          "fonte_id": "freenews-beleza",
-          "titulo_original": "Fine, Frizzy or Brassy Hair in Perimenopause? 3 Instant Fixes That Help",
-          "titulo_adaptado": null,
-          "score_fonte": 38,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 38 < 75. +recente",
-          "texto_final": null,
-          "url_fonte_interna": "https://www.womansworld.com/aging/menopause/perimenopause-hair-changes-fast-fixes-for-thinning-frizz-and-more",
           "imagem": "",
           "graph_extras": null
         },
@@ -1176,6 +1096,38 @@
           "url_fonte_interna": "https://www.womansworld.com/beauty/makeup/color-changing-lipstick-from-your-childhood-is-back-how-it-works",
           "imagem": "",
           "graph_extras": null
+        },
+        {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
+          "fonte": "FreeNewsAPI (skincare/beleza)",
+          "fonte_id": "freenews-beleza",
+          "titulo_original": "DKSH Performance Materials – A trusted partner in Vietnam’s evolving personal care landscape",
+          "titulo_adaptado": null,
+          "score_fonte": 38,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 38 < 75. +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://vir.com.vn/dksh-performance-materials-a-trusted-partner-in-vietnams-evolving-personal-care-landscape-161932.html",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Studio Marine Cuidados Pessoais",
+          "page_id": "1247772158429331",
+          "fonte": "FreeNewsAPI (skincare/beleza)",
+          "fonte_id": "freenews-beleza",
+          "titulo_original": "Trailblazers under 25",
+          "titulo_adaptado": null,
+          "score_fonte": 38,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 38 < 75. +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.financialexpress.com/life/lifestyle/trailblazers-under-25/4352933/",
+          "imagem": "",
+          "graph_extras": null
         }
       ]
     },
@@ -1185,9 +1137,9 @@
       "status": "publicado",
       "stats": {
         "coletados": 64,
-        "aprovados_fonte": 17,
-        "aprovados_texto": 17,
-        "rejeitados": 3,
+        "aprovados_fonte": 15,
+        "aprovados_texto": 15,
+        "rejeitados": 5,
         "publicados": 1
       },
       "melhor": {
@@ -1195,16 +1147,16 @@
         "page_id": "1332730186586435",
         "fonte": "FreeNewsAPI (motos)",
         "fonte_id": "freenews-moto",
-        "titulo_original": "MotoGP | GP Giappone – Caso gomme a Motegi, cambia il programma della mattina: ecco gli orari Sky e TV8",
+        "titulo_original": "MotoGP Rider and Team Manager reflections on Motegi Japanese GP",
         "titulo_adaptado": "O que está em alta no MotoGP",
-        "score_fonte": 87,
+        "score_fonte": 95,
         "score_texto": 86,
         "status": "aprovado",
-        "motivo": "Conteúdo relevante e texto adequado (fonte 87, texto 86)",
+        "motivo": "Conteúdo relevante e texto adequado (fonte 95, texto 86)",
         "motivos_fonte": [
           "+keyword no título (1)",
           "+keyword forte no título",
-          "+keywords na descrição (1)",
+          "+keywords na descrição (3)",
           "+FreeNews motos",
           "+recente"
         ],
@@ -1213,8 +1165,8 @@
           "+fonte alinhada ao nicho",
           "+tamanho adequado"
         ],
-        "texto_final": "🏍️ Curiosidade das duas rodas\n\nVocê sabia? Domenica 4 ottobre, la MotoGP scenderà sul tracciato di Motegi per il GP del Giappone, con un programma leggermente rivisto a causa del problema legato alle gomme: ecco gli orari… Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
-        "url_fonte_interna": "https://f1ingenerale.com/moto/motogp/motogp-gp-giappone-caso-gomme-a-motegi-cambia-il-programma-della-mattina-ecco-gli-orari-sky-e-tv8/",
+        "texto_final": "🏍️ Curiosidade das duas rodas\n\nO MotoGP continua movimentando o mundo das duas rodas. Acompanhar o campeonato é uma forma de ver tecnologia, estratégia e segurança em alta performance. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
+        "url_fonte_interna": "https://www.mcnews.com.au/2026-japanese-motogp-rider-team-reactions/",
         "imagem": "",
         "link_no_post": false,
         "graph_extras": {
@@ -1229,16 +1181,16 @@
           "page_id": "1332730186586435",
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
-          "titulo_original": "MotoGP | GP Giappone – Caso gomme a Motegi, cambia il programma della mattina: ecco gli orari Sky e TV8",
+          "titulo_original": "MotoGP Rider and Team Manager reflections on Motegi Japanese GP",
           "titulo_adaptado": "O que está em alta no MotoGP",
-          "score_fonte": 87,
+          "score_fonte": 95,
           "score_texto": 86,
           "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 87, texto 86)",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 95, texto 86)",
           "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
-            "+keywords na descrição (1)",
+            "+keywords na descrição (3)",
             "+FreeNews motos",
             "+recente"
           ],
@@ -1247,8 +1199,8 @@
             "+fonte alinhada ao nicho",
             "+tamanho adequado"
           ],
-          "texto_final": "🏍️ Curiosidade das duas rodas\n\nVocê sabia? Domenica 4 ottobre, la MotoGP scenderà sul tracciato di Motegi per il GP del Giappone, con un programma leggermente rivisto a causa del problema legato alle gomme: ecco gli orari… Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
-          "url_fonte_interna": "https://f1ingenerale.com/moto/motogp/motogp-gp-giappone-caso-gomme-a-motegi-cambia-il-programma-della-mattina-ecco-gli-orari-sky-e-tv8/",
+          "texto_final": "🏍️ Curiosidade das duas rodas\n\nO MotoGP continua movimentando o mundo das duas rodas. Acompanhar o campeonato é uma forma de ver tecnologia, estratégia e segurança em alta performance. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
+          "url_fonte_interna": "https://www.mcnews.com.au/2026-japanese-motogp-rider-team-reactions/",
           "imagem": "",
           "link_no_post": false,
           "graph_extras": {
@@ -1262,16 +1214,16 @@
           "page_id": "1332730186586435",
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
-          "titulo_original": "Honda offers diverse motorcycle designs with ADV 160 and PCX 160",
-          "titulo_adaptado": "No universo das duas rodas",
-          "score_fonte": 87,
+          "titulo_original": "MotoGP Rider and Team Manager reflections on Motegi Japanese GP",
+          "titulo_adaptado": "O que está em alta no MotoGP",
+          "score_fonte": 95,
           "score_texto": 86,
           "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 87, texto 86)",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 95, texto 86)",
           "motivos_fonte": [
-            "+keyword no título (2)",
+            "+keyword no título (1)",
             "+keyword forte no título",
-            "+keywords na descrição (1)",
+            "+keywords na descrição (3)",
             "+FreeNews motos",
             "+recente"
           ],
@@ -1280,8 +1232,8 @@
             "+fonte alinhada ao nicho",
             "+tamanho adequado"
           ],
-          "texto_final": "🏍️ Curiosidade das duas rodas\n\nPara quem anda de moto, equipamento em ordem e atenção no trânsito continuam sendo a base da segurança. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
-          "url_fonte_interna": "https://www.memesita.com/honda-offers-diverse-motorcycle-designs-with-adv-160-and-pcx-160/",
+          "texto_final": "🏍️ Curiosidade das duas rodas\n\nO MotoGP continua movimentando o mundo das duas rodas. Acompanhar o campeonato é uma forma de ver tecnologia, estratégia e segurança em alta performance. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
+          "url_fonte_interna": "https://www.mcnews.com.au/2026-japanese-motogp-rider-team-reactions/",
           "imagem": "",
           "link_no_post": false,
           "graph_extras": {
@@ -1295,16 +1247,16 @@
           "page_id": "1332730186586435",
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
-          "titulo_original": "Honda Offers Diverse Motorcycle Designs With Adv 160 And Pcx 160 – Archyde",
-          "titulo_adaptado": "No universo das duas rodas",
-          "score_fonte": 87,
+          "titulo_original": "Johann Zarco penalised for breaking MotoGP engine restart rule",
+          "titulo_adaptado": "O que está em alta no MotoGP",
+          "score_fonte": 91,
           "score_texto": 86,
           "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 87, texto 86)",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 91, texto 86)",
           "motivos_fonte": [
-            "+keyword no título (2)",
+            "+keyword no título (1)",
             "+keyword forte no título",
-            "+keywords na descrição (1)",
+            "+keywords na descrição (2)",
             "+FreeNews motos",
             "+recente"
           ],
@@ -1313,41 +1265,8 @@
             "+fonte alinhada ao nicho",
             "+tamanho adequado"
           ],
-          "texto_final": "🏍️ Curiosidade das duas rodas\n\nPara quem anda de moto, equipamento em ordem e atenção no trânsito continuam sendo a base da segurança. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
-          "url_fonte_interna": "https://www.archyde.com/honda-offers-diverse-motorcycle-designs-with-adv-160-and-pcx-160/",
-          "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Rota das Duas Rodas - Acessórios",
-          "page_id": "1332730186586435",
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "Honda's Rarest Motorcycle Was Too Advanced For Its Time",
-          "titulo_adaptado": "No universo das duas rodas",
-          "score_fonte": 87,
-          "score_texto": 86,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 87, texto 86)",
-          "motivos_fonte": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+FreeNews motos",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "🏍️ Curiosidade das duas rodas\n\nPara quem anda de moto, equipamento em ordem e atenção no trânsito continuam sendo a base da segurança. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
-          "url_fonte_interna": "https://www.hotcars.com/hondas-rarest-motorcycle-was-too-advanced-for-its-time/",
+          "texto_final": "🏍️ Curiosidade das duas rodas\n\nO MotoGP continua movimentando o mundo das duas rodas. Acompanhar o campeonato é uma forma de ver tecnologia, estratégia e segurança em alta performance. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
+          "url_fonte_interna": "https://www.crash.net/motogp/news/1106347/1/johann-zarco-penalised-breaking-motogp-engine-restart-rule",
           "imagem": "",
           "link_no_post": false,
           "graph_extras": {
@@ -1427,8 +1346,8 @@
           "page_id": "1332730186586435",
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
-          "titulo_original": "Suzuki Built The Fastest Motorcycle Nobody Could Handle",
-          "titulo_adaptado": "No universo das duas rodas",
+          "titulo_original": "Marquez Wins Japanese MotoGP, Narrows Martin's Championship Lead",
+          "titulo_adaptado": "O que está em alta no MotoGP",
           "score_fonte": 83,
           "score_texto": 86,
           "status": "aprovado",
@@ -1444,8 +1363,8 @@
             "+fonte alinhada ao nicho",
             "+tamanho adequado"
           ],
-          "texto_final": "🏍️ Curiosidade das duas rodas\n\nPara quem anda de moto, equipamento em ordem e atenção no trânsito continuam sendo a base da segurança. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
-          "url_fonte_interna": "https://www.hotcars.com/suzuki-built-fastest-motorcycle-nobody-able-to-handle/",
+          "texto_final": "🏍️ Curiosidade das duas rodas\n\nO MotoGP continua movimentando o mundo das duas rodas. Acompanhar o campeonato é uma forma de ver tecnologia, estratégia e segurança em alta performance. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
+          "url_fonte_interna": "https://africandigest.com/article/marquez-wins-japanese-motogp-narrows-martin-s-championship-lead",
           "imagem": "",
           "link_no_post": false,
           "graph_extras": {
@@ -1459,8 +1378,8 @@
           "page_id": "1332730186586435",
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
-          "titulo_original": "Suzuki Built The Fastest Motorcycle Nobody Could Handle",
-          "titulo_adaptado": "No universo das duas rodas",
+          "titulo_original": "MotoGP 2026 season: Japanese Grand Prix, race report, Motegi, Marc Marquez, Jorge Martin, Marco Bezzecchi, Jack Miller, Pedro Acosta, Senna Agius",
+          "titulo_adaptado": "O que está em alta no MotoGP",
           "score_fonte": 83,
           "score_texto": 86,
           "status": "aprovado",
@@ -1476,8 +1395,8 @@
             "+fonte alinhada ao nicho",
             "+tamanho adequado"
           ],
-          "texto_final": "🏍️ Curiosidade das duas rodas\n\nPara quem anda de moto, equipamento em ordem e atenção no trânsito continuam sendo a base da segurança. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
-          "url_fonte_interna": "https://www.hotcars.com/suzuki-built-fastest-motorcycle-nobody-able-to-handle/",
+          "texto_final": "🏍️ Curiosidade das duas rodas\n\nO MotoGP continua movimentando o mundo das duas rodas. Acompanhar o campeonato é uma forma de ver tecnologia, estratégia e segurança em alta performance. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
+          "url_fonte_interna": "https://www.foxsports.com.au/motorsport/moto-gp/spaniard-doubles-up-in-japan-to-slash-motogp-title-deficit-as-aussie-bites-the-dust/news-story/a4ef761a9d14646b60476d3200451819",
           "imagem": "",
           "link_no_post": false,
           "graph_extras": {
@@ -1555,102 +1474,6 @@
           "page_id": "1332730186586435",
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
-          "titulo_original": "MotoGP in Motegi: So könnt ihr den Großen Preis von Japan gratis im TV und Live-Stream sehen - doch es gibt einen Haken",
-          "titulo_adaptado": "O que está em alta no MotoGP",
-          "score_fonte": 79,
-          "score_texto": 86,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 79, texto 86)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+FreeNews motos"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "🏍️ Curiosidade das duas rodas\n\nO MotoGP continua movimentando o mundo das duas rodas. Acompanhar o campeonato é uma forma de ver tecnologia, estratégia e segurança em alta performance. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
-          "url_fonte_interna": "https://www.netzwelt.de/news/258743-motogp-motegi-so-grossen-preis-japan-gratis-tv-live-stream-sehen-gibt-haken.html",
-          "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Rota das Duas Rodas - Acessórios",
-          "page_id": "1332730186586435",
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "Ultraviolette raises $85 million and plans US launch in 2027",
-          "titulo_adaptado": "No universo das duas rodas",
-          "score_fonte": 76,
-          "score_texto": 86,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 76, texto 86)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keywords na descrição (2)",
-            "+FreeNews motos",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "🏍️ Curiosidade das duas rodas\n\nPara quem anda de moto, equipamento em ordem e atenção no trânsito continuam sendo a base da segurança. Antes de comprar, confira autonomia real no seu trajeto e tempo de recarga disponível.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
-          "url_fonte_interna": "https://www.newsbytesapp.com/news/auto/ultraviolette-raises-85-million-and-plans-us-launch-in-2027/tldr",
-          "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Rota das Duas Rodas - Acessórios",
-          "page_id": "1332730186586435",
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "Ultraviolette raises $85 million and plans US launch in 2027",
-          "titulo_adaptado": "No universo das duas rodas",
-          "score_fonte": 76,
-          "score_texto": 86,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 76, texto 86)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keywords na descrição (2)",
-            "+FreeNews motos",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "🏍️ Curiosidade das duas rodas\n\nPara quem anda de moto, equipamento em ordem e atenção no trânsito continuam sendo a base da segurança. Antes de comprar, confira autonomia real no seu trajeto e tempo de recarga disponível.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
-          "url_fonte_interna": "https://www.newsbytesapp.com/news/auto/ultraviolette-raises-85-million-and-plans-us-launch-in-2027/tldr",
-          "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Rota das Duas Rodas - Acessórios",
-          "page_id": "1332730186586435",
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
           "titulo_original": "Motorcycle Accessories Universal Luggage Helmet Hook For YAMAHA XJ6 XJ 6 NEW",
           "titulo_adaptado": "Capacete: o detalhe que protege de verdade",
           "score_fonte": 75,
@@ -1682,69 +1505,7 @@
           "page_id": "1332730186586435",
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
-          "titulo_original": "Marc Marquez Juara Sprint MotoGP Jepang, Martín Rebut Pole",
-          "titulo_adaptado": "Marc Marquez Juara Sprint MotoGP Jepang, Martín Rebut Pole",
-          "score_fonte": 75,
-          "score_texto": 86,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 86)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+FreeNews motos"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "🏍️ Curiosidade das duas rodas\n\nO MotoGP continua movimentando o mundo das duas rodas. Acompanhar o campeonato é uma forma de ver tecnologia, estratégia e segurança em alta performance. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
-          "url_fonte_interna": "https://koran-jakarta.com/2026-10-04/marc-marquez-juara-sprint-motogp-jepang-mart%C3%ADn-rebut-pole",
-          "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Rota das Duas Rodas - Acessórios",
-          "page_id": "1332730186586435",
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "Michelin cấm lốp mềm tại MotoGP Nhật Bản: Quyết định chưa từng có sau sự cố rợn người!",
-          "titulo_adaptado": "Michelin cấm lốp mềm tại MotoGP Nhật Bản: Quyết định chưa từng có sau sự cố rợn người!",
-          "score_fonte": 75,
-          "score_texto": 86,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 86)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+FreeNews motos"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "🏍️ Curiosidade das duas rodas\n\nO MotoGP continua movimentando o mundo das duas rodas. Acompanhar o campeonato é uma forma de ver tecnologia, estratégia e segurança em alta performance. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
-          "url_fonte_interna": "https://asiagenz.com/threads/michelin-cam-lop-mem-tai-motogp-nhat-ban-quyet-dinh-chua-tung-co-sau-su-co-ron-nguoi.365721/",
-          "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Rota das Duas Rodas - Acessórios",
-          "page_id": "1332730186586435",
-          "fonte": "FreeNewsAPI (motos)",
-          "fonte_id": "freenews-moto",
-          "titulo_original": "Jangan Sampai Ketinggalan! Penukaran Tiket MotoGP Indonesia 2026 Resmi Dimulai",
+          "titulo_original": "MotoGP 2026 season: Japanese Grand Prix, Motegi, analysis, talking points, Marc Marquez, Pedro Acosta, Jorge Martin, Marco Bezzecchi, Jack Miller, Senna Agius",
           "titulo_adaptado": "O que está em alta no MotoGP",
           "score_fonte": 75,
           "score_texto": 86,
@@ -1761,7 +1522,7 @@
             "+tamanho adequado"
           ],
           "texto_final": "🏍️ Curiosidade das duas rodas\n\nO MotoGP continua movimentando o mundo das duas rodas. Acompanhar o campeonato é uma forma de ver tecnologia, estratégia e segurança em alta performance. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
-          "url_fonte_interna": "https://koran-jakarta.com/2026-10-03/jangan-sampai-ketinggalan-penukaran-tiket-motogp-indonesia-2026-resmi-dimulai",
+          "url_fonte_interna": "https://www.foxsports.com.au/motorsport/moto-gp/have-to-be-selfish-marquez-defends-skipping-karting-chaos-riders-stupid-on-tyres-aussie-irritated-motogp-talking-points/news-story/1c8b00f5329df7ae6d6c64129a7e349a",
           "imagem": "",
           "link_no_post": false,
           "graph_extras": {
@@ -1775,30 +1536,138 @@
           "page_id": "1332730186586435",
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
-          "titulo_original": "New BMW F 450 R Unveiled: 48 HP Naked Bike Could Launch In India In 2027",
-          "titulo_adaptado": null,
-          "score_fonte": 72,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 72 < 75. +keyword no título (1); +keywords na descrição (1)",
-          "texto_final": null,
-          "url_fonte_interna": "https://www.motoroids.com/news/new-bmw-f-450-r-unveiled-48-hp-naked-bike-could-launch-in-india-in-2027/",
+          "titulo_original": "Jelang MotoGP Mandalika, Wagub NTB Ajak Warga Sukseskan Serta Gerakkan Pariwisata dan Ekonomi Daerah",
+          "titulo_adaptado": "O que está em alta no MotoGP",
+          "score_fonte": 75,
+          "score_texto": 86,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 86)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+FreeNews motos"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "🏍️ Curiosidade das duas rodas\n\nO MotoGP continua movimentando o mundo das duas rodas. Acompanhar o campeonato é uma forma de ver tecnologia, estratégia e segurança em alta performance. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
+          "url_fonte_interna": "https://koran-jakarta.com/2026-10-04/jelang-motogp-mandalika-wagub-ntb-ajak-warga-sukseskan-serta-gerakkan-pariwisata-dan-ekonomi-daerah",
           "imagem": "",
-          "graph_extras": null
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
         },
         {
           "pagina": "Rota das Duas Rodas - Acessórios",
           "page_id": "1332730186586435",
           "fonte": "FreeNewsAPI (motos)",
           "fonte_id": "freenews-moto",
-          "titulo_original": "South Africa and Egypt launch Joint Business Council in diplomatic and trade push",
+          "titulo_original": "InJourney Ajak Komunitas Motor Nobar MotoGP Jepang Jelang Pertamina Grand Prix of Indonesia 2026",
+          "titulo_adaptado": "O que está em alta no MotoGP",
+          "score_fonte": 75,
+          "score_texto": 86,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 86)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+FreeNews motos"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "🏍️ Curiosidade das duas rodas\n\nO MotoGP continua movimentando o mundo das duas rodas. Acompanhar o campeonato é uma forma de ver tecnologia, estratégia e segurança em alta performance. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
+          "url_fonte_interna": "https://koran-jakarta.com/2026-10-04/injourney-ajak-komunitas-motor-nobar-motogp-jepang-jelang-pertamina-grand-prix-of-indonesia-2026",
+          "imagem": "",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "MotoGP. « Pas là pour faire les clowns » : quand Marc Marquez envoie un sosie à une course de kart avant le GP du Japon",
+          "titulo_adaptado": "MotoGP. « Pas là pour faire les clowns » : quand Marc Marquez envoie un sosie à une…",
+          "score_fonte": 75,
+          "score_texto": 86,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 86)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+FreeNews motos"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "🏍️ Curiosidade das duas rodas\n\nO MotoGP continua movimentando o mundo das duas rodas. Acompanhar o campeonato é uma forma de ver tecnologia, estratégia e segurança em alta performance. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
+          "url_fonte_interna": "https://briefed.ro/articol/motogp-pas-la-pour-faire-les-clowns-quand-marc-marquez-envoie-un-sosie-a-une-course-de-kart-avant-le-gp-du-japon",
+          "imagem": "",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "MotoGP. « Pas là pour faire les clowns » : quand Marc Marquez envoie un sosie à une course de kart avant le GP du Japon",
+          "titulo_adaptado": "MotoGP. « Pas là pour faire les clowns » : quand Marc Marquez envoie un sosie à une…",
+          "score_fonte": 75,
+          "score_texto": 86,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 86)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+FreeNews motos"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "🏍️ Curiosidade das duas rodas\n\nO MotoGP continua movimentando o mundo das duas rodas. Acompanhar o campeonato é uma forma de ver tecnologia, estratégia e segurança em alta performance. Revisar freios, pneus e luzes com regularidade evita sustos no trajeto do dia a dia.\n\nFonte de inspiração: FreeNewsAPI (motos)\n\nSe esse tipo de conteúdo ajuda você, siga Rota das Duas Rodas - Acessórios para receber mais dicas no feed.",
+          "url_fonte_interna": "https://briefed.ro/articol/motogp-pas-la-pour-faire-les-clowns-quand-marc-marquez-envoie-un-sosie-a-une-course-de-kart-avant-le-gp-du-japon-1",
+          "imagem": "",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "After about a year of using the scooter, I sold my car.",
           "titulo_adaptado": null,
           "score_fonte": 72,
           "score_texto": null,
           "status": "rejeitado",
           "motivo": "Score da fonte 72 < 75. +keyword no título (1); +keywords na descrição (1)",
           "texto_final": null,
-          "url_fonte_interna": "https://africadaily.co.za/south-africa-and-egypt-launch-joint-business-council-in-diplomatic-and-trade-push/?utm_source=rss&utm_medium=rss&utm_campaign=south-africa-and-egypt-launch-joint-business-council-in-diplomatic-and-trade-push",
+          "url_fonte_interna": "https://www.businessinsider.com/commuter-sells-car-turns-gas-powered-scooter-save-money-2026-10",
           "imagem": "",
           "graph_extras": null
         },
@@ -1815,6 +1684,54 @@
           "motivo": "Score da fonte 72 < 75. +keyword no título (1); +keywords na descrição (1)",
           "texto_final": null,
           "url_fonte_interna": "https://247videogame.com/mxgp-26-the-official-game-launch-trailer/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Honda Elevate Facelift Teased Ahead Of October 6 Launch",
+          "titulo_adaptado": null,
+          "score_fonte": 68,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 68 < 75. +keyword no título (2); +FreeNews motos",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.carandbike.com/news/honda-elevate-facelift-teased-ahead-of-october-6-launch-3222094",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Honda Elevate Facelift Teased Ahead Of October 6 Launch",
+          "titulo_adaptado": null,
+          "score_fonte": 68,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 68 < 75. +keyword no título (2); +FreeNews motos",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.carandbike.com/news/honda-elevate-facelift-teased-ahead-of-october-6-launch-3222094",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Rota das Duas Rodas - Acessórios",
+          "page_id": "1332730186586435",
+          "fonte": "FreeNewsAPI (motos)",
+          "fonte_id": "freenews-moto",
+          "titulo_original": "Honda built a 250cc 6-cylinder race bike that screams so loud at 18,000 rpm it has people cringing and covering their ears",
+          "titulo_adaptado": null,
+          "score_fonte": 68,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 68 < 75. +keyword no título (1); +FreeNews motos",
+          "texto_final": null,
+          "url_fonte_interna": "https://supercarblondie.com/honda-250cc-race-bike-loud-engine-rc166/",
           "imagem": "",
           "graph_extras": null
         }
@@ -1836,16 +1753,80 @@
         {
           "pagina": "Casa & Conforto Utilidades",
           "page_id": "1402223216297975",
-          "fonte": "Open-Meteo",
-          "fonte_id": "open-meteo",
-          "titulo_original": "Clima em Sao Paulo: 23.8C, trovoada",
+          "fonte": "FreeNewsAPI (casa/DIY/culinária)",
+          "fonte_id": "freenews-casa",
+          "titulo_original": "LPG Saving Tips: Save gas at home like this, the cylinder will last longer; Follow these easy methods",
           "titulo_adaptado": null,
-          "score_fonte": 71,
+          "score_fonte": 60,
           "score_texto": null,
           "status": "rejeitado",
-          "motivo": "Score da fonte 71 < 75. +keywords na descrição (2); +dica climática útil",
+          "motivo": "Score da fonte 60 < 75. +keyword no título (1); +keywords na descrição (1)",
           "texto_final": null,
-          "url_fonte_interna": "https://open-meteo.com/",
+          "url_fonte_interna": "https://anytvnews.com/lifestyle/lpg-saving-tips-save-gas-at-home-like-this-the-cylinder-will-last-longer-follow-these-easy-methods/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "FreeNewsAPI (casa/DIY/culinária)",
+          "fonte_id": "freenews-casa",
+          "titulo_original": "LPG Saving Tips: Save gas at home like this, the cylinder will last longer; Follow these easy methods",
+          "titulo_adaptado": null,
+          "score_fonte": 60,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 60 < 75. +keyword no título (1); +keywords na descrição (1)",
+          "texto_final": null,
+          "url_fonte_interna": "https://anytvnews.com/lifestyle/lpg-saving-tips-save-gas-at-home-like-this-the-cylinder-will-last-longer-follow-these-easy-methods/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "FreeNewsAPI (casa/DIY/culinária)",
+          "fonte_id": "freenews-casa",
+          "titulo_original": "Home Care Assistant Jobs – Deben Willow Care Ltd | Visa Sponsorship",
+          "titulo_adaptado": null,
+          "score_fonte": 60,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 60 < 75. +keyword no título (1); +keywords na descrição (1)",
+          "texto_final": null,
+          "url_fonte_interna": "https://easyinfoblog.com/jobs/advance-community-support-worker-sponsorship-available/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "FreeNewsAPI (casa/DIY/culinária)",
+          "fonte_id": "freenews-casa",
+          "titulo_original": "Are The Eggs In Your Kitchen Real Or Fake? 5 Simple Ways To Check At Home",
+          "titulo_adaptado": null,
+          "score_fonte": 60,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 60 < 75. +keyword no título (2); +keywords na descrição (1)",
+          "texto_final": null,
+          "url_fonte_interna": "https://news.abplive.com/lifestyle/are-the-eggs-in-your-kitchen-real-or-fake-5-simple-ways-to-check-at-home-1869519",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "FreeNewsAPI (casa/DIY/culinária)",
+          "fonte_id": "freenews-casa",
+          "titulo_original": "Transform your home with Soulful Sage: Dulux's 2027 Colour of the Year for a luxurious touch",
+          "titulo_adaptado": null,
+          "score_fonte": 60,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 60 < 75. +keyword no título (1); +keywords na descrição (1)",
+          "texto_final": null,
+          "url_fonte_interna": "https://timesofindia.indiatimes.com/life-style/spotlight/transform-your-home-with-duluxs-soulful-sage-a-luxurious-green-palette/articleshow/134671322.cms",
           "imagem": "",
           "graph_extras": null
         },
@@ -1870,46 +1851,14 @@
           "page_id": "1402223216297975",
           "fonte": "FreeNewsAPI (casa/DIY/culinária)",
           "fonte_id": "freenews-casa",
-          "titulo_original": "Gowanda community welcomes 4-year-old Nellie Mcmahon home from hospital",
-          "titulo_adaptado": null,
-          "score_fonte": 60,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 60 < 75. +keyword no título (1); +keywords na descrição (1)",
-          "texto_final": null,
-          "url_fonte_interna": "https://www.wkbw.com/news/local-news/cattaraugus-county/gowanda-community-welcomes-4-year-old-nellie-mcmahon-home-from-hospital",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Casa & Conforto Utilidades",
-          "page_id": "1402223216297975",
-          "fonte": "FreeNewsAPI (casa/DIY/culinária)",
-          "fonte_id": "freenews-casa",
-          "titulo_original": "Aldi's £6.99 toilet brush has a clever feature that could make cleaning much easier",
-          "titulo_adaptado": null,
-          "score_fonte": 60,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 60 < 75. +keyword no título (1); +keywords na descrição (1)",
-          "texto_final": null,
-          "url_fonte_interna": "https://www.netmums.com/home-garden/home/aldis-6-99-toilet-brush-has-a-clever-feature-that-could-make-cleaning-much-easier?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Casa & Conforto Utilidades",
-          "page_id": "1402223216297975",
-          "fonte": "FreeNewsAPI (casa/DIY/culinária)",
-          "fonte_id": "freenews-casa",
-          "titulo_original": "From pantry staple to pure Rajasthani comfort: Chef Ranveer Brar’s lightning-fast sev ki sabzi turns everyday kitchen leftovers into flavour-packed weeknight magic",
+          "titulo_original": "Lobster Home Pragmatic Enjoy Demo and you may Position Remark",
           "titulo_adaptado": null,
           "score_fonte": 56,
           "score_texto": null,
           "status": "rejeitado",
           "motivo": "Score da fonte 56 < 75. +keyword no título (1); +recente",
           "texto_final": null,
-          "url_fonte_interna": "https://timesofindia.indiatimes.com/life-style/food-news/from-pantry-staple-to-pure-rajasthani-comfort-chef-ranveer-brars-lightning-fast-sev-ki-sabzi-turns-everyday-kitchen-leftovers-into-flavour-packed-weeknight-magic/articleshow/134657905.cms",
+          "url_fonte_interna": "https://kranzle-srbija.rs/lobster-home-pragmatic-enjoy-demo-and-you-may-position-remark/",
           "imagem": "",
           "graph_extras": null
         },
@@ -1918,14 +1867,14 @@
           "page_id": "1402223216297975",
           "fonte": "FreeNewsAPI (casa/DIY/culinária)",
           "fonte_id": "freenews-casa",
-          "titulo_original": "Living By Design Season 4: Jake and Jazz Smollett's Home Transformations",
+          "titulo_original": "This surprising kitchen spot keeps eggs fresh for 12 months – and could stop you binning them too soon",
           "titulo_adaptado": null,
-          "score_fonte": 52,
+          "score_fonte": 56,
           "score_texto": null,
           "status": "rejeitado",
-          "motivo": "Score da fonte 52 < 75. +keyword no título (1); +keywords na descrição (1)",
+          "motivo": "Score da fonte 56 < 75. +keyword no título (1); +recente",
           "texto_final": null,
-          "url_fonte_interna": "https://www.upscalemagazine.com/p/jake-and-jazz-smollett-bring-style-heart-and-home-inspiration-back-to-living-by-design",
+          "url_fonte_interna": "https://www.netmums.com/life/house-and-home/food-nutrition/this-surprising-kitchen-spot-keeps-eggs-fresh-for-12-months-and-could-stop-you-binning-them-too-soon?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
           "imagem": "",
           "graph_extras": null
         },
@@ -1934,14 +1883,30 @@
           "page_id": "1402223216297975",
           "fonte": "FreeNewsAPI (casa/DIY/culinária)",
           "fonte_id": "freenews-casa",
-          "titulo_original": "Should You Wash Mushrooms? Experts Reveal the Truth About Preserving Flavor and Freshness",
+          "titulo_original": "This surprising kitchen spot keeps eggs fresh for 12 months – and could stop you binning them too soon",
+          "titulo_adaptado": null,
+          "score_fonte": 56,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 56 < 75. +keyword no título (1); +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.netmums.com/life/house-and-home/food-nutrition/this-surprising-kitchen-spot-keeps-eggs-fresh-for-12-months-and-could-stop-you-binning-them-too-soon?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "FreeNewsAPI (casa/DIY/culinária)",
+          "fonte_id": "freenews-casa",
+          "titulo_original": "Mold could be lurking in your coffee maker as expert reveals 5 ways to keep it clean",
           "titulo_adaptado": null,
           "score_fonte": 46,
           "score_texto": null,
           "status": "rejeitado",
           "motivo": "Score da fonte 46 < 75. +keywords na descrição (2); +recente",
           "texto_final": null,
-          "url_fonte_interna": "https://lolleroll.com/should-you-wash-mushrooms-experts-reveal-the-truth-about-preserving-flavor-and-freshness/",
+          "url_fonte_interna": "https://www.foxnews.com/food-drink/mold-could-lurking-your-coffee-maker-expert-reveals-5-ways-keep-clean",
           "imagem": "",
           "graph_extras": null
         },
@@ -1950,14 +1915,14 @@
           "page_id": "1402223216297975",
           "fonte": "FreeNewsAPI (casa/DIY/culinária)",
           "fonte_id": "freenews-casa",
-          "titulo_original": "IDBI Bank Q2: Total business surpasses Rs 6 lakh crore as deposits grow 17%",
+          "titulo_original": "The #1 emotional trap homebuyers fall into (and how to avoid it)",
           "titulo_adaptado": null,
           "score_fonte": 42,
           "score_texto": null,
           "status": "rejeitado",
           "motivo": "Score da fonte 42 < 75. +keywords na descrição (1); +recente",
           "texto_final": null,
-          "url_fonte_interna": "https://www.etnownews.com/markets/idbi-bank-q2-total-business-surpasses-rs-6-lakh-crore-as-deposits-grow-17-article-156269454",
+          "url_fonte_interna": "https://fonts.googleapis.com",
           "imagem": "",
           "graph_extras": null
         },
@@ -1966,30 +1931,62 @@
           "page_id": "1402223216297975",
           "fonte": "FreeNewsAPI (casa/DIY/culinária)",
           "fonte_id": "freenews-casa",
-          "titulo_original": "Why Chronos Chan puts seaweed, soy sauce and Sichuan pepper in gelato – and what drives his unusual creations",
-          "titulo_adaptado": null,
-          "score_fonte": 42,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 42 < 75. +keywords na descrição (1); +recente",
-          "texto_final": null,
-          "url_fonte_interna": "https://www.channelnewsasia.com/cna-insider/up-close/gelato-toms-palette-ice-cream-maker-chronos-chan-6419081?cid=cna_flip_070214",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Casa & Conforto Utilidades",
-          "page_id": "1402223216297975",
-          "fonte": "FreeNewsAPI (casa/DIY/culinária)",
-          "fonte_id": "freenews-casa",
-          "titulo_original": "HEADLINES: ‘Show proof that VP took Chinese money’ | October 04, 2026",
+          "titulo_original": "'I Always Save Old Storage Bins to Use in My Garden' – 3 Clever Ways Plastic Totes Can Help You Cut Costs & Grow More",
           "titulo_adaptado": null,
           "score_fonte": 34,
           "score_texto": null,
           "status": "rejeitado",
           "motivo": "Score da fonte 34 < 75. +keywords na descrição (1)",
           "texto_final": null,
-          "url_fonte_interna": "https://www.manilatimes.net/2026/10/04/podcasts/headlines-show-proof-that-vp-took-chinese-money-october-04-2026/2438397",
+          "url_fonte_interna": "https://www.gardeningknowhow.com/garden-how-to/info/ways-to-use-plastic-storage-bins",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "FreeNewsAPI (casa/DIY/culinária)",
+          "fonte_id": "freenews-casa",
+          "titulo_original": "10 Pumpkin Spice Ideas and Recipes for Cozy October Baking",
+          "titulo_adaptado": null,
+          "score_fonte": 23,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 23 < 75. +recente; -pouca relação com casa",
+          "texto_final": null,
+          "url_fonte_interna": "https://lifeandwork.blog/10-pumpkin-spice-ideas-and-recipes-for-cozy-october-baking/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "FreeNewsAPI (casa/DIY/culinária)",
+          "fonte_id": "freenews-casa",
+          "titulo_original": "10 Pumpkin Spice Ideas and Recipes for Cozy October Baking",
+          "titulo_adaptado": null,
+          "score_fonte": 23,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 23 < 75. +recente; -pouca relação com casa",
+          "texto_final": null,
+          "url_fonte_interna": "https://lifeandwork.blog/10-pumpkin-spice-ideas-and-recipes-for-cozy-october-baking/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "FreeNewsAPI (casa/DIY/culinária)",
+          "fonte_id": "freenews-casa",
+          "titulo_original": "12 Different types of Christmas Plants master chens fortune slot free spins and Vegetation",
+          "titulo_adaptado": null,
+          "score_fonte": 23,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 23 < 75. +recente; -pouca relação com casa",
+          "texto_final": null,
+          "url_fonte_interna": "https://kranzle-srbija.rs/12-different-types-of-christmas-plants-master-chens-fortune-slot-free-spins-and-vegetation/",
           "imagem": "",
           "graph_extras": null
         },
@@ -2030,14 +2027,14 @@
           "page_id": "1402223216297975",
           "fonte": "FreeNewsAPI (casa/DIY/culinária)",
           "fonte_id": "freenews-casa",
-          "titulo_original": "11 Best New Aldi Finds Under $10 Hitting Shelves in October",
+          "titulo_original": "Activities in the Wonderland Slot: Game play, Added bonus, Rtp",
           "titulo_adaptado": null,
           "score_fonte": 23,
           "score_texto": null,
           "status": "rejeitado",
           "motivo": "Score da fonte 23 < 75. +recente; -pouca relação com casa",
           "texto_final": null,
-          "url_fonte_interna": "https://bestlifeonline.com/homegoods-finds-hitting-shelves-october/",
+          "url_fonte_interna": "https://indo-spices.com/activities-in-the-wonderland-slot-game-play-added-bonus-rtp/",
           "imagem": "",
           "graph_extras": null
         },
@@ -2046,14 +2043,14 @@
           "page_id": "1402223216297975",
           "fonte": "FreeNewsAPI (casa/DIY/culinária)",
           "fonte_id": "freenews-casa",
-          "titulo_original": "Turn your workspace into your favourite corner",
+          "titulo_original": "Best Online casinos Accepting BokuBoku Local casino pay by phone credit casino uk Internet sites 2025!",
           "titulo_adaptado": null,
           "score_fonte": 23,
           "score_texto": null,
           "status": "rejeitado",
           "motivo": "Score da fonte 23 < 75. +recente; -pouca relação com casa",
           "texto_final": null,
-          "url_fonte_interna": "https://www.standardmedia.co.ke/evewoman/living/article/2001559035/turn-your-workspace-into-your-favourite-corner",
+          "url_fonte_interna": "https://kranzle-srbija.rs/best-online-casinos-accepting-bokuboku-local-casino-pay-by-phone-credit-casino-uk-internet-sites-2025/",
           "imagem": "",
           "graph_extras": null
         },
@@ -2062,94 +2059,14 @@
           "page_id": "1402223216297975",
           "fonte": "FreeNewsAPI (casa/DIY/culinária)",
           "fonte_id": "freenews-casa",
-          "titulo_original": "Maricopa County Library October Events",
+          "titulo_original": "Gamble Gambling games On the internet",
           "titulo_adaptado": null,
           "score_fonte": 23,
           "score_texto": null,
           "status": "rejeitado",
           "motivo": "Score da fonte 23 < 75. +recente; -pouca relação com casa",
           "texto_final": null,
-          "url_fonte_interna": "https://sunlakessplash.com/maricopa-county-library-october-events/",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Casa & Conforto Utilidades",
-          "page_id": "1402223216297975",
-          "fonte": "FreeNewsAPI (casa/DIY/culinária)",
-          "fonte_id": "freenews-casa",
-          "titulo_original": "Displaced by war, young Sudanese turn to entrepeneurship to survive",
-          "titulo_adaptado": null,
-          "score_fonte": 23,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 23 < 75. +recente; -pouca relação com casa",
-          "texto_final": null,
-          "url_fonte_interna": "https://www.aljazeera.com/features/2026/9/30/displaced-by-war-young-sudanese-turn-to-entrepeneurship-to-survive",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Casa & Conforto Utilidades",
-          "page_id": "1402223216297975",
-          "fonte": "FreeNewsAPI (casa/DIY/culinária)",
-          "fonte_id": "freenews-casa",
-          "titulo_original": "Until it’s an older video game, discover a plus bullet in almost every Bovada position",
-          "titulo_adaptado": null,
-          "score_fonte": 23,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 23 < 75. +recente; -pouca relação com casa",
-          "texto_final": null,
-          "url_fonte_interna": "https://indo-spices.com/until-its-an-older-video-game-discover-a-plus-bullet-in-almost-every-bovada-position/",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Casa & Conforto Utilidades",
-          "page_id": "1402223216297975",
-          "fonte": "FreeNewsAPI (casa/DIY/culinária)",
-          "fonte_id": "freenews-casa",
-          "titulo_original": "Asmongold: The Streamer Who Built a Media Empire",
-          "titulo_adaptado": null,
-          "score_fonte": 23,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 23 < 75. +recente; -pouca relação com casa",
-          "texto_final": null,
-          "url_fonte_interna": "https://everything-pr.com/asmongold-streamer-media-empire",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Casa & Conforto Utilidades",
-          "page_id": "1402223216297975",
-          "fonte": "FreeNewsAPI (casa/DIY/culinária)",
-          "fonte_id": "freenews-casa",
-          "titulo_original": "DraftKings Local casino is amongst the greatest labels in the U",
-          "titulo_adaptado": null,
-          "score_fonte": 23,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 23 < 75. +recente; -pouca relação com casa",
-          "texto_final": null,
-          "url_fonte_interna": "https://indo-spices.com/draftkings-local-casino-is-amongst-the-greatest-labels-in-the-u/",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Casa & Conforto Utilidades",
-          "page_id": "1402223216297975",
-          "fonte": "FreeNewsAPI (casa/DIY/culinária)",
-          "fonte_id": "freenews-casa",
-          "titulo_original": "The new problems process was created to be certain that all the pro concerns found compatible interest and you may reasonable quality",
-          "titulo_adaptado": null,
-          "score_fonte": 23,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 23 < 75. +recente; -pouca relação com casa",
-          "texto_final": null,
-          "url_fonte_interna": "https://kranzle-srbija.rs/the-new-problems-process-was-created-to-be-certain-that-all-the-pro-concerns-found-compatible-interest-and-you-may-reasonable-quality/",
+          "url_fonte_interna": "https://kranzle-srbija.rs/gamble-gambling-games-on-the-internet/",
           "imagem": "",
           "graph_extras": null
         }
