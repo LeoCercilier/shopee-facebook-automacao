@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-04T17:42:42.704Z",
+  "atualizado_em": "2026-10-05T21:10:01.618Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -733,6 +733,54 @@
       "titulo": "O que está em alta no MotoGP",
       "post_id": "1332730186586435_122109467673486415",
       "publicado_em": "2026-10-04T17:42:42.704Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/alifar/openai-expands-text-provenance-in-the-eu-as-ai-act-rules-drive-new-watermarking-tools-1ilj",
+      "chave": "https://dev.to/alifar/openai-expands-text-provenance-in-the-eu-as-ai-act-rules-drive-new-watermarking-tools-1ilj",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1496634969150309",
+      "publicado_em": "2026-10-05T21:09:41.972Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://ouispeakfashion.com/mary-kay-k-beauty-texture-edit-launch/",
+      "chave": "https://ouispeakfashion.com/mary-kay-k-beauty-texture-edit-launch",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122111200821485849",
+      "publicado_em": "2026-10-05T21:09:49.911Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://electrek.co/2026/10/05/its-now-easier-than-ever-to-get-your-motorcycle-license-on-an-electric-bike/",
+      "chave": "https://electrek.co/2026/10/05/its-now-easier-than-ever-to-get-your-motorcycle-license-on-an-electric-bike",
+      "titulo": "Motos elétricas e mobilidade urbana",
+      "post_id": "1332730186586435_122110099485486415",
+      "publicado_em": "2026-10-05T21:09:55.844Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "freenews-casa",
+      "fonte_nome": "FreeNewsAPI (casa/DIY/culinária)",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/what-to-do-with-old-mugs-try-these-5-creative-diy-reuse-ideas-to-organise-your-home-and-add-a-decorative-touch/articleshow/134711497.cms",
+      "chave": "https://economictimes.indiatimes.com/news/new-updates/what-to-do-with-old-mugs-try-these-5-creative-diy-reuse-ideas-to-organise-your-home-and-add-a-decorative-touch/articleshow/134711497.cms",
+      "titulo": "Curiosidade do dia",
+      "post_id": "1402223216297975_122115710385476480",
+      "publicado_em": "2026-10-05T21:10:01.618Z"
     }
   ]
 }
