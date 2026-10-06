@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-05T21:10:01.618Z",
+  "atualizado_em": "2026-10-06T18:57:32.507Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -781,6 +781,42 @@
       "titulo": "Curiosidade do dia",
       "post_id": "1402223216297975_122115710385476480",
       "publicado_em": "2026-10-05T21:10:01.618Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/urielbitton/saas-search-ux-keep-filters-when-results-are-empty-35b",
+      "chave": "https://dev.to/urielbitton/saas-search-ux-keep-filters-when-results-are-empty-35b",
+      "titulo": "Tecnologia aplicada a negócios de forma simples",
+      "post_id": "369805844018354_1497476705732802",
+      "publicado_em": "2026-10-06T18:57:21.743Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://beautybeyondaesthetics.com/blog/top-5-skincare-programs-for-glowing-skin/",
+      "chave": "https://beautybeyondaesthetics.com/blog/top-5-skincare-programs-for-glowing-skin",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122111761917485849",
+      "publicado_em": "2026-10-06T18:57:26.578Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://paultan.org/2026/10/06/malaysias-middleweight-motorcycle-market-between-rm25k-to-rm35k-might-be-your-sweet-spot-price-wise/",
+      "chave": "https://paultan.org/2026/10/06/malaysias-middleweight-motorcycle-market-between-rm25k-to-rm35k-might-be-your-sweet-spot-price-wise",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122110555311486415",
+      "publicado_em": "2026-10-06T18:57:32.507Z"
     }
   ]
 }
