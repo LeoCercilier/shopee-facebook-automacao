@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-04T17:02:21.696Z",
+  "atualizado_em": "2026-10-06T18:37:03.619Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -661,6 +661,50 @@
       "titulo": "Black Friday de utilidades domésticas: o que vale a pena",
       "post_id": "1402223216297975_122115218211476480",
       "publicado_em": "2026-10-04T17:02:21.696Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/chatgpt-shopping/",
+      "titulo": "ChatGPT Shopping: o que é e como aparecer nas respostas da IA?",
+      "post_id": "369805844018354_1497463722400767",
+      "publicado_em": "2026-10-06T18:36:43.247Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "folha-equilibrio",
+      "fonte_nome": "Folha Equilíbrio e Saúde",
+      "url": "https://www1.folha.uol.com.br/equilibrio/2026/10/popular-nas-redes-mistura-de-produtos-de-limpeza-causa-danos-respiratorios-e-a-pele-saiba-como-evitar.shtml",
+      "titulo": "Popular nas redes, mistura de produtos de limpeza causa danos respiratórios e à pele; saiba como evitar",
+      "post_id": "1247772158429331_122111748525485849",
+      "publicado_em": "2026-10-06T18:36:48.263Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/especiais/bmw-motorrad-fest-2026-reune-motos-experiencias-e-novidades/",
+      "titulo": "BMW Motorrad Fest 2026 reúne motos, experiências e novidades",
+      "post_id": "1332730186586435_122110544289486415",
+      "publicado_em": "2026-10-06T18:36:54.752Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/casas-apartamentos/antiga-saleta-e-transformada-em-varanda-interna-com-banco-de-concreto-desenhado-sob-medida/",
+      "titulo": "Antiga saleta é transformada em varanda interna com banco de concreto desenhado sob medida",
+      "post_id": "1402223216297975_122116090539476480",
+      "publicado_em": "2026-10-06T18:37:03.619Z"
     }
   ]
 }
