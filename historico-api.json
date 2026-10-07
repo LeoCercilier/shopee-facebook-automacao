@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-06T18:57:32.507Z",
+  "atualizado_em": "2026-10-07T19:24:35.468Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -817,6 +817,42 @@
       "titulo": "No universo das duas rodas",
       "post_id": "1332730186586435_122110555311486415",
       "publicado_em": "2026-10-06T18:57:32.507Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/digitalocean/what-is-disaggregated-prefill-and-decode-in-llm-inference-4m0n",
+      "chave": "https://dev.to/digitalocean/what-is-disaggregated-prefill-and-decode-in-llm-inference-4m0n",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1498393738974432",
+      "publicado_em": "2026-10-07T19:24:25.758Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://tribune.com.pk/story/2633323/beautyworld-dubai-celebrates-30th-edition-with-ai-scents-and-global-beauty-icons",
+      "chave": "https://tribune.com.pk/story/2633323/beautyworld-dubai-celebrates-30th-edition-with-ai-scents-and-global-beauty-icons",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122112300015485849",
+      "publicado_em": "2026-10-07T19:24:30.351Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.topspeed.com/honda-motorcycle-still-sets-reliability-benchmark/",
+      "chave": "https://www.topspeed.com/honda-motorcycle-still-sets-reliability-benchmark",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122111083083486415",
+      "publicado_em": "2026-10-07T19:24:35.468Z"
     }
   ]
 }

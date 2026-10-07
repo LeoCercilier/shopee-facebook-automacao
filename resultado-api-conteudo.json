@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-06T18:57:34.562Z",
+  "gerado_em": "2026-10-07T19:24:37.621Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -7,13 +7,13 @@
       "pagina": "Marketing Tips",
       "status": "publicado",
       "stats": {
-        "coletados": 124,
-        "aprovados_fonte": 29,
+        "coletados": 140,
+        "aprovados_fonte": 30,
         "aprovados_texto": 20,
         "rejeitados": 0,
         "publicados": 1
       },
-      "melhor_titulo": "Tecnologia aplicada a negócios de forma simples",
+      "melhor_titulo": "Como a IA pode ajudar no dia a dia do negócio",
       "score_fonte": 94,
       "score_texto": 94,
       "tem_imagem": true
@@ -23,13 +23,13 @@
       "status": "publicado",
       "stats": {
         "coletados": 40,
-        "aprovados_fonte": 6,
-        "aprovados_texto": 5,
-        "rejeitados": 15,
+        "aprovados_fonte": 1,
+        "aprovados_texto": 1,
+        "rejeitados": 19,
         "publicados": 1
       },
       "melhor_titulo": "Cuidados com a pele no dia a dia",
-      "score_fonte": 79,
+      "score_fonte": 75,
       "score_texto": 86,
       "tem_imagem": false
     },
@@ -38,13 +38,13 @@
       "status": "publicado",
       "stats": {
         "coletados": 64,
-        "aprovados_fonte": 17,
-        "aprovados_texto": 17,
-        "rejeitados": 3,
+        "aprovados_fonte": 18,
+        "aprovados_texto": 18,
+        "rejeitados": 2,
         "publicados": 1
       },
       "melhor_titulo": "No universo das duas rodas",
-      "score_fonte": 87,
+      "score_fonte": 91,
       "score_texto": 86,
       "tem_imagem": false
     },
