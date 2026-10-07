@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-06T18:37:03.620Z",
+  "gerado_em": "2026-10-07T19:05:03.744Z",
   "publicados": 4,
   "sem_conteudo": 0,
   "erros": 0,
@@ -8,21 +8,21 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1497463722400767",
-      "tipo": "photo",
-      "titulo": "ChatGPT Shopping: o que é e como aparecer nas respostas da IA?",
-      "url": "https://www.nuvemshop.com.br/blog/chatgpt-shopping/",
-      "fonte": "Nuvemshop",
-      "fonte_id": "nuvemshop"
+      "post_id": "369805844018354_1498382008975605",
+      "tipo": "feed",
+      "titulo": "Vida fora da Terra? Telescópio capta ondas de rádio de outra galáxia",
+      "url": "https://braziljournal.com/vida-fora-da-terra-telescopio-capta-ondas-de-radio-de-outra-galaxia/",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
       "status": "publicado",
-      "post_id": "1247772158429331_122111748525485849",
+      "post_id": "1247772158429331_122112291987485849",
       "tipo": "feed",
-      "titulo": "Popular nas redes, mistura de produtos de limpeza causa danos respiratórios e à pele; saiba como evitar",
-      "url": "https://www1.folha.uol.com.br/equilibrio/2026/10/popular-nas-redes-mistura-de-produtos-de-limpeza-causa-danos-respiratorios-e-a-pele-saiba-como-evitar.shtml",
+      "titulo": "Investigação preliminar descarta sarna humana em problema de pele em Brodowski (SP)",
+      "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/10/investigacao-preliminar-descarta-sarna-humana-em-problema-de-pele-em-brodowski-sp.shtml",
       "fonte": "Folha Equilíbrio e Saúde",
       "fonte_id": "folha-equilibrio"
     },
@@ -30,10 +30,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122110544289486415",
+      "post_id": "1332730186586435_122111075295486415",
       "tipo": "photo",
-      "titulo": "BMW Motorrad Fest 2026 reúne motos, experiências e novidades",
-      "url": "https://motociclismoonline.com.br/especiais/bmw-motorrad-fest-2026-reune-motos-experiencias-e-novidades/",
+      "titulo": "Game Over Cycles leva três prêmios na Europa com moto inspirada em James Hetfield",
+      "url": "https://motociclismoonline.com.br/noticias/moto-james-hetfield-metallica-premios-europa/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122116090539476480",
-      "tipo": "photo",
-      "titulo": "Antiga saleta é transformada em varanda interna com banco de concreto desenhado sob medida",
-      "url": "https://casa.abril.com.br/casas-apartamentos/antiga-saleta-e-transformada-em-varanda-interna-com-banco-de-concreto-desenhado-sob-medida/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "post_id": "1402223216297975_122116505571476480",
+      "tipo": "feed",
+      "titulo": "Bar em casa: como montar seu cantinho de drinks",
+      "url": "https://blog.precolandia.com.br/bar-em-casa-como-montar-cantinho-de-drinks/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }
