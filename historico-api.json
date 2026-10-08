@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-07T19:24:35.468Z",
+  "atualizado_em": "2026-10-08T19:19:54.918Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -853,6 +853,42 @@
       "titulo": "No universo das duas rodas",
       "post_id": "1332730186586435_122111083083486415",
       "publicado_em": "2026-10-07T19:24:35.468Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/selinionescu/zernio-review-2026-the-social-media-api-for-developers-and-ai-agents-explained-3ndl",
+      "chave": "https://dev.to/selinionescu/zernio-review-2026-the-social-media-api-for-developers-and-ai-agents-explained-3ndl",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1499310898882716",
+      "publicado_em": "2026-10-08T19:19:46.727Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.wam.ae/en/article/c2n1iey-sharjah-hosts-perfumes-oud-cosmetics-shows",
+      "chave": "https://www.wam.ae/en/article/c2n1iey-sharjah-hosts-perfumes-oud-cosmetics-shows",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122112784425485849",
+      "publicado_em": "2026-10-08T19:19:50.746Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.theuth.co/yamaha-inspects-your-second-hand-motorcycle-for-free-so-you-can-check-its-status-on-the-official-network/22319/",
+      "chave": "https://www.theuth.co/yamaha-inspects-your-second-hand-motorcycle-for-free-so-you-can-check-its-status-on-the-official-network/22319",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122111554515486415",
+      "publicado_em": "2026-10-08T19:19:54.918Z"
     }
   ]
 }
