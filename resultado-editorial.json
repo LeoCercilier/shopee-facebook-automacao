@@ -1,39 +1,34 @@
 {
-  "gerado_em": "2026-10-07T19:05:03.744Z",
-  "publicados": 4,
-  "sem_conteudo": 0,
+  "gerado_em": "2026-10-08T19:00:54.302Z",
+  "publicados": 3,
+  "sem_conteudo": 1,
   "erros": 0,
   "resultados": [
     {
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1498382008975605",
-      "tipo": "feed",
-      "titulo": "Vida fora da Terra? Telescópio capta ondas de rádio de outra galáxia",
-      "url": "https://braziljournal.com/vida-fora-da-terra-telescopio-capta-ondas-de-radio-de-outra-galaxia/",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "post_id": "369805844018354_1499298822217257",
+      "tipo": "photo",
+      "titulo": "Agente de IA para WhatsApp: como usar no e-commerce?",
+      "url": "https://www.nuvemshop.com.br/blog/agente-de-ia-para-whatsapp/",
+      "fonte": "Nuvemshop",
+      "fonte_id": "nuvemshop"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
-      "status": "publicado",
-      "post_id": "1247772158429331_122112291987485849",
-      "tipo": "feed",
-      "titulo": "Investigação preliminar descarta sarna humana em problema de pele em Brodowski (SP)",
-      "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/10/investigacao-preliminar-descarta-sarna-humana-em-problema-de-pele-em-brodowski-sp.shtml",
-      "fonte": "Folha Equilíbrio e Saúde",
-      "fonte_id": "folha-equilibrio"
+      "status": "sem_conteudo",
+      "fontes_com_erro": []
     },
     {
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122111075295486415",
+      "post_id": "1332730186586435_122111547591486415",
       "tipo": "photo",
-      "titulo": "Game Over Cycles leva três prêmios na Europa com moto inspirada em James Hetfield",
-      "url": "https://motociclismoonline.com.br/noticias/moto-james-hetfield-metallica-premios-europa/",
+      "titulo": "Ducati Desmo450 MX chega ao Brasil; veja preços e mais informações",
+      "url": "https://motociclismoonline.com.br/noticias/ducati-desmo450-mx-chega-ao-brasil-veja-precos-e-mais-informacoes/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +36,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122116505571476480",
-      "tipo": "feed",
-      "titulo": "Bar em casa: como montar seu cantinho de drinks",
-      "url": "https://blog.precolandia.com.br/bar-em-casa-como-montar-cantinho-de-drinks/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "post_id": "1402223216297975_122116923657476480",
+      "tipo": "photo",
+      "titulo": "Bangalôs na Chapada dos Veadeiros trazem soluções bioclimáticas e integração plena com a natureza do entorno",
+      "url": "https://casa.abril.com.br/viagem/bangalos-na-chapada-dos-veadeiros-trazem-solucoes-bioclimaticas-e-integracao-plena-com-a-natureza-do-entorno/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }

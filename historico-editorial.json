@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-07T19:05:03.743Z",
+  "atualizado_em": "2026-10-08T19:00:54.301Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -749,6 +749,39 @@
       "titulo": "Bar em casa: como montar seu cantinho de drinks",
       "post_id": "1402223216297975_122116505571476480",
       "publicado_em": "2026-10-07T19:05:03.743Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/agente-de-ia-para-whatsapp/",
+      "titulo": "Agente de IA para WhatsApp: como usar no e-commerce?",
+      "post_id": "369805844018354_1499298822217257",
+      "publicado_em": "2026-10-08T19:00:38.079Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/ducati-desmo450-mx-chega-ao-brasil-veja-precos-e-mais-informacoes/",
+      "titulo": "Ducati Desmo450 MX chega ao Brasil; veja preços e mais informações",
+      "post_id": "1332730186586435_122111547591486415",
+      "publicado_em": "2026-10-08T19:00:45.644Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/viagem/bangalos-na-chapada-dos-veadeiros-trazem-solucoes-bioclimaticas-e-integracao-plena-com-a-natureza-do-entorno/",
+      "titulo": "Bangalôs na Chapada dos Veadeiros trazem soluções bioclimáticas e integração plena com a natureza do entorno",
+      "post_id": "1402223216297975_122116923657476480",
+      "publicado_em": "2026-10-08T19:00:54.301Z"
     }
   ]
 }
