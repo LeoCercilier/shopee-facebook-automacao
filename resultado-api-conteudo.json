@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-08T19:19:56.588Z",
+  "gerado_em": "2026-10-09T18:53:03.094Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -8,7 +8,7 @@
       "status": "publicado",
       "stats": {
         "coletados": 140,
-        "aprovados_fonte": 42,
+        "aprovados_fonte": 46,
         "aprovados_texto": 20,
         "rejeitados": 0,
         "publicados": 1
@@ -23,9 +23,9 @@
       "status": "publicado",
       "stats": {
         "coletados": 40,
-        "aprovados_fonte": 7,
-        "aprovados_texto": 7,
-        "rejeitados": 13,
+        "aprovados_fonte": 6,
+        "aprovados_texto": 6,
+        "rejeitados": 14,
         "publicados": 1
       },
       "melhor_titulo": "Cuidados com a pele no dia a dia",
@@ -38,13 +38,13 @@
       "status": "publicado",
       "stats": {
         "coletados": 64,
-        "aprovados_fonte": 25,
-        "aprovados_texto": 20,
-        "rejeitados": 0,
+        "aprovados_fonte": 27,
+        "aprovados_texto": 19,
+        "rejeitados": 1,
         "publicados": 1
       },
-      "melhor_titulo": "No universo das duas rodas",
-      "score_fonte": 95,
+      "melhor_titulo": "Motos elétricas e mobilidade urbana",
+      "score_fonte": 91,
       "score_texto": 86,
       "tem_imagem": false
     },

@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-08T19:19:54.918Z",
+  "atualizado_em": "2026-10-09T18:53:00.791Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -889,6 +889,42 @@
       "titulo": "No universo das duas rodas",
       "post_id": "1332730186586435_122111554515486415",
       "publicado_em": "2026-10-08T19:19:54.918Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/alifar/google-ai-overviews-expand-across-branded-queries-demandsphere-data-shows-4bkl",
+      "chave": "https://dev.to/alifar/google-ai-overviews-expand-across-branded-queries-demandsphere-data-shows-4bkl",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1500203008793505",
+      "publicado_em": "2026-10-09T18:52:50.915Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.archynewsy.com/beauty-founders-discuss-controversy-over-identical-eye-patch-packaging/",
+      "chave": "https://www.archynewsy.com/beauty-founders-discuss-controversy-over-identical-eye-patch-packaging",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122113256943485849",
+      "publicado_em": "2026-10-09T18:52:55.803Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://telanganatoday.com/royal-enfields-flying-flea-electric-motorcycle-arrives-in-hyderabad",
+      "chave": "https://telanganatoday.com/royal-enfields-flying-flea-electric-motorcycle-arrives-in-hyderabad",
+      "titulo": "Motos elétricas e mobilidade urbana",
+      "post_id": "1332730186586435_122112026631486415",
+      "publicado_em": "2026-10-09T18:53:00.791Z"
     }
   ]
 }
