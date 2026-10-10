@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-09T18:53:00.791Z",
+  "atualizado_em": "2026-10-10T17:54:54.100Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -925,6 +925,42 @@
       "titulo": "Motos elétricas e mobilidade urbana",
       "post_id": "1332730186586435_122112026631486415",
       "publicado_em": "2026-10-09T18:53:00.791Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/sarvar_04/ai-agent-benchmark-i-gave-9-models-a-destroy-button-and-a-job-that-needed-it-3d0f",
+      "chave": "https://dev.to/sarvar_04/ai-agent-benchmark-i-gave-9-models-a-destroy-button-and-a-job-that-needed-it-3d0f",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1501078065372666",
+      "publicado_em": "2026-10-10T17:54:44.005Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.hindustantimes.com/lifestyle/fashion/10-amazon-beauty-finds-to-add-to-your-diwali-shopping-list-for-festive-ready-skin-hair-and-makeup-101791539345859-amp.html",
+      "chave": "https://www.hindustantimes.com/lifestyle/fashion/10-amazon-beauty-finds-to-add-to-your-diwali-shopping-list-for-festive-ready-skin-hair-and-makeup-101791539345859-amp.html",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122113711479485849",
+      "publicado_em": "2026-10-10T17:54:49.215Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.archynewsy.com/alva-cervo-and-polytron-fox-r-long-range-electric-motorcycles/",
+      "chave": "https://www.archynewsy.com/alva-cervo-and-polytron-fox-r-long-range-electric-motorcycles",
+      "titulo": "Motos elétricas e mobilidade urbana",
+      "post_id": "1332730186586435_122112457443486415",
+      "publicado_em": "2026-10-10T17:54:54.100Z"
     }
   ]
 }
