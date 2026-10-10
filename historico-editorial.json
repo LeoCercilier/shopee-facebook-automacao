@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-09T18:31:20.844Z",
+  "atualizado_em": "2026-10-10T17:28:26.401Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -815,6 +815,39 @@
       "titulo": "Kit merenda por idade: da creche ao ensino médio",
       "post_id": "1402223216297975_122117317827476480",
       "publicado_em": "2026-10-09T18:31:20.844Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/chatgpt-ads/",
+      "titulo": "ChatGPT Ads no Brasil: como anunciar na plataforma da OpenAI?",
+      "post_id": "369805844018354_1501058378707968",
+      "publicado_em": "2026-10-10T17:28:06.223Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/competicoes/barbara-neves-selecao-brasileira-feminina-six-days-enduro/",
+      "titulo": "Bárbara Neves representa o Brasil na estreia feminina do Six Days Enduro",
+      "post_id": "1332730186586435_122112448395486415",
+      "publicado_em": "2026-10-10T17:28:17.600Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/ambientes/arquiteta-lista-5-coisas-que-nao-podem-faltar-em-um-quarto-confortavel/",
+      "titulo": "Arquiteta lista 5 coisas que não podem faltar em um quarto confortável",
+      "post_id": "1402223216297975_122117737221476480",
+      "publicado_em": "2026-10-10T17:28:26.401Z"
     }
   ]
 }

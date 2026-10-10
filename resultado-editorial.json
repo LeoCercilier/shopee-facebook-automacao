@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-09T18:31:20.845Z",
+  "gerado_em": "2026-10-10T17:28:26.402Z",
   "publicados": 3,
   "sem_conteudo": 1,
   "erros": 0,
@@ -8,12 +8,12 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1500188228794983",
-      "tipo": "feed",
-      "titulo": "OPINIÃO. Os três terremotos desta eleição",
-      "url": "https://braziljournal.com/opiniao-os-tres-terremotos-desta-eleicao",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "post_id": "369805844018354_1501058378707968",
+      "tipo": "photo",
+      "titulo": "ChatGPT Ads no Brasil: como anunciar na plataforma da OpenAI?",
+      "url": "https://www.nuvemshop.com.br/blog/chatgpt-ads/",
+      "fonte": "Nuvemshop",
+      "fonte_id": "nuvemshop"
     },
     {
       "page_id": "1247772158429331",
@@ -25,10 +25,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122112018957486415",
+      "post_id": "1332730186586435_122112448395486415",
       "tipo": "photo",
-      "titulo": "Bajaj abre nova loja no Rio de Janeiro",
-      "url": "https://motociclismoonline.com.br/noticias/bajaj-abre-nova-loja-no-rio-de-janeiro-em-vila-izabel/",
+      "titulo": "Bárbara Neves representa o Brasil na estreia feminina do Six Days Enduro",
+      "url": "https://motociclismoonline.com.br/competicoes/barbara-neves-selecao-brasileira-feminina-six-days-enduro/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -36,12 +36,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122117317827476480",
-      "tipo": "feed",
-      "titulo": "Kit merenda por idade: da creche ao ensino médio",
-      "url": "https://blog.precolandia.com.br/kit-merenda-escolar-por-faixa-etaria/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "post_id": "1402223216297975_122117737221476480",
+      "tipo": "photo",
+      "titulo": "Arquiteta lista 5 coisas que não podem faltar em um quarto confortável",
+      "url": "https://casa.abril.com.br/ambientes/arquiteta-lista-5-coisas-que-nao-podem-faltar-em-um-quarto-confortavel/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }
