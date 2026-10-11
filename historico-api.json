@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-10T17:54:54.100Z",
+  "atualizado_em": "2026-10-11T18:11:16.751Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -961,6 +961,42 @@
       "titulo": "Motos elétricas e mobilidade urbana",
       "post_id": "1332730186586435_122112457443486415",
       "publicado_em": "2026-10-10T17:54:54.100Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/t-rexbytes/does-your-llm-know-the-boundary-i-left-the-doors-open-and-6-of-10-ai-agents-crowned-themselves-4o42",
+      "chave": "https://dev.to/t-rexbytes/does-your-llm-know-the-boundary-i-left-the-doors-open-and-6-of-10-ai-agents-crowned-themselves-4o42",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1502045591942580",
+      "publicado_em": "2026-10-11T18:11:05.837Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://bwretailworld.com/beauty/cosmetics-skin-care/staze-beauty-teams-up-with-rhea-chakraborty-for-new-blush",
+      "chave": "https://bwretailworld.com/beauty/cosmetics-skin-care/staze-beauty-teams-up-with-rhea-chakraborty-for-new-blush",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122114197935485849",
+      "publicado_em": "2026-10-11T18:11:11.467Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.ndtv.com/auto/youtuber-fits-micro-jet-engines-to-harley-davidson-motorcycle-video-12165649",
+      "chave": "https://www.ndtv.com/auto/youtuber-fits-micro-jet-engines-to-harley-davidson-motorcycle-video-12165649",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122112903555486415",
+      "publicado_em": "2026-10-11T18:11:16.751Z"
     }
   ]
 }
