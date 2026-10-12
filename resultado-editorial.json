@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-11T17:47:25.751Z",
+  "gerado_em": "2026-10-12T21:24:38.857Z",
   "publicados": 3,
   "sem_conteudo": 1,
   "erros": 0,
@@ -8,12 +8,12 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1502027141944425",
-      "tipo": "photo",
-      "titulo": "Ricardo Sardenberg: o ‘insider outsider’ da arte brasileira",
-      "url": "https://braziljournal.com/ricardo-sardenberg-o-insider-outsider-da-arte-brasileira",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "post_id": "369805844018354_1503158675164605",
+      "tipo": "feed",
+      "titulo": "Como criar loja virtual com IA? Guia passo a passo",
+      "url": "https://www.nuvemshop.com.br/blog/criar-loja-virtual-com-ia/",
+      "fonte": "Nuvemshop",
+      "fonte_id": "nuvemshop"
     },
     {
       "page_id": "1247772158429331",
@@ -25,10 +25,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122112896679486415",
+      "post_id": "1332730186586435_122113369875486415",
       "tipo": "photo",
-      "titulo": "Seguro de moto ganha espaço entre renovações e revela novo perfil do motociclista",
-      "url": "https://motociclismoonline.com.br/noticias/seguro-de-moto-renovacoes-perfil-motociclista/",
+      "titulo": "Bezzecchi vence na Indonésia e Martin lidera",
+      "url": "https://motociclismoonline.com.br/competicoes/bezzecchi-vence-na-indonesia-e-martin-lidera/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -36,12 +36,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122118166233476480",
-      "tipo": "feed",
-      "titulo": "Piquenique em família: o que levar na cesta",
-      "url": "https://blog.precolandia.com.br/piquenique-em-familia-o-que-levar-na-cesta/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "post_id": "1402223216297975_122118671571476480",
+      "tipo": "photo",
+      "titulo": "Mofo e umidade em casa durante a primavera: como acabar de vez com o problema",
+      "url": "https://casa.abril.com.br/minha-casa/mofo-e-umidade-em-casa-durante-a-primavera-como-acabar-de-vez-com-o-problema/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }

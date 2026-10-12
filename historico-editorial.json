@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-11T17:47:25.750Z",
+  "atualizado_em": "2026-10-12T21:24:38.856Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -881,6 +881,39 @@
       "titulo": "Piquenique em família: o que levar na cesta",
       "post_id": "1402223216297975_122118166233476480",
       "publicado_em": "2026-10-11T17:47:25.750Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/criar-loja-virtual-com-ia/",
+      "titulo": "Como criar loja virtual com IA? Guia passo a passo",
+      "post_id": "369805844018354_1503158675164605",
+      "publicado_em": "2026-10-12T21:24:17.739Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/competicoes/bezzecchi-vence-na-indonesia-e-martin-lidera/",
+      "titulo": "Bezzecchi vence na Indonésia e Martin lidera",
+      "post_id": "1332730186586435_122113369875486415",
+      "publicado_em": "2026-10-12T21:24:29.086Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/minha-casa/mofo-e-umidade-em-casa-durante-a-primavera-como-acabar-de-vez-com-o-problema/",
+      "titulo": "Mofo e umidade em casa durante a primavera: como acabar de vez com o problema",
+      "post_id": "1402223216297975_122118671571476480",
+      "publicado_em": "2026-10-12T21:24:38.856Z"
     }
   ]
 }
