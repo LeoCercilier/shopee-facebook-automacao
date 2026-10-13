@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-12T21:47:30.865Z",
+  "atualizado_em": "2026-10-13T19:54:26.246Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1045,6 +1045,54 @@
       "titulo": "Curiosidade do dia",
       "post_id": "1402223216297975_122118676383476480",
       "publicado_em": "2026-10-12T21:47:30.865Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/alifar/n8n-assistant-and-agents-expand-ai-automation-from-workflow-design-to-ongoing-tasks-ml6",
+      "chave": "https://dev.to/alifar/n8n-assistant-and-agents-expand-ai-automation-from-workflow-design-to-ongoing-tasks-ml6",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1504079475072525",
+      "publicado_em": "2026-10-13T19:54:05.027Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.devdiscourse.com/article/entertainment/3991555-tira-unveils-beauty-advent-calender-2026-check-whats-inside",
+      "chave": "https://www.devdiscourse.com/article/entertainment/3991555-tira-unveils-beauty-advent-calender-2026-check-whats-inside",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122115116055485849",
+      "publicado_em": "2026-10-13T19:54:12.926Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.outlookbusiness.com/spotlight/pr-wire/one-of-indias-highest-utilisation-electric-motorcycles-the-kridn-journey-from-a-2019-to-delhi-ncrs-bike-taxi-fleets",
+      "chave": "https://www.outlookbusiness.com/spotlight/pr-wire/one-of-indias-highest-utilisation-electric-motorcycles-the-kridn-journey-from-a-2019-to-delhi-ncrs-bike-taxi-fleets",
+      "titulo": "Motos elétricas e mobilidade urbana",
+      "post_id": "1332730186586435_122113742247486415",
+      "publicado_em": "2026-10-13T19:54:19.595Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "freenews-casa",
+      "fonte_nome": "FreeNewsAPI (casa/DIY/culinária)",
+      "url": "https://maxisfibre.info/2026/10/13/the-clever-recipe-kitchen-towel-maxis-fiber/",
+      "chave": "https://maxisfibre.info/2026/10/13/the-clever-recipe-kitchen-towel-maxis-fiber",
+      "titulo": "Curiosidade do dia",
+      "post_id": "1402223216297975_122119008531476480",
+      "publicado_em": "2026-10-13T19:54:26.246Z"
     }
   ]
 }
