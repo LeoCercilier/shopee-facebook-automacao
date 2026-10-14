@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-13T19:32:23.437Z",
+  "atualizado_em": "2026-10-14T17:36:48.829Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -947,6 +947,39 @@
       "titulo": "Churrasco de verão: utensílios que fazem diferença",
       "post_id": "1402223216297975_122119003251476480",
       "publicado_em": "2026-10-13T19:32:23.437Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/quanto-custa-abrir-empresa-no-brasil/",
+      "titulo": "Quanto custa abrir empresa no Brasil em 2026?",
+      "post_id": "369805844018354_1505001574980315",
+      "publicado_em": "2026-10-14T17:36:25.901Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/honda-cb250ss-scrambler-2027/",
+      "titulo": "Honda CB250SS é uma nova scrambler para o mercado chinês",
+      "post_id": "1332730186586435_122114032839486415",
+      "publicado_em": "2026-10-14T17:36:38.895Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/arquitetura/banheiras-de-imersao-entenda-a-tendencia-do-relaxamento/",
+      "titulo": "Banheiras de imersão: entenda a tendência do relaxamento",
+      "post_id": "1402223216297975_122119320357476480",
+      "publicado_em": "2026-10-14T17:36:48.829Z"
     }
   ]
 }

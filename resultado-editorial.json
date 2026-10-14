@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-13T19:32:23.438Z",
+  "gerado_em": "2026-10-14T17:36:48.830Z",
   "publicados": 3,
   "sem_conteudo": 1,
   "erros": 0,
@@ -8,12 +8,12 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1504067181740421",
-      "tipo": "feed",
-      "titulo": "Depois do ‘rali Flavio’, JP Morgan eleva Rumo e corta Localiza; Motiva é ‘top pick’",
-      "url": "https://braziljournal.com/depois-do-rali-flavio-jp-morgan-eleva-rumo-e-corta-localiza-motiva-e-top-pick",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "post_id": "369805844018354_1505001574980315",
+      "tipo": "photo",
+      "titulo": "Quanto custa abrir empresa no Brasil em 2026?",
+      "url": "https://www.nuvemshop.com.br/blog/quanto-custa-abrir-empresa-no-brasil/",
+      "fonte": "Nuvemshop",
+      "fonte_id": "nuvemshop"
     },
     {
       "page_id": "1247772158429331",
@@ -25,23 +25,23 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122113738413486415",
-      "tipo": "feed",
-      "titulo": "Produção de motos no Brasil cresce e tem melhor setembro desde 2011",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/producao-de-motos-no-brasil-cresce-e-tem-melhor-setembro-desde-2011",
-      "fonte": "Agência Brasil",
-      "fonte_id": "agencia-brasil"
+      "post_id": "1332730186586435_122114032839486415",
+      "tipo": "photo",
+      "titulo": "Honda CB250SS é uma nova scrambler para o mercado chinês",
+      "url": "https://motociclismoonline.com.br/noticias/honda-cb250ss-scrambler-2027/",
+      "fonte": "Motociclismo Online",
+      "fonte_id": "motociclismo-online"
     },
     {
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122119003251476480",
+      "post_id": "1402223216297975_122119320357476480",
       "tipo": "feed",
-      "titulo": "Churrasco de verão: utensílios que fazem diferença",
-      "url": "https://blog.precolandia.com.br/churrasco-verao-utensilios-acessorios/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "titulo": "Banheiras de imersão: entenda a tendência do relaxamento",
+      "url": "https://casa.abril.com.br/arquitetura/banheiras-de-imersao-entenda-a-tendencia-do-relaxamento/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }
