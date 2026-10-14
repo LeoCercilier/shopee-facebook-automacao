@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-13T19:54:26.246Z",
+  "atualizado_em": "2026-10-14T18:04:54.189Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1093,6 +1093,54 @@
       "titulo": "Curiosidade do dia",
       "post_id": "1402223216297975_122119008531476480",
       "publicado_em": "2026-10-13T19:54:26.246Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/sylwia-lask/your-browser-can-do-what-5-ai-features-that-actually-work-1blb",
+      "chave": "https://dev.to/sylwia-lask/your-browser-can-do-what-5-ai-features-that-actually-work-1blb",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1505021624978310",
+      "publicado_em": "2026-10-14T18:04:36.594Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://angelsboutique.ie/spring-skincare-how-to-adapt-retinol-use-and-boost-sun-protection/",
+      "chave": "https://angelsboutique.ie/spring-skincare-how-to-adapt-retinol-use-and-boost-sun-protection",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122115455151485849",
+      "publicado_em": "2026-10-14T18:04:41.572Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://newatlas.com/motorcycles/zero-dsr-electric-motorcycle-range-record/",
+      "chave": "https://newatlas.com/motorcycles/zero-dsr-electric-motorcycle-range-record",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122114036655486415",
+      "publicado_em": "2026-10-14T18:04:47.702Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "freenews-casa",
+      "fonte_nome": "FreeNewsAPI (casa/DIY/culinária)",
+      "url": "https://africandigest.com/article/adapting-home-organization-for-autumn-practical-tips",
+      "chave": "https://africandigest.com/article/adapting-home-organization-for-autumn-practical-tips",
+      "titulo": "Curiosidade do dia",
+      "post_id": "1402223216297975_122119327401476480",
+      "publicado_em": "2026-10-14T18:04:54.189Z"
     }
   ]
 }
