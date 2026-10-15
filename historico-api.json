@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-14T18:04:54.189Z",
+  "atualizado_em": "2026-10-15T17:49:20.950Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1141,6 +1141,54 @@
       "titulo": "Curiosidade do dia",
       "post_id": "1402223216297975_122119327401476480",
       "publicado_em": "2026-10-14T18:04:54.189Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/francistrdev/ai-fatigue-yea-i-know-f9",
+      "chave": "https://dev.to/francistrdev/ai-fatigue-yea-i-know-f9",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1506002581546881",
+      "publicado_em": "2026-10-15T17:49:03.083Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.hindustantimes.com/lifestyle/fashion/barkha-singh-on-launching-a-brand-fashion-lessons-and-skincare-secrets-why-are-beauty-standards-something-we-re-still-willing-to-suffer-for-101791971379319-amp.html",
+      "chave": "https://www.hindustantimes.com/lifestyle/fashion/barkha-singh-on-launching-a-brand-fashion-lessons-and-skincare-secrets-why-are-beauty-standards-something-we-re-still-willing-to-suffer-for-101791971379319-amp.html",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122115799305485849",
+      "publicado_em": "2026-10-15T17:49:08.970Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.newsbytesapp.com/news/auto/honda-patent-tweaks-cylinder-wall-material-to-lighten-motorcycle-engines/tldr",
+      "chave": "https://www.newsbytesapp.com/news/auto/honda-patent-tweaks-cylinder-wall-material-to-lighten-motorcycle-engines/tldr",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122114342265486415",
+      "publicado_em": "2026-10-15T17:49:14.434Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "freenews-casa",
+      "fonte_nome": "FreeNewsAPI (casa/DIY/culinária)",
+      "url": "https://palmspringsres.com/6-diy-driveway-ideas-to-refresh-your-homes-entrance/?utm_source=rss&utm_medium=rss&utm_campaign=6-diy-driveway-ideas-to-refresh-your-homes-entrance",
+      "chave": "https://palmspringsres.com/6-diy-driveway-ideas-to-refresh-your-homes-entrance",
+      "titulo": "Curiosidade do dia",
+      "post_id": "1402223216297975_122119658271476480",
+      "publicado_em": "2026-10-15T17:49:20.950Z"
     }
   ]
 }

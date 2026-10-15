@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-14T18:04:54.190Z",
+  "gerado_em": "2026-10-15T17:49:20.950Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -7,8 +7,8 @@
       "pagina": "Marketing Tips",
       "status": "publicado",
       "stats": {
-        "coletados": 140,
-        "aprovados_fonte": 49,
+        "coletados": 116,
+        "aprovados_fonte": 33,
         "aprovados_texto": 20,
         "rejeitados": 0,
         "publicados": 1
@@ -23,13 +23,13 @@
       "status": "publicado",
       "stats": {
         "coletados": 40,
-        "aprovados_fonte": 6,
-        "aprovados_texto": 6,
-        "rejeitados": 14,
+        "aprovados_fonte": 2,
+        "aprovados_texto": 2,
+        "rejeitados": 18,
         "publicados": 1
       },
       "melhor_titulo": "Cuidados com a pele no dia a dia",
-      "score_fonte": 89,
+      "score_fonte": 75,
       "score_texto": 86,
       "tem_imagem": false
     },
@@ -38,9 +38,9 @@
       "status": "publicado",
       "stats": {
         "coletados": 64,
-        "aprovados_fonte": 18,
-        "aprovados_texto": 17,
-        "rejeitados": 3,
+        "aprovados_fonte": 13,
+        "aprovados_texto": 12,
+        "rejeitados": 8,
         "publicados": 1
       },
       "melhor_titulo": "No universo das duas rodas",
@@ -53,9 +53,9 @@
       "status": "publicado",
       "stats": {
         "coletados": 57,
-        "aprovados_fonte": 3,
-        "aprovados_texto": 3,
-        "rejeitados": 17,
+        "aprovados_fonte": 2,
+        "aprovados_texto": 2,
+        "rejeitados": 18,
         "publicados": 1
       },
       "melhor_titulo": "Curiosidade do dia",
