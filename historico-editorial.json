@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-14T17:36:48.829Z",
+  "atualizado_em": "2026-10-15T17:21:35.068Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -980,6 +980,50 @@
       "titulo": "Banheiras de imersão: entenda a tendência do relaxamento",
       "post_id": "1402223216297975_122119320357476480",
       "publicado_em": "2026-10-14T17:36:48.829Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "brazil-journal",
+      "fonte_nome": "Brazil Journal",
+      "url": "https://braziljournal.com/a-tempestade-perfeita-no-bank-of-america",
+      "titulo": "A tempestade perfeita no Bank of America",
+      "post_id": "369805844018354_1505983044882168",
+      "publicado_em": "2026-10-15T17:21:11.137Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "folha-equilibrio",
+      "fonte_nome": "Folha Equilíbrio e Saúde",
+      "url": "https://www1.folha.uol.com.br/blogs/primeira-pele/2026/10/o-que-voce-precisa-saber-antes-de-usar-mascaras-de-led-na-rotina-de-skincare.shtml",
+      "titulo": "O que você precisa saber antes de usar máscaras de LED na rotina de skincare",
+      "post_id": "1247772158429331_122115793113485849",
+      "publicado_em": "2026-10-15T17:21:18.050Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/triumph-scrambler-1200-xe-matchbox-filme/",
+      "titulo": "Triumph Scrambler 1200 XE brilha em Matchbox: O Filme",
+      "post_id": "1332730186586435_122114337903486415",
+      "publicado_em": "2026-10-15T17:21:24.926Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "precolandia",
+      "fonte_nome": "Blog Preçolandia",
+      "url": "https://blog.precolandia.com.br/garrafas-jarras-e-squeezes-para-o-verao/",
+      "titulo": "Garrafas, jarras e squeezes para o verão em casa",
+      "post_id": "1402223216297975_122119652967476480",
+      "publicado_em": "2026-10-15T17:21:35.068Z"
     }
   ]
 }

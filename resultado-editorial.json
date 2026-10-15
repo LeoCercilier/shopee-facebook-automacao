@@ -1,34 +1,39 @@
 {
-  "gerado_em": "2026-10-14T17:36:48.830Z",
-  "publicados": 3,
-  "sem_conteudo": 1,
+  "gerado_em": "2026-10-15T17:21:35.069Z",
+  "publicados": 4,
+  "sem_conteudo": 0,
   "erros": 0,
   "resultados": [
     {
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1505001574980315",
-      "tipo": "photo",
-      "titulo": "Quanto custa abrir empresa no Brasil em 2026?",
-      "url": "https://www.nuvemshop.com.br/blog/quanto-custa-abrir-empresa-no-brasil/",
-      "fonte": "Nuvemshop",
-      "fonte_id": "nuvemshop"
+      "post_id": "369805844018354_1505983044882168",
+      "tipo": "feed",
+      "titulo": "A tempestade perfeita no Bank of America",
+      "url": "https://braziljournal.com/a-tempestade-perfeita-no-bank-of-america",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
-      "status": "sem_conteudo",
-      "fontes_com_erro": []
+      "status": "publicado",
+      "post_id": "1247772158429331_122115793113485849",
+      "tipo": "feed",
+      "titulo": "O que você precisa saber antes de usar máscaras de LED na rotina de skincare",
+      "url": "https://www1.folha.uol.com.br/blogs/primeira-pele/2026/10/o-que-voce-precisa-saber-antes-de-usar-mascaras-de-led-na-rotina-de-skincare.shtml",
+      "fonte": "Folha Equilíbrio e Saúde",
+      "fonte_id": "folha-equilibrio"
     },
     {
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122114032839486415",
+      "post_id": "1332730186586435_122114337903486415",
       "tipo": "photo",
-      "titulo": "Honda CB250SS é uma nova scrambler para o mercado chinês",
-      "url": "https://motociclismoonline.com.br/noticias/honda-cb250ss-scrambler-2027/",
+      "titulo": "Triumph Scrambler 1200 XE brilha em Matchbox: O Filme",
+      "url": "https://motociclismoonline.com.br/noticias/triumph-scrambler-1200-xe-matchbox-filme/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -36,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122119320357476480",
+      "post_id": "1402223216297975_122119652967476480",
       "tipo": "feed",
-      "titulo": "Banheiras de imersão: entenda a tendência do relaxamento",
-      "url": "https://casa.abril.com.br/arquitetura/banheiras-de-imersao-entenda-a-tendencia-do-relaxamento/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "titulo": "Garrafas, jarras e squeezes para o verão em casa",
+      "url": "https://blog.precolandia.com.br/garrafas-jarras-e-squeezes-para-o-verao/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }
