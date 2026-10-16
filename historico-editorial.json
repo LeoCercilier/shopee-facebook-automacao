@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-15T17:21:35.068Z",
+  "atualizado_em": "2026-10-16T16:57:26.813Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1024,6 +1024,39 @@
       "titulo": "Garrafas, jarras e squeezes para o verão em casa",
       "post_id": "1402223216297975_122119652967476480",
       "publicado_em": "2026-10-15T17:21:35.068Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/superfrete/",
+      "titulo": "O que é a SuperFrete e como a plataforma funciona na prática?",
+      "post_id": "369805844018354_1506920721455067",
+      "publicado_em": "2026-10-16T16:57:08.664Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/kawasaki-euroville-festival-moto-brasil-2026/",
+      "titulo": "Kawasaki celebra 18 anos de Brasil no Festival Moto Brasil 2026",
+      "post_id": "1332730186586435_122114646519486415",
+      "publicado_em": "2026-10-16T16:57:18.360Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/arquitetura/entrevista-a-natureza-como-projeto/",
+      "titulo": "Entrevista: a natureza como projeto",
+      "post_id": "1402223216297975_122119973949476480",
+      "publicado_em": "2026-10-16T16:57:26.813Z"
     }
   ]
 }
