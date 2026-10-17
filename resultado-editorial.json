@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-16T16:57:26.814Z",
+  "gerado_em": "2026-10-17T15:56:38.060Z",
   "publicados": 3,
   "sem_conteudo": 1,
   "erros": 0,
@@ -8,12 +8,12 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1506920721455067",
-      "tipo": "photo",
-      "titulo": "O que é a SuperFrete e como a plataforma funciona na prática?",
-      "url": "https://www.nuvemshop.com.br/blog/superfrete/",
-      "fonte": "Nuvemshop",
-      "fonte_id": "nuvemshop"
+      "post_id": "369805844018354_1507813598032446",
+      "tipo": "feed",
+      "titulo": "A mente do palhaço — by Pedro Vinicio",
+      "url": "https://braziljournal.com/a-mente-do-palhaco-by-pedro-vinicio",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
     },
     {
       "page_id": "1247772158429331",
@@ -25,10 +25,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122114646519486415",
+      "post_id": "1332730186586435_122114924547486415",
       "tipo": "photo",
-      "titulo": "Kawasaki celebra 18 anos de Brasil no Festival Moto Brasil 2026",
-      "url": "https://motociclismoonline.com.br/noticias/kawasaki-euroville-festival-moto-brasil-2026/",
+      "titulo": "Esportivas de média cilindrada 2026: guia completo e comparativo",
+      "url": "https://motociclismoonline.com.br/especiais/esportivas-de-media-cilindrada-2026-comparativo/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -36,12 +36,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122119973949476480",
-      "tipo": "photo",
-      "titulo": "Entrevista: a natureza como projeto",
-      "url": "https://casa.abril.com.br/arquitetura/entrevista-a-natureza-como-projeto/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "post_id": "1402223216297975_122120254719476480",
+      "tipo": "feed",
+      "titulo": "Infusor de chá: como escolher tamanho e formato",
+      "url": "https://blog.precolandia.com.br/infusor-de-cha-como-escolher/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }
