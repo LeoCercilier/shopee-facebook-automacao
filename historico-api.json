@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-16T17:32:46.047Z",
+  "atualizado_em": "2026-10-17T16:31:59.061Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1237,6 +1237,54 @@
       "titulo": "Curiosidade do dia",
       "post_id": "1402223216297975_122119981953476480",
       "publicado_em": "2026-10-16T17:32:46.047Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/robin_geo/206-sign-in-starts-0-signups-how-to-check-whether-ai-visitors-actually-convert-4m6i",
+      "chave": "https://dev.to/robin_geo/206-sign-in-starts-0-signups-how-to-check-whether-ai-visitors-actually-convert-4m6i",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1507841191363020",
+      "publicado_em": "2026-10-17T16:31:40.171Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.thenationalnews.com/lifestyle/wellbeing/2026/10/16/beauty-routines-during-breast-cancer-treatment/",
+      "chave": "https://www.thenationalnews.com/lifestyle/wellbeing/2026/10/16/beauty-routines-during-breast-cancer-treatment",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122116486527485849",
+      "publicado_em": "2026-10-17T16:31:45.932Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://tvbikerdad.com/2026/10/16/daytonas-strictly-enforced-motorcycle-rules-what-riders-need-to-know-before-biketoberfest/",
+      "chave": "https://tvbikerdad.com/2026/10/16/daytonas-strictly-enforced-motorcycle-rules-what-riders-need-to-know-before-biketoberfest",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122114931393486415",
+      "publicado_em": "2026-10-17T16:31:52.135Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "freenews-casa",
+      "fonte_nome": "FreeNewsAPI (casa/DIY/culinária)",
+      "url": "https://www.ajc.com/food-and-dining/2026/10/arroz-verde-vegan-quick-dish/",
+      "chave": "https://www.ajc.com/food-and-dining/2026/10/arroz-verde-vegan-quick-dish",
+      "titulo": "Curiosidade do dia",
+      "post_id": "1402223216297975_122120262843476480",
+      "publicado_em": "2026-10-17T16:31:59.061Z"
     }
   ]
 }
