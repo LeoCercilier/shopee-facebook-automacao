@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-17T15:56:38.059Z",
+  "atualizado_em": "2026-10-18T16:08:52.784Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1090,6 +1090,39 @@
       "titulo": "Infusor de chá: como escolher tamanho e formato",
       "post_id": "1402223216297975_122120254719476480",
       "publicado_em": "2026-10-17T15:56:38.059Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "sebrae-pr",
+      "fonte_nome": "Sebrae/PR",
+      "url": "https://sebraepr.com.br/vai-abrir-uma-empresa-entenda-como-funciona-o-novo-cnpj-alfanumerico/",
+      "titulo": "Vai abrir uma empresa? Entenda como funciona o novo CNPJ Alfanumérico",
+      "post_id": "369805844018354_1508769974603475",
+      "publicado_em": "2026-10-18T16:08:34.894Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/ducati-panigale-v4-2027-detalhes-potencia-desempenho-pistas/",
+      "titulo": "Ducati Panigale V4 2027: mais potente e precisa para as pistas",
+      "post_id": "1332730186586435_122115243153486415",
+      "publicado_em": "2026-10-18T16:08:44.770Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/receitas/no-dia-do-pao-aprenda-a-preparar-um-pao-caseiro-com-semolina/",
+      "titulo": "No Dia do Pão, aprenda a preparar um pão caseiro com semolina",
+      "post_id": "1402223216297975_122120531991476480",
+      "publicado_em": "2026-10-18T16:08:52.784Z"
     }
   ]
 }
