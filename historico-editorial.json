@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-18T16:08:52.784Z",
+  "atualizado_em": "2026-10-19T18:50:28.313Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1123,6 +1123,39 @@
       "titulo": "No Dia do Pão, aprenda a preparar um pão caseiro com semolina",
       "post_id": "1402223216297975_122120531991476480",
       "publicado_em": "2026-10-18T16:08:52.784Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "brazil-journal",
+      "fonte_nome": "Brazil Journal",
+      "url": "https://braziljournal.com/pepsico-perde-o-kfc-acao-tem-maior-desconto-para-a-coca-em-25-anos",
+      "titulo": "PepsiCo perde o KFC; ação tem maior desconto para a Coca em 25 anos",
+      "post_id": "369805844018354_1509885384491934",
+      "publicado_em": "2026-10-19T18:50:07.533Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "agencia-brasil",
+      "fonte_nome": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/motoristas-de-onibus-fazem-paralisacao-na-zona-sul-de-sao-paulo",
+      "titulo": "Motoristas de ônibus fazem paralisação na zona sul de São Paulo",
+      "post_id": "1332730186586435_122115587679486415",
+      "publicado_em": "2026-10-19T18:50:18.716Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "precolandia",
+      "fonte_nome": "Blog Preçolandia",
+      "url": "https://blog.precolandia.com.br/fruteira-de-mesa-ou-de-chao/",
+      "titulo": "Fruteira de mesa ou de chão: como comparar o espaço ocupado",
+      "post_id": "1402223216297975_122120857983476480",
+      "publicado_em": "2026-10-19T18:50:28.313Z"
     }
   ]
 }
