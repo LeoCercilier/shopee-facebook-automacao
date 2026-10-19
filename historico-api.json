@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-18T16:37:48.918Z",
+  "atualizado_em": "2026-10-19T19:23:21.431Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1321,6 +1321,42 @@
       "titulo": "No universo das duas rodas",
       "post_id": "1332730186586435_122115249417486415",
       "publicado_em": "2026-10-18T16:37:48.918Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/debashish_ghosal/the-verification-trap-why-generative-ai-is-making-senior-engineers-slower-and-how-to-fix-it-245m",
+      "chave": "https://dev.to/debashish_ghosal/the-verification-trap-why-generative-ai-is-making-senior-engineers-slower-and-how-to-fix-it-245m",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1509907967823009",
+      "publicado_em": "2026-10-19T19:23:09.140Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.business-standard.com/industry/news/gen-z-drives-growth-in-india-s-online-beauty-market-myntra-report-126101901250_1.html",
+      "chave": "https://www.business-standard.com/industry/news/gen-z-drives-growth-in-india-s-online-beauty-market-myntra-report-126101901250_1.html",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122117208171485849",
+      "publicado_em": "2026-10-19T19:23:15.221Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.crash.net/id/motogp/news/1107885/1/casey-stoner-menjelaskan-pentingnya-gelar-motogp-bersama-honda",
+      "chave": "https://www.crash.net/id/motogp/news/1107885/1/casey-stoner-menjelaskan-pentingnya-gelar-motogp-bersama-honda",
+      "titulo": "O que está em alta no MotoGP",
+      "post_id": "1332730186586435_122115595239486415",
+      "publicado_em": "2026-10-19T19:23:21.431Z"
     }
   ]
 }
