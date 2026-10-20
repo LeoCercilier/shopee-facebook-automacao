@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-19T18:50:28.314Z",
+  "gerado_em": "2026-10-20T17:31:42.291Z",
   "publicados": 3,
   "sem_conteudo": 1,
   "erros": 0,
@@ -8,12 +8,12 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1509885384491934",
+      "post_id": "369805844018354_1510776657736140",
       "tipo": "feed",
-      "titulo": "PepsiCo perde o KFC; ação tem maior desconto para a Coca em 25 anos",
-      "url": "https://braziljournal.com/pepsico-perde-o-kfc-acao-tem-maior-desconto-para-a-coca-em-25-anos",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "titulo": "CNPJ Alfanumérico: o que muda para quem já tem empresa?",
+      "url": "https://sebraepr.com.br/cnpj-alfanumerico-o-que-muda-para-quem-ja-tem-empresa/",
+      "fonte": "Sebrae/PR",
+      "fonte_id": "sebrae-pr"
     },
     {
       "page_id": "1247772158429331",
@@ -25,23 +25,23 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122115587679486415",
-      "tipo": "feed",
-      "titulo": "Motoristas de ônibus fazem paralisação na zona sul de São Paulo",
-      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/motoristas-de-onibus-fazem-paralisacao-na-zona-sul-de-sao-paulo",
-      "fonte": "Agência Brasil",
-      "fonte_id": "agencia-brasil"
+      "post_id": "1332730186586435_122115852801486415",
+      "tipo": "photo",
+      "titulo": "Honda CG 160 2027 é lançada oficialmente; preços e novidades da linha",
+      "url": "https://motociclismoonline.com.br/noticias/honda-cg-160-2027-precos-versoes-novidades/",
+      "fonte": "Motociclismo Online",
+      "fonte_id": "motociclismo-online"
     },
     {
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122120857983476480",
-      "tipo": "feed",
-      "titulo": "Fruteira de mesa ou de chão: como comparar o espaço ocupado",
-      "url": "https://blog.precolandia.com.br/fruteira-de-mesa-ou-de-chao/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "post_id": "1402223216297975_122121105261476480",
+      "tipo": "photo",
+      "titulo": "Com referências clássicas, apê compacto ganha ares e aconchego de casa de vó após reforma",
+      "url": "https://casa.abril.com.br/casas-apartamentos/com-referencias-classicas-ape-compacto-ganha-ares-e-aconchego-de-casa-de-vo-apos-reforma/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-19T18:50:28.313Z",
+  "atualizado_em": "2026-10-20T17:31:42.290Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1156,6 +1156,39 @@
       "titulo": "Fruteira de mesa ou de chão: como comparar o espaço ocupado",
       "post_id": "1402223216297975_122120857983476480",
       "publicado_em": "2026-10-19T18:50:28.313Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "sebrae-pr",
+      "fonte_nome": "Sebrae/PR",
+      "url": "https://sebraepr.com.br/cnpj-alfanumerico-o-que-muda-para-quem-ja-tem-empresa/",
+      "titulo": "CNPJ Alfanumérico: o que muda para quem já tem empresa?",
+      "post_id": "369805844018354_1510776657736140",
+      "publicado_em": "2026-10-20T17:31:24.677Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/honda-cg-160-2027-precos-versoes-novidades/",
+      "titulo": "Honda CG 160 2027 é lançada oficialmente; preços e novidades da linha",
+      "post_id": "1332730186586435_122115852801486415",
+      "publicado_em": "2026-10-20T17:31:32.978Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/casas-apartamentos/com-referencias-classicas-ape-compacto-ganha-ares-e-aconchego-de-casa-de-vo-apos-reforma/",
+      "titulo": "Com referências clássicas, apê compacto ganha ares e aconchego de casa de vó após reforma",
+      "post_id": "1402223216297975_122121105261476480",
+      "publicado_em": "2026-10-20T17:31:42.290Z"
     }
   ]
 }
