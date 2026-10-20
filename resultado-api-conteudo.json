@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-19T19:23:24.781Z",
+  "gerado_em": "2026-10-20T18:02:03.639Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -7,14 +7,14 @@
       "pagina": "Marketing Tips",
       "status": "publicado",
       "stats": {
-        "coletados": 131,
-        "aprovados_fonte": 41,
+        "coletados": 139,
+        "aprovados_fonte": 36,
         "aprovados_texto": 20,
         "rejeitados": 0,
         "publicados": 1
       },
-      "melhor_titulo": "Como a IA pode ajudar no dia a dia do negócio",
-      "score_fonte": 94,
+      "melhor_titulo": "Uma ideia prática de marketing digital",
+      "score_fonte": 98,
       "score_texto": 94,
       "tem_imagem": true
     },
@@ -23,9 +23,9 @@
       "status": "publicado",
       "stats": {
         "coletados": 40,
-        "aprovados_fonte": 3,
-        "aprovados_texto": 3,
-        "rejeitados": 17,
+        "aprovados_fonte": 5,
+        "aprovados_texto": 5,
+        "rejeitados": 15,
         "publicados": 1
       },
       "melhor_titulo": "Cuidados com a pele no dia a dia",
@@ -38,9 +38,9 @@
       "status": "publicado",
       "stats": {
         "coletados": 64,
-        "aprovados_fonte": 9,
-        "aprovados_texto": 8,
-        "rejeitados": 12,
+        "aprovados_fonte": 11,
+        "aprovados_texto": 11,
+        "rejeitados": 9,
         "publicados": 1
       },
       "melhor_titulo": "O que está em alta no MotoGP",
@@ -50,17 +50,17 @@
     },
     {
       "pagina": "Casa & Conforto Utilidades",
-      "status": "sem_conteudo_qualificado",
+      "status": "publicado",
       "stats": {
         "coletados": 57,
-        "aprovados_fonte": 0,
-        "aprovados_texto": 0,
-        "rejeitados": 20,
-        "publicados": 0
+        "aprovados_fonte": 1,
+        "aprovados_texto": 1,
+        "rejeitados": 19,
+        "publicados": 1
       },
-      "melhor_titulo": null,
-      "score_fonte": null,
-      "score_texto": null,
+      "melhor_titulo": "Curiosidade do dia",
+      "score_fonte": 75,
+      "score_texto": 86,
       "tem_imagem": false
     }
   ]

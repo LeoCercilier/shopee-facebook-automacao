@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-19T19:23:21.431Z",
+  "atualizado_em": "2026-10-20T18:02:03.638Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1357,6 +1357,54 @@
       "titulo": "O que está em alta no MotoGP",
       "post_id": "1332730186586435_122115595239486415",
       "publicado_em": "2026-10-19T19:23:21.431Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/yassersoliman/stop-shipping-marketing-pages-like-product-features-374d",
+      "chave": "https://dev.to/yassersoliman/stop-shipping-marketing-pages-like-product-features-374d",
+      "titulo": "Uma ideia prática de marketing digital",
+      "post_id": "369805844018354_1510799511067188",
+      "publicado_em": "2026-10-20T18:01:47.627Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.business-standard.com/amp/industry/news/gen-z-drives-growth-in-india-s-online-beauty-market-myntra-report-126101901250_1.html",
+      "chave": "https://www.business-standard.com/amp/industry/news/gen-z-drives-growth-in-india-s-online-beauty-market-myntra-report-126101901250_1.html",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122117501571485849",
+      "publicado_em": "2026-10-20T18:01:52.577Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://motograndprix.motorionline.com/motogp-2026-ufficiale-diogo-moreira-in-honda-hrc/",
+      "chave": "https://motograndprix.motorionline.com/motogp-2026-ufficiale-diogo-moreira-in-honda-hrc",
+      "titulo": "O que está em alta no MotoGP",
+      "post_id": "1332730186586435_122115857517486415",
+      "publicado_em": "2026-10-20T18:01:57.762Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "freenews-casa",
+      "fonte_nome": "FreeNewsAPI (casa/DIY/culinária)",
+      "url": "https://newsable.asianetnews.com/gallery/lifestyle/leftover-idli-recipe-turn-regular-idlis-into-crispy-and-spicy-masala-idli-fry-at-home-dyoa2m1",
+      "chave": "https://newsable.asianetnews.com/gallery/lifestyle/leftover-idli-recipe-turn-regular-idlis-into-crispy-and-spicy-masala-idli-fry-at-home-dyoa2m1",
+      "titulo": "Curiosidade do dia",
+      "post_id": "1402223216297975_122121110091476480",
+      "publicado_em": "2026-10-20T18:02:03.638Z"
     }
   ]
 }
