@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-20T18:02:03.638Z",
+  "atualizado_em": "2026-10-21T18:08:43.221Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1405,6 +1405,54 @@
       "titulo": "Curiosidade do dia",
       "post_id": "1402223216297975_122121110091476480",
       "publicado_em": "2026-10-20T18:02:03.638Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/rinrinrinrin/the-hardest-part-of-robotics-ai-isnt-the-ai-42kl",
+      "chave": "https://dev.to/rinrinrinrin/the-hardest-part-of-robotics-ai-isnt-the-ai-42kl",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1511761850970954",
+      "publicado_em": "2026-10-21T18:08:22.324Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://roughdraftatlanta.com/2026/10/21/atlanta-dermatologists-cold-weather-skincare-tips/",
+      "chave": "https://roughdraftatlanta.com/2026/10/21/atlanta-dermatologists-cold-weather-skincare-tips",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122117833995485849",
+      "publicado_em": "2026-10-21T18:08:28.764Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.newsbytesapp.com/news/auto/honda-motorcycle-and-scooter-india-sets-fy27-6-million-target/tldr",
+      "chave": "https://www.newsbytesapp.com/news/auto/honda-motorcycle-and-scooter-india-sets-fy27-6-million-target/tldr",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122116149237486415",
+      "publicado_em": "2026-10-21T18:08:34.827Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "freenews-casa",
+      "fonte_nome": "FreeNewsAPI (casa/DIY/culinária)",
+      "url": "https://www.hindustantimes.com/lifestyle/recipe/chef-sanjeev-kapoor-shares-a-new-way-to-prepare-poha-with-his-quick-and-easy-poha-cutlet-recipe-see-preparation-101792587492151.html",
+      "chave": "https://www.hindustantimes.com/lifestyle/recipe/chef-sanjeev-kapoor-shares-a-new-way-to-prepare-poha-with-his-quick-and-easy-poha-cutlet-recipe-see-preparation-101792587492151.html",
+      "titulo": "Curiosidade do dia",
+      "post_id": "1402223216297975_122121381225476480",
+      "publicado_em": "2026-10-21T18:08:43.221Z"
     }
   ]
 }
