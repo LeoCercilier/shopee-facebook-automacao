@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-20T17:31:42.290Z",
+  "atualizado_em": "2026-10-21T17:39:51.635Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1189,6 +1189,50 @@
       "titulo": "Com referências clássicas, apê compacto ganha ares e aconchego de casa de vó após reforma",
       "post_id": "1402223216297975_122121105261476480",
       "publicado_em": "2026-10-20T17:31:42.290Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "brazil-journal",
+      "fonte_nome": "Brazil Journal",
+      "url": "https://braziljournal.com/os-planos-da-americanas-depois-da-rj",
+      "titulo": "Os planos da Americanas depois da RJ",
+      "post_id": "369805844018354_1511735037640302",
+      "publicado_em": "2026-10-21T17:39:26.407Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "folha-equilibrio",
+      "fonte_nome": "Folha Equilíbrio e Saúde",
+      "url": "https://www1.folha.uol.com.br/equilibrio/2026/10/cosmeticos-para-pele-na-menopausa-apostam-em-colageno-e-hidratacao-da-pele-veja-como-agem.shtml",
+      "titulo": "Cosméticos para pele na menopausa apostam em colágeno e hidratação da pele; veja como agem",
+      "post_id": "1247772158429331_122117830377485849",
+      "publicado_em": "2026-10-21T17:39:34.170Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/moto-morini-delegacao-brasileira-eicma-2026/",
+      "titulo": "Moto Morini terá delegação brasileira no EICMA 2026",
+      "post_id": "1332730186586435_122116140999486415",
+      "publicado_em": "2026-10-21T17:39:41.267Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "precolandia",
+      "fonte_nome": "Blog Preçolandia",
+      "url": "https://blog.precolandia.com.br/como-organizar-brinquedos-nas-ferias/",
+      "titulo": "Como organizar brinquedos nas férias e manter a casa em ordem",
+      "post_id": "1402223216297975_122121372819476480",
+      "publicado_em": "2026-10-21T17:39:51.635Z"
     }
   ]
 }

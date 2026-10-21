@@ -1,34 +1,39 @@
 {
-  "gerado_em": "2026-10-20T17:31:42.291Z",
-  "publicados": 3,
-  "sem_conteudo": 1,
+  "gerado_em": "2026-10-21T17:39:51.636Z",
+  "publicados": 4,
+  "sem_conteudo": 0,
   "erros": 0,
   "resultados": [
     {
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1510776657736140",
-      "tipo": "feed",
-      "titulo": "CNPJ Alfanumérico: o que muda para quem já tem empresa?",
-      "url": "https://sebraepr.com.br/cnpj-alfanumerico-o-que-muda-para-quem-ja-tem-empresa/",
-      "fonte": "Sebrae/PR",
-      "fonte_id": "sebrae-pr"
+      "post_id": "369805844018354_1511735037640302",
+      "tipo": "photo",
+      "titulo": "Os planos da Americanas depois da RJ",
+      "url": "https://braziljournal.com/os-planos-da-americanas-depois-da-rj",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
-      "status": "sem_conteudo",
-      "fontes_com_erro": []
+      "status": "publicado",
+      "post_id": "1247772158429331_122117830377485849",
+      "tipo": "feed",
+      "titulo": "Cosméticos para pele na menopausa apostam em colágeno e hidratação da pele; veja como agem",
+      "url": "https://www1.folha.uol.com.br/equilibrio/2026/10/cosmeticos-para-pele-na-menopausa-apostam-em-colageno-e-hidratacao-da-pele-veja-como-agem.shtml",
+      "fonte": "Folha Equilíbrio e Saúde",
+      "fonte_id": "folha-equilibrio"
     },
     {
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122115852801486415",
+      "post_id": "1332730186586435_122116140999486415",
       "tipo": "photo",
-      "titulo": "Honda CG 160 2027 é lançada oficialmente; preços e novidades da linha",
-      "url": "https://motociclismoonline.com.br/noticias/honda-cg-160-2027-precos-versoes-novidades/",
+      "titulo": "Moto Morini terá delegação brasileira no EICMA 2026",
+      "url": "https://motociclismoonline.com.br/noticias/moto-morini-delegacao-brasileira-eicma-2026/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -36,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122121105261476480",
-      "tipo": "photo",
-      "titulo": "Com referências clássicas, apê compacto ganha ares e aconchego de casa de vó após reforma",
-      "url": "https://casa.abril.com.br/casas-apartamentos/com-referencias-classicas-ape-compacto-ganha-ares-e-aconchego-de-casa-de-vo-apos-reforma/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "post_id": "1402223216297975_122121372819476480",
+      "tipo": "feed",
+      "titulo": "Como organizar brinquedos nas férias e manter a casa em ordem",
+      "url": "https://blog.precolandia.com.br/como-organizar-brinquedos-nas-ferias/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }
