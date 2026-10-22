@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-21T18:08:43.221Z",
+  "atualizado_em": "2026-10-22T18:03:54.914Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1453,6 +1453,42 @@
       "titulo": "Curiosidade do dia",
       "post_id": "1402223216297975_122121381225476480",
       "publicado_em": "2026-10-21T18:08:43.221Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/crzy_undefinedundefined/7-silent-failures-in-n8n-ai-workflows-and-the-error-trigger-setup-that-catches-them-44hp",
+      "chave": "https://dev.to/crzy_undefinedundefined/7-silent-failures-in-n8n-ai-workflows-and-the-error-trigger-setup-that-catches-them-44hp",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1512695970877542",
+      "publicado_em": "2026-10-22T18:03:34.881Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.thestandard.com.hk/wellness/article/343214/Is-coffee-the-key-skincare-drink",
+      "chave": "https://www.thestandard.com.hk/wellness/article/343214/is-coffee-the-key-skincare-drink",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122118173757485849",
+      "publicado_em": "2026-10-22T18:03:44.594Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://auto.economictimes.indiatimes.com/news/two-wheelers/ultraviolette-launches-x-47-venom-electric-motorcycle-at-2-65-lakh/135116036",
+      "chave": "https://auto.economictimes.indiatimes.com/news/two-wheelers/ultraviolette-launches-x-47-venom-electric-motorcycle-at-2-65-lakh/135116036",
+      "titulo": "Motos elétricas e mobilidade urbana",
+      "post_id": "1332730186586435_122116409133486415",
+      "publicado_em": "2026-10-22T18:03:54.914Z"
     }
   ]
 }
