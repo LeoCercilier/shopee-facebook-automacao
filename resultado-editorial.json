@@ -1,39 +1,34 @@
 {
-  "gerado_em": "2026-10-21T17:39:51.636Z",
-  "publicados": 4,
-  "sem_conteudo": 0,
+  "gerado_em": "2026-10-22T17:38:32.951Z",
+  "publicados": 3,
+  "sem_conteudo": 1,
   "erros": 0,
   "resultados": [
     {
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1511735037640302",
-      "tipo": "photo",
-      "titulo": "Os planos da Americanas depois da RJ",
-      "url": "https://braziljournal.com/os-planos-da-americanas-depois-da-rj",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "post_id": "369805844018354_1512678467545959",
+      "tipo": "feed",
+      "titulo": "Dicas para obter crédito",
+      "url": "https://sebraepr.com.br/dicas-para-obter-credito/",
+      "fonte": "Sebrae/PR",
+      "fonte_id": "sebrae-pr"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
-      "status": "publicado",
-      "post_id": "1247772158429331_122117830377485849",
-      "tipo": "feed",
-      "titulo": "Cosméticos para pele na menopausa apostam em colágeno e hidratação da pele; veja como agem",
-      "url": "https://www1.folha.uol.com.br/equilibrio/2026/10/cosmeticos-para-pele-na-menopausa-apostam-em-colageno-e-hidratacao-da-pele-veja-como-agem.shtml",
-      "fonte": "Folha Equilíbrio e Saúde",
-      "fonte_id": "folha-equilibrio"
+      "status": "sem_conteudo",
+      "fontes_com_erro": []
     },
     {
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122116140999486415",
-      "tipo": "photo",
-      "titulo": "Moto Morini terá delegação brasileira no EICMA 2026",
-      "url": "https://motociclismoonline.com.br/noticias/moto-morini-delegacao-brasileira-eicma-2026/",
+      "post_id": "1332730186586435_122116406409486415",
+      "tipo": "feed",
+      "titulo": "Abraciclo lança série de videocasts sobre história e futuro do setor",
+      "url": "https://motociclismoonline.com.br/abraciclo/abraciclo-lanca-serie-de-videocasts-sobre-historia-e-futuro-do-setor/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +36,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122121372819476480",
-      "tipo": "feed",
-      "titulo": "Como organizar brinquedos nas férias e manter a casa em ordem",
-      "url": "https://blog.precolandia.com.br/como-organizar-brinquedos-nas-ferias/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "post_id": "1402223216297975_122121666699476480",
+      "tipo": "photo",
+      "titulo": "Como criar um cantinho para praticar meditação e yoga no conforto do lar",
+      "url": "https://casa.abril.com.br/decoracao/como-criar-um-cantinho-para-praticar-meditacao-e-yoga-no-conforto-do-lar/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }
