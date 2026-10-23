@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-22T18:03:57.229Z",
+  "gerado_em": "2026-10-23T17:55:08.137Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -7,14 +7,14 @@
       "pagina": "Marketing Tips",
       "status": "publicado",
       "stats": {
-        "coletados": 140,
-        "aprovados_fonte": 42,
+        "coletados": 132,
+        "aprovados_fonte": 41,
         "aprovados_texto": 20,
         "rejeitados": 0,
         "publicados": 1
       },
       "melhor_titulo": "Como a IA pode ajudar no dia a dia do negócio",
-      "score_fonte": 98,
+      "score_fonte": 94,
       "score_texto": 94,
       "tem_imagem": true
     },
@@ -23,13 +23,13 @@
       "status": "publicado",
       "stats": {
         "coletados": 40,
-        "aprovados_fonte": 11,
-        "aprovados_texto": 11,
-        "rejeitados": 9,
+        "aprovados_fonte": 12,
+        "aprovados_texto": 12,
+        "rejeitados": 8,
         "publicados": 1
       },
-      "melhor_titulo": "Cuidados com a pele no dia a dia",
-      "score_fonte": 93,
+      "melhor_titulo": "Hidratação que faz sentido na rotina",
+      "score_fonte": 83,
       "score_texto": 86,
       "tem_imagem": false
     },
@@ -38,29 +38,29 @@
       "status": "publicado",
       "stats": {
         "coletados": 64,
-        "aprovados_fonte": 17,
-        "aprovados_texto": 15,
-        "rejeitados": 5,
+        "aprovados_fonte": 18,
+        "aprovados_texto": 18,
+        "rejeitados": 2,
         "publicados": 1
       },
-      "melhor_titulo": "Motos elétricas e mobilidade urbana",
+      "melhor_titulo": "No universo das duas rodas",
       "score_fonte": 91,
       "score_texto": 86,
       "tem_imagem": false
     },
     {
       "pagina": "Casa & Conforto Utilidades",
-      "status": "sem_conteudo_qualificado",
+      "status": "publicado",
       "stats": {
         "coletados": 57,
-        "aprovados_fonte": 0,
-        "aprovados_texto": 0,
-        "rejeitados": 20,
-        "publicados": 0
+        "aprovados_fonte": 1,
+        "aprovados_texto": 1,
+        "rejeitados": 19,
+        "publicados": 1
       },
-      "melhor_titulo": null,
-      "score_fonte": null,
-      "score_texto": null,
+      "melhor_titulo": "Curiosidade do dia",
+      "score_fonte": 83,
+      "score_texto": 86,
       "tem_imagem": false
     }
   ]

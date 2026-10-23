@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-22T18:03:54.914Z",
+  "atualizado_em": "2026-10-23T17:55:08.137Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1489,6 +1489,54 @@
       "titulo": "Motos elétricas e mobilidade urbana",
       "post_id": "1332730186586435_122116409133486415",
       "publicado_em": "2026-10-22T18:03:54.914Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/perceptcore/why-ais-perception-of-your-brand-matters-as-much-as-seo-4nb0",
+      "chave": "https://dev.to/perceptcore/why-ais-perception-of-your-brand-matters-as-much-as-seo-4nb0",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1513651864115286",
+      "publicado_em": "2026-10-23T17:54:48.889Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.hindustantimes.com/lifestyle/health/from-moisturising-to-sun-protection-simple-skincare-tips-to-follow-before-karwa-chauth-for-a-fresh-festive-look-101792662395678.html",
+      "chave": "https://www.hindustantimes.com/lifestyle/health/from-moisturising-to-sun-protection-simple-skincare-tips-to-follow-before-karwa-chauth-for-a-fresh-festive-look-101792662395678.html",
+      "titulo": "Hidratação que faz sentido na rotina",
+      "post_id": "1247772158429331_122118477969485849",
+      "publicado_em": "2026-10-23T17:54:54.960Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.latestly.com/auto/kawasaki-kle650-new-adventure-motorcycle-teased-ahead-of-launch-7654497.html",
+      "chave": "https://www.latestly.com/auto/kawasaki-kle650-new-adventure-motorcycle-teased-ahead-of-launch-7654497.html",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122116681071486415",
+      "publicado_em": "2026-10-23T17:55:01.100Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "freenews-casa",
+      "fonte_nome": "FreeNewsAPI (casa/DIY/culinária)",
+      "url": "https://dallas.culturemap.com/news/home-design/diy-con-hgtv-fair-park/",
+      "chave": "https://dallas.culturemap.com/news/home-design/diy-con-hgtv-fair-park",
+      "titulo": "Curiosidade do dia",
+      "post_id": "1402223216297975_122121943203476480",
+      "publicado_em": "2026-10-23T17:55:08.137Z"
     }
   ]
 }
