@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-23T17:26:56.841Z",
+  "atualizado_em": "2026-10-24T16:15:03.622Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1310,6 +1310,50 @@
       "titulo": "Organização com crianças em casa: rotina que funciona",
       "post_id": "1402223216297975_122121935865476480",
       "publicado_em": "2026-10-23T17:26:56.841Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "sebrae-pr",
+      "fonte_nome": "Sebrae/PR",
+      "url": "https://sebraepr.com.br/faca-a-diferenca-seja-sustentavel-seja-inovador/",
+      "titulo": "Faça a diferença: seja sustentável, seja inovador",
+      "post_id": "369805844018354_1514519697361836",
+      "publicado_em": "2026-10-24T16:14:42.655Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "folha-equilibrio",
+      "fonte_nome": "Folha Equilíbrio e Saúde",
+      "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/10/prefeitura-de-brodowski-sp-mente-sobre-investigacao-de-problema-de-pele-que-atinge-235-pessoas.shtml",
+      "titulo": "Prefeitura de Brodowski (SP) mente sobre investigação de problema de pele que atinge 235 pessoas",
+      "post_id": "1247772158429331_122118758805485849",
+      "publicado_em": "2026-10-24T16:14:49.786Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/motos-eletricas-e-autopropelidos-o-que-considerar-antes-de-escolher-um-modelo/",
+      "titulo": "Motos elétricas e autopropelidos: o que considerar antes de escolher um modelo",
+      "post_id": "1332730186586435_122116963269486415",
+      "publicado_em": "2026-10-24T16:14:57.109Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/minha-casa/5-produtos-que-ajudam-a-otimizar-o-tempo-na-rotina-de-limpeza-da-casa/",
+      "titulo": "5 produtos que ajudam a otimizar o tempo na rotina de limpeza da casa",
+      "post_id": "1402223216297975_122122183101476480",
+      "publicado_em": "2026-10-24T16:15:03.622Z"
     }
   ]
 }

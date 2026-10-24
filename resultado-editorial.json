@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-23T17:26:56.841Z",
+  "gerado_em": "2026-10-24T16:15:03.623Z",
   "publicados": 4,
   "sem_conteudo": 0,
   "erros": 0,
@@ -8,21 +8,21 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1513632610783878",
-      "tipo": "photo",
-      "titulo": "EXA desembarca na Itália (com uma carona da TIM Brasil)",
-      "url": "https://braziljournal.com/exa-desembarca-na-italia-com-uma-carona-da-tim-brasil",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "post_id": "369805844018354_1514519697361836",
+      "tipo": "feed",
+      "titulo": "Faça a diferença: seja sustentável, seja inovador",
+      "url": "https://sebraepr.com.br/faca-a-diferenca-seja-sustentavel-seja-inovador/",
+      "fonte": "Sebrae/PR",
+      "fonte_id": "sebrae-pr"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
       "status": "publicado",
-      "post_id": "1247772158429331_122118472521485849",
+      "post_id": "1247772158429331_122118758805485849",
       "tipo": "feed",
-      "titulo": "O que devemos comer para ter a pele mais jovem",
-      "url": "https://www1.folha.uol.com.br/equilibrio/2026/10/o-que-devemos-comer-para-ter-a-pele-mais-jovem.shtml",
+      "titulo": "Prefeitura de Brodowski (SP) mente sobre investigação de problema de pele que atinge 235 pessoas",
+      "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/10/prefeitura-de-brodowski-sp-mente-sobre-investigacao-de-problema-de-pele-que-atinge-235-pessoas.shtml",
       "fonte": "Folha Equilíbrio e Saúde",
       "fonte_id": "folha-equilibrio"
     },
@@ -30,10 +30,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122116676451486415",
+      "post_id": "1332730186586435_122116963269486415",
       "tipo": "photo",
-      "titulo": "Cavalletta destaca tecnologia antifurto e modelos elétricos no Festival Moto Brasil 2026",
-      "url": "https://motociclismoonline.com.br/especiais/cavalletta-destaca-tecnologia-antifurto-e-modelos-eletricos-no-festival-moto-brasil-2026/",
+      "titulo": "Motos elétricas e autopropelidos: o que considerar antes de escolher um modelo",
+      "url": "https://motociclismoonline.com.br/noticias/motos-eletricas-e-autopropelidos-o-que-considerar-antes-de-escolher-um-modelo/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122121935865476480",
-      "tipo": "feed",
-      "titulo": "Organização com crianças em casa: rotina que funciona",
-      "url": "https://blog.precolandia.com.br/organizacao-com-criancas-em-casa/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "post_id": "1402223216297975_122122183101476480",
+      "tipo": "photo",
+      "titulo": "5 produtos que ajudam a otimizar o tempo na rotina de limpeza da casa",
+      "url": "https://casa.abril.com.br/minha-casa/5-produtos-que-ajudam-a-otimizar-o-tempo-na-rotina-de-limpeza-da-casa/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }
