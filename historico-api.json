@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-23T17:55:08.137Z",
+  "atualizado_em": "2026-10-24T16:43:39.609Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1537,6 +1537,42 @@
       "titulo": "Curiosidade do dia",
       "post_id": "1402223216297975_122121943203476480",
       "publicado_em": "2026-10-23T17:55:08.137Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/marco_chagas_22b63e1f0a16/why-your-saas-isnt-getting-organic-traffic-and-how-developers-can-fix-it-3opp",
+      "chave": "https://dev.to/marco_chagas_22b63e1f0a16/why-your-saas-isnt-getting-organic-traffic-and-how-developers-can-fix-it-3opp",
+      "titulo": "Tecnologia aplicada a negócios de forma simples",
+      "post_id": "369805844018354_1514542714026201",
+      "publicado_em": "2026-10-24T16:43:30.038Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.hindustantimes.com/lifestyle/health/from-moisturising-to-sun-protection-simple-skincare-tips-to-follow-before-karwa-chauth-for-a-fresh-festive-look-101792662395678-amp.html",
+      "chave": "https://www.hindustantimes.com/lifestyle/health/from-moisturising-to-sun-protection-simple-skincare-tips-to-follow-before-karwa-chauth-for-a-fresh-festive-look-101792662395678-amp.html",
+      "titulo": "Hidratação que faz sentido na rotina",
+      "post_id": "1247772158429331_122118766899485849",
+      "publicado_em": "2026-10-24T16:43:34.278Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.ndtv.com/auto/kawasaki-kle650-adventure-motorcycle-teased-ahead-of-launch-12223712",
+      "chave": "https://www.ndtv.com/auto/kawasaki-kle650-adventure-motorcycle-teased-ahead-of-launch-12223712",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122116968189486415",
+      "publicado_em": "2026-10-24T16:43:39.609Z"
     }
   ]
 }

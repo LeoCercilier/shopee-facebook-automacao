@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-23T17:55:08.137Z",
+  "gerado_em": "2026-10-24T16:43:41.750Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -8,12 +8,12 @@
       "status": "publicado",
       "stats": {
         "coletados": 132,
-        "aprovados_fonte": 41,
+        "aprovados_fonte": 36,
         "aprovados_texto": 20,
         "rejeitados": 0,
         "publicados": 1
       },
-      "melhor_titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "melhor_titulo": "Tecnologia aplicada a negócios de forma simples",
       "score_fonte": 94,
       "score_texto": 94,
       "tem_imagem": true
@@ -23,9 +23,9 @@
       "status": "publicado",
       "stats": {
         "coletados": 40,
-        "aprovados_fonte": 12,
-        "aprovados_texto": 12,
-        "rejeitados": 8,
+        "aprovados_fonte": 10,
+        "aprovados_texto": 10,
+        "rejeitados": 10,
         "publicados": 1
       },
       "melhor_titulo": "Hidratação que faz sentido na rotina",
@@ -38,9 +38,9 @@
       "status": "publicado",
       "stats": {
         "coletados": 64,
-        "aprovados_fonte": 18,
-        "aprovados_texto": 18,
-        "rejeitados": 2,
+        "aprovados_fonte": 15,
+        "aprovados_texto": 15,
+        "rejeitados": 5,
         "publicados": 1
       },
       "melhor_titulo": "No universo das duas rodas",
@@ -50,17 +50,17 @@
     },
     {
       "pagina": "Casa & Conforto Utilidades",
-      "status": "publicado",
+      "status": "sem_conteudo_qualificado",
       "stats": {
         "coletados": 57,
-        "aprovados_fonte": 1,
-        "aprovados_texto": 1,
-        "rejeitados": 19,
-        "publicados": 1
+        "aprovados_fonte": 0,
+        "aprovados_texto": 0,
+        "rejeitados": 20,
+        "publicados": 0
       },
-      "melhor_titulo": "Curiosidade do dia",
-      "score_fonte": 83,
-      "score_texto": 86,
+      "melhor_titulo": null,
+      "score_fonte": null,
+      "score_texto": null,
       "tem_imagem": false
     }
   ]
