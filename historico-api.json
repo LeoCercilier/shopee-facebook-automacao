@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-24T16:43:39.609Z",
+  "atualizado_em": "2026-10-25T17:06:59.449Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1573,6 +1573,42 @@
       "titulo": "No universo das duas rodas",
       "post_id": "1332730186586435_122116968189486415",
       "publicado_em": "2026-10-24T16:43:39.609Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "freenews-biz",
+      "fonte_nome": "FreeNewsAPI (negócios/IA/marketing)",
+      "url": "https://mangobunch.in/brand-post/tgc-2026-tec-do-launches-navos-pro-for-results-driven-ai-for-work/",
+      "chave": "https://mangobunch.in/brand-post/tgc-2026-tec-do-launches-navos-pro-for-results-driven-ai-for-work",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1515518010595338",
+      "publicado_em": "2026-10-25T17:06:48.976Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.tribuneindia.com/news/business/beyond-mithai-5-beauty-and-fragrance-gifts-to-choose-this-festive-season/",
+      "chave": "https://www.tribuneindia.com/news/business/beyond-mithai-5-beauty-and-fragrance-gifts-to-choose-this-festive-season",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122119053027485849",
+      "publicado_em": "2026-10-25T17:06:54.053Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.corsedimoto.com/en/motogp/motogp-bids-farewell-to-phillip-island-without-racing-a-parade-to-say-goodbye-to-fans-with-a-miller-show",
+      "chave": "https://www.corsedimoto.com/en/motogp/motogp-bids-farewell-to-phillip-island-without-racing-a-parade-to-say-goodbye-to-fans-with-a-miller-show",
+      "titulo": "O que está em alta no MotoGP",
+      "post_id": "1332730186586435_122117264331486415",
+      "publicado_em": "2026-10-25T17:06:59.449Z"
     }
   ]
 }
