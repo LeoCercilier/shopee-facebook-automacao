@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-25T16:49:11.397Z",
+  "atualizado_em": "2026-10-26T18:51:58.268Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1398,6 +1398,50 @@
       "titulo": "Galheteiro: como distinguir recipientes e controlar o serviço",
       "post_id": "1402223216297975_122122467189476480",
       "publicado_em": "2026-10-25T16:49:11.397Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "sebrae-pr",
+      "fonte_nome": "Sebrae/PR",
+      "url": "https://sebraepr.com.br/aprenda-a-gerenciar-o-seu-tempo-2/",
+      "titulo": "Aprenda a gerenciar o seu tempo",
+      "post_id": "369805844018354_1516568717156934",
+      "publicado_em": "2026-10-26T18:51:32.992Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "folha-equilibrio",
+      "fonte_nome": "Folha Equilíbrio e Saúde",
+      "url": "https://www1.folha.uol.com.br/equilibrio/2026/10/pessoas-com-dermatite-atopica-tem-maior-risco-de-depressao-e-ansiedade.shtml",
+      "titulo": "Pessoas com dermatite atópica têm maior risco de depressão e ansiedade",
+      "post_id": "1247772158429331_122119421721485849",
+      "publicado_em": "2026-10-26T18:51:40.737Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/especiais/move-brasil-moto-regras-juros-modelos-inscricao/",
+      "titulo": "Move Brasil Moto: saiba quais motos comprar e como participar",
+      "post_id": "1332730186586435_122117556735486415",
+      "publicado_em": "2026-10-26T18:51:48.167Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/casas-apartamentos/casa-com-ares-de-campo-em-plena-cidade-e-lar-de-muitas-historias/",
+      "titulo": "Casa com ares de campo em plena cidade é lar de muitas histórias",
+      "post_id": "1402223216297975_122122773111476480",
+      "publicado_em": "2026-10-26T18:51:58.268Z"
     }
   ]
 }

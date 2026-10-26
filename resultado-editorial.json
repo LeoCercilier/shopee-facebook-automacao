@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-25T16:49:11.397Z",
+  "gerado_em": "2026-10-26T18:51:58.269Z",
   "publicados": 4,
   "sem_conteudo": 0,
   "erros": 0,
@@ -8,21 +8,21 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1515503397263466",
+      "post_id": "369805844018354_1516568717156934",
       "tipo": "feed",
-      "titulo": "OPINIÃO. A rastreabilidade nas decisões da AI",
-      "url": "https://braziljournal.com/opiniao-a-rastreabilidade-nas-decisoes-da-ai",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "titulo": "Aprenda a gerenciar o seu tempo",
+      "url": "https://sebraepr.com.br/aprenda-a-gerenciar-o-seu-tempo-2/",
+      "fonte": "Sebrae/PR",
+      "fonte_id": "sebrae-pr"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
       "status": "publicado",
-      "post_id": "1247772158429331_122119046805485849",
+      "post_id": "1247772158429331_122119421721485849",
       "tipo": "feed",
-      "titulo": "Por que o uso de canetas emagrecedoras está afetando as vendas de produtos de beleza, segundo a L&apos;Oreal",
-      "url": "https://www1.folha.uol.com.br/equilibrio/2026/10/por-que-o-uso-de-canetas-emagrecedoras-esta-afetando-as-vendas-de-produtos-de-beleza-segundo-a-loreal.shtml",
+      "titulo": "Pessoas com dermatite atópica têm maior risco de depressão e ansiedade",
+      "url": "https://www1.folha.uol.com.br/equilibrio/2026/10/pessoas-com-dermatite-atopica-tem-maior-risco-de-depressao-e-ansiedade.shtml",
       "fonte": "Folha Equilíbrio e Saúde",
       "fonte_id": "folha-equilibrio"
     },
@@ -30,10 +30,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122117262009486415",
+      "post_id": "1332730186586435_122117556735486415",
       "tipo": "photo",
-      "titulo": "Moto de Ouro 2026: vote na melhor moto Trail do Brasil",
-      "url": "https://motociclismoonline.com.br/especiais/moto-de-ouro-2026-motos-trail-vote/",
+      "titulo": "Move Brasil Moto: saiba quais motos comprar e como participar",
+      "url": "https://motociclismoonline.com.br/especiais/move-brasil-moto-regras-juros-modelos-inscricao/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122122467189476480",
+      "post_id": "1402223216297975_122122773111476480",
       "tipo": "feed",
-      "titulo": "Galheteiro: como distinguir recipientes e controlar o serviço",
-      "url": "https://blog.precolandia.com.br/galheteiro-identificacao/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "titulo": "Casa com ares de campo em plena cidade é lar de muitas histórias",
+      "url": "https://casa.abril.com.br/casas-apartamentos/casa-com-ares-de-campo-em-plena-cidade-e-lar-de-muitas-historias/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }
