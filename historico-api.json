@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-25T17:06:59.449Z",
+  "atualizado_em": "2026-10-26T19:25:53.596Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1609,6 +1609,42 @@
       "titulo": "O que está em alta no MotoGP",
       "post_id": "1332730186586435_122117264331486415",
       "publicado_em": "2026-10-25T17:06:59.449Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/abhishekjaiswal_4896/seo-is-changing-how-to-get-your-brand-recommended-by-chatgpt-gemini-google-ai-311b",
+      "chave": "https://dev.to/abhishekjaiswal_4896/seo-is-changing-how-to-get-your-brand-recommended-by-chatgpt-gemini-google-ai-311b",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1516591000488039",
+      "publicado_em": "2026-10-26T19:25:43.996Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.yorkshireeveningpost.co.uk/recommended/face-the-future-winter-radiance-edit-beauty-box-beauty-edit-deal-premium-skincare-gift-set-christmas-gifts-9308694",
+      "chave": "https://www.yorkshireeveningpost.co.uk/recommended/face-the-future-winter-radiance-edit-beauty-box-beauty-edit-deal-premium-skincare-gift-set-christmas-gifts-9308694",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122119427961485849",
+      "publicado_em": "2026-10-26T19:25:48.086Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://news.mynavi.jp/article/20261026-5197622/",
+      "chave": "https://news.mynavi.jp/article/20261026-5197622",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122117561979486415",
+      "publicado_em": "2026-10-26T19:25:53.596Z"
     }
   ]
 }
