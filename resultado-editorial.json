@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-26T18:51:58.269Z",
+  "gerado_em": "2026-10-27T18:16:12.624Z",
   "publicados": 4,
   "sem_conteudo": 0,
   "erros": 0,
@@ -8,32 +8,32 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1516568717156934",
-      "tipo": "feed",
-      "titulo": "Aprenda a gerenciar o seu tempo",
-      "url": "https://sebraepr.com.br/aprenda-a-gerenciar-o-seu-tempo-2/",
-      "fonte": "Sebrae/PR",
-      "fonte_id": "sebrae-pr"
+      "post_id": "369805844018354_1517548170392322",
+      "tipo": "photo",
+      "titulo": "Advent capta US$ 27 bi para seu maior fundo global",
+      "url": "https://braziljournal.com/advent-capta-us-27-bi-para-seu-maior-fundo-global",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
       "status": "publicado",
-      "post_id": "1247772158429331_122119421721485849",
+      "post_id": "1247772158429331_122119767231485849",
       "tipo": "feed",
-      "titulo": "Pessoas com dermatite atópica têm maior risco de depressão e ansiedade",
-      "url": "https://www1.folha.uol.com.br/equilibrio/2026/10/pessoas-com-dermatite-atopica-tem-maior-risco-de-depressao-e-ansiedade.shtml",
-      "fonte": "Folha Equilíbrio e Saúde",
-      "fonte_id": "folha-equilibrio"
+      "titulo": "Região dos olhos exige cuidados específicos e novas tecnologias ampliam opções para tratar o envelhecimento",
+      "url": "https://www.sbd.org.br/regiao-dos-olhos-exige-cuidados-especificos-e-novas-tecnologias-ampliam-opcoes-para-tratar-o-envelhecimento/",
+      "fonte": "Sociedade Brasileira de Dermatologia",
+      "fonte_id": "sbd"
     },
     {
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122117556735486415",
+      "post_id": "1332730186586435_122117815041486415",
       "tipo": "photo",
-      "titulo": "Move Brasil Moto: saiba quais motos comprar e como participar",
-      "url": "https://motociclismoonline.com.br/especiais/move-brasil-moto-regras-juros-modelos-inscricao/",
+      "titulo": "Nova Triumph Tiger 1200 2027 evolui em potência e tecnologias",
+      "url": "https://motociclismoonline.com.br/noticias/triumph-tiger-1200-2027-estreia-novidades/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122122773111476480",
+      "post_id": "1402223216297975_122123054523476480",
       "tipo": "feed",
-      "titulo": "Casa com ares de campo em plena cidade é lar de muitas histórias",
-      "url": "https://casa.abril.com.br/casas-apartamentos/casa-com-ares-de-campo-em-plena-cidade-e-lar-de-muitas-historias/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "titulo": "Sachê no armário: posição e cuidado com os tecidos",
+      "url": "https://blog.precolandia.com.br/sache-armario-posicao-tecidos/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }
