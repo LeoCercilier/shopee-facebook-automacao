@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-26T19:25:53.596Z",
+  "atualizado_em": "2026-10-27T18:47:04.864Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1645,6 +1645,54 @@
       "titulo": "No universo das duas rodas",
       "post_id": "1332730186586435_122117561979486415",
       "publicado_em": "2026-10-26T19:25:53.596Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/bpecha14/i-have-no-coding-skills-my-team-is-3-ai-models-heres-the-100-bug-audit-that-saved-my-second-4k6e",
+      "chave": "https://dev.to/bpecha14/i-have-no-coding-skills-my-team-is-3-ai-models-heres-the-100-bug-audit-that-saved-my-second-4k6e",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1517570187056787",
+      "publicado_em": "2026-10-27T18:46:47.007Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.etvbharat.com/en/lifestyle/all-about-pimple-patches-acne-enn26102605429",
+      "chave": "https://www.etvbharat.com/en/lifestyle/all-about-pimple-patches-acne-enn26102605429",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122119772823485849",
+      "publicado_em": "2026-10-27T18:46:52.427Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.railway.supply/kent-crossing-shut-after-39-motorbike-e-scooter-trips-via-pedestrian-gates/",
+      "chave": "https://www.railway.supply/kent-crossing-shut-after-39-motorbike-e-scooter-trips-via-pedestrian-gates",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122117827185486415",
+      "publicado_em": "2026-10-27T18:46:58.467Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "freenews-casa",
+      "fonte_nome": "FreeNewsAPI (casa/DIY/culinária)",
+      "url": "https://timesofindia.indiatimes.com/life-style/home-garden/transform-your-kitchen-with-this-stylish-pizza-pan-diy-storage-idea/articleshow/135231366.cms",
+      "chave": "https://timesofindia.indiatimes.com/life-style/home-garden/transform-your-kitchen-with-this-stylish-pizza-pan-diy-storage-idea/articleshow/135231366.cms",
+      "titulo": "Curiosidade do dia",
+      "post_id": "1402223216297975_122123060553476480",
+      "publicado_em": "2026-10-27T18:47:04.864Z"
     }
   ]
 }
