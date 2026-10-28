@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-27T18:47:04.864Z",
+  "atualizado_em": "2026-10-28T18:56:47.866Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1693,6 +1693,42 @@
       "titulo": "Curiosidade do dia",
       "post_id": "1402223216297975_122123060553476480",
       "publicado_em": "2026-10-27T18:47:04.864Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/abhishekjaiswal_4896/automate-your-marketing-workflow-with-ai-agents-5eh",
+      "chave": "https://dev.to/abhishekjaiswal_4896/automate-your-marketing-workflow-with-ai-agents-5eh",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1518635343616938",
+      "publicado_em": "2026-10-28T18:56:24.532Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.ndtv.com/health/womens-health/ramayana-actor-sai-pallavi-once-opened-up-about-acne-and-rosacea-what-these-skin-conditions-mean-12248489",
+      "chave": "https://www.ndtv.com/health/womens-health/ramayana-actor-sai-pallavi-once-opened-up-about-acne-and-rosacea-what-these-skin-conditions-mean-12248489",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122120117733485849",
+      "publicado_em": "2026-10-28T18:56:34.377Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://electrek.co/2026/10/28/new-retro-electric-motorcycle-to-debut-at-eicma-with-a-novel-feature-a-second-gear/",
+      "chave": "https://electrek.co/2026/10/28/new-retro-electric-motorcycle-to-debut-at-eicma-with-a-novel-feature-a-second-gear",
+      "titulo": "Motos elétricas e mobilidade urbana",
+      "post_id": "1332730186586435_122118095835486415",
+      "publicado_em": "2026-10-28T18:56:47.866Z"
     }
   ]
 }
