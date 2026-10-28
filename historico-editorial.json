@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-27T18:16:12.623Z",
+  "atualizado_em": "2026-10-28T18:30:33.662Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1486,6 +1486,50 @@
       "titulo": "Sachê no armário: posição e cuidado com os tecidos",
       "post_id": "1402223216297975_122123054523476480",
       "publicado_em": "2026-10-27T18:16:12.623Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "sebrae-pr",
+      "fonte_nome": "Sebrae/PR",
+      "url": "https://sebraepr.com.br/como-vencer-o-medo-e-comecar-a-empreender/",
+      "titulo": "Como vencer o medo e começar a empreender?",
+      "post_id": "369805844018354_1518616393618833",
+      "publicado_em": "2026-10-28T18:30:01.814Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "sbd",
+      "fonte_nome": "Sociedade Brasileira de Dermatologia",
+      "url": "https://www.sbd.org.br/congresso-da-sociedade-brasileira-de-dermatologia-reune-especialistas-para-discutir-uma-abordagem-integrada-para-a-saude-e-a-qualidade-da-pele/",
+      "titulo": "Congresso da Sociedade Brasileira de Dermatologia reúne especialistas para discutir uma abordagem integrada para a saúde e a qualidade da pele",
+      "post_id": "1247772158429331_122120110203485849",
+      "publicado_em": "2026-10-28T18:30:18.252Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/bajaj-estreia-no-tocantins-e-alcanca-82-concessionarias-no-brasil/",
+      "titulo": "Bajaj estreia no Tocantins e alcança 82 concessionárias no Brasil",
+      "post_id": "1332730186586435_122118091227486415",
+      "publicado_em": "2026-10-28T18:30:25.465Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/casas-apartamentos/sem-grandes-obras-apartamento-de-70-m%c2%b2-ganha-personalidade/",
+      "titulo": "Sem grandes obras, apartamento de 70 m² ganha personalidade",
+      "post_id": "1402223216297975_122123327811476480",
+      "publicado_em": "2026-10-28T18:30:33.662Z"
     }
   ]
 }

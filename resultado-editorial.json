@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-27T18:16:12.624Z",
+  "gerado_em": "2026-10-28T18:30:33.663Z",
   "publicados": 4,
   "sem_conteudo": 0,
   "erros": 0,
@@ -8,21 +8,21 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1517548170392322",
-      "tipo": "photo",
-      "titulo": "Advent capta US$ 27 bi para seu maior fundo global",
-      "url": "https://braziljournal.com/advent-capta-us-27-bi-para-seu-maior-fundo-global",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "post_id": "369805844018354_1518616393618833",
+      "tipo": "feed",
+      "titulo": "Como vencer o medo e começar a empreender?",
+      "url": "https://sebraepr.com.br/como-vencer-o-medo-e-comecar-a-empreender/",
+      "fonte": "Sebrae/PR",
+      "fonte_id": "sebrae-pr"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
       "status": "publicado",
-      "post_id": "1247772158429331_122119767231485849",
+      "post_id": "1247772158429331_122120110203485849",
       "tipo": "feed",
-      "titulo": "Região dos olhos exige cuidados específicos e novas tecnologias ampliam opções para tratar o envelhecimento",
-      "url": "https://www.sbd.org.br/regiao-dos-olhos-exige-cuidados-especificos-e-novas-tecnologias-ampliam-opcoes-para-tratar-o-envelhecimento/",
+      "titulo": "Congresso da Sociedade Brasileira de Dermatologia reúne especialistas para discutir uma abordagem integrada para a saúde e a qualidade da pele",
+      "url": "https://www.sbd.org.br/congresso-da-sociedade-brasileira-de-dermatologia-reune-especialistas-para-discutir-uma-abordagem-integrada-para-a-saude-e-a-qualidade-da-pele/",
       "fonte": "Sociedade Brasileira de Dermatologia",
       "fonte_id": "sbd"
     },
@@ -30,10 +30,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122117815041486415",
+      "post_id": "1332730186586435_122118091227486415",
       "tipo": "photo",
-      "titulo": "Nova Triumph Tiger 1200 2027 evolui em potência e tecnologias",
-      "url": "https://motociclismoonline.com.br/noticias/triumph-tiger-1200-2027-estreia-novidades/",
+      "titulo": "Bajaj estreia no Tocantins e alcança 82 concessionárias no Brasil",
+      "url": "https://motociclismoonline.com.br/noticias/bajaj-estreia-no-tocantins-e-alcanca-82-concessionarias-no-brasil/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122123054523476480",
-      "tipo": "feed",
-      "titulo": "Sachê no armário: posição e cuidado com os tecidos",
-      "url": "https://blog.precolandia.com.br/sache-armario-posicao-tecidos/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "post_id": "1402223216297975_122123327811476480",
+      "tipo": "photo",
+      "titulo": "Sem grandes obras, apartamento de 70 m² ganha personalidade",
+      "url": "https://casa.abril.com.br/casas-apartamentos/sem-grandes-obras-apartamento-de-70-m%c2%b2-ganha-personalidade/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }
