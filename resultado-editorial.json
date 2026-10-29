@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-28T18:30:33.663Z",
+  "gerado_em": "2026-10-29T18:39:27.033Z",
   "publicados": 4,
   "sem_conteudo": 0,
   "erros": 0,
@@ -8,21 +8,21 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1518616393618833",
-      "tipo": "feed",
-      "titulo": "Como vencer o medo e começar a empreender?",
-      "url": "https://sebraepr.com.br/como-vencer-o-medo-e-comecar-a-empreender/",
-      "fonte": "Sebrae/PR",
-      "fonte_id": "sebrae-pr"
+      "post_id": "369805844018354_1519644936849312",
+      "tipo": "photo",
+      "titulo": "Raízen fecha acordo tributário épico, extinguindo R$ 22 bi em dívidas",
+      "url": "https://braziljournal.com/raizen-fecha-acordo-tributario-epico-extinguindo-r-22-bi-em-dividas",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
       "status": "publicado",
-      "post_id": "1247772158429331_122120110203485849",
+      "post_id": "1247772158429331_122120433837485849",
       "tipo": "feed",
-      "titulo": "Congresso da Sociedade Brasileira de Dermatologia reúne especialistas para discutir uma abordagem integrada para a saúde e a qualidade da pele",
-      "url": "https://www.sbd.org.br/congresso-da-sociedade-brasileira-de-dermatologia-reune-especialistas-para-discutir-uma-abordagem-integrada-para-a-saude-e-a-qualidade-da-pele/",
+      "titulo": "Dia da Psoríase: tratamentos inovadores avançam nos últimos 20 anos",
+      "url": "https://www.sbd.org.br/dia-da-psoriase-tratamentos-inovadores-avancam-nos-ultimos-20-anos/",
       "fonte": "Sociedade Brasileira de Dermatologia",
       "fonte_id": "sbd"
     },
@@ -30,10 +30,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122118091227486415",
+      "post_id": "1332730186586435_122118362835486415",
       "tipo": "photo",
-      "titulo": "Bajaj estreia no Tocantins e alcança 82 concessionárias no Brasil",
-      "url": "https://motociclismoonline.com.br/noticias/bajaj-estreia-no-tocantins-e-alcanca-82-concessionarias-no-brasil/",
+      "titulo": "Ducati Monster Dark estreia com visual totalmente preto e motor V2 de 111 cv",
+      "url": "https://motociclismoonline.com.br/noticias/ducati-monster-dark-estreia-com-visual-totalmente-preto-e-motor-v2-de-111-cv/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122123327811476480",
-      "tipo": "photo",
-      "titulo": "Sem grandes obras, apartamento de 70 m² ganha personalidade",
-      "url": "https://casa.abril.com.br/casas-apartamentos/sem-grandes-obras-apartamento-de-70-m%c2%b2-ganha-personalidade/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "post_id": "1402223216297975_122123750901476480",
+      "tipo": "feed",
+      "titulo": "Lixeira com anel: como encaixar o saco sem prender",
+      "url": "https://blog.precolandia.com.br/lixeira-com-anel-encaixar-saco/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }
