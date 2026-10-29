@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-28T18:56:47.866Z",
+  "atualizado_em": "2026-10-29T19:02:09.483Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1729,6 +1729,54 @@
       "titulo": "Motos elétricas e mobilidade urbana",
       "post_id": "1332730186586435_122118095835486415",
       "publicado_em": "2026-10-28T18:56:47.866Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/alifar/openai-rolls-out-gpt-61-terra-across-chatgpt-work-codex-and-the-api-1gkk",
+      "chave": "https://dev.to/alifar/openai-rolls-out-gpt-61-terra-across-chatgpt-work-codex-and-the-api-1gkk",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1519661146847691",
+      "publicado_em": "2026-10-29T19:01:37.962Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.hindustantimes.com/lifestyle/health/skincare-ingredients-decoded-what-niacinamide-salicylic-acid-and-alpha-arbutin-do-for-acne-oiliness-and-pigmentation-101793253698678-amp.html",
+      "chave": "https://www.hindustantimes.com/lifestyle/health/skincare-ingredients-decoded-what-niacinamide-salicylic-acid-and-alpha-arbutin-do-for-acne-oiliness-and-pigmentation-101793253698678-amp.html",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122120438157485849",
+      "publicado_em": "2026-10-29T19:01:42.832Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://sports.okezone.com/read/2026/10/29/38/3250894/jorge-martin-masih-bisa-absen-meski-diizinkan-balapan-di-motogp-malaysia-2026-ini-penyebabnya",
+      "chave": "https://sports.okezone.com/read/2026/10/29/38/3250894/jorge-martin-masih-bisa-absen-meski-diizinkan-balapan-di-motogp-malaysia-2026-ini-penyebabnya",
+      "titulo": "O que está em alta no MotoGP",
+      "post_id": "1332730186586435_122118367365486415",
+      "publicado_em": "2026-10-29T19:02:01.701Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "freenews-casa",
+      "fonte_nome": "FreeNewsAPI (casa/DIY/culinária)",
+      "url": "https://lolleroll.com/combat-damp-weather-the-ultimate-wuzhi-mackerel-soup-recipe-guide/",
+      "chave": "https://lolleroll.com/combat-damp-weather-the-ultimate-wuzhi-mackerel-soup-recipe-guide",
+      "titulo": "Curiosidade do dia",
+      "post_id": "1402223216297975_122123754831476480",
+      "publicado_em": "2026-10-29T19:02:09.483Z"
     }
   ]
 }
