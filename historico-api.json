@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-29T19:02:09.483Z",
+  "atualizado_em": "2026-10-30T18:41:48.013Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1777,6 +1777,42 @@
       "titulo": "Curiosidade do dia",
       "post_id": "1402223216297975_122123754831476480",
       "publicado_em": "2026-10-29T19:02:09.483Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/sarvar_04/i-almost-paid-1499-for-prime-video-i-never-use-an-open-source-ai-model-caught-it-1egm",
+      "chave": "https://dev.to/sarvar_04/i-almost-paid-1499-for-prime-video-i-never-use-an-open-source-ai-model-caught-it-1egm",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1520643013416171",
+      "publicado_em": "2026-10-30T18:41:35.816Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.biospace.com/press-releases/dermata-advances-second-tome-skincare-product-toward-expected-2027-launch-with-initiation-of-acne-clinical-trial",
+      "chave": "https://www.biospace.com/press-releases/dermata-advances-second-tome-skincare-product-toward-expected-2027-launch-with-initiation-of-acne-clinical-trial",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122120737017485849",
+      "publicado_em": "2026-10-30T18:41:40.293Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.boston25news.com/news/local/serious-crash-involving-suv-motorcycle-route-1a-revere/LVWZIOCJI5ERBD7GAY7WDYNFUQ/",
+      "chave": "https://www.boston25news.com/news/local/serious-crash-involving-suv-motorcycle-route-1a-revere/lvwziocji5erbd7gay7wdynfuq",
+      "titulo": "No universo das duas rodas",
+      "post_id": "1332730186586435_122118646029486415",
+      "publicado_em": "2026-10-30T18:41:48.013Z"
     }
   ]
 }
