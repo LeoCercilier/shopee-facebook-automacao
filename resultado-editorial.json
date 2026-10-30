@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-29T18:39:27.033Z",
+  "gerado_em": "2026-10-30T18:13:18.032Z",
   "publicados": 4,
   "sem_conteudo": 0,
   "erros": 0,
@@ -8,21 +8,21 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1519644936849312",
-      "tipo": "photo",
-      "titulo": "Raízen fecha acordo tributário épico, extinguindo R$ 22 bi em dívidas",
-      "url": "https://braziljournal.com/raizen-fecha-acordo-tributario-epico-extinguindo-r-22-bi-em-dividas",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "post_id": "369805844018354_1520622193418253",
+      "tipo": "feed",
+      "titulo": "Liderança e trabalho em equipe: como delegar tarefas de forma eficiente?",
+      "url": "https://sebraepr.com.br/lideranca-e-trabalho-em-equipe-como-delegar-tarefas-de-forma-eficiente/",
+      "fonte": "Sebrae/PR",
+      "fonte_id": "sebrae-pr"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
       "status": "publicado",
-      "post_id": "1247772158429331_122120433837485849",
+      "post_id": "1247772158429331_122120729601485849",
       "tipo": "feed",
-      "titulo": "Dia da Psoríase: tratamentos inovadores avançam nos últimos 20 anos",
-      "url": "https://www.sbd.org.br/dia-da-psoriase-tratamentos-inovadores-avancam-nos-ultimos-20-anos/",
+      "titulo": "Dia do Médico: realidade diante da Inteligência Artificial",
+      "url": "https://www.sbd.org.br/dia-do-medico-realidade-diante-da-inteligencia-artificial/",
       "fonte": "Sociedade Brasileira de Dermatologia",
       "fonte_id": "sbd"
     },
@@ -30,23 +30,23 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122118362835486415",
-      "tipo": "photo",
-      "titulo": "Ducati Monster Dark estreia com visual totalmente preto e motor V2 de 111 cv",
-      "url": "https://motociclismoonline.com.br/noticias/ducati-monster-dark-estreia-com-visual-totalmente-preto-e-motor-v2-de-111-cv/",
-      "fonte": "Motociclismo Online",
-      "fonte_id": "motociclismo-online"
+      "post_id": "1332730186586435_122118640287486415",
+      "tipo": "feed",
+      "titulo": "Motorista infarta e engavetamento de 20 veículos deixa feridos no Rio",
+      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/motorista-infarta-engavetamento-de-20-veiculos-deixa-feridos-no-rio",
+      "fonte": "Agência Brasil",
+      "fonte_id": "agencia-brasil"
     },
     {
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122123750901476480",
-      "tipo": "feed",
-      "titulo": "Lixeira com anel: como encaixar o saco sem prender",
-      "url": "https://blog.precolandia.com.br/lixeira-com-anel-encaixar-saco/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "post_id": "1402223216297975_122124052905476480",
+      "tipo": "photo",
+      "titulo": "Com mais formatos e funções, estantes mantêm protagonismo nos interiores",
+      "url": "https://casa.abril.com.br/decoracao/com-mais-formatos-e-funcoes-estantes-mantem-protagonismo-nos-interiores/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }
