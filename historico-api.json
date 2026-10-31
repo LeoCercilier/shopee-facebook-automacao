@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-30T18:41:48.013Z",
+  "atualizado_em": "2026-10-31T17:50:13.605Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1813,6 +1813,42 @@
       "titulo": "No universo das duas rodas",
       "post_id": "1332730186586435_122118646029486415",
       "publicado_em": "2026-10-30T18:41:48.013Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/alifar/openai-updates-its-model-spec-with-clearer-safety-accuracy-and-capability-guidance-4lpn",
+      "chave": "https://dev.to/alifar/openai-updates-its-model-spec-with-clearer-safety-accuracy-and-capability-guidance-4lpn",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1521618076651998",
+      "publicado_em": "2026-10-31T17:50:02.826Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "freenews-beleza",
+      "fonte_nome": "FreeNewsAPI (skincare/beleza)",
+      "url": "https://www.hindustantimes.com/lifestyle/health/high-aqi-alert-from-acne-and-premature-ageing-to-hair-fall-dermatologist-shares-10-tips-to-protect-your-skin-and-hair-101793423086538-amp.html",
+      "chave": "https://www.hindustantimes.com/lifestyle/health/high-aqi-alert-from-acne-and-premature-ageing-to-hair-fall-dermatologist-shares-10-tips-to-protect-your-skin-and-hair-101793423086538-amp.html",
+      "titulo": "Cuidados com a pele no dia a dia",
+      "post_id": "1247772158429331_122121057255485849",
+      "publicado_em": "2026-10-31T17:50:08.571Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "freenews-moto",
+      "fonte_nome": "FreeNewsAPI (motos)",
+      "url": "https://www.world-today-news.com/livewire-the-electric-motorcycle-brand-spun-off-from-harley-davidson-warned-that-substantial/",
+      "chave": "https://www.world-today-news.com/livewire-the-electric-motorcycle-brand-spun-off-from-harley-davidson-warned-that-substantial",
+      "titulo": "Motos elétricas e mobilidade urbana",
+      "post_id": "1332730186586435_122118906549486415",
+      "publicado_em": "2026-10-31T17:50:13.605Z"
     }
   ]
 }
