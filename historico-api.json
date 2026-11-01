@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-31T17:50:13.605Z",
+  "atualizado_em": "2026-11-01T18:27:45.274Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1849,6 +1849,18 @@
       "titulo": "Motos elétricas e mobilidade urbana",
       "post_id": "1332730186586435_122118906549486415",
       "publicado_em": "2026-10-31T17:50:13.605Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/ayush_singh_9b0d83152be5b/a-two-line-function-caught-ai-collusion-better-than-the-ai-did-3nmd",
+      "chave": "https://dev.to/ayush_singh_9b0d83152be5b/a-two-line-function-caught-ai-collusion-better-than-the-ai-did-3nmd",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1522651763215296",
+      "publicado_em": "2026-11-01T18:27:45.274Z"
     }
   ]
 }
