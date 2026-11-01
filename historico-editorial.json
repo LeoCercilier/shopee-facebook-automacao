@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-31T17:22:31.217Z",
+  "atualizado_em": "2026-11-01T18:06:40.953Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1662,6 +1662,50 @@
       "titulo": "Manta de sofá: cuidados com fios puxados e franjas",
       "post_id": "1402223216297975_122124370167476480",
       "publicado_em": "2026-10-31T17:22:31.217Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "sebrae-pr",
+      "fonte_nome": "Sebrae/PR",
+      "url": "https://sebraepr.com.br/aprenda-a-gerenciar-o-seu-tempo/",
+      "titulo": "Aprenda a gerenciar o seu tempo",
+      "post_id": "369805844018354_1522636456550160",
+      "publicado_em": "2026-11-01T18:06:18.606Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "sbd",
+      "fonte_nome": "Sociedade Brasileira de Dermatologia",
+      "url": "https://www.sbd.org.br/novas-tecnologias-ampliam-opcoes-para-o-tratamento-da-queda-de-cabelo/",
+      "titulo": "Novas tecnologias ampliam opções para o tratamento da queda de cabelo",
+      "post_id": "1247772158429331_122121368619485849",
+      "publicado_em": "2026-11-01T18:06:28.600Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/especiais/moto-de-ouro-2026-motos-cub-concorrentes/",
+      "titulo": "Moto de Ouro 2026: qual é a melhor moto CUB do Brasil?",
+      "post_id": "1332730186586435_122119152003486415",
+      "publicado_em": "2026-11-01T18:06:35.542Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/decoracao/piso-de-tauari-cumaru-ou-garapa-como-escolher-a-especie-certa-para-cada-ambiente/",
+      "titulo": "Piso de tauari, cumaru ou garapa? Como escolher a espécie certa para cada ambiente",
+      "post_id": "1402223216297975_122124632361476480",
+      "publicado_em": "2026-11-01T18:06:40.953Z"
     }
   ]
 }
