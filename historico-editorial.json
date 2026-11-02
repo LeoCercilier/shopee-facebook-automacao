@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-01T18:06:40.953Z",
+  "atualizado_em": "2026-11-02T21:56:41.453Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1706,6 +1706,50 @@
       "titulo": "Piso de tauari, cumaru ou garapa? Como escolher a espécie certa para cada ambiente",
       "post_id": "1402223216297975_122124632361476480",
       "publicado_em": "2026-11-01T18:06:40.953Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/consumidor-digital/",
+      "titulo": "Consumidor digital: quem é o e-consumidor e como ele se comporta?",
+      "post_id": "369805844018354_1523739529773186",
+      "publicado_em": "2026-11-02T21:56:11.631Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "sbd",
+      "fonte_nome": "Sociedade Brasileira de Dermatologia",
+      "url": "https://www.sbd.org.br/novas-fronteiras-no-tratamento-da-acne-e-da-rosacea-ampliam-olhar-sobre-inflamacao-e-cuidados-com-a-pele/",
+      "titulo": "Novas fronteiras no tratamento da acne e da rosácea ampliam olhar sobre inflamação e cuidados com a pele",
+      "post_id": "1247772158429331_122121813147485849",
+      "publicado_em": "2026-11-02T21:56:24.954Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/yamaha-linha-scooters-aventureiros-rw700-rw350/",
+      "titulo": "RW700, RW700 Explore e RW350: eis os scooters aventureiros da Yamaha",
+      "post_id": "1332730186586435_122119477593486415",
+      "publicado_em": "2026-11-02T21:56:32.897Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "precolandia",
+      "fonte_nome": "Blog Preçolandia",
+      "url": "https://blog.precolandia.com.br/travessa-forno-conferir-permissao/",
+      "titulo": "Travessa pode ir ao forno? Como conferir a permissão",
+      "post_id": "1402223216297975_122124930765476480",
+      "publicado_em": "2026-11-02T21:56:41.453Z"
     }
   ]
 }
