@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-02T22:23:02.708Z",
+  "atualizado_em": "2026-11-03T20:10:35.423Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1873,6 +1873,18 @@
       "titulo": "Como a IA pode ajudar no dia a dia do negócio",
       "post_id": "369805844018354_1523754816438324",
       "publicado_em": "2026-11-02T22:23:02.708Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/p0rt/i-use-ai-what-should-i-teach-my-daughter-3efp",
+      "chave": "https://dev.to/p0rt/i-use-ai-what-should-i-teach-my-daughter-3efp",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1524664629680676",
+      "publicado_em": "2026-11-03T20:10:35.423Z"
     }
   ]
 }
