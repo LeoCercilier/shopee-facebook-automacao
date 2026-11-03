@@ -1,39 +1,34 @@
 {
-  "gerado_em": "2026-11-02T21:56:41.454Z",
-  "publicados": 4,
-  "sem_conteudo": 0,
+  "gerado_em": "2026-11-03T19:48:22.731Z",
+  "publicados": 3,
+  "sem_conteudo": 1,
   "erros": 0,
   "resultados": [
     {
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1523739529773186",
+      "post_id": "369805844018354_1524650269682112",
       "tipo": "feed",
-      "titulo": "Consumidor digital: quem é o e-consumidor e como ele se comporta?",
-      "url": "https://www.nuvemshop.com.br/blog/consumidor-digital/",
-      "fonte": "Nuvemshop",
-      "fonte_id": "nuvemshop"
+      "titulo": "Leilão de transmissão mantém deságios – mas alguns elevam cautela",
+      "url": "https://braziljournal.com/leilao-de-transmissao-mantem-desagios-mas-alguns-elevam-cautela",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
-      "status": "publicado",
-      "post_id": "1247772158429331_122121813147485849",
-      "tipo": "feed",
-      "titulo": "Novas fronteiras no tratamento da acne e da rosácea ampliam olhar sobre inflamação e cuidados com a pele",
-      "url": "https://www.sbd.org.br/novas-fronteiras-no-tratamento-da-acne-e-da-rosacea-ampliam-olhar-sobre-inflamacao-e-cuidados-com-a-pele/",
-      "fonte": "Sociedade Brasileira de Dermatologia",
-      "fonte_id": "sbd"
+      "status": "sem_conteudo",
+      "fontes_com_erro": []
     },
     {
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122119477593486415",
+      "post_id": "1332730186586435_122119740417486415",
       "tipo": "photo",
-      "titulo": "RW700, RW700 Explore e RW350: eis os scooters aventureiros da Yamaha",
-      "url": "https://motociclismoonline.com.br/noticias/yamaha-linha-scooters-aventureiros-rw700-rw350/",
+      "titulo": "BMW M 1000 RS é nova hypernaked 218 cv e apenas 1.000 unidades",
+      "url": "https://motociclismoonline.com.br/noticias/bmw-m-1000-rs-218-cv-hypernaked-eicma-2026/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +36,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122124930765476480",
-      "tipo": "feed",
-      "titulo": "Travessa pode ir ao forno? Como conferir a permissão",
-      "url": "https://blog.precolandia.com.br/travessa-forno-conferir-permissao/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "post_id": "1402223216297975_122125179105476480",
+      "tipo": "photo",
+      "titulo": "5 tendências da Maison &#038; Objet Paris para trazer para a casa",
+      "url": "https://casa.abril.com.br/moveis-acessorios/5-tendencias-da-maison-objet-paris-para-trazer-para-a-casa/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }

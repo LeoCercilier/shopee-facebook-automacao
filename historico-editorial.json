@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-02T21:56:41.453Z",
+  "atualizado_em": "2026-11-03T19:48:22.730Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1750,6 +1750,39 @@
       "titulo": "Travessa pode ir ao forno? Como conferir a permissão",
       "post_id": "1402223216297975_122124930765476480",
       "publicado_em": "2026-11-02T21:56:41.453Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "brazil-journal",
+      "fonte_nome": "Brazil Journal",
+      "url": "https://braziljournal.com/leilao-de-transmissao-mantem-desagios-mas-alguns-elevam-cautela",
+      "titulo": "Leilão de transmissão mantém deságios – mas alguns elevam cautela",
+      "post_id": "369805844018354_1524650269682112",
+      "publicado_em": "2026-11-03T19:48:01.202Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/bmw-m-1000-rs-218-cv-hypernaked-eicma-2026/",
+      "titulo": "BMW M 1000 RS é nova hypernaked 218 cv e apenas 1.000 unidades",
+      "post_id": "1332730186586435_122119740417486415",
+      "publicado_em": "2026-11-03T19:48:13.542Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/moveis-acessorios/5-tendencias-da-maison-objet-paris-para-trazer-para-a-casa/",
+      "titulo": "5 tendências da Maison &#038; Objet Paris para trazer para a casa",
+      "post_id": "1402223216297975_122125179105476480",
+      "publicado_em": "2026-11-03T19:48:22.730Z"
     }
   ]
 }
