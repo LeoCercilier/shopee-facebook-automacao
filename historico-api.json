@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T20:10:35.423Z",
+  "atualizado_em": "2026-11-04T20:28:02.107Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1885,6 +1885,18 @@
       "titulo": "Como a IA pode ajudar no dia a dia do negócio",
       "post_id": "369805844018354_1524664629680676",
       "publicado_em": "2026-11-03T20:10:35.423Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/sylwia-lask/were-building-ai-to-replace-ourselves-whats-the-plan-4oll",
+      "chave": "https://dev.to/sylwia-lask/were-building-ai-to-replace-ourselves-whats-the-plan-4oll",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1525723449574794",
+      "publicado_em": "2026-11-04T20:28:02.107Z"
     }
   ]
 }
