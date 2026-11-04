@@ -1,34 +1,39 @@
 {
-  "gerado_em": "2026-11-03T19:48:22.731Z",
-  "publicados": 3,
-  "sem_conteudo": 1,
+  "gerado_em": "2026-11-04T20:02:21.186Z",
+  "publicados": 4,
+  "sem_conteudo": 0,
   "erros": 0,
   "resultados": [
     {
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1524650269682112",
-      "tipo": "feed",
-      "titulo": "Leilão de transmissão mantém deságios – mas alguns elevam cautela",
-      "url": "https://braziljournal.com/leilao-de-transmissao-mantem-desagios-mas-alguns-elevam-cautela",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "post_id": "369805844018354_1525706059576533",
+      "tipo": "photo",
+      "titulo": "Como melhorar a velocidade de uma loja virtual passo a passo",
+      "url": "https://www.nuvemshop.com.br/blog/melhorar-velocidade-da-loja-virtual/",
+      "fonte": "Nuvemshop",
+      "fonte_id": "nuvemshop"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
-      "status": "sem_conteudo",
-      "fontes_com_erro": []
+      "status": "publicado",
+      "post_id": "1247772158429331_122122408509485849",
+      "tipo": "feed",
+      "titulo": "Em gel, espuma ou líquido: saiba como escolher o sabonete para o seu rosto",
+      "url": "https://www1.folha.uol.com.br/equilibrio/2026/11/em-gel-espuma-ou-liquido-saiba-como-escolher-o-sabonete-para-o-seu-rosto.shtml",
+      "fonte": "Folha Equilíbrio e Saúde",
+      "fonte_id": "folha-equilibrio"
     },
     {
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122119740417486415",
+      "post_id": "1332730186586435_122119969341486415",
       "tipo": "photo",
-      "titulo": "BMW M 1000 RS é nova hypernaked 218 cv e apenas 1.000 unidades",
-      "url": "https://motociclismoonline.com.br/noticias/bmw-m-1000-rs-218-cv-hypernaked-eicma-2026/",
+      "titulo": "SYM Maxsym Turbo é conceito com motor turbo e &#8216;visual de gladiador&#8217;",
+      "url": "https://motociclismoonline.com.br/noticias/sym-maxsym-turbo-eicma-turbo/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -36,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122125179105476480",
-      "tipo": "photo",
-      "titulo": "5 tendências da Maison &#038; Objet Paris para trazer para a casa",
-      "url": "https://casa.abril.com.br/moveis-acessorios/5-tendencias-da-maison-objet-paris-para-trazer-para-a-casa/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "post_id": "1402223216297975_122125458729476480",
+      "tipo": "feed",
+      "titulo": "Manta no sofá retrátil: medir e liberar o mecanismo",
+      "url": "https://blog.precolandia.com.br/manta-sofa-retratil-medir-mecanismo/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }

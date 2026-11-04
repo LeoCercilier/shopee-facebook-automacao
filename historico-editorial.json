@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T19:48:22.730Z",
+  "atualizado_em": "2026-11-04T20:02:21.185Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1783,6 +1783,50 @@
       "titulo": "5 tendências da Maison &#038; Objet Paris para trazer para a casa",
       "post_id": "1402223216297975_122125179105476480",
       "publicado_em": "2026-11-03T19:48:22.730Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/melhorar-velocidade-da-loja-virtual/",
+      "titulo": "Como melhorar a velocidade de uma loja virtual passo a passo",
+      "post_id": "369805844018354_1525706059576533",
+      "publicado_em": "2026-11-04T20:01:55.553Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "folha-equilibrio",
+      "fonte_nome": "Folha Equilíbrio e Saúde",
+      "url": "https://www1.folha.uol.com.br/equilibrio/2026/11/em-gel-espuma-ou-liquido-saiba-como-escolher-o-sabonete-para-o-seu-rosto.shtml",
+      "titulo": "Em gel, espuma ou líquido: saiba como escolher o sabonete para o seu rosto",
+      "post_id": "1247772158429331_122122408509485849",
+      "publicado_em": "2026-11-04T20:02:04.253Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/sym-maxsym-turbo-eicma-turbo/",
+      "titulo": "SYM Maxsym Turbo é conceito com motor turbo e &#8216;visual de gladiador&#8217;",
+      "post_id": "1332730186586435_122119969341486415",
+      "publicado_em": "2026-11-04T20:02:10.991Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "precolandia",
+      "fonte_nome": "Blog Preçolandia",
+      "url": "https://blog.precolandia.com.br/manta-sofa-retratil-medir-mecanismo/",
+      "titulo": "Manta no sofá retrátil: medir e liberar o mecanismo",
+      "post_id": "1402223216297975_122125458729476480",
+      "publicado_em": "2026-11-04T20:02:21.185Z"
     }
   ]
 }
