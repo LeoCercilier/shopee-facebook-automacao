@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-04T20:28:02.107Z",
+  "atualizado_em": "2026-11-05T20:43:46.688Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1897,6 +1897,18 @@
       "titulo": "Como a IA pode ajudar no dia a dia do negócio",
       "post_id": "369805844018354_1525723449574794",
       "publicado_em": "2026-11-04T20:28:02.107Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/mohsin_azam/building-a-zapier-integration-for-a-tiny-saas-the-api-key-default-i-almost-shipped-me1",
+      "chave": "https://dev.to/mohsin_azam/building-a-zapier-integration-for-a-tiny-saas-the-api-key-default-i-almost-shipped-me1",
+      "titulo": "Tecnologia aplicada a negócios de forma simples",
+      "post_id": "369805844018354_1526744512806021",
+      "publicado_em": "2026-11-05T20:43:46.688Z"
     }
   ]
 }
