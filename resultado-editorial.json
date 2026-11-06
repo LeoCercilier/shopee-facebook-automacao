@@ -1,34 +1,39 @@
 {
-  "gerado_em": "2026-11-05T20:16:23.285Z",
-  "publicados": 3,
-  "sem_conteudo": 1,
+  "gerado_em": "2026-11-06T19:41:57.869Z",
+  "publicados": 4,
+  "sem_conteudo": 0,
   "erros": 0,
   "resultados": [
     {
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1526727856141020",
-      "tipo": "feed",
-      "titulo": "O ‘choque de desânimo’ que o mercado está precificando",
-      "url": "https://braziljournal.com/o-choque-de-desanimo-que-o-mercado-esta-precificando",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "post_id": "369805844018354_1527764899370649",
+      "tipo": "photo",
+      "titulo": "Como revisar conteúdo gerado por IA no e-commerce",
+      "url": "https://www.nuvemshop.com.br/blog/como-revisar-conteudo-gerado-por-ia-no-e-commerce/",
+      "fonte": "Nuvemshop",
+      "fonte_id": "nuvemshop"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
-      "status": "sem_conteudo",
-      "fontes_com_erro": []
+      "status": "publicado",
+      "post_id": "1247772158429331_122123080053485849",
+      "tipo": "feed",
+      "titulo": "&apos;Cara de ferritina&apos;: é possível detectar a falta de ferro no organismo pelo rosto?",
+      "url": "https://www1.folha.uol.com.br/equilibrio/2026/11/cara-de-ferritina-e-possivel-detectar-a-falta-de-ferro-no-organismo-pelo-rosto.shtml",
+      "fonte": "Folha Equilíbrio e Saúde",
+      "fonte_id": "folha-equilibrio"
     },
     {
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122120187555486415",
+      "post_id": "1332730186586435_122120424099486415",
       "tipo": "photo",
-      "titulo": "Honda anuncia investimentos de R$ 3,3 bilhões no Brasil por 2,3 milhões de motos",
-      "url": "https://motociclismoonline.com.br/especiais/honda-anuncia-investimentos-de-r-33-bilhoes-no-brasil-por-23-milhoes-de-motos/",
+      "titulo": "Honda Racing volta a Cascavel com Eric Granado na disputa pelo título do MOTO1000GP",
+      "url": "https://motociclismoonline.com.br/competicoes/honda-racing-eric-granado-moto1000gp-cascavel/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -36,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122125712259476480",
-      "tipo": "photo",
-      "titulo": "Aprenda a fazer um pão caseiro com semolina macio e dourado",
-      "url": "https://casa.abril.com.br/receitas/aprenda-a-fazer-um-pao-caseiro-com-semolina-macio-e-dourado/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "post_id": "1402223216297975_122125965363476480",
+      "tipo": "feed",
+      "titulo": "Guardanapos no autosserviço: posição e reposição do suporte",
+      "url": "https://blog.precolandia.com.br/guardanapos-autosservico/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }

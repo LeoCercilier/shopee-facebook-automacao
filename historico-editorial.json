@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-05T20:16:23.283Z",
+  "atualizado_em": "2026-11-06T19:41:57.869Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1860,6 +1860,50 @@
       "titulo": "Aprenda a fazer um pão caseiro com semolina macio e dourado",
       "post_id": "1402223216297975_122125712259476480",
       "publicado_em": "2026-11-05T20:16:23.283Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/como-revisar-conteudo-gerado-por-ia-no-e-commerce/",
+      "titulo": "Como revisar conteúdo gerado por IA no e-commerce",
+      "post_id": "369805844018354_1527764899370649",
+      "publicado_em": "2026-11-06T19:41:33.536Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "folha-equilibrio",
+      "fonte_nome": "Folha Equilíbrio e Saúde",
+      "url": "https://www1.folha.uol.com.br/equilibrio/2026/11/cara-de-ferritina-e-possivel-detectar-a-falta-de-ferro-no-organismo-pelo-rosto.shtml",
+      "titulo": "&apos;Cara de ferritina&apos;: é possível detectar a falta de ferro no organismo pelo rosto?",
+      "post_id": "1247772158429331_122123080053485849",
+      "publicado_em": "2026-11-06T19:41:40.835Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/competicoes/honda-racing-eric-granado-moto1000gp-cascavel/",
+      "titulo": "Honda Racing volta a Cascavel com Eric Granado na disputa pelo título do MOTO1000GP",
+      "post_id": "1332730186586435_122120424099486415",
+      "publicado_em": "2026-11-06T19:41:48.349Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "precolandia",
+      "fonte_nome": "Blog Preçolandia",
+      "url": "https://blog.precolandia.com.br/guardanapos-autosservico/",
+      "titulo": "Guardanapos no autosserviço: posição e reposição do suporte",
+      "post_id": "1402223216297975_122125965363476480",
+      "publicado_em": "2026-11-06T19:41:57.869Z"
     }
   ]
 }
