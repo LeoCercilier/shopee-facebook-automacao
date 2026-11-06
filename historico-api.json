@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-05T20:43:46.688Z",
+  "atualizado_em": "2026-11-06T19:59:32.620Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1909,6 +1909,18 @@
       "titulo": "Tecnologia aplicada a negócios de forma simples",
       "post_id": "369805844018354_1526744512806021",
       "publicado_em": "2026-11-05T20:43:46.688Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/digitalocean/ai-coding-goes-from-generation-to-verification-15ee",
+      "chave": "https://dev.to/digitalocean/ai-coding-goes-from-generation-to-verification-15ee",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1527775922702880",
+      "publicado_em": "2026-11-06T19:59:32.620Z"
     }
   ]
 }
