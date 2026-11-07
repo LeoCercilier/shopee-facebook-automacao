@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-06T19:59:37.528Z",
+  "gerado_em": "2026-11-07T18:07:16.371Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "pontuacao_minima_fonte": 75,
@@ -10,10 +10,10 @@
       "page_id": "369805844018354",
       "status": "publicado",
       "stats": {
-        "coletados": 67,
-        "aprovados_fonte": 11,
-        "aprovados_texto": 11,
-        "rejeitados": 9,
+        "coletados": 44,
+        "aprovados_fonte": 9,
+        "aprovados_texto": 9,
+        "rejeitados": 11,
         "publicados": 1
       },
       "melhor": {
@@ -21,16 +21,15 @@
         "page_id": "369805844018354",
         "fonte": "DEV.to",
         "fonte_id": "devto",
-        "titulo_original": "AI coding goes from generation to verification",
+        "titulo_original": "An AI Testing Presentation Became the Final Push for Organizational Change at My Company",
         "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-        "score_fonte": 94,
+        "score_fonte": 90,
         "score_texto": 94,
         "status": "aprovado",
-        "motivo": "Conteúdo relevante e texto adequado (fonte 94, texto 94)",
+        "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
         "motivos_fonte": [
           "+keyword no título (1)",
           "+keyword forte no título",
-          "+keywords na descrição (1)",
           "+DEV.to (fonte prioritária)",
           "+imagem",
           "+recente"
@@ -42,8 +41,8 @@
           "+tamanho adequado"
         ],
         "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-        "url_fonte_interna": "https://dev.to/digitalocean/ai-coding-goes-from-generation-to-verification-15ee",
-        "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdvgibmdt20p55njubyq8.webp",
+        "url_fonte_interna": "https://dev.to/xulingfeng/an-ai-testing-presentation-became-the-final-push-for-organizational-change-at-my-company-12ag",
+        "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fixx20m4903kd4gqasfhz.png",
         "link_no_post": false,
         "graph_extras": {
           "text_format_preset_id": null,
@@ -52,111 +51,6 @@
         }
       },
       "candidatos": [
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "AI coding goes from generation to verification",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 94,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 94, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+DEV.to (fonte prioritária)",
-            "+imagem",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/digitalocean/ai-coding-goes-from-generation-to-verification-15ee",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdvgibmdt20p55njubyq8.webp",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "AI Agent Labor Marketplaces: A Comparative Audit (2026)",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 94,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 94, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+DEV.to (fonte prioritária)",
-            "+imagem",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/privatejack/ai-agent-labor-marketplaces-a-comparative-audit-2026-44i4",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4zt44nhschoga9hg7byy.png",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "Edge SpAIce Shows How Onboard AI Can Detect Marine Litter From Orbit",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 94,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 94, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+DEV.to (fonte prioritária)",
-            "+imagem",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/alifar/edge-spaice-shows-how-onboard-ai-can-detect-marine-litter-from-orbit-556a",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fscalevise.com%2Fresources%2Fcontent%2Fimages%2F2026%2F11%2Fedge-spaice-onboard-ai-marine-litter-detection.webp",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
         {
           "pagina": "Marketing Tips",
           "page_id": "369805844018354",
@@ -196,42 +90,8 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "Common n8n AI Workflow Errors and How to Fix Them",
+          "titulo_original": "How to Master AWS for AI?",
           "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 90,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+keywords na descrição (2)",
-            "+DEV.to (fonte prioritária)",
-            "+imagem"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/bcncodeschool/common-n8n-ai-workflow-errors-and-how-to-fix-them-2mg4",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdsjvow20ezky2onbbjlr.png",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "EU Finds TikTok’s Addictive Design May Breach the DSA, Signaling Marketing Changes",
-          "titulo_adaptado": "Uma ideia prática de marketing digital",
           "score_fonte": 90,
           "score_texto": 94,
           "status": "aprovado",
@@ -249,9 +109,9 @@
             "+fonte alinhada ao nicho",
             "+tamanho adequado"
           ],
-          "texto_final": "💡 Insight de tecnologia\n\nNo marketing digital e no e-commerce, pequenas melhorias de processo e comunicação costumam gerar mais resultado do que grandes mudanças de uma só vez. Medir uma métrica simples (clique, resposta ou venda) costuma valer mais do que várias campanhas soltas.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/alifar/eu-finds-tiktoks-addictive-design-may-breach-the-dsa-signaling-marketing-changes-262f",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fscalevise.com%2Fresources%2Fcontent%2Fimages%2F2026%2F11%2Feu-tiktok-addictive-design-dsa-preliminary-finding.webp",
+          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://dev.to/aws-builders/how-to-master-aws-for-ai-3la4",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcjxfc69hemwzy0bt0fjl.png",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -264,7 +124,109 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "Every Codebase Has a '// DO NOT TOUCH' File. I Built an AI Necromancer to Summon the Ghost of the Developer Who Wrote It 💀🔮",
+          "titulo_original": "CSV Import Preview: Show Which Rows Will Change in Your Public SaaS Demo",
+          "titulo_adaptado": "Tecnologia aplicada a negócios de forma simples",
+          "score_fonte": 90,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nTecnologia aplicada a negócios de forma simples. Uma provocação útil para quem acompanha negócios digitais e quer aplicar tecnologia de forma prática. Guardar uma ideia por vez e aplicar na prática costuma render mais do que acumular tendências.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://dev.to/urielbitton/csv-import-preview-show-which-rows-will-change-in-your-public-saas-demo-50h1",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7gqzwmr3uartd1dzo36f.png",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "Prisma Accelerate Retires December 1: A SaaS Migration Guide",
+          "titulo_adaptado": "Tecnologia aplicada a negócios de forma simples",
+          "score_fonte": 90,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nTecnologia aplicada a negócios de forma simples. Uma provocação útil para quem acompanha negócios digitais e quer aplicar tecnologia de forma prática. Guardar uma ideia por vez e aplicar na prática costuma render mais do que acumular tendências.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://dev.to/somnath_khadanga_2e5c2364/prisma-accelerate-retires-december-1-a-saas-migration-guide-2ch6",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F305brwbazj3tvbmqxf4s.png",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "Can AI Make Online Forms Less Painful? Here's What We're Building.",
+          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
+          "score_fonte": 90,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://dev.to/digitalwareshub/im-building-talking-links-a-different-approach-to-online-forms-2pdb",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fv170zeli748no7qhepmd.png",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "17 GitHub Repositories to Learn AI",
           "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
           "score_fonte": 86,
           "score_texto": 94,
@@ -284,42 +246,8 @@
             "+tamanho adequado"
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/dj29/every-codebase-has-a-do-not-touch-file-i-built-an-ai-necromancer-to-summon-the-ghost-of-the-2no5",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fezbb0xf5v8087ny2qes2.jpg",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "Every Codebase Has a '// DO NOT TOUCH' File. I Built an AI Necromancer to Summon the Ghost of the Developer Who Wrote It 💀🔮",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 86,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 86, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+DEV.to (fonte prioritária)",
-            "+imagem"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/dj29/every-codebase-has-a-do-not-touch-file-i-built-an-ai-necromancer-to-summon-the-ghost-of-the-2no5",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fezbb0xf5v8087ny2qes2.jpg",
+          "url_fonte_interna": "https://dev.to/devshefali/17-github-repositories-to-learn-ai-5fmh",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdq8c9ftl12sy7nbug3r5.webp",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -365,7 +293,40 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "What metrics matter for LLM inference observability (TTFT, TPOT, ITL)?",
+          "titulo_original": "How to meter Claude API costs per user in a Next.js SaaS (with code)",
+          "titulo_adaptado": "Tecnologia aplicada a negócios de forma simples",
+          "score_fonte": 82,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 82, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nTecnologia aplicada a negócios de forma simples. Uma provocação útil para quem acompanha negócios digitais e quer aplicar tecnologia de forma prática. Guardar uma ideia por vez e aplicar na prática costuma render mais do que acumular tendências.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://dev.to/agentwright/how-to-meter-claude-api-costs-per-user-in-a-nextjs-saas-with-code-5bk1",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg0qmzs0ghv28o85u6ap3.png",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "Day 14: I Gave HYNA-Stage a Brain (AI Support + Human Escalation, Built on a $150 Phone) 🧠🤖",
           "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
           "score_fonte": 82,
           "score_texto": 94,
@@ -384,63 +345,14 @@
             "+tamanho adequado"
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/digitalocean/what-metrics-matter-for-llm-inference-observability-ttft-tpot-itl-11na",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fj62g9v2soinl2h2a4cpm.jpg",
+          "url_fonte_interna": "https://dev.to/koda2026/day-14-i-gave-hyna-stage-a-brain-ai-support-human-escalation-built-on-a-150-phone-39n2",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6ipu994y242quvt50js8.jpg",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
             "place": null,
             "feeling": null
           }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "Hacker News",
-          "fonte_id": "hacker-news",
-          "titulo_original": "Perplexity launches AI agents for work",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 75,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+HN secundário",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: Hacker News\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work",
-          "imagem": "",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "Your Agent Has a Side Door: Testing MCP Policy Beyond the Tool List",
-          "titulo_adaptado": null,
-          "score_fonte": 42,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 42 < 75. +keyword no título (1); +DEV.to (fonte prioritária)",
-          "texto_final": null,
-          "url_fonte_interna": "https://dev.to/bengreenberg/your-agent-has-a-side-door-testing-mcp-policy-beyond-the-tool-list-1699",
-          "imagem": "",
-          "graph_extras": null
         },
         {
           "pagina": "Marketing Tips",
@@ -455,22 +367,6 @@
           "motivo": "Score da fonte 32 < 75. +DEV.to (fonte prioritária); +imagem",
           "texto_final": null,
           "url_fonte_interna": "https://dev.to/devteam/congrats-to-the-kaggle-benchmarking-challenge-winners-2moh",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "That's a Wrap on Hacktoberfest 2026! 🎃👻",
-          "titulo_adaptado": null,
-          "score_fonte": 32,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 32 < 75. +DEV.to (fonte prioritária); +imagem",
-          "texto_final": null,
-          "url_fonte_interna": "https://dev.to/devteam/thats-a-wrap-on-hacktoberfest-2026-148k",
           "imagem": "",
           "graph_extras": null
         },
@@ -527,14 +423,14 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "Don't Write Markdown Files for Your Coding Agent. Write Scripts.",
+          "titulo_original": "That's a Wrap on Hacktoberfest 2026! 🎃👻",
           "titulo_adaptado": null,
-          "score_fonte": 32,
+          "score_fonte": 24,
           "score_texto": null,
           "status": "rejeitado",
-          "motivo": "Score da fonte 32 < 75. +DEV.to (fonte prioritária); +imagem",
+          "motivo": "Score da fonte 24 < 75. +DEV.to (fonte prioritária); +imagem",
           "texto_final": null,
-          "url_fonte_interna": "https://dev.to/dannwaneri/dont-write-markdown-files-for-your-coding-agent-write-scripts-j00",
+          "url_fonte_interna": "https://dev.to/devteam/thats-a-wrap-on-hacktoberfest-2026-148k",
           "imagem": "",
           "graph_extras": null
         },
@@ -543,14 +439,14 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "Trying to break into the clinical trials space",
+          "titulo_original": "I built a 3D game about my Nigerian childhood (and I'm not a game developer)",
           "titulo_adaptado": null,
-          "score_fonte": 32,
+          "score_fonte": 24,
           "score_texto": null,
           "status": "rejeitado",
-          "motivo": "Score da fonte 32 < 75. +DEV.to (fonte prioritária); +imagem",
+          "motivo": "Score da fonte 24 < 75. +DEV.to (fonte prioritária); +imagem",
           "texto_final": null,
-          "url_fonte_interna": "https://dev.to/yellow_wow/trying-to-break-into-the-clinical-trials-space-1jm1",
+          "url_fonte_interna": "https://dev.to/deborahemeni1/i-built-a-3d-game-about-my-nigerian-childhood-and-im-not-a-game-developer-281g",
           "imagem": "",
           "graph_extras": null
         },
@@ -559,14 +455,78 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "62 clicks in 3 months: what Search Console taught me about launching a devtool",
+          "titulo_original": "I Retested My MoE Offloading Benchmarks. Some of My Conclusions Changed.",
           "titulo_adaptado": null,
-          "score_fonte": 32,
+          "score_fonte": 24,
           "score_texto": null,
           "status": "rejeitado",
-          "motivo": "Score da fonte 32 < 75. +keywords na descrição (2); +DEV.to (fonte prioritária)",
+          "motivo": "Score da fonte 24 < 75. +DEV.to (fonte prioritária); +imagem",
           "texto_final": null,
-          "url_fonte_interna": "https://dev.to/furycow/62-clicks-in-3-months-what-search-console-taught-me-about-launching-a-devtool-2g68",
+          "url_fonte_interna": "https://dev.to/sizzlebop/i-retested-my-moe-offloading-benchmarks-some-of-my-conclusions-changed-6f4",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "ML Development Isn’t Slow Because of Models. It’s Slow Because of Stakeholders",
+          "titulo_adaptado": null,
+          "score_fonte": 24,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 24 < 75. +DEV.to (fonte prioritária); +imagem",
+          "texto_final": null,
+          "url_fonte_interna": "https://dev.to/wpwebinfotech/ml-development-isnt-slow-because-of-models-its-slow-because-of-stakeholders-4hdl",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "Taming Zombie Chromium in Docker: Why We Added Tini as PID 1",
+          "titulo_adaptado": null,
+          "score_fonte": 24,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 24 < 75. +DEV.to (fonte prioritária); +imagem",
+          "texto_final": null,
+          "url_fonte_interna": "https://dev.to/akashjpal/taming-zombie-chromium-in-docker-why-we-added-tini-as-pid-1-8h2",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+          "titulo_adaptado": null,
+          "score_fonte": 17,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 17 < 75. +HN secundário; +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://github.com/hedgerow-dev/coldframe",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "The $8 Linux Computer (2022)",
+          "titulo_adaptado": null,
+          "score_fonte": 17,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 17 < 75. +HN secundário; +recente",
+          "texto_final": null,
+          "url_fonte_interna": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
           "imagem": "",
           "graph_extras": null
         }
@@ -618,12 +578,12 @@
           "page_id": "1402223216297975",
           "fonte": "Open-Meteo",
           "fonte_id": "open-meteo",
-          "titulo_original": "Clima em Sao Paulo: 24.1C, nublado",
+          "titulo_original": "Clima em Sao Paulo: 24.5C, pancadas de chuva",
           "titulo_adaptado": null,
-          "score_fonte": 8,
+          "score_fonte": 71,
           "score_texto": null,
           "status": "rejeitado",
-          "motivo": "Score da fonte 8 < 75. -clima sem dica; +recente",
+          "motivo": "Score da fonte 71 < 75. +keywords na descrição (2); +dica climática útil",
           "texto_final": null,
           "url_fonte_interna": "https://open-meteo.com/",
           "imagem": "",

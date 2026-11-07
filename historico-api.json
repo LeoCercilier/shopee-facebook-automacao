@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-06T19:59:32.620Z",
+  "atualizado_em": "2026-11-07T18:07:12.080Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1921,6 +1921,18 @@
       "titulo": "Como a IA pode ajudar no dia a dia do negócio",
       "post_id": "369805844018354_1527775922702880",
       "publicado_em": "2026-11-06T19:59:32.620Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/xulingfeng/an-ai-testing-presentation-became-the-final-push-for-organizational-change-at-my-company-12ag",
+      "chave": "https://dev.to/xulingfeng/an-ai-testing-presentation-became-the-final-push-for-organizational-change-at-my-company-12ag",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1528744882605984",
+      "publicado_em": "2026-11-07T18:07:12.080Z"
     }
   ]
 }
