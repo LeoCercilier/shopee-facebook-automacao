@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-06T19:41:57.869Z",
+  "atualizado_em": "2026-11-07T17:51:53.190Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1904,6 +1904,39 @@
       "titulo": "Guardanapos no autosserviço: posição e reposição do suporte",
       "post_id": "1402223216297975_122125965363476480",
       "publicado_em": "2026-11-06T19:41:57.869Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "brazil-journal",
+      "fonte_nome": "Brazil Journal",
+      "url": "https://braziljournal.com/nao-quero-mais-que-os-humilhados-sejam-exaltados-by-pedro-vinicio",
+      "titulo": "Não quero mais que os humilhados sejam exaltados — by Pedro Vinicio",
+      "post_id": "369805844018354_1528733572607115",
+      "publicado_em": "2026-11-07T17:51:34.513Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/ktm-450-rc-2028-esportiva-eicma/",
+      "titulo": "KTM 450 RC é nova esportiva bicilíndrica apresentada no EICMA",
+      "post_id": "1332730186586435_122120622183486415",
+      "publicado_em": "2026-11-07T17:51:44.261Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/minha-casa/toalha-nova-nao-seca-veja-por-que-acontece-e-como-resolver-de-vez-o-problema/",
+      "titulo": "Toalha nova não seca direito? Veja por que acontece e como resolver de vez o problema",
+      "post_id": "1402223216297975_122126195409476480",
+      "publicado_em": "2026-11-07T17:51:53.190Z"
     }
   ]
 }

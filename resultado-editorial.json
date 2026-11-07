@@ -1,39 +1,34 @@
 {
-  "gerado_em": "2026-11-06T19:41:57.869Z",
-  "publicados": 4,
-  "sem_conteudo": 0,
+  "gerado_em": "2026-11-07T17:51:53.191Z",
+  "publicados": 3,
+  "sem_conteudo": 1,
   "erros": 0,
   "resultados": [
     {
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1527764899370649",
-      "tipo": "photo",
-      "titulo": "Como revisar conteúdo gerado por IA no e-commerce",
-      "url": "https://www.nuvemshop.com.br/blog/como-revisar-conteudo-gerado-por-ia-no-e-commerce/",
-      "fonte": "Nuvemshop",
-      "fonte_id": "nuvemshop"
+      "post_id": "369805844018354_1528733572607115",
+      "tipo": "feed",
+      "titulo": "Não quero mais que os humilhados sejam exaltados — by Pedro Vinicio",
+      "url": "https://braziljournal.com/nao-quero-mais-que-os-humilhados-sejam-exaltados-by-pedro-vinicio",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
-      "status": "publicado",
-      "post_id": "1247772158429331_122123080053485849",
-      "tipo": "feed",
-      "titulo": "&apos;Cara de ferritina&apos;: é possível detectar a falta de ferro no organismo pelo rosto?",
-      "url": "https://www1.folha.uol.com.br/equilibrio/2026/11/cara-de-ferritina-e-possivel-detectar-a-falta-de-ferro-no-organismo-pelo-rosto.shtml",
-      "fonte": "Folha Equilíbrio e Saúde",
-      "fonte_id": "folha-equilibrio"
+      "status": "sem_conteudo",
+      "fontes_com_erro": []
     },
     {
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122120424099486415",
+      "post_id": "1332730186586435_122120622183486415",
       "tipo": "photo",
-      "titulo": "Honda Racing volta a Cascavel com Eric Granado na disputa pelo título do MOTO1000GP",
-      "url": "https://motociclismoonline.com.br/competicoes/honda-racing-eric-granado-moto1000gp-cascavel/",
+      "titulo": "KTM 450 RC é nova esportiva bicilíndrica apresentada no EICMA",
+      "url": "https://motociclismoonline.com.br/noticias/ktm-450-rc-2028-esportiva-eicma/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +36,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122125965363476480",
-      "tipo": "feed",
-      "titulo": "Guardanapos no autosserviço: posição e reposição do suporte",
-      "url": "https://blog.precolandia.com.br/guardanapos-autosservico/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "post_id": "1402223216297975_122126195409476480",
+      "tipo": "photo",
+      "titulo": "Toalha nova não seca direito? Veja por que acontece e como resolver de vez o problema",
+      "url": "https://casa.abril.com.br/minha-casa/toalha-nova-nao-seca-veja-por-que-acontece-e-como-resolver-de-vez-o-problema/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }
