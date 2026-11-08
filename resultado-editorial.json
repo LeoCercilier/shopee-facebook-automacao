@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-07T17:51:53.191Z",
+  "gerado_em": "2026-11-08T18:05:08.644Z",
   "publicados": 3,
   "sem_conteudo": 1,
   "erros": 0,
@@ -8,12 +8,12 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1528733572607115",
-      "tipo": "feed",
-      "titulo": "Não quero mais que os humilhados sejam exaltados — by Pedro Vinicio",
-      "url": "https://braziljournal.com/nao-quero-mais-que-os-humilhados-sejam-exaltados-by-pedro-vinicio",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "post_id": "369805844018354_1529831775830628",
+      "tipo": "photo",
+      "titulo": "Como escolher uma plataforma de vendas online em 2027?",
+      "url": "https://www.nuvemshop.com.br/blog/plataforma-de-vendas-online/",
+      "fonte": "Nuvemshop",
+      "fonte_id": "nuvemshop"
     },
     {
       "page_id": "1247772158429331",
@@ -25,10 +25,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122120622183486415",
+      "post_id": "1332730186586435_122120833101486415",
       "tipo": "photo",
-      "titulo": "KTM 450 RC é nova esportiva bicilíndrica apresentada no EICMA",
-      "url": "https://motociclismoonline.com.br/noticias/ktm-450-rc-2028-esportiva-eicma/",
+      "titulo": "Qual a diferença da DR 160 para DK 160?",
+      "url": "https://motociclismoonline.com.br/noticias/qual-a-diferenca-da-suzuki-haojue-dr-160-para-dk-160/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -36,12 +36,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122126195409476480",
-      "tipo": "photo",
-      "titulo": "Toalha nova não seca direito? Veja por que acontece e como resolver de vez o problema",
-      "url": "https://casa.abril.com.br/minha-casa/toalha-nova-nao-seca-veja-por-que-acontece-e-como-resolver-de-vez-o-problema/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "post_id": "1402223216297975_122126453661476480",
+      "tipo": "feed",
+      "titulo": "Fruteira com andares: altura livre e acesso às frutas",
+      "url": "https://blog.precolandia.com.br/fruteira-andares/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }

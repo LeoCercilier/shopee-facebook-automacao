@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-07T17:51:53.190Z",
+  "atualizado_em": "2026-11-08T18:05:08.643Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1937,6 +1937,39 @@
       "titulo": "Toalha nova não seca direito? Veja por que acontece e como resolver de vez o problema",
       "post_id": "1402223216297975_122126195409476480",
       "publicado_em": "2026-11-07T17:51:53.190Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/plataforma-de-vendas-online/",
+      "titulo": "Como escolher uma plataforma de vendas online em 2027?",
+      "post_id": "369805844018354_1529831775830628",
+      "publicado_em": "2026-11-08T18:04:47.919Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/qual-a-diferenca-da-suzuki-haojue-dr-160-para-dk-160/",
+      "titulo": "Qual a diferença da DR 160 para DK 160?",
+      "post_id": "1332730186586435_122120833101486415",
+      "publicado_em": "2026-11-08T18:04:58.967Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "precolandia",
+      "fonte_nome": "Blog Preçolandia",
+      "url": "https://blog.precolandia.com.br/fruteira-andares/",
+      "titulo": "Fruteira com andares: altura livre e acesso às frutas",
+      "post_id": "1402223216297975_122126453661476480",
+      "publicado_em": "2026-11-08T18:05:08.643Z"
     }
   ]
 }
