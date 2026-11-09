@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-08T18:05:08.643Z",
+  "atualizado_em": "2026-11-09T22:41:57.137Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1970,6 +1970,39 @@
       "titulo": "Fruteira com andares: altura livre e acesso às frutas",
       "post_id": "1402223216297975_122126453661476480",
       "publicado_em": "2026-11-08T18:05:08.643Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "brazil-journal",
+      "fonte_nome": "Brazil Journal",
+      "url": "https://braziljournal.com/magalu-comeca-a-surfar-a-crise-das-casas-bahia",
+      "titulo": "Magalu começa a surfar a crise das Casas Bahia",
+      "post_id": "369805844018354_1531051865708619",
+      "publicado_em": "2026-11-09T22:41:39.838Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/yamaha-nmax-2027-lancamento-cor-detalhes-ficha-tecnica/",
+      "titulo": "Yamaha NMAX 2027 é lançado oficialmente com nova suspensão; veja detalhes",
+      "post_id": "1332730186586435_122121097455486415",
+      "publicado_em": "2026-11-09T22:41:49.081Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/ambientes/cozinha-bonita-mas-pouco-pratica-arquiteta-explica-erros-que-comprometem-a-funcionalidade/",
+      "titulo": "Cozinha bonita, mas pouco prática? Arquiteta explica erros que comprometem a funcionalidade:",
+      "post_id": "1402223216297975_122126751309476480",
+      "publicado_em": "2026-11-09T22:41:57.136Z"
     }
   ]
 }
