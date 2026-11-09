@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-08T18:24:11.525Z",
+  "atualizado_em": "2026-11-09T23:02:22.581Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1945,6 +1945,18 @@
       "titulo": "Tecnologia aplicada a negócios de forma simples",
       "post_id": "369805844018354_1529847442495728",
       "publicado_em": "2026-11-08T18:24:11.525Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/gde/building-railpulse-ai-deploying-an-open-source-railway-dispatch-agent-with-gemma-and-google-cloud-2b9g",
+      "chave": "https://dev.to/gde/building-railpulse-ai-deploying-an-open-source-railway-dispatch-agent-with-gemma-and-google-cloud-2b9g",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1531070235706782",
+      "publicado_em": "2026-11-09T23:02:22.581Z"
     }
   ]
 }
