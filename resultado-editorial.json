@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-09T22:41:57.137Z",
+  "gerado_em": "2026-11-10T20:00:34.765Z",
   "publicados": 3,
   "sem_conteudo": 1,
   "erros": 0,
@@ -8,12 +8,12 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1531051865708619",
-      "tipo": "photo",
-      "titulo": "Magalu começa a surfar a crise das Casas Bahia",
-      "url": "https://braziljournal.com/magalu-comeca-a-surfar-a-crise-das-casas-bahia",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "post_id": "369805844018354_1532020132278459",
+      "tipo": "feed",
+      "titulo": "Aprenda a transformar sua loja física em virtual",
+      "url": "https://sebraepr.com.br/aprenda-a-transformar-sua-loja-fisica-em-virtual/",
+      "fonte": "Sebrae/PR",
+      "fonte_id": "sebrae-pr"
     },
     {
       "page_id": "1247772158429331",
@@ -25,10 +25,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122121097455486415",
+      "post_id": "1332730186586435_122121326283486415",
       "tipo": "photo",
-      "titulo": "Yamaha NMAX 2027 é lançado oficialmente com nova suspensão; veja detalhes",
-      "url": "https://motociclismoonline.com.br/noticias/yamaha-nmax-2027-lancamento-cor-detalhes-ficha-tecnica/",
+      "titulo": "Benda Vinster 700 e X 700 estreiam com motor V2 de 73 cv",
+      "url": "https://motociclismoonline.com.br/noticias/benda-vinster-700-eicma/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -36,12 +36,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122126751309476480",
-      "tipo": "photo",
-      "titulo": "Cozinha bonita, mas pouco prática? Arquiteta explica erros que comprometem a funcionalidade:",
-      "url": "https://casa.abril.com.br/ambientes/cozinha-bonita-mas-pouco-pratica-arquiteta-explica-erros-que-comprometem-a-funcionalidade/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "post_id": "1402223216297975_122126988339476480",
+      "tipo": "feed",
+      "titulo": "Cabo de frigideira: pega, espaço no fogão e armazenamento",
+      "url": "https://blog.precolandia.com.br/cabo-de-frigideira/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }
