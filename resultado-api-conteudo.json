@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-09T23:02:27.185Z",
+  "gerado_em": "2026-11-10T20:30:17.242Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -7,14 +7,14 @@
       "pagina": "Marketing Tips",
       "status": "publicado",
       "stats": {
-        "coletados": 51,
-        "aprovados_fonte": 6,
-        "aprovados_texto": 6,
-        "rejeitados": 14,
+        "coletados": 52,
+        "aprovados_fonte": 8,
+        "aprovados_texto": 8,
+        "rejeitados": 12,
         "publicados": 1
       },
       "melhor_titulo": "Como a IA pode ajudar no dia a dia do negócio",
-      "score_fonte": 94,
+      "score_fonte": 90,
       "score_texto": 94,
       "tem_imagem": true
     },
