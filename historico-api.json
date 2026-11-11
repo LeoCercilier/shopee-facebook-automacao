@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-10T20:30:12.130Z",
+  "atualizado_em": "2026-11-11T20:15:52.509Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1969,6 +1969,18 @@
       "titulo": "Como a IA pode ajudar no dia a dia do negócio",
       "post_id": "369805844018354_1532038218943317",
       "publicado_em": "2026-11-10T20:30:12.130Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/vivek_shetye/i-tested-an-open-source-ai-agent-that-finds-customers-and-writes-personalized-sales-emails-39b7",
+      "chave": "https://dev.to/vivek_shetye/i-tested-an-open-source-ai-agent-that-finds-customers-and-writes-personalized-sales-emails-39b7",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1533142062166266",
+      "publicado_em": "2026-11-11T20:15:52.509Z"
     }
   ]
 }

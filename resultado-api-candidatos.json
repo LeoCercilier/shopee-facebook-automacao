@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-10T20:30:17.242Z",
+  "gerado_em": "2026-11-11T20:15:55.793Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "pontuacao_minima_fonte": 75,
@@ -11,9 +11,9 @@
       "status": "publicado",
       "stats": {
         "coletados": 52,
-        "aprovados_fonte": 8,
-        "aprovados_texto": 8,
-        "rejeitados": 12,
+        "aprovados_fonte": 13,
+        "aprovados_texto": 13,
+        "rejeitados": 7,
         "publicados": 1
       },
       "melhor": {
@@ -21,18 +21,19 @@
         "page_id": "369805844018354",
         "fonte": "DEV.to",
         "fonte_id": "devto",
-        "titulo_original": "Crows, Moths, and Makefiles: How 300 Megabytes of Crow DNA Explains Why a 20-Kilobyte Scar File Outsmarts a Terabyte LLM",
+        "titulo_original": "I Tested an Open-Source AI Agent That Finds Customers and Writes Personalized Sales Emails",
         "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-        "score_fonte": 90,
+        "score_fonte": 98,
         "score_texto": 94,
         "status": "aprovado",
-        "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
+        "motivo": "Conteúdo relevante e texto adequado (fonte 98, texto 94)",
         "motivos_fonte": [
           "+keyword no título (1)",
           "+keyword forte no título",
           "+keywords na descrição (2)",
           "+DEV.to (fonte prioritária)",
-          "+imagem"
+          "+imagem",
+          "+recente"
         ],
         "motivos_texto": [
           "+português detectado",
@@ -41,8 +42,8 @@
           "+tamanho adequado"
         ],
         "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-        "url_fonte_interna": "https://dev.to/gde/crows-moths-and-makefiles-how-300-megabytes-of-crow-dna-explains-why-a-20-kilobyte-scar-file-36a",
-        "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fp24lnbmzkhrdluxod8g5.jpg",
+        "url_fonte_interna": "https://dev.to/vivek_shetye/i-tested-an-open-source-ai-agent-that-finds-customers-and-writes-personalized-sales-emails-39b7",
+        "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fe8pjajsm9ohlh697k3q3.png",
         "link_no_post": false,
         "graph_extras": {
           "text_format_preset_id": null,
@@ -56,18 +57,19 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "Crows, Moths, and Makefiles: How 300 Megabytes of Crow DNA Explains Why a 20-Kilobyte Scar File Outsmarts a Terabyte LLM",
+          "titulo_original": "I Tested an Open-Source AI Agent That Finds Customers and Writes Personalized Sales Emails",
           "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 90,
+          "score_fonte": 98,
           "score_texto": 94,
           "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 98, texto 94)",
           "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
             "+keywords na descrição (2)",
             "+DEV.to (fonte prioritária)",
-            "+imagem"
+            "+imagem",
+            "+recente"
           ],
           "motivos_texto": [
             "+português detectado",
@@ -76,8 +78,8 @@
             "+tamanho adequado"
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/gde/crows-moths-and-makefiles-how-300-megabytes-of-crow-dna-explains-why-a-20-kilobyte-scar-file-36a",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fp24lnbmzkhrdluxod8g5.jpg",
+          "url_fonte_interna": "https://dev.to/vivek_shetye/i-tested-an-open-source-ai-agent-that-finds-customers-and-writes-personalized-sales-emails-39b7",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fe8pjajsm9ohlh697k3q3.png",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -90,7 +92,75 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "Why Telling an LLM to Be Careful Doesn't Work: Penalty Prompts Had a 0% Abstention Rate",
+          "titulo_original": "We Keep Hearing About AI Productivity. The QA Group Chat Told a Different Story.",
+          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
+          "score_fonte": 90,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (2)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://dev.to/xulingfeng/we-keep-hearing-about-ai-productivity-the-qa-group-chat-told-a-different-story-2nma",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjm7bc53mhi6cxl48ue89.png",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "I Gave My Startup 6 AI Employees. They Talked More Than They Worked.",
+          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
+          "score_fonte": 90,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (2)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://dev.to/elliot_brenya/i-gave-my-startup-6-ai-employees-they-talked-more-than-they-worked-480p",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F015ls37w05uily4t1619.png",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "I can build the product with AI. Getting the first users is harder.",
           "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
           "score_fonte": 90,
           "score_texto": 94,
@@ -110,8 +180,8 @@
             "+tamanho adequado"
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/fgrandon/why-telling-an-llm-to-be-careful-doesnt-work-penalty-prompts-had-a-0-abstention-rate-49ij",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2FFranciscoGrandon%2Festudios-alucinaciones-llm%2Frefs%2Fheads%2Fmain%2Fimage_top.jpeg",
+          "url_fonte_interna": "https://dev.to/playfulprogramming/i-can-build-the-product-with-ai-getting-the-first-users-is-harder-1pap",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqxcc4r6ahup0105csi7o.png",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -124,18 +194,18 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "Edge SpAIce Shows How Onboard AI Can Detect Marine Litter From Orbit",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 86,
+          "titulo_original": "Your Startup Doesn't Need Everyone. It Needs the Right Niche",
+          "titulo_adaptado": "O que o mercado de startups está mostrando agora",
+          "score_fonte": 90,
           "score_texto": 94,
           "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 86, texto 94)",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
           "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
-            "+keywords na descrição (1)",
             "+DEV.to (fonte prioritária)",
-            "+imagem"
+            "+imagem",
+            "+recente"
           ],
           "motivos_texto": [
             "+português detectado",
@@ -143,9 +213,77 @@
             "+fonte alinhada ao nicho",
             "+tamanho adequado"
           ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/alifar/edge-spaice-shows-how-onboard-ai-can-detect-marine-litter-from-orbit-556a",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fscalevise.com%2Fresources%2Fcontent%2Fimages%2F2026%2F11%2Fedge-spaice-onboard-ai-marine-litter-detection.webp",
+          "texto_final": "💡 Insight de tecnologia\n\nO ecossistema de startups segue em movimento. Para quem empreende ou vende online, acompanhar essas mudanças ajuda a enxergar oportunidades de produto e marketing. Guardar uma ideia por vez e aplicar na prática costuma render mais do que acumular tendências.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://dev.to/startupcafe/your-startup-doesnt-need-everyone-it-needs-the-right-niche-2mbf",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2eb9o9tlf20coeqaqggs.png",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "Your Startup Doesn't Need Everyone. It Needs the Right Niche",
+          "titulo_adaptado": "O que o mercado de startups está mostrando agora",
+          "score_fonte": 90,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nO ecossistema de startups segue em movimento. Para quem empreende ou vende online, acompanhar essas mudanças ajuda a enxergar oportunidades de produto e marketing. Guardar uma ideia por vez e aplicar na prática costuma render mais do que acumular tendências.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://dev.to/startupcafe/your-startup-doesnt-need-everyone-it-needs-the-right-niche-2mbf",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2eb9o9tlf20coeqaqggs.png",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "Why Founders Struggle With Marketing (And How I'm Trying to Fix It)",
+          "titulo_adaptado": "Uma ideia prática de marketing digital",
+          "score_fonte": 90,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nNo marketing digital e no e-commerce, pequenas melhorias de processo e comunicação costumam gerar mais resultado do que grandes mudanças de uma só vez. Medir uma métrica simples (clique, resposta ou venda) costuma valer mais do que várias campanhas soltas.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://dev.to/senthil_kumar/why-founders-struggle-with-marketing-and-how-im-trying-to-fix-it-1mo8",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpecbylp56446kyehrz9w.png",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -191,73 +329,7 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "CSV Import Preview: Show Which Rows Will Change in Your Public SaaS Demo",
-          "titulo_adaptado": "Tecnologia aplicada a negócios de forma simples",
-          "score_fonte": 82,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 82, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+DEV.to (fonte prioritária)",
-            "+imagem"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nTecnologia aplicada a negócios de forma simples. Uma provocação útil para quem acompanha negócios digitais e quer aplicar tecnologia de forma prática. Guardar uma ideia por vez e aplicar na prática costuma render mais do que acumular tendências.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/urielbitton/csv-import-preview-show-which-rows-will-change-in-your-public-saas-demo-50h1",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7gqzwmr3uartd1dzo36f.png",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "Prisma Accelerate Retires December 1: A SaaS Migration Guide",
-          "titulo_adaptado": "Tecnologia aplicada a negócios de forma simples",
-          "score_fonte": 82,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 82, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+DEV.to (fonte prioritária)",
-            "+imagem"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nTecnologia aplicada a negócios de forma simples. Uma provocação útil para quem acompanha negócios digitais e quer aplicar tecnologia de forma prática. Guardar uma ideia por vez e aplicar na prática costuma render mais do que acumular tendências.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/somnath_khadanga_2e5c2364/prisma-accelerate-retires-december-1-a-saas-migration-guide-2ch6",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F305brwbazj3tvbmqxf4s.png",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "Can AI Make Online Forms Less Painful? Here's What We're Building.",
+          "titulo_original": "Why Telling an LLM to Be Careful Doesn't Work: Penalty Prompts Had a 0% Abstention Rate",
           "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
           "score_fonte": 82,
           "score_texto": 94,
@@ -276,8 +348,8 @@
             "+tamanho adequado"
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/digitalwareshub/im-building-talking-links-a-different-approach-to-online-forms-2pdb",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fv170zeli748no7qhepmd.png",
+          "url_fonte_interna": "https://dev.to/fgrandon/why-telling-an-llm-to-be-careful-doesnt-work-penalty-prompts-had-a-0-abstention-rate-49ij",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2FFranciscoGrandon%2Festudios-alucinaciones-llm%2Frefs%2Fheads%2Fmain%2Fimage_top.jpeg",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -290,8 +362,8 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "EU Finds TikTok’s Addictive Design May Breach the DSA, Signaling Marketing Changes",
-          "titulo_adaptado": "Uma ideia prática de marketing digital",
+          "titulo_original": "How to write a tagline for your startup that a stranger gets on the first read",
+          "titulo_adaptado": "O que o mercado de startups está mostrando agora",
           "score_fonte": 82,
           "score_texto": 94,
           "status": "aprovado",
@@ -308,9 +380,9 @@
             "+fonte alinhada ao nicho",
             "+tamanho adequado"
           ],
-          "texto_final": "💡 Insight de tecnologia\n\nNo marketing digital e no e-commerce, pequenas melhorias de processo e comunicação costumam gerar mais resultado do que grandes mudanças de uma só vez. Medir uma métrica simples (clique, resposta ou venda) costuma valer mais do que várias campanhas soltas.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/alifar/eu-finds-tiktoks-addictive-design-may-breach-the-dsa-signaling-marketing-changes-262f",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fscalevise.com%2Fresources%2Fcontent%2Fimages%2F2026%2F11%2Feu-tiktok-addictive-design-dsa-preliminary-finding.webp",
+          "texto_final": "💡 Insight de tecnologia\n\nO ecossistema de startups segue em movimento. Para quem empreende ou vende online, acompanhar essas mudanças ajuda a enxergar oportunidades de produto e marketing. Guardar uma ideia por vez e aplicar na prática costuma render mais do que acumular tendências.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://dev.to/spran1/how-to-write-a-tagline-for-your-startup-that-a-stranger-gets-on-the-first-read-n4j",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0rhqh6l5sqs4yxi5u8kg.jpg",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -323,14 +395,113 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "I gave my social media scheduler an MCP server. Here's what I learned building it.",
+          "titulo_original": "Building Marlo: An Open-Source AI CMO for Founders and Startups",
+          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
+          "score_fonte": 82,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 82, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+DEV.to (fonte prioritária)",
+            "+imagem"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://dev.to/senthil_kumar/building-marlo-an-open-source-ai-cmo-for-founders-and-startups-18a4",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fn6lf2d904r9x6u50dk1g.png",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "Retirement Savings Are Fueling the AI Bubble",
+          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
+          "score_fonte": 75,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+HN secundário",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: Hacker News\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
+          "imagem": "",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
+          "score_fonte": 75,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+HN secundário",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: Hacker News\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://pietromiotti.com/latest/maya-site/?maya",
+          "imagem": "",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "I tried to connect Varanasi's local shops to customers, gave up, then found a smaller problem worth solving",
           "titulo_adaptado": null,
           "score_fonte": 36,
           "score_texto": null,
           "status": "rejeitado",
           "motivo": "Score da fonte 36 < 75. +keywords na descrição (1); +DEV.to (fonte prioritária)",
           "texto_final": null,
-          "url_fonte_interna": "https://dev.to/annie_yang_5d8d95f1dcf2ff/i-gave-my-social-media-scheduler-an-mcp-server-heres-what-i-learned-building-it-2332",
+          "url_fonte_interna": "https://dev.to/saurabh_pathak394/i-tried-to-connect-varanasis-local-shops-to-customers-gave-up-then-found-a-smaller-problem-worth-3em0",
           "imagem": "",
           "graph_extras": null
         },
@@ -355,14 +526,14 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "A Word List Tied the Model",
+          "titulo_original": "Ask More of Your UI",
           "titulo_adaptado": null,
           "score_fonte": 32,
           "score_texto": null,
           "status": "rejeitado",
           "motivo": "Score da fonte 32 < 75. +DEV.to (fonte prioritária); +imagem",
           "texto_final": null,
-          "url_fonte_interna": "https://dev.to/kenwalger/a-word-list-tied-the-model-213o",
+          "url_fonte_interna": "https://dev.to/dailycontext/ask-more-of-your-ui-2nf7",
           "imagem": "",
           "graph_extras": null
         },
@@ -371,14 +542,14 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "Absence of confirmation is the signal: closing the inbox loop on a form monitor (week 2)",
+          "titulo_original": "I pointed Claude Code at 338 launch directories. It submitted 285 of them.",
           "titulo_adaptado": null,
           "score_fonte": 32,
           "score_texto": null,
           "status": "rejeitado",
           "motivo": "Score da fonte 32 < 75. +DEV.to (fonte prioritária); +imagem",
           "texto_final": null,
-          "url_fonte_interna": "https://dev.to/zef_builds/absence-of-confirmation-is-the-signal-closing-the-inbox-loop-on-a-form-monitor-week-2-5aai",
+          "url_fonte_interna": "https://dev.to/ashish_sikka/i-pointed-claude-code-at-338-launch-directories-it-submitted-285-of-them-27h5",
           "imagem": "",
           "graph_extras": null
         },
@@ -387,30 +558,14 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "Our Looping Factory Cut DEV Page Load Time by 75% and Counting",
+          "titulo_original": "Designing a Privacy-First Booking Flow for a Two-Sided Marketplace",
           "titulo_adaptado": null,
           "score_fonte": 32,
           "score_texto": null,
           "status": "rejeitado",
           "motivo": "Score da fonte 32 < 75. +DEV.to (fonte prioritária); +imagem",
           "texto_final": null,
-          "url_fonte_interna": "https://dev.to/dailycontext/our-looping-factory-cut-dev-page-load-time-by-75-and-counting-1hnf",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "n8n to Show Microsoft Foundry-Powered Agent Workflows at Ignite 2026",
-          "titulo_adaptado": null,
-          "score_fonte": 32,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 32 < 75. +DEV.to (fonte prioritária); +imagem",
-          "texto_final": null,
-          "url_fonte_interna": "https://dev.to/alifar/n8n-to-show-microsoft-foundry-powered-agent-workflows-at-ignite-2026-4902",
+          "url_fonte_interna": "https://dev.to/fencespace/designing-a-privacy-first-booking-flow-for-a-two-sided-marketplace-33id",
           "imagem": "",
           "graph_extras": null
         },
@@ -427,22 +582,6 @@
           "motivo": "Score da fonte 24 < 75. +DEV.to (fonte prioritária); +imagem",
           "texto_final": null,
           "url_fonte_interna": "https://dev.to/devteam/congrats-to-the-kaggle-benchmarking-challenge-winners-2moh",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "That's a Wrap on Hacktoberfest 2026! 🎃👻",
-          "titulo_adaptado": null,
-          "score_fonte": 24,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 24 < 75. +DEV.to (fonte prioritária); +imagem",
-          "texto_final": null,
-          "url_fonte_interna": "https://dev.to/devteam/thats-a-wrap-on-hacktoberfest-2026-148k",
           "imagem": "",
           "graph_extras": null
         },
@@ -459,54 +598,6 @@
           "motivo": "Score da fonte 24 < 75. +DEV.to (fonte prioritária); +imagem",
           "texto_final": null,
           "url_fonte_interna": "https://dev.to/dannwaneri/dont-write-markdown-files-for-your-coding-agent-write-scripts-j00",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "Congrats to the Kaggle Benchmarking Challenge Winners!",
-          "titulo_adaptado": null,
-          "score_fonte": 24,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 24 < 75. +DEV.to (fonte prioritária); +imagem",
-          "texto_final": null,
-          "url_fonte_interna": "https://dev.to/devteam/congrats-to-the-kaggle-benchmarking-challenge-winners-2moh",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "[Part 3] Your first steps in Computer Vision on AWS: deploying models for an ASL recognition app",
-          "titulo_adaptado": null,
-          "score_fonte": 24,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 24 < 75. +DEV.to (fonte prioritária); +imagem",
-          "texto_final": null,
-          "url_fonte_interna": "https://dev.to/aws-builders/part-3-your-first-steps-in-computer-vision-on-aws-deploying-models-for-an-asl-recognition-app-14hf",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "We built our own inference engine and put it up against vLLM and SGLang on four models and three kinds of GPU.",
-          "titulo_adaptado": null,
-          "score_fonte": 24,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 24 < 75. +DEV.to (fonte prioritária); +imagem",
-          "texto_final": null,
-          "url_fonte_interna": "https://dev.to/jon_at_backboardio/we-built-our-own-inference-engine-and-put-it-up-against-vllm-and-sglang-on-four-models-and-three-12b",
           "imagem": "",
           "graph_extras": null
         }
@@ -558,7 +649,7 @@
           "page_id": "1402223216297975",
           "fonte": "Open-Meteo",
           "fonte_id": "open-meteo",
-          "titulo_original": "Clima em Sao Paulo: 19.5C, principalmente limpo",
+          "titulo_original": "Clima em Sao Paulo: 22.7C, principalmente limpo",
           "titulo_adaptado": null,
           "score_fonte": 8,
           "score_texto": null,
