@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-11T19:52:23.830Z",
+  "atualizado_em": "2026-11-12T20:26:57.156Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2069,6 +2069,39 @@
       "titulo": "Apartamento com vista linda para a copa das árvores tem painel de marcenaria ebanizada no living",
       "post_id": "1402223216297975_122127255507476480",
       "publicado_em": "2026-11-11T19:52:23.830Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "sebrae-pr",
+      "fonte_nome": "Sebrae/PR",
+      "url": "https://sebraepr.com.br/conheca-os-empresarios-que-ja-cresceram-e-aumentaram-sua-empresa/",
+      "titulo": "Conheça os empresários que já cresceram e aumentaram sua empresa",
+      "post_id": "369805844018354_1534234465390359",
+      "publicado_em": "2026-11-12T20:26:36.117Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/shineray-vendas-janeiro-outubro-brasil-recordes/",
+      "titulo": "Shineray cresce 11% em 2026 e bate recordes de emplacamentos em dois estados",
+      "post_id": "1332730186586435_122121819009486415",
+      "publicado_em": "2026-11-12T20:26:46.718Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "precolandia",
+      "fonte_nome": "Blog Preçolandia",
+      "url": "https://blog.precolandia.com.br/como-limpar-sulcos-frigideira-grill/",
+      "titulo": "Como limpar os sulcos da frigideira grill",
+      "post_id": "1402223216297975_122127504669476480",
+      "publicado_em": "2026-11-12T20:26:57.156Z"
     }
   ]
 }

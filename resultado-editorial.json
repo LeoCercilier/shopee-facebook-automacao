@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-11T19:52:23.831Z",
+  "gerado_em": "2026-11-12T20:26:57.157Z",
   "publicados": 3,
   "sem_conteudo": 1,
   "erros": 0,
@@ -8,12 +8,12 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1533126742167798",
-      "tipo": "photo",
-      "titulo": "Não só o aço: siderúrgicas querem tarifar carros e eletrodomésticos da China",
-      "url": "https://braziljournal.com/nao-so-o-aco-siderurgicas-querem-tarifar-carros-e-eletrodomesticos-da-china",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "post_id": "369805844018354_1534234465390359",
+      "tipo": "feed",
+      "titulo": "Conheça os empresários que já cresceram e aumentaram sua empresa",
+      "url": "https://sebraepr.com.br/conheca-os-empresarios-que-ja-cresceram-e-aumentaram-sua-empresa/",
+      "fonte": "Sebrae/PR",
+      "fonte_id": "sebrae-pr"
     },
     {
       "page_id": "1247772158429331",
@@ -25,10 +25,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122121570753486415",
+      "post_id": "1332730186586435_122121819009486415",
       "tipo": "photo",
-      "titulo": "Produção de motos chega a 1,83 milhão de unidades, melhor resultado em 15 anos",
-      "url": "https://motociclismoonline.com.br/noticias/industria-motos-melhor-resultado-15-anos/",
+      "titulo": "Shineray cresce 11% em 2026 e bate recordes de emplacamentos em dois estados",
+      "url": "https://motociclismoonline.com.br/noticias/shineray-vendas-janeiro-outubro-brasil-recordes/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -36,12 +36,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122127255507476480",
-      "tipo": "photo",
-      "titulo": "Apartamento com vista linda para a copa das árvores tem painel de marcenaria ebanizada no living",
-      "url": "https://casa.abril.com.br/casas-apartamentos/apartamento-com-vista-linda-para-a-copa-das-arvores-tem-painel-de-marcenaria-ebanizada-no-living/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "post_id": "1402223216297975_122127504669476480",
+      "tipo": "feed",
+      "titulo": "Como limpar os sulcos da frigideira grill",
+      "url": "https://blog.precolandia.com.br/como-limpar-sulcos-frigideira-grill/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }
