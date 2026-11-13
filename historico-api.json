@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-12T20:58:10.407Z",
+  "atualizado_em": "2026-11-13T20:32:44.408Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -1993,6 +1993,18 @@
       "titulo": "Tecnologia aplicada a negócios de forma simples",
       "post_id": "369805844018354_1534263065387499",
       "publicado_em": "2026-11-12T20:58:10.407Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/javz/ai-is-getting-better-here-is-my-plan-to-stay-ahead-2822",
+      "chave": "https://dev.to/javz/ai-is-getting-better-here-is-my-plan-to-stay-ahead-2822",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1535351291945343",
+      "publicado_em": "2026-11-13T20:32:44.408Z"
     }
   ]
 }

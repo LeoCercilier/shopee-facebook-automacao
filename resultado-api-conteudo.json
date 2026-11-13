@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-12T20:58:14.589Z",
+  "gerado_em": "2026-11-13T20:32:58.945Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -8,12 +8,12 @@
       "status": "publicado",
       "stats": {
         "coletados": 60,
-        "aprovados_fonte": 9,
-        "aprovados_texto": 9,
-        "rejeitados": 11,
+        "aprovados_fonte": 16,
+        "aprovados_texto": 16,
+        "rejeitados": 4,
         "publicados": 1
       },
-      "melhor_titulo": "Tecnologia aplicada a negócios de forma simples",
+      "melhor_titulo": "Como a IA pode ajudar no dia a dia do negócio",
       "score_fonte": 94,
       "score_texto": 94,
       "tem_imagem": true
@@ -52,10 +52,10 @@
       "pagina": "Casa & Conforto Utilidades",
       "status": "sem_conteudo_qualificado",
       "stats": {
-        "coletados": 1,
+        "coletados": 0,
         "aprovados_fonte": 0,
         "aprovados_texto": 0,
-        "rejeitados": 1,
+        "rejeitados": 0,
         "publicados": 0
       },
       "melhor_titulo": null,
