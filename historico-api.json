@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-13T20:32:44.408Z",
+  "atualizado_em": "2026-11-14T18:46:56.230Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2005,6 +2005,18 @@
       "titulo": "Como a IA pode ajudar no dia a dia do negócio",
       "post_id": "369805844018354_1535351291945343",
       "publicado_em": "2026-11-13T20:32:44.408Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/annavi11arrea1/ultimate-ai-roast-168b",
+      "chave": "https://dev.to/annavi11arrea1/ultimate-ai-roast-168b",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1536452415168564",
+      "publicado_em": "2026-11-14T18:46:56.230Z"
     }
   ]
 }
