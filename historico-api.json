@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-14T18:46:56.230Z",
+  "atualizado_em": "2026-11-15T19:24:42.129Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2017,6 +2017,18 @@
       "titulo": "Como a IA pode ajudar no dia a dia do negócio",
       "post_id": "369805844018354_1536452415168564",
       "publicado_em": "2026-11-14T18:46:56.230Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/bcncodeschool/how-to-build-an-ai-membership-and-class-booking-agent-for-a-gym-4mnb",
+      "chave": "https://dev.to/bcncodeschool/how-to-build-an-ai-membership-and-class-booking-agent-for-a-gym-4mnb",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1537729988374140",
+      "publicado_em": "2026-11-15T19:24:42.129Z"
     }
   ]
 }
