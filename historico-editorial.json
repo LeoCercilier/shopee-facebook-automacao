@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-14T18:30:00.729Z",
+  "atualizado_em": "2026-11-15T19:06:29.243Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2179,6 +2179,39 @@
       "titulo": "Tesoura de cozinha: como limpar a articulação",
       "post_id": "1402223216297975_122127980751476480",
       "publicado_em": "2026-11-14T18:30:00.729Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "nuvemshop",
+      "fonte_nome": "Nuvemshop",
+      "url": "https://www.nuvemshop.com.br/blog/nuvemshop-ou-magazord/",
+      "titulo": "Nuvemshop ou Magazord: qual a melhor para grandes operações?",
+      "post_id": "369805844018354_1537718285041977",
+      "publicado_em": "2026-11-15T19:06:12.497Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/kawasaki-z300-2027-nova-naked-chega-ao-brasil-por-r-29-460/",
+      "titulo": "Kawasaki Z300 2027: nova naked chega ao Brasil por R$ 29.460",
+      "post_id": "1332730186586435_122122484343486415",
+      "publicado_em": "2026-11-15T19:06:20.940Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/casas-apartamentos/reforma-de-apartamento-reposiciona-suite-principal-na-fachada-frontal-para-aproveitar-a-linda-vista-para-o-mar/",
+      "titulo": "Reforma de apartamento reposiciona suíte principal na fachada frontal para aproveitar a linda vista para o mar",
+      "post_id": "1402223216297975_122128228701476480",
+      "publicado_em": "2026-11-15T19:06:29.243Z"
     }
   ]
 }
