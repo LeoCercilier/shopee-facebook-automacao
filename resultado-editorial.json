@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-15T19:06:29.244Z",
+  "gerado_em": "2026-11-16T22:30:30.857Z",
   "publicados": 3,
   "sem_conteudo": 1,
   "erros": 0,
@@ -8,12 +8,12 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1537718285041977",
+      "post_id": "369805844018354_1539047468242392",
       "tipo": "photo",
-      "titulo": "Nuvemshop ou Magazord: qual a melhor para grandes operações?",
-      "url": "https://www.nuvemshop.com.br/blog/nuvemshop-ou-magazord/",
-      "fonte": "Nuvemshop",
-      "fonte_id": "nuvemshop"
+      "titulo": "Não é um tesouraço. É um tributaço",
+      "url": "https://braziljournal.com/nao-e-um-tesouraco-e-um-tributaco",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
     },
     {
       "page_id": "1247772158429331",
@@ -25,10 +25,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122122484343486415",
+      "post_id": "1332730186586435_122122726095486415",
       "tipo": "photo",
-      "titulo": "Kawasaki Z300 2027: nova naked chega ao Brasil por R$ 29.460",
-      "url": "https://motociclismoonline.com.br/noticias/kawasaki-z300-2027-nova-naked-chega-ao-brasil-por-r-29-460/",
+      "titulo": "Suzuki chega a 100 milhões de motos e quadriciclos produzidos no mundo",
+      "url": "https://motociclismoonline.com.br/noticias/suzuki-100-milhoes-motos-quadriciclos-producao-global-acumulada/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -36,12 +36,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122128228701476480",
-      "tipo": "photo",
-      "titulo": "Reforma de apartamento reposiciona suíte principal na fachada frontal para aproveitar a linda vista para o mar",
-      "url": "https://casa.abril.com.br/casas-apartamentos/reforma-de-apartamento-reposiciona-suite-principal-na-fachada-frontal-para-aproveitar-a-linda-vista-para-o-mar/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "post_id": "1402223216297975_122128512867476480",
+      "tipo": "feed",
+      "titulo": "Porta-copos: como comparar o diâmetro com a base do copo",
+      "url": "https://blog.precolandia.com.br/porta-copos-diametro-base-area-util/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }
