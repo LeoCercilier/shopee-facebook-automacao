@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-16T22:56:36.561Z",
+  "atualizado_em": "2026-11-17T21:49:52.302Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2041,6 +2041,18 @@
       "titulo": "Como a IA pode ajudar no dia a dia do negócio",
       "post_id": "369805844018354_1539061994907606",
       "publicado_em": "2026-11-16T22:56:36.561Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/webdeveloperhyper/ai-avatar-v28-security-support-voxel-avatar-2i5i",
+      "chave": "https://dev.to/webdeveloperhyper/ai-avatar-v28-security-support-voxel-avatar-2i5i",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1539994444814361",
+      "publicado_em": "2026-11-17T21:49:52.302Z"
     }
   ]
 }
