@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-16T22:30:30.856Z",
+  "atualizado_em": "2026-11-17T21:20:22.355Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2245,6 +2245,39 @@
       "titulo": "Porta-copos: como comparar o diâmetro com a base do copo",
       "post_id": "1402223216297975_122128512867476480",
       "publicado_em": "2026-11-16T22:30:30.856Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "sebrae-pr",
+      "fonte_nome": "Sebrae/PR",
+      "url": "https://sebraepr.com.br/como-vender-produtos-importados-no-brasil-e-vender-no-exterior/",
+      "titulo": "Como vender produtos importados no Brasil e vender no exterior",
+      "post_id": "369805844018354_1539973338149805",
+      "publicado_em": "2026-11-17T21:20:01.130Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/moto-morini-planeja-expansao-da-rede-para-2027/",
+      "titulo": "Moto Morini planeja expansão da rede para 2027",
+      "post_id": "1332730186586435_122122936053486415",
+      "publicado_em": "2026-11-17T21:20:12.857Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/casas-apartamentos/arquiteta-renova-sua-casa-de-praia-em-buzios-para-ser-um-refugio-conectado-ao-jardim/",
+      "titulo": "Arquiteta renova sua casa de praia em Búzios para ser um refúgio conectado ao jardim",
+      "post_id": "1402223216297975_122128747203476480",
+      "publicado_em": "2026-11-17T21:20:22.355Z"
     }
   ]
 }
