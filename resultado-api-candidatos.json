@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-17T21:50:07.426Z",
+  "gerado_em": "2026-11-18T21:29:05.027Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "pontuacao_minima_fonte": 75,
@@ -10,10 +10,10 @@
       "page_id": "369805844018354",
       "status": "publicado",
       "stats": {
-        "coletados": 51,
-        "aprovados_fonte": 12,
-        "aprovados_texto": 12,
-        "rejeitados": 8,
+        "coletados": 36,
+        "aprovados_fonte": 6,
+        "aprovados_texto": 6,
+        "rejeitados": 14,
         "publicados": 1
       },
       "melhor": {
@@ -21,7 +21,7 @@
         "page_id": "369805844018354",
         "fonte": "DEV.to",
         "fonte_id": "devto",
-        "titulo_original": "AI Avatar v28 (Security Support, Voxel Avatar)🛡️",
+        "titulo_original": "Is Coding with AI Actually Faster and Cheaper?",
         "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
         "score_fonte": 94,
         "score_texto": 94,
@@ -42,8 +42,8 @@
           "+tamanho adequado"
         ],
         "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-        "url_fonte_interna": "https://dev.to/webdeveloperhyper/ai-avatar-v28-security-support-voxel-avatar-2i5i",
-        "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1p4kxontmb681a8hynvf.png",
+        "url_fonte_interna": "https://dev.to/sylwia-lask/is-coding-with-ai-actually-faster-and-cheaper-2810",
+        "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fh2u8fbzz30f3587urp83.png",
         "link_no_post": false,
         "graph_extras": {
           "text_format_preset_id": null,
@@ -57,7 +57,7 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "AI Avatar v28 (Security Support, Voxel Avatar)🛡️",
+          "titulo_original": "Is Coding with AI Actually Faster and Cheaper?",
           "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
           "score_fonte": 94,
           "score_texto": 94,
@@ -78,8 +78,8 @@
             "+tamanho adequado"
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/webdeveloperhyper/ai-avatar-v28-security-support-voxel-avatar-2i5i",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1p4kxontmb681a8hynvf.png",
+          "url_fonte_interna": "https://dev.to/sylwia-lask/is-coding-with-ai-actually-faster-and-cheaper-2810",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fh2u8fbzz30f3587urp83.png",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -92,42 +92,7 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "AI Made \"Viable\" Cheap. Your Customers Still Pay for \"Valuable.\"",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 94,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 94, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+DEV.to (fonte prioritária)",
-            "+imagem",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/debashish_ghosal/ai-made-viable-cheap-your-customers-still-pay-for-valuable-1gho",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ficimuvf7hdpk8n8u9b6o.jpg",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "My AI agent kept quoting a number I had already corrected. What has yours remembered wrong?",
+          "titulo_original": "Beyond Fixed Probes: Making LLM API Evaluation Harder to Game",
           "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
           "score_fonte": 90,
           "score_texto": 94,
@@ -147,144 +112,8 @@
             "+tamanho adequado"
           ],
           "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/heinrichneb/my-ai-agent-kept-quoting-a-number-i-had-already-corrected-what-has-yours-remembered-wrong-34d0",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4cwto9v5xn9emamdwcf0.jpg",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "Give Your Voice Agent Hands: Let It Act Across Sales and Marketing",
-          "titulo_adaptado": "Uma ideia prática de marketing digital",
-          "score_fonte": 90,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+DEV.to (fonte prioritária)",
-            "+imagem",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nNo marketing digital e no e-commerce, pequenas melhorias de processo e comunicação costumam gerar mais resultado do que grandes mudanças de uma só vez. Medir uma métrica simples (clique, resposta ou venda) costuma valer mais do que várias campanhas soltas.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/therealmrmumba/give-your-voice-agent-hands-let-it-act-across-sales-and-marketing-fn2",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkvo8qiwufayhjafzv3t0.png",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "You launched your AI dev tool on Product Hunt. Now what?",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 90,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+DEV.to (fonte prioritária)",
-            "+imagem",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/idoshamun/you-launched-your-ai-dev-tool-on-product-hunt-now-what-4nib",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Feq7ihwicznedlir9t674.png",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "Before you sign: seven questions for the vendor who offers you AI for €80,000",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 90,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 90, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+DEV.to (fonte prioritária)",
-            "+imagem",
-            "+recente"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/unlocked-consulting/before-you-sign-seven-questions-for-the-vendor-who-offers-you-ai-for-eu80000-18p2",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fassets.unlockedconsulting.ai%2Fblog%2Fheroes%2F5s3PZvC3U6Djfxpc.png",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "Your MCP Servers Are Silently Draining Your Context Window: The Hidden Cost of Tool-Heavy AI Agents",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 86,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 86, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+keywords na descrição (1)",
-            "+DEV.to (fonte prioritária)",
-            "+imagem"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/necoz/your-mcp-servers-are-silently-draining-your-context-window-the-hidden-cost-of-tool-heavy-ai-agents-fkl",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa20dm7o9oqkdd8zvyns3.jpg",
+          "url_fonte_interna": "https://dev.to/okenai_1ec49d66dbe8d17916/beyond-fixed-probes-making-llm-api-evaluation-harder-to-game-381d",
+          "imagem": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fm3uyrayn011kxxrs52yc.png",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -330,39 +159,6 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "We Keep Hearing About AI Productivity. The QA Group Chat Told a Different Story.",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 82,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 82, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (2)",
-            "+keyword forte no título",
-            "+DEV.to (fonte prioritária)",
-            "+imagem"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/xulingfeng/we-keep-hearing-about-ai-productivity-the-qa-group-chat-told-a-different-story-2nma",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjm7bc53mhi6cxl48ue89.png",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
           "titulo_original": "Why Your 19.5GB LLM Crawls on 24GB VRAM (The KV Cache Fix)",
           "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
           "score_fonte": 82,
@@ -394,19 +190,19 @@
         {
           "pagina": "Marketing Tips",
           "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "Napsha: Testing a Claude Skill for Open Inquiry into AI Subjectivity",
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "AI agents ask better questions than KPMG accountants in audit trial",
           "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 82,
+          "score_fonte": 75,
           "score_texto": 94,
           "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 82, texto 94)",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 94)",
           "motivos_fonte": [
             "+keyword no título (1)",
             "+keyword forte no título",
-            "+DEV.to (fonte prioritária)",
-            "+imagem"
+            "+HN secundário",
+            "+recente"
           ],
           "motivos_texto": [
             "+português detectado",
@@ -414,42 +210,9 @@
             "+fonte alinhada ao nicho",
             "+tamanho adequado"
           ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/toxy4ny/napsha-testing-a-claude-skill-for-open-inquiry-into-ai-subjectivity-1b79",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Futrkf10sb2lbqmykd7io.png",
-          "link_no_post": false,
-          "graph_extras": {
-            "text_format_preset_id": null,
-            "place": null,
-            "feeling": null
-          }
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
-          "titulo_original": "I Replaced My Product Hunt Launch Video Budget With an AI Agent",
-          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
-          "score_fonte": 82,
-          "score_texto": 94,
-          "status": "aprovado",
-          "motivo": "Conteúdo relevante e texto adequado (fonte 82, texto 94)",
-          "motivos_fonte": [
-            "+keyword no título (1)",
-            "+keyword forte no título",
-            "+DEV.to (fonte prioritária)",
-            "+imagem"
-          ],
-          "motivos_texto": [
-            "+português detectado",
-            "+linguagem acessível",
-            "+fonte alinhada ao nicho",
-            "+tamanho adequado"
-          ],
-          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: DEV.to\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
-          "url_fonte_interna": "https://dev.to/hoe_shilee_b3aa96e0da49e/i-replaced-my-product-hunt-launch-video-budget-with-an-ai-agent-l2k",
-          "imagem": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjhi5pi2arue6les0g2cx.png",
+          "texto_final": "💡 Insight de tecnologia\n\nA inteligência artificial está mudando a forma como empresas organizam tarefas, atendem clientes e analisam resultados. Na prática, escolher bem a ferramenta pode economizar tempo no dia a dia. Um bom ponto de partida é testar uma única tarefa repetitiva antes de automatizar tudo.\n\nFonte de inspiração: Hacker News\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+          "imagem": "",
           "link_no_post": false,
           "graph_extras": {
             "text_format_preset_id": null,
@@ -462,14 +225,47 @@
           "page_id": "369805844018354",
           "fonte": "Hacker News",
           "fonte_id": "hacker-news",
-          "titulo_original": "GPT‑6.2 Astra and Sol",
+          "titulo_original": "Advancing chip design with OpenAI models",
+          "titulo_adaptado": "Como a IA pode ajudar no dia a dia do negócio",
+          "score_fonte": 75,
+          "score_texto": 94,
+          "status": "aprovado",
+          "motivo": "Conteúdo relevante e texto adequado (fonte 75, texto 94)",
+          "motivos_fonte": [
+            "+keyword no título (1)",
+            "+keyword forte no título",
+            "+HN secundário",
+            "+recente"
+          ],
+          "motivos_texto": [
+            "+português detectado",
+            "+linguagem acessível",
+            "+fonte alinhada ao nicho",
+            "+tamanho adequado"
+          ],
+          "texto_final": "💡 Insight de tecnologia\n\nComo a IA pode ajudar no dia a dia do negócio. Uma provocação útil para quem acompanha negócios digitais e quer aplicar tecnologia de forma prática. Guardar uma ideia por vez e aplicar na prática costuma render mais do que acumular tendências.\n\nFonte de inspiração: Hacker News\n\nCurtiu? Siga Marketing Tips e acompanhe próximos conteúdos no seu feed.",
+          "url_fonte_interna": "https://openai.com/index/advancing-chip-design-with-our-models/",
+          "imagem": "",
+          "link_no_post": false,
+          "graph_extras": {
+            "text_format_preset_id": null,
+            "place": null,
+            "feeling": null
+          }
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "My email client runs my first ML classifier. It trains itself from my own keystrokes.",
           "titulo_adaptado": null,
-          "score_fonte": 35,
+          "score_fonte": 36,
           "score_texto": null,
           "status": "rejeitado",
-          "motivo": "Score da fonte 35 < 75. +keyword no título (1); +HN secundário",
+          "motivo": "Score da fonte 36 < 75. +keywords na descrição (1); +DEV.to (fonte prioritária)",
           "texto_final": null,
-          "url_fonte_interna": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "url_fonte_interna": "https://dev.to/reaver1000/my-email-client-runs-my-first-ml-classifier-it-trains-itself-from-my-own-keystrokes-30ki",
           "imagem": "",
           "graph_extras": null
         },
@@ -478,14 +274,14 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "Ghost Rovers: I Called 12 Machines NASA Left Behind. One Picked Up.",
+          "titulo_original": "The CodeNewbie Podcast is Back for Season 28!",
           "titulo_adaptado": null,
           "score_fonte": 32,
           "score_texto": null,
           "status": "rejeitado",
           "motivo": "Score da fonte 32 < 75. +DEV.to (fonte prioritária); +imagem",
           "texto_final": null,
-          "url_fonte_interna": "https://dev.to/earlgreyhot1701d/ghost-rovers-i-called-12-machines-nasa-left-behind-one-picked-up-2575",
+          "url_fonte_interna": "https://dev.to/codenewbie/the-codenewbie-podcast-is-back-for-season-28-2484",
           "imagem": "",
           "graph_extras": null
         },
@@ -526,22 +322,6 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "What broke when I ran 16 Claude Code sessions as a team",
-          "titulo_adaptado": null,
-          "score_fonte": 28,
-          "score_texto": null,
-          "status": "rejeitado",
-          "motivo": "Score da fonte 28 < 75. +keywords na descrição (1); +DEV.to (fonte prioritária)",
-          "texto_final": null,
-          "url_fonte_interna": "https://dev.to/james_boone/what-broke-when-i-ran-16-claude-code-sessions-as-a-team-5bdm",
-          "imagem": "",
-          "graph_extras": null
-        },
-        {
-          "pagina": "Marketing Tips",
-          "page_id": "369805844018354",
-          "fonte": "DEV.to",
-          "fonte_id": "devto",
           "titulo_original": "Long Live Rails",
           "titulo_adaptado": null,
           "score_fonte": 24,
@@ -558,14 +338,14 @@
           "page_id": "369805844018354",
           "fonte": "DEV.to",
           "fonte_id": "devto",
-          "titulo_original": "Ask More of Your UI",
+          "titulo_original": "Ghost Rovers: I Called 12 Machines NASA Left Behind. One Picked Up.",
           "titulo_adaptado": null,
           "score_fonte": 24,
           "score_texto": null,
           "status": "rejeitado",
           "motivo": "Score da fonte 24 < 75. +DEV.to (fonte prioritária); +imagem",
           "texto_final": null,
-          "url_fonte_interna": "https://dev.to/dailycontext/ask-more-of-your-ui-2nf7",
+          "url_fonte_interna": "https://dev.to/earlgreyhot1701d/ghost-rovers-i-called-12-machines-nasa-left-behind-one-picked-up-2575",
           "imagem": "",
           "graph_extras": null
         },
@@ -582,6 +362,118 @@
           "motivo": "Score da fonte 24 < 75. +DEV.to (fonte prioritária); +imagem",
           "texto_final": null,
           "url_fonte_interna": "https://dev.to/p0rt/five-of-my-eight-agents-left-out-the-same-caveat-a-vote-would-have-made-it-official-d5j",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "DEV.to",
+          "fonte_id": "devto",
+          "titulo_original": "My ML Feature Used the Wrong Unit. The Threshold Was 400x Too Large.",
+          "titulo_adaptado": null,
+          "score_fonte": 24,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 24 < 75. +DEV.to (fonte prioritária); +imagem",
+          "texto_final": null,
+          "url_fonte_interna": "https://dev.to/pavel_kkkkazantsev/my-ml-feature-used-the-wrong-unit-the-threshold-was-400x-too-large-4add",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "Unauthenticated remote code execution in Nginx",
+          "titulo_adaptado": null,
+          "score_fonte": 17,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 17 < 75. +HN secundário; +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "Seven new models at scalable price-performance",
+          "titulo_adaptado": null,
+          "score_fonte": 17,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 17 < 75. +HN secundário; +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://microsoft.ai/news/microsoft-ignite-2026/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "Inside Deutsche Bank",
+          "titulo_adaptado": null,
+          "score_fonte": 17,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 17 < 75. +HN secundário; +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.inside-db.com/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "DNS resolvers are the wrong place to fight piracy",
+          "titulo_adaptado": null,
+          "score_fonte": 17,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 17 < 75. +HN secundário; +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "DaisyRose-27B: 1,200-task RL took Qwen3.8 from 5.6% to 12% on Terminal-Bench 4.1",
+          "titulo_adaptado": null,
+          "score_fonte": 17,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 17 < 75. +HN secundário; +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://www.radixark.com/blog/daisyrose-27b",
+          "imagem": "",
+          "graph_extras": null
+        },
+        {
+          "pagina": "Marketing Tips",
+          "page_id": "369805844018354",
+          "fonte": "Hacker News",
+          "fonte_id": "hacker-news",
+          "titulo_original": "Genie 4 is now available",
+          "titulo_adaptado": null,
+          "score_fonte": 17,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 17 < 75. +HN secundário; +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
           "imagem": "",
           "graph_extras": null
         }
@@ -620,14 +512,31 @@
       "page_id": "1402223216297975",
       "status": "sem_conteudo_qualificado",
       "stats": {
-        "coletados": 0,
+        "coletados": 1,
         "aprovados_fonte": 0,
         "aprovados_texto": 0,
-        "rejeitados": 0,
+        "rejeitados": 1,
         "publicados": 0
       },
       "melhor": null,
-      "candidatos": []
+      "candidatos": [
+        {
+          "pagina": "Casa & Conforto Utilidades",
+          "page_id": "1402223216297975",
+          "fonte": "Open-Meteo",
+          "fonte_id": "open-meteo",
+          "titulo_original": "Clima em Sao Paulo: 24.2C, nublado",
+          "titulo_adaptado": null,
+          "score_fonte": 8,
+          "score_texto": null,
+          "status": "rejeitado",
+          "motivo": "Score da fonte 8 < 75. -clima sem dica; +recente",
+          "texto_final": null,
+          "url_fonte_interna": "https://open-meteo.com/",
+          "imagem": "",
+          "graph_extras": null
+        }
+      ]
     }
   ]
 }

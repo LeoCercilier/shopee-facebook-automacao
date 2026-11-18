@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-17T21:50:07.426Z",
+  "gerado_em": "2026-11-18T21:29:05.027Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -7,10 +7,10 @@
       "pagina": "Marketing Tips",
       "status": "publicado",
       "stats": {
-        "coletados": 51,
-        "aprovados_fonte": 12,
-        "aprovados_texto": 12,
-        "rejeitados": 8,
+        "coletados": 36,
+        "aprovados_fonte": 6,
+        "aprovados_texto": 6,
+        "rejeitados": 14,
         "publicados": 1
       },
       "melhor_titulo": "Como a IA pode ajudar no dia a dia do negócio",
@@ -52,10 +52,10 @@
       "pagina": "Casa & Conforto Utilidades",
       "status": "sem_conteudo_qualificado",
       "stats": {
-        "coletados": 0,
+        "coletados": 1,
         "aprovados_fonte": 0,
         "aprovados_texto": 0,
-        "rejeitados": 0,
+        "rejeitados": 1,
         "publicados": 0
       },
       "melhor_titulo": null,

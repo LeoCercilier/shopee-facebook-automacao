@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-17T21:49:52.302Z",
+  "atualizado_em": "2026-11-18T21:29:01.137Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2053,6 +2053,18 @@
       "titulo": "Como a IA pode ajudar no dia a dia do negócio",
       "post_id": "369805844018354_1539994444814361",
       "publicado_em": "2026-11-17T21:49:52.302Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/sylwia-lask/is-coding-with-ai-actually-faster-and-cheaper-2810",
+      "chave": "https://dev.to/sylwia-lask/is-coding-with-ai-actually-faster-and-cheaper-2810",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1540976741382798",
+      "publicado_em": "2026-11-18T21:29:01.137Z"
     }
   ]
 }
