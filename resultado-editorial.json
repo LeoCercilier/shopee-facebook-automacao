@@ -1,34 +1,39 @@
 {
-  "gerado_em": "2026-11-17T21:20:22.356Z",
-  "publicados": 3,
-  "sem_conteudo": 1,
+  "gerado_em": "2026-11-18T20:53:51.150Z",
+  "publicados": 4,
+  "sem_conteudo": 0,
   "erros": 0,
   "resultados": [
     {
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1539973338149805",
-      "tipo": "feed",
-      "titulo": "Como vender produtos importados no Brasil e vender no exterior",
-      "url": "https://sebraepr.com.br/como-vender-produtos-importados-no-brasil-e-vender-no-exterior/",
-      "fonte": "Sebrae/PR",
-      "fonte_id": "sebrae-pr"
+      "post_id": "369805844018354_1540953881385084",
+      "tipo": "photo",
+      "titulo": "Desenvolve SP vai financiar câmeras 3.0 da Gabriel",
+      "url": "https://braziljournal.com/desenvolve-sp-vai-financiar-cameras-30-da-gabriel",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
-      "status": "sem_conteudo",
-      "fontes_com_erro": []
+      "status": "publicado",
+      "post_id": "1247772158429331_122126641287485849",
+      "tipo": "feed",
+      "titulo": "Cirurgia de afirmação de gênero usa pele de tilápia para criar vagina",
+      "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/11/cirurgia-de-afirmacao-de-genero-usa-pele-de-tilapia-para-criar-vagina.shtml",
+      "fonte": "Folha Equilíbrio e Saúde",
+      "fonte_id": "folha-equilibrio"
     },
     {
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122122936053486415",
+      "post_id": "1332730186586435_122123158911486415",
       "tipo": "photo",
-      "titulo": "Moto Morini planeja expansão da rede para 2027",
-      "url": "https://motociclismoonline.com.br/noticias/moto-morini-planeja-expansao-da-rede-para-2027/",
+      "titulo": "Vencedores do Moto de Ouro 2026 serão conhecidos em breve",
+      "url": "https://motociclismoonline.com.br/especiais/vencedores-do-moto-de-ouro-2026-serao-conhecidos-em-breve/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -36,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122128747203476480",
-      "tipo": "photo",
-      "titulo": "Arquiteta renova sua casa de praia em Búzios para ser um refúgio conectado ao jardim",
-      "url": "https://casa.abril.com.br/casas-apartamentos/arquiteta-renova-sua-casa-de-praia-em-buzios-para-ser-um-refugio-conectado-ao-jardim/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "post_id": "1402223216297975_122128980489476480",
+      "tipo": "feed",
+      "titulo": "Trava de pegador: uso, limpeza e organização da gaveta",
+      "url": "https://blog.precolandia.com.br/trava-pegador-limpeza-armazenamento/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }
