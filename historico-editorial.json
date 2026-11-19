@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-18T20:53:51.149Z",
+  "atualizado_em": "2026-11-19T20:58:42.675Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2322,6 +2322,50 @@
       "titulo": "Trava de pegador: uso, limpeza e organização da gaveta",
       "post_id": "1402223216297975_122128980489476480",
       "publicado_em": "2026-11-18T20:53:51.149Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "sebrae-pr",
+      "fonte_nome": "Sebrae/PR",
+      "url": "https://sebraepr.com.br/inovacao-para-todos-muito-alem-da-tecnologia/",
+      "titulo": "Inovação para todos: Muito além da tecnologia",
+      "post_id": "369805844018354_1541968881283584",
+      "publicado_em": "2026-11-19T20:58:11.260Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1247772158429331",
+      "pagina_nome": "Studio Marine Cuidados Pessoais",
+      "fonte_id": "folha-equilibrio",
+      "fonte_nome": "Folha Equilíbrio e Saúde",
+      "url": "https://www1.folha.uol.com.br/equilibrio/2026/11/efeito-de-skincare-comestivel-e-limitado-conheca-alimentos-que-fazem-bem-para-a-pele.shtml",
+      "titulo": "Efeito de &apos;skincare comestível&apos; é limitado; conheça alimentos que fazem bem para a pele",
+      "post_id": "1247772158429331_122126884989485849",
+      "publicado_em": "2026-11-19T20:58:23.229Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/dafra-novo-sym-joyride-300-2027-preco-fotos-detalhes/",
+      "titulo": "Dafra revela novo SYM Joyride 300 2027; veja preço, fotos e detalhes",
+      "post_id": "1332730186586435_122123350125486415",
+      "publicado_em": "2026-11-19T20:58:31.094Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/organizacao/morar-ser-fernanda-cavalcanti-convida-a-pensar-a-organizacao-de-um-jeito-diferente/",
+      "titulo": "Morar &#038; Ser: Fernanda Cavalcanti convida a pensar a organização de um jeito diferente",
+      "post_id": "1402223216297975_122129231373476480",
+      "publicado_em": "2026-11-19T20:58:42.675Z"
     }
   ]
 }

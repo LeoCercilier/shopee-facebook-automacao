@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-18T20:53:51.150Z",
+  "gerado_em": "2026-11-19T20:58:42.676Z",
   "publicados": 4,
   "sem_conteudo": 0,
   "erros": 0,
@@ -8,21 +8,21 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1540953881385084",
-      "tipo": "photo",
-      "titulo": "Desenvolve SP vai financiar câmeras 3.0 da Gabriel",
-      "url": "https://braziljournal.com/desenvolve-sp-vai-financiar-cameras-30-da-gabriel",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "post_id": "369805844018354_1541968881283584",
+      "tipo": "feed",
+      "titulo": "Inovação para todos: Muito além da tecnologia",
+      "url": "https://sebraepr.com.br/inovacao-para-todos-muito-alem-da-tecnologia/",
+      "fonte": "Sebrae/PR",
+      "fonte_id": "sebrae-pr"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
       "status": "publicado",
-      "post_id": "1247772158429331_122126641287485849",
+      "post_id": "1247772158429331_122126884989485849",
       "tipo": "feed",
-      "titulo": "Cirurgia de afirmação de gênero usa pele de tilápia para criar vagina",
-      "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/11/cirurgia-de-afirmacao-de-genero-usa-pele-de-tilapia-para-criar-vagina.shtml",
+      "titulo": "Efeito de &apos;skincare comestível&apos; é limitado; conheça alimentos que fazem bem para a pele",
+      "url": "https://www1.folha.uol.com.br/equilibrio/2026/11/efeito-de-skincare-comestivel-e-limitado-conheca-alimentos-que-fazem-bem-para-a-pele.shtml",
       "fonte": "Folha Equilíbrio e Saúde",
       "fonte_id": "folha-equilibrio"
     },
@@ -30,10 +30,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122123158911486415",
+      "post_id": "1332730186586435_122123350125486415",
       "tipo": "photo",
-      "titulo": "Vencedores do Moto de Ouro 2026 serão conhecidos em breve",
-      "url": "https://motociclismoonline.com.br/especiais/vencedores-do-moto-de-ouro-2026-serao-conhecidos-em-breve/",
+      "titulo": "Dafra revela novo SYM Joyride 300 2027; veja preço, fotos e detalhes",
+      "url": "https://motociclismoonline.com.br/noticias/dafra-novo-sym-joyride-300-2027-preco-fotos-detalhes/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +41,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122128980489476480",
-      "tipo": "feed",
-      "titulo": "Trava de pegador: uso, limpeza e organização da gaveta",
-      "url": "https://blog.precolandia.com.br/trava-pegador-limpeza-armazenamento/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "post_id": "1402223216297975_122129231373476480",
+      "tipo": "photo",
+      "titulo": "Morar &#038; Ser: Fernanda Cavalcanti convida a pensar a organização de um jeito diferente",
+      "url": "https://casa.abril.com.br/organizacao/morar-ser-fernanda-cavalcanti-convida-a-pensar-a-organizacao-de-um-jeito-diferente/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }
