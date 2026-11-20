@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-19T21:41:21.172Z",
+  "atualizado_em": "2026-11-20T21:20:21.911Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2077,6 +2077,18 @@
       "titulo": "Como a IA pode ajudar no dia a dia do negócio",
       "post_id": "369805844018354_1541995547947584",
       "publicado_em": "2026-11-19T21:41:21.172Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/freshstore/how-i-run-a-16-year-old-saas-with-ai-agents-oli",
+      "chave": "https://dev.to/freshstore/how-i-run-a-16-year-old-saas-with-ai-agents-oli",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1543072664506539",
+      "publicado_em": "2026-11-20T21:20:21.911Z"
     }
   ]
 }
