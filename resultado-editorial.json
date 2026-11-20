@@ -1,39 +1,34 @@
 {
-  "gerado_em": "2026-11-19T20:58:42.676Z",
-  "publicados": 4,
-  "sem_conteudo": 0,
+  "gerado_em": "2026-11-20T20:43:41.195Z",
+  "publicados": 3,
+  "sem_conteudo": 1,
   "erros": 0,
   "resultados": [
     {
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1541968881283584",
-      "tipo": "feed",
-      "titulo": "Inovação para todos: Muito além da tecnologia",
-      "url": "https://sebraepr.com.br/inovacao-para-todos-muito-alem-da-tecnologia/",
-      "fonte": "Sebrae/PR",
-      "fonte_id": "sebrae-pr"
+      "post_id": "369805844018354_1543046697842469",
+      "tipo": "photo",
+      "titulo": "Em “founder mode”, Marciano volta ao comando do Agibank",
+      "url": "https://braziljournal.com/em-founder-mode-marciano-volta-ao-comando-do-agibank",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
     },
     {
       "page_id": "1247772158429331",
       "pagina_nome": "Studio Marine Cuidados Pessoais",
-      "status": "publicado",
-      "post_id": "1247772158429331_122126884989485849",
-      "tipo": "feed",
-      "titulo": "Efeito de &apos;skincare comestível&apos; é limitado; conheça alimentos que fazem bem para a pele",
-      "url": "https://www1.folha.uol.com.br/equilibrio/2026/11/efeito-de-skincare-comestivel-e-limitado-conheca-alimentos-que-fazem-bem-para-a-pele.shtml",
-      "fonte": "Folha Equilíbrio e Saúde",
-      "fonte_id": "folha-equilibrio"
+      "status": "sem_conteudo",
+      "fontes_com_erro": []
     },
     {
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122123350125486415",
+      "post_id": "1332730186586435_122123575833486415",
       "tipo": "photo",
-      "titulo": "Dafra revela novo SYM Joyride 300 2027; veja preço, fotos e detalhes",
-      "url": "https://motociclismoonline.com.br/noticias/dafra-novo-sym-joyride-300-2027-preco-fotos-detalhes/",
+      "titulo": "Grupo J.Toledo inaugura concessionária em Araraquara",
+      "url": "https://motociclismoonline.com.br/noticias/grupo-j-toledo-inaugura-concessionaria-em-araraquara/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -41,12 +36,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122129231373476480",
-      "tipo": "photo",
-      "titulo": "Morar &#038; Ser: Fernanda Cavalcanti convida a pensar a organização de um jeito diferente",
-      "url": "https://casa.abril.com.br/organizacao/morar-ser-fernanda-cavalcanti-convida-a-pensar-a-organizacao-de-um-jeito-diferente/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "post_id": "1402223216297975_122129467119476480",
+      "tipo": "feed",
+      "titulo": "Ralador de caixa ou plano: apoio e espaço para recolher ingredientes",
+      "url": "https://blog.precolandia.com.br/ralador-caixa-plano-apoio-recipiente/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }

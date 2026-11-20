@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-19T20:58:42.675Z",
+  "atualizado_em": "2026-11-20T20:43:41.193Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2366,6 +2366,39 @@
       "titulo": "Morar &#038; Ser: Fernanda Cavalcanti convida a pensar a organização de um jeito diferente",
       "post_id": "1402223216297975_122129231373476480",
       "publicado_em": "2026-11-19T20:58:42.675Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "brazil-journal",
+      "fonte_nome": "Brazil Journal",
+      "url": "https://braziljournal.com/em-founder-mode-marciano-volta-ao-comando-do-agibank",
+      "titulo": "Em “founder mode”, Marciano volta ao comando do Agibank",
+      "post_id": "369805844018354_1543046697842469",
+      "publicado_em": "2026-11-20T20:43:18.629Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/grupo-j-toledo-inaugura-concessionaria-em-araraquara/",
+      "titulo": "Grupo J.Toledo inaugura concessionária em Araraquara",
+      "post_id": "1332730186586435_122123575833486415",
+      "publicado_em": "2026-11-20T20:43:29.246Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "precolandia",
+      "fonte_nome": "Blog Preçolandia",
+      "url": "https://blog.precolandia.com.br/ralador-caixa-plano-apoio-recipiente/",
+      "titulo": "Ralador de caixa ou plano: apoio e espaço para recolher ingredientes",
+      "post_id": "1402223216297975_122129467119476480",
+      "publicado_em": "2026-11-20T20:43:41.193Z"
     }
   ]
 }
