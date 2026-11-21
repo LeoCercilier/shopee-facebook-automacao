@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-20T20:43:41.193Z",
+  "atualizado_em": "2026-11-21T19:47:20.062Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2399,6 +2399,39 @@
       "titulo": "Ralador de caixa ou plano: apoio e espaço para recolher ingredientes",
       "post_id": "1402223216297975_122129467119476480",
       "publicado_em": "2026-11-20T20:43:41.193Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "sebrae-pr",
+      "fonte_nome": "Sebrae/PR",
+      "url": "https://sebraepr.com.br/categorias-de-empresa-em-qual-delas-voce-se-enquadra/",
+      "titulo": "Categorias de empresa: em qual delas você se enquadra?",
+      "post_id": "369805844018354_1544099941070478",
+      "publicado_em": "2026-11-21T19:47:00.964Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/sensing-ride-conheca-sistema-assistencia-pilotagem-honda/",
+      "titulo": "Sensing Ride: conheça o novo sistema de assistência à pilotagem da Honda",
+      "post_id": "1332730186586435_122123757765486415",
+      "publicado_em": "2026-11-21T19:47:12.346Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/casas-apartamentos/estudio-no-rio-tem-piso-original-em-taco-com-paginacao-geometrica-hexagonal-formando-estrelas/",
+      "titulo": "Estúdio no Rio tem piso original em taco com paginação geométrica hexagonal formando estrelas",
+      "post_id": "1402223216297975_122129678631476480",
+      "publicado_em": "2026-11-21T19:47:20.062Z"
     }
   ]
 }

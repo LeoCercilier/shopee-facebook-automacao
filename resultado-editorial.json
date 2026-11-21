@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-20T20:43:41.195Z",
+  "gerado_em": "2026-11-21T19:47:20.063Z",
   "publicados": 3,
   "sem_conteudo": 1,
   "erros": 0,
@@ -8,12 +8,12 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1543046697842469",
-      "tipo": "photo",
-      "titulo": "Em “founder mode”, Marciano volta ao comando do Agibank",
-      "url": "https://braziljournal.com/em-founder-mode-marciano-volta-ao-comando-do-agibank",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "post_id": "369805844018354_1544099941070478",
+      "tipo": "feed",
+      "titulo": "Categorias de empresa: em qual delas você se enquadra?",
+      "url": "https://sebraepr.com.br/categorias-de-empresa-em-qual-delas-voce-se-enquadra/",
+      "fonte": "Sebrae/PR",
+      "fonte_id": "sebrae-pr"
     },
     {
       "page_id": "1247772158429331",
@@ -25,10 +25,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122123575833486415",
+      "post_id": "1332730186586435_122123757765486415",
       "tipo": "photo",
-      "titulo": "Grupo J.Toledo inaugura concessionária em Araraquara",
-      "url": "https://motociclismoonline.com.br/noticias/grupo-j-toledo-inaugura-concessionaria-em-araraquara/",
+      "titulo": "Sensing Ride: conheça o novo sistema de assistência à pilotagem da Honda",
+      "url": "https://motociclismoonline.com.br/noticias/sensing-ride-conheca-sistema-assistencia-pilotagem-honda/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -36,12 +36,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122129467119476480",
-      "tipo": "feed",
-      "titulo": "Ralador de caixa ou plano: apoio e espaço para recolher ingredientes",
-      "url": "https://blog.precolandia.com.br/ralador-caixa-plano-apoio-recipiente/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "post_id": "1402223216297975_122129678631476480",
+      "tipo": "photo",
+      "titulo": "Estúdio no Rio tem piso original em taco com paginação geométrica hexagonal formando estrelas",
+      "url": "https://casa.abril.com.br/casas-apartamentos/estudio-no-rio-tem-piso-original-em-taco-com-paginacao-geometrica-hexagonal-formando-estrelas/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }
