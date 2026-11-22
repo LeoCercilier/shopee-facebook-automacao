@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-21T20:10:03.189Z",
+  "gerado_em": "2026-11-22T20:24:52.246Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -7,13 +7,13 @@
       "pagina": "Marketing Tips",
       "status": "publicado",
       "stats": {
-        "coletados": 44,
-        "aprovados_fonte": 7,
-        "aprovados_texto": 7,
-        "rejeitados": 13,
+        "coletados": 60,
+        "aprovados_fonte": 13,
+        "aprovados_texto": 13,
+        "rejeitados": 7,
         "publicados": 1
       },
-      "melhor_titulo": "O que o mercado de startups está mostrando agora",
+      "melhor_titulo": "Como a IA pode ajudar no dia a dia do negócio",
       "score_fonte": 94,
       "score_texto": 94,
       "tem_imagem": true

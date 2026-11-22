@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-21T20:10:00.539Z",
+  "atualizado_em": "2026-11-22T20:24:47.938Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2101,6 +2101,18 @@
       "titulo": "O que o mercado de startups está mostrando agora",
       "post_id": "369805844018354_1544113824402423",
       "publicado_em": "2026-11-21T20:10:00.539Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/purrkeyboy/what-i-learned-wiring-about-ten-data-apis-into-ai-agents-1mfl",
+      "chave": "https://dev.to/purrkeyboy/what-i-learned-wiring-about-ten-data-apis-into-ai-agents-1mfl",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1545194740960998",
+      "publicado_em": "2026-11-22T20:24:47.938Z"
     }
   ]
 }
