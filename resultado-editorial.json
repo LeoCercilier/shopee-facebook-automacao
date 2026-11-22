@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-21T19:47:20.063Z",
+  "gerado_em": "2026-11-22T19:58:19.802Z",
   "publicados": 3,
   "sem_conteudo": 1,
   "erros": 0,
@@ -8,12 +8,12 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1544099941070478",
+      "post_id": "369805844018354_1545177210962751",
       "tipo": "feed",
-      "titulo": "Categorias de empresa: em qual delas você se enquadra?",
-      "url": "https://sebraepr.com.br/categorias-de-empresa-em-qual-delas-voce-se-enquadra/",
-      "fonte": "Sebrae/PR",
-      "fonte_id": "sebrae-pr"
+      "titulo": "Pare de me mostrar anúncios — by Pedro Vinicio",
+      "url": "https://braziljournal.com/pare-de-me-mostrar-anuncios-by-pedro-vinicio",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
     },
     {
       "page_id": "1247772158429331",
@@ -25,10 +25,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122123757765486415",
+      "post_id": "1332730186586435_122123941173486415",
       "tipo": "photo",
-      "titulo": "Sensing Ride: conheça o novo sistema de assistência à pilotagem da Honda",
-      "url": "https://motociclismoonline.com.br/noticias/sensing-ride-conheca-sistema-assistencia-pilotagem-honda/",
+      "titulo": "Zero Motorcycles bate recorde com 436 km de autonomia",
+      "url": "https://motociclismoonline.com.br/especiais/zero-motorcycles-bate-recorde-com-436-km-de-autonomia/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -36,12 +36,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122129678631476480",
-      "tipo": "photo",
-      "titulo": "Estúdio no Rio tem piso original em taco com paginação geométrica hexagonal formando estrelas",
-      "url": "https://casa.abril.com.br/casas-apartamentos/estudio-no-rio-tem-piso-original-em-taco-com-paginacao-geometrica-hexagonal-formando-estrelas/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "post_id": "1402223216297975_122129912271476480",
+      "tipo": "feed",
+      "titulo": "Torneira de suqueira: desmontagem e cuidados após o uso",
+      "url": "https://blog.precolandia.com.br/suqueira-limpeza/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }
