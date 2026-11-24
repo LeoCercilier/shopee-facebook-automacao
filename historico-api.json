@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-22T20:24:47.938Z",
+  "atualizado_em": "2026-11-24T01:01:53.972Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2113,6 +2113,18 @@
       "titulo": "Como a IA pode ajudar no dia a dia do negócio",
       "post_id": "369805844018354_1545194740960998",
       "publicado_em": "2026-11-22T20:24:47.938Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/arthur_mediafast/mediafast-30-launches-a-reddit-marketing-tool-built-by-a-founder-who-got-banned-from-reddit-six-4lk7",
+      "chave": "https://dev.to/arthur_mediafast/mediafast-30-launches-a-reddit-marketing-tool-built-by-a-founder-who-got-banned-from-reddit-six-4lk7",
+      "titulo": "Uma ideia prática de marketing digital",
+      "post_id": "369805844018354_1546427540837718",
+      "publicado_em": "2026-11-24T01:01:53.972Z"
     }
   ]
 }
