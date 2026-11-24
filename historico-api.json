@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-24T01:01:53.972Z",
+  "atualizado_em": "2026-11-24T23:07:58.814Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2125,6 +2125,18 @@
       "titulo": "Uma ideia prática de marketing digital",
       "post_id": "369805844018354_1546427540837718",
       "publicado_em": "2026-11-24T01:01:53.972Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/findutils/refunds-renewals-and-the-revenue-event-you-forgot-to-send-one-simulated-saas-year-six-tracking-5361",
+      "chave": "https://dev.to/findutils/refunds-renewals-and-the-revenue-event-you-forgot-to-send-one-simulated-saas-year-six-tracking-5361",
+      "titulo": "Tecnologia aplicada a negócios de forma simples",
+      "post_id": "369805844018354_1547496617397477",
+      "publicado_em": "2026-11-24T23:07:58.814Z"
     }
   ]
 }
