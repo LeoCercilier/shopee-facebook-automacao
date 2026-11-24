@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-22T19:58:19.802Z",
+  "gerado_em": "2026-11-24T00:22:10.614Z",
   "publicados": 3,
   "sem_conteudo": 1,
   "erros": 0,
@@ -8,12 +8,12 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1545177210962751",
+      "post_id": "369805844018354_1546403764173429",
       "tipo": "feed",
-      "titulo": "Pare de me mostrar anúncios — by Pedro Vinicio",
-      "url": "https://braziljournal.com/pare-de-me-mostrar-anuncios-by-pedro-vinicio",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "titulo": "Dia da Mulher: Estratégias para engajar e conectar-se com seu público",
+      "url": "https://sebraepr.com.br/dia-da-mulher/",
+      "fonte": "Sebrae/PR",
+      "fonte_id": "sebrae-pr"
     },
     {
       "page_id": "1247772158429331",
@@ -25,10 +25,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122123941173486415",
+      "post_id": "1332730186586435_122124184083486415",
       "tipo": "photo",
-      "titulo": "Zero Motorcycles bate recorde com 436 km de autonomia",
-      "url": "https://motociclismoonline.com.br/especiais/zero-motorcycles-bate-recorde-com-436-km-de-autonomia/",
+      "titulo": "Moto de Ouro 2026: veja quais motos e marcas conquistaram os troféus",
+      "url": "https://motociclismoonline.com.br/moto-de-ouro/moto-de-ouro-2026-marcas-motos-trofeus-pilotos-capacete-de-ouro/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -36,12 +36,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122129912271476480",
+      "post_id": "1402223216297975_122130226959476480",
       "tipo": "feed",
-      "titulo": "Torneira de suqueira: desmontagem e cuidados após o uso",
-      "url": "https://blog.precolandia.com.br/suqueira-limpeza/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "titulo": "7 projetos que provam que a cristaleira está de volta ao décor",
+      "url": "https://casa.abril.com.br/moveis-acessorios/7-projetos-que-provam-que-a-cristaleira-esta-de-volta-ao-decor/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }

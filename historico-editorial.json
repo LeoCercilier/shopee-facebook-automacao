@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-22T19:58:19.799Z",
+  "atualizado_em": "2026-11-24T00:22:10.613Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2465,6 +2465,39 @@
       "titulo": "Torneira de suqueira: desmontagem e cuidados após o uso",
       "post_id": "1402223216297975_122129912271476480",
       "publicado_em": "2026-11-22T19:58:19.799Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "sebrae-pr",
+      "fonte_nome": "Sebrae/PR",
+      "url": "https://sebraepr.com.br/dia-da-mulher/",
+      "titulo": "Dia da Mulher: Estratégias para engajar e conectar-se com seu público",
+      "post_id": "369805844018354_1546403764173429",
+      "publicado_em": "2026-11-24T00:21:46.642Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/moto-de-ouro/moto-de-ouro-2026-marcas-motos-trofeus-pilotos-capacete-de-ouro/",
+      "titulo": "Moto de Ouro 2026: veja quais motos e marcas conquistaram os troféus",
+      "post_id": "1332730186586435_122124184083486415",
+      "publicado_em": "2026-11-24T00:22:00.000Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/moveis-acessorios/7-projetos-que-provam-que-a-cristaleira-esta-de-volta-ao-decor/",
+      "titulo": "7 projetos que provam que a cristaleira está de volta ao décor",
+      "post_id": "1402223216297975_122130226959476480",
+      "publicado_em": "2026-11-24T00:22:10.613Z"
     }
   ]
 }
