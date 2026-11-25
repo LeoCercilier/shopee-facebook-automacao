@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-24T23:08:03.132Z",
+  "gerado_em": "2026-11-25T22:37:45.399Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -7,14 +7,14 @@
       "pagina": "Marketing Tips",
       "status": "publicado",
       "stats": {
-        "coletados": 43,
-        "aprovados_fonte": 6,
-        "aprovados_texto": 6,
-        "rejeitados": 14,
+        "coletados": 52,
+        "aprovados_fonte": 4,
+        "aprovados_texto": 4,
+        "rejeitados": 16,
         "publicados": 1
       },
-      "melhor_titulo": "Tecnologia aplicada a negócios de forma simples",
-      "score_fonte": 94,
+      "melhor_titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "score_fonte": 90,
       "score_texto": 94,
       "tem_imagem": true
     },

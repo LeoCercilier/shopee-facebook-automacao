@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-24T23:07:58.814Z",
+  "atualizado_em": "2026-11-25T22:37:42.224Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2137,6 +2137,18 @@
       "titulo": "Tecnologia aplicada a negócios de forma simples",
       "post_id": "369805844018354_1547496617397477",
       "publicado_em": "2026-11-24T23:07:58.814Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/puneetkumar2010/crowdwide-day-33-i-tried-building-crowdwide-ai-and-it-went-wrong-5d6i",
+      "chave": "https://dev.to/puneetkumar2010/crowdwide-day-33-i-tried-building-crowdwide-ai-and-it-went-wrong-5d6i",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1548565630623909",
+      "publicado_em": "2026-11-25T22:37:42.224Z"
     }
   ]
 }
