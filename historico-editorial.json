@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-24T22:45:46.645Z",
+  "atualizado_em": "2026-11-25T21:59:01.827Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2531,6 +2531,39 @@
       "titulo": "Pisca-pisca de Natal: comprimento, cor e indicação de uso",
       "post_id": "1402223216297975_122130427485476480",
       "publicado_em": "2026-11-24T22:45:46.645Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "sebrae-pr",
+      "fonte_nome": "Sebrae/PR",
+      "url": "https://sebraepr.com.br/passo-a-passo-como-lidar-com-concorrentes/",
+      "titulo": "Passo a Passo: Como lidar com concorrentes",
+      "post_id": "369805844018354_1548540880626384",
+      "publicado_em": "2026-11-25T21:58:40.807Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/noticias/swm-apresenta-nova-stormbreaker-speciale-na-eicma/",
+      "titulo": "SWM apresenta nova Stormbreaker Speciale na EICMA",
+      "post_id": "1332730186586435_122124661689486415",
+      "publicado_em": "2026-11-25T21:58:52.147Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/casas-apartamentos/casa-varanda-casa-de-campo-tem-aberturas-com-mais-de-20-m-para-deixar-a-paisagem-entrar/",
+      "titulo": "Casa-varanda: casa de campo tem aberturas com mais de 20 m para deixar a paisagem entrar",
+      "post_id": "1402223216297975_122130646065476480",
+      "publicado_em": "2026-11-25T21:59:01.827Z"
     }
   ]
 }
