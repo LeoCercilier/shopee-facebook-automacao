@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-25T21:59:01.828Z",
+  "gerado_em": "2026-11-26T21:55:47.951Z",
   "publicados": 3,
   "sem_conteudo": 1,
   "erros": 0,
@@ -8,12 +8,12 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1548540880626384",
-      "tipo": "feed",
-      "titulo": "Passo a Passo: Como lidar com concorrentes",
-      "url": "https://sebraepr.com.br/passo-a-passo-como-lidar-com-concorrentes/",
-      "fonte": "Sebrae/PR",
-      "fonte_id": "sebrae-pr"
+      "post_id": "369805844018354_1549630423850763",
+      "tipo": "photo",
+      "titulo": "Ascensão e queda de Carl Icahn",
+      "url": "https://braziljournal.com/ascensao-e-queda-de-carl-icahn",
+      "fonte": "Brazil Journal",
+      "fonte_id": "brazil-journal"
     },
     {
       "page_id": "1247772158429331",
@@ -25,10 +25,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122124661689486415",
+      "post_id": "1332730186586435_122124868647486415",
       "tipo": "photo",
-      "titulo": "SWM apresenta nova Stormbreaker Speciale na EICMA",
-      "url": "https://motociclismoonline.com.br/noticias/swm-apresenta-nova-stormbreaker-speciale-na-eicma/",
+      "titulo": "Royal Enfield oferece garantia de até 10 anos. Veja mais detalhes!",
+      "url": "https://motociclismoonline.com.br/noticias/royal-enfield-garantia-10-anos/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -36,12 +36,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122130646065476480",
-      "tipo": "photo",
-      "titulo": "Casa-varanda: casa de campo tem aberturas com mais de 20 m para deixar a paisagem entrar",
-      "url": "https://casa.abril.com.br/casas-apartamentos/casa-varanda-casa-de-campo-tem-aberturas-com-mais-de-20-m-para-deixar-a-paisagem-entrar/",
-      "fonte": "Casa Abril",
-      "fonte_id": "casa-abril"
+      "post_id": "1402223216297975_122130882231476480",
+      "tipo": "feed",
+      "titulo": "Black Friday: como organizar os comprovantes de compra",
+      "url": "https://blog.precolandia.com.br/comprovantes-de-compra-black-friday/",
+      "fonte": "Blog Preçolandia",
+      "fonte_id": "precolandia"
     }
   ]
 }
