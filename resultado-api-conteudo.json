@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-25T22:37:45.399Z",
+  "gerado_em": "2026-11-26T22:27:31.492Z",
   "modo": "publicacao",
   "politica_links": "somente_shopee_pode_ter_link",
   "resumo": [
@@ -8,13 +8,13 @@
       "status": "publicado",
       "stats": {
         "coletados": 52,
-        "aprovados_fonte": 4,
-        "aprovados_texto": 4,
-        "rejeitados": 16,
+        "aprovados_fonte": 10,
+        "aprovados_texto": 10,
+        "rejeitados": 10,
         "publicados": 1
       },
       "melhor_titulo": "Como a IA pode ajudar no dia a dia do negócio",
-      "score_fonte": 90,
+      "score_fonte": 94,
       "score_texto": 94,
       "tem_imagem": true
     },
