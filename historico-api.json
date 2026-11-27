@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-26T22:27:27.288Z",
+  "atualizado_em": "2026-11-27T22:08:55.887Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2161,6 +2161,18 @@
       "titulo": "Como a IA pode ajudar no dia a dia do negócio",
       "post_id": "369805844018354_1549652150515257",
       "publicado_em": "2026-11-26T22:27:27.288Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "devto",
+      "fonte_nome": "DEV.to",
+      "url": "https://dev.to/nfrankel/on-reviewing-ai-generated-code-3olj",
+      "chave": "https://dev.to/nfrankel/on-reviewing-ai-generated-code-3olj",
+      "titulo": "Como a IA pode ajudar no dia a dia do negócio",
+      "post_id": "369805844018354_1550752813738524",
+      "publicado_em": "2026-11-27T22:08:55.887Z"
     }
   ]
 }
