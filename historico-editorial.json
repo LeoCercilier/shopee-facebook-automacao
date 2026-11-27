@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-26T21:55:47.950Z",
+  "atualizado_em": "2026-11-27T21:38:28.122Z",
   "publicacoes": [
     {
       "status": "publicado",
@@ -2597,6 +2597,39 @@
       "titulo": "Black Friday: como organizar os comprovantes de compra",
       "post_id": "1402223216297975_122130882231476480",
       "publicado_em": "2026-11-26T21:55:47.950Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "369805844018354",
+      "pagina_nome": "Marketing Tips",
+      "fonte_id": "sebrae-pr",
+      "fonte_nome": "Sebrae/PR",
+      "url": "https://sebraepr.com.br/produtores-rurais-devem-emitir-nota-fiscal-eletronica/",
+      "titulo": "Produtores Rurais devem emitir Nota Fiscal Eletrônica (NF-e): Entenda a obrigatoriedade e como o Sebrae pode ajudar",
+      "post_id": "369805844018354_1550734403740365",
+      "publicado_em": "2026-11-27T21:38:09.654Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1332730186586435",
+      "pagina_nome": "Rota das Duas Rodas - Acessórios",
+      "fonte_id": "motociclismo-online",
+      "fonte_nome": "Motociclismo Online",
+      "url": "https://motociclismoonline.com.br/sem-categoria/seguranca-no-transito-comportamento-e-tecnologia-salvam-vidas/",
+      "titulo": "Segurança no trânsito: comportamento e tecnologia salvam vidas",
+      "post_id": "1332730186586435_122125069917486415",
+      "publicado_em": "2026-11-27T21:38:20.783Z"
+    },
+    {
+      "status": "publicado",
+      "page_id": "1402223216297975",
+      "pagina_nome": "Casa & Conforto Utilidades",
+      "fonte_id": "casa-abril",
+      "fonte_nome": "Casa Abril",
+      "url": "https://casa.abril.com.br/minha-casa/chuveiro-eletrico-entenda-a-diferenca-entre-modelos-de-5-500-w-e-7-000-w/",
+      "titulo": "Chuveiro elétrico: entenda a diferença entre modelos de 5.500 W e 7.000 W",
+      "post_id": "1402223216297975_122131101423476480",
+      "publicado_em": "2026-11-27T21:38:28.122Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-26T21:55:47.951Z",
+  "gerado_em": "2026-11-27T21:38:28.123Z",
   "publicados": 3,
   "sem_conteudo": 1,
   "erros": 0,
@@ -8,12 +8,12 @@
       "page_id": "369805844018354",
       "pagina_nome": "Marketing Tips",
       "status": "publicado",
-      "post_id": "369805844018354_1549630423850763",
-      "tipo": "photo",
-      "titulo": "Ascensão e queda de Carl Icahn",
-      "url": "https://braziljournal.com/ascensao-e-queda-de-carl-icahn",
-      "fonte": "Brazil Journal",
-      "fonte_id": "brazil-journal"
+      "post_id": "369805844018354_1550734403740365",
+      "tipo": "feed",
+      "titulo": "Produtores Rurais devem emitir Nota Fiscal Eletrônica (NF-e): Entenda a obrigatoriedade e como o Sebrae pode ajudar",
+      "url": "https://sebraepr.com.br/produtores-rurais-devem-emitir-nota-fiscal-eletronica/",
+      "fonte": "Sebrae/PR",
+      "fonte_id": "sebrae-pr"
     },
     {
       "page_id": "1247772158429331",
@@ -25,10 +25,10 @@
       "page_id": "1332730186586435",
       "pagina_nome": "Rota das Duas Rodas - Acessórios",
       "status": "publicado",
-      "post_id": "1332730186586435_122124868647486415",
+      "post_id": "1332730186586435_122125069917486415",
       "tipo": "photo",
-      "titulo": "Royal Enfield oferece garantia de até 10 anos. Veja mais detalhes!",
-      "url": "https://motociclismoonline.com.br/noticias/royal-enfield-garantia-10-anos/",
+      "titulo": "Segurança no trânsito: comportamento e tecnologia salvam vidas",
+      "url": "https://motociclismoonline.com.br/sem-categoria/seguranca-no-transito-comportamento-e-tecnologia-salvam-vidas/",
       "fonte": "Motociclismo Online",
       "fonte_id": "motociclismo-online"
     },
@@ -36,12 +36,12 @@
       "page_id": "1402223216297975",
       "pagina_nome": "Casa & Conforto Utilidades",
       "status": "publicado",
-      "post_id": "1402223216297975_122130882231476480",
-      "tipo": "feed",
-      "titulo": "Black Friday: como organizar os comprovantes de compra",
-      "url": "https://blog.precolandia.com.br/comprovantes-de-compra-black-friday/",
-      "fonte": "Blog Preçolandia",
-      "fonte_id": "precolandia"
+      "post_id": "1402223216297975_122131101423476480",
+      "tipo": "photo",
+      "titulo": "Chuveiro elétrico: entenda a diferença entre modelos de 5.500 W e 7.000 W",
+      "url": "https://casa.abril.com.br/minha-casa/chuveiro-eletrico-entenda-a-diferenca-entre-modelos-de-5-500-w-e-7-000-w/",
+      "fonte": "Casa Abril",
+      "fonte_id": "casa-abril"
     }
   ]
 }
